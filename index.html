@@ -1,23 +1,876 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
 
-<div class="home">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.18-DEV" />
+  <meta name="author" content="Lena Smith">
+  <meta name="description" content="Professor of Artificial Intelligence">
 
-  <h1 class="page-heading">Posts</h1>
+  <link rel="stylesheet" href="/css/highlight.min.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/academicons.min.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700|Merriweather|Roboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <link rel="alternate" href="http://replace-this-with-your-website-url.com/index.xml" type="application/rss+xml" title="Academic Theme">
+  <link rel="feed" href="http://replace-this-with-your-website-url.com/index.xml" type="application/rss+xml" title="Academic Theme">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="canonical" href="http://replace-this-with-your-website-url.com/">
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  
+
+  <title>Academic Theme</title>
+
+</head>
+<body id="top">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Academic Theme</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse" id="#navbar-collapse-1">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="nav-item"><a href="/#top">Home</a></li>
+        
+        <li class="nav-item"><a href="/#publications">Publications</a></li>
+        
+        <li class="nav-item"><a href="/#posts">Posts</a></li>
+        
+        <li class="nav-item"><a href="/#projects">Projects</a></li>
+        
+        <li class="nav-item"><a href="/#teaching">Teaching</a></li>
+        
+        <li class="nav-item"><a href="/#contact">Contact</a></li>
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+
+<span id="homepage" style="display: none"></span>
+
+
+
+
+  
+  
+  
+
+
+
+<section id="bio" class="home-section">
+  <div class="container">
+
+    <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <div class="col-xs-12 col-md-4">
+        <div id="profile">
+
+          
+          <div class="portrait" itemprop="image"
+               style="background-image: url('/img/portrait.jpg');">
+          </div>
+          
+
+          <div class="portrait-title">
+            <h2 itemprop="name">Lena Smith</h2>
+            <h3 itemprop="jobTitle">Professor of Artificial Intelligence</h3>
+            <h3 itemprop="worksFor">Stanford University</h3>
+          </div>
+
+          <ul class="social-icon" aria-hidden="true">
+            
+            
+            <li>
+              <a href="mailto:test@example.org">
+                <i class="fa fa-envelope big-icon"></i>
+              </a>
+            </li>
+            
+            
+            <li>
+              <a href="//twitter.com/GeorgeCushen">
+                <i class="fa fa-twitter big-icon"></i>
+              </a>
+            </li>
+            
+            
+            <li>
+              <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ">
+                <i class="ai ai-google-scholar big-icon"></i>
+              </a>
+            </li>
+            
+            
+            <li>
+              <a href="//github.com/gcushen">
+                <i class="fa fa-github big-icon"></i>
+              </a>
+            </li>
+            
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="visible-sm visible-xs"></div>
+
+      <div class="col-xs-12 col-md-8" itemprop="description">
+
+        
+
+<h1 id="biography">Biography</h1>
+
+<p>Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. Etiam iaculis libero hendrerit ipsum tempus accumsan. Praesent ex justo, aliquam bibendum nulla in, vehicula rhoncus massa. Fusce gravida mattis tellus vel commodo. Etiam molestie non ligula ac venenatis. Integer semper diam at fringilla dapibus. Nunc tincidunt lacinia nisi, sed blandit purus fermentum vel. Morbi tempus dolor dolor. Phasellus scelerisque est elit, et porttitor mauris faucibus sit amet. Phasellus sollicitudin bibendum sem eu blandit. Curabitur congue felis eu velit faucibus porta. Curabitur a pharetra diam.</p>
+
+
+        <div class="row">
+
+          
+          <div class="col-sm-5">
+            <h3>Interests</h3>
+            <ul class="ul-interests">
+              
+              <li>Artificial Intelligence</li>
+              
+              <li>Computational Linguistics</li>
+              
+              <li>Information Retrieval</li>
+              
+            </ul>
+          </div>
+          
+
+          
+          <div class="col-sm-7">
+            <h3>Education</h3>
+            <ul class="ul-edu fa-ul">
+              
+              <li>
+                <i class="fa-li fa fa-graduation-cap"></i>
+                <div class="description">
+                  <p class="course">PhD in Artificial Intelligence, 2012</p>
+                  <p class="institution">Stanford University</p>
+                </div>
+              </li>
+              
+              <li>
+                <i class="fa-li fa fa-graduation-cap"></i>
+                <div class="description">
+                  <p class="course">MEng in Artificial Intelligence, 2009</p>
+                  <p class="institution">Massachusetts Institute of Technology</p>
+                </div>
+              </li>
+              
+              <li>
+                <i class="fa-li fa fa-graduation-cap"></i>
+                <div class="description">
+                  <p class="course">BSc in Artificial Intelligence, 2008</p>
+                  <p class="institution">Massachusetts Institute of Technology</p>
+                </div>
+              </li>
+              
+            </ul>
+          </div>
+          
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  
+  
+  
+
+
+
+
+
+<section id="publications" class="home-section">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 col-md-4 section-heading">
+        <h1>Selected Publications</h1>
+        
+      </div>
+      <div class="col-xs-12 col-md-8">
+        
+
+        
+        
+        <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row">
+
+    
+
+    <div class="col-md-12">
+
+    
+
+      <h3 class="article-title" itemprop="name">
+        <a href="http://replace-this-with-your-website-url.com/publication/clothing-search/" itemprop="url">Mobile visual clothing search</a>
+      </h3>
+
+      <div class="pub-abstract" itemprop="text">
+        
+        A mobile visual clothing search system is presented whereby a smart phone user can either choose a social networking image or capture a new photo of a person wearing clothing of interest and search for similar clothing in a large cloud-based ecommerce database. The phone&#39;s GPS location is used to re-rank results by retail store location, to inform the user of local stores where similar clothing items can be tried on.
+        
+      </div>
+
+      <div class="pub-authors" itemprop="author">
+        
+        GA Cushen, MS Nixon
+        
+      </div>
+
+      <div class="pub-publication">
+        
+        In <em>ICMEW</em>
+        
+      </div>
+
+      <div class="pub-links">
+        
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/publication/clothing-search/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf">
+  PDF
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/">
+  Slides
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/">
+  Video
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/">
+  Code
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/">
+  Dataset
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/project/deep-learning/">
+  Project
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
+  Custom Link
+</a>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+        
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  
+  
+  
+
+
+
+
+
+
+<section class="home-section">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 col-md-4 section-heading">
+        <h1>Recent Publications</h1>
+        
+        
+      </div>
+      <div class="col-xs-12 col-md-8">
+        
+
+        
+        <ul class="fa-ul">
+          
+          <li itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name">A Person Re-Identification System For Mobile Devices</span>
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/publication/person-re-identification/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://arxiv.org/pdf/1512.04133v1">
+  PDF
+</a>
+
+
+
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/project/deep-learning/">
+  Project
+</a>
+
+
+</p>
+</li>
+
+          
+          <li itemscope itemtype="http://schema.org/CreativeWork">
+  <i class="fa-li fa fa-file-text-o pub-icon" aria-hidden="true"></i>
+  <span itemprop="name">Mobile visual clothing search</span>
+  <p>
+
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/publication/clothing-search/">
+  Details
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf">
+  PDF
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/">
+  Slides
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/">
+  Video
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/">
+  Code
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/">
+  Dataset
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://replace-this-with-your-website-url.com/project/deep-learning/">
+  Project
+</a>
+
+
+<a class="btn btn-primary btn-outline btn-xs" href="http://www.example.org">
+  Custom Link
+</a>
+
+</p>
+</li>
+
+          
+        </ul>
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  
+  
+  
+
+
+
+
+
+<section id="posts" class="home-section">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 col-md-4 section-heading">
+        <h1>Recent Posts</h1>
+        
+        
+      </div>
+      <div class="col-xs-12 col-md-8">
+        
+
+        
+          
+            
+            
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  <a href="">
+    <img src="/img/banners/getting-started.png" class="article-banner"
+    itemprop="image">
+  </a>
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="http://replace-this-with-your-website-url.com/post/getting-started/" itemprop="url">Getting started with the Academic theme for Hugo</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-04-20 12:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Wed, Apr 20, 2016
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a class="article-tag-link" href="http://replace-this-with-your-website-url.com/tags/academic">academic</a
+    >, 
+    
+    <a class="article-tag-link" href="http://replace-this-with-your-website-url.com/tags/hugo">hugo</a
+    >
+    
+  </span>
+  
+  
+
+  
 
 </div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>The Academic theme enables you to easily create a personal academic website using the <a href="https://gohugo.io">Hugo</a> static site generator.</p>
+
+<p>Key features:</p>
+
+<ul>
+<li>Designed for academic staff, students, or general personal use</li>
+<li>Includes Biography, Publications, Projects, News/Blog, Teaching, and Contact sections</li>
+<li>Write in <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown</a> for easy formatting and code highlighting, with <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTeX</a> for mathematical expressions</li>
+<li>Academic linking (Scholar etc.), Google Analytics, and Disqus comments</li>
+<li>Responsive and mobile friendly</li>
+<li>Simple and refreshing one page design</li>
+<li>Easy to customize</li>
+</ul>
+
+<p></p>
+    
+  </div>
+  <p class="read-more">
+    <a href="http://replace-this-with-your-website-url.com/post/getting-started/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+          
+            
+            
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="http://replace-this-with-your-website-url.com/post/managing-content/" itemprop="url">Managing content</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-04-20 11:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Wed, Apr 20, 2016
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a class="article-tag-link" href="http://replace-this-with-your-website-url.com/tags/academic">academic</a
+    >, 
+    
+    <a class="article-tag-link" href="http://replace-this-with-your-website-url.com/tags/hugo">hugo</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>This is a brief guide to managing content with the Academic theme. Content can include homepage sections, publications, projects, and news/blog articles. After you have read this guide about creating and managing content, you may also be interested to learn about <a href="http://replace-this-with-your-website-url.com/post/writing-markdown-latex/">writing content with Markdown, LaTeX, and Shortcodes</a>.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="http://replace-this-with-your-website-url.com/post/managing-content/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+          
+            
+            
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="http://replace-this-with-your-website-url.com/post/writing-markdown-latex/" itemprop="url">Writing content with Markdown, LaTeX, and Shortcodes</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-04-20 10:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Wed, Apr 20, 2016
+    </time>
+  </span>
+
+  
+  
+  
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>Content can be written using <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">Markdown</a>, <a href="https://en.wikibooks.org/wiki/LaTeX/Mathematics">LaTeX math</a>, and <a href="http://gohugo.io/extras/shortcodes/">Hugo Shortcodes</a>. Additionally, HTML may be used for advanced formatting.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="http://replace-this-with-your-website-url.com/post/writing-markdown-latex/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+          
+            
+            
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="http://replace-this-with-your-website-url.com/post/migrate-from-jekyll/" itemprop="url">Migrate from Jekyll to Hugo</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2014-03-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Mar 10, 2014
+    </time>
+  </span>
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a class="article-tag-link" href="http://replace-this-with-your-website-url.com/tags/jekyll">jekyll</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>Learn how to migrate an existing website from Jekyll to Hugo.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="http://replace-this-with-your-website-url.com/post/migrate-from-jekyll/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+          
+        
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  
+  
+  
+
+
+
+
+
+<section id="projects" class="home-section">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 col-md-4 section-heading">
+        <h1>Projects</h1>
+        
+      </div>
+      <div class="col-xs-12 col-md-8">
+        
+
+        <ul class="fa-ul">
+          
+          <li>
+            <span class="project-title">
+            
+              <a href="http://replace-this-with-your-website-url.com/project/deep-learning/">
+            
+            <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i>
+            Deep Learning
+            </a>
+            </span>
+
+            <p class="project-summary">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            
+            
+            
+            
+          </li>
+          
+          <li>
+            <span class="project-title">
+            
+              <a href="http://example.org">
+            
+            <i class="fa-li fa fa-files-o pub-icon" aria-hidden="true"></i>
+            External Project
+            </a>
+            </span>
+
+            <p class="project-summary">An example of linking directly to an external project website using `external_link`.</p>
+
+            
+            
+            
+            
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  
+  
+  
+
+
+
+<section
+  id="teaching"
+  class="home-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-4 section-heading">
+        <h1>Teaching</h1>
+        
+      </div>
+      <div class="col-xs-12 col-md-8">
+        <p>I am a teaching instructor for the following courses at University X:</p>
+
+<ul>
+<li>CS101: An intro to computer science</li>
+<li>CS102: An intro to computer science</li>
+<li>CS103: An intro to computer science</li>
+<li>CS104: An intro to computer science</li>
+<li>CS105: An intro to computer science</li>
+<li>CS106: An intro to computer science</li>
+<li>CS107: An intro to computer science</li>
+</ul>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  
+  
+  
+
+
+
+
+<section id="contact" class="home-section">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 col-md-4 section-heading">
+        <h1>Contact</h1>
+        
+      </div>
+      <div class="col-xs-12 col-md-8">
+        
+
+        <ul class="fa-ul">
+
+          
+          <li>
+            <i class="fa-li fa fa-envelope fa-2x" aria-hidden="true"></i>
+            <span><a href="mailto:test@example.org">test@example.org</a></span>
+          </li>
+          
+
+          
+
+          
+          <li>
+            <i class="fa-li fa fa-phone fa-2x" aria-hidden="true"></i>
+            <span><a href="tel:888%20888%2088%2088">888 888 88 88</a></span>
+          </li>
+          
+
+          
+          <li>
+            <i class="fa-li fa fa-map-marker fa-2x" aria-hidden="true"></i>
+            <span>Stanford AI Lab, Stanford University, California, 90210, USA.</span>
+          </li>
+          
+
+        </ul>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Your Name &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+    <script src="/js/jquery-1.12.3.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.3.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    
+    
+
+  </body>
+</html>
+
