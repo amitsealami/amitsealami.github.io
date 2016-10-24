@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Materials-rsses on Amit Seal Ami</title>
-    <link>https://amitealami.github.io/materials/index.xml</link>
-    <description>Recent content in Materials-rsses on Amit Seal Ami</description>
+    <title>Amit Seal Ami</title>
+    <link>https://amitealami.github.io/tags/slides/index.xml</link>
+    <description>Recent content on Amit Seal Ami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Amit Seal Ami</copyright>
-    <lastBuildDate>Mon, 24 Oct 2016 23:29:00 +0000</lastBuildDate>
-    <atom:link href="/materials/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/slides/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Measuring Internal Product Attributes - Size</title>
