@@ -12,28 +12,8 @@
   </url>
   
   <url>
-    <loc>https://amitealami.github.io/project/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amitealami.github.io/project/example-external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amitealami.github.io/post/getting-started/</loc>
-    <lastmod>2016-04-20T12:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amitealami.github.io/post/managing-content/</loc>
-    <lastmod>2016-04-20T11:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amitealami.github.io/post/writing-markdown-latex/</loc>
-    <lastmod>2016-04-20T10:00:00+00:00</lastmod>
+    <loc>https://amitealami.github.io/publication/dead-code-detection/</loc>
+    <lastmod>2016-07-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -42,18 +22,8 @@
   </url>
   
   <url>
-    <loc>https://amitealami.github.io/publication/person-re-identification/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amitealami.github.io/post/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://amitealami.github.io/publication/clothing-search/</loc>
-    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+    <loc>https://amitealami.github.io/publication/defect-prediction/</loc>
+    <lastmod>2015-05-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -78,6 +48,11 @@
   
   <url>
     <loc>https://amitealami.github.io/home/teaching/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitealami.github.io/home/administration/</loc>
     <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
