@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication-rsses on Amit Seal Ami</title>
-    <link>https://amitealami.github.io/publication/index.xml</link>
+    <link>https://amitsealami.github.io/publication/index.xml</link>
     <description>Recent content in Publication-rsses on Amit Seal Ami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,46 +12,46 @@
     
     <item>
       <title>A Static Code Search Technique to Identify  Dead Fields by Analyzing Usage of Setup Fields and Field Dependency in Test Code</title>
-      <link>https://amitealami.github.io/publication/dead-code-detection/</link>
+      <link>https://amitsealami.github.io/publication/dead-code-detection/</link>
       <pubDate>Mon, 18 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://amitealami.github.io/publication/dead-code-detection/</guid>
+      <guid>https://amitsealami.github.io/publication/dead-code-detection/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Selecting best attributes for software defect prediction</title>
-      <link>https://amitealami.github.io/publication/defect-prediction/</link>
+      <link>https://amitsealami.github.io/publication/defect-prediction/</link>
       <pubDate>Sat, 23 May 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://amitealami.github.io/publication/defect-prediction/</guid>
+      <guid>https://amitsealami.github.io/publication/defect-prediction/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Content Assist based Approach for Providing Rationale of Method Change for Object Oriented Programming</title>
-      <link>https://amitealami.github.io/publication/providing-rationale-of-code/</link>
+      <link>https://amitsealami.github.io/publication/providing-rationale-of-code/</link>
       <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://amitealami.github.io/publication/providing-rationale-of-code/</guid>
+      <guid>https://amitsealami.github.io/publication/providing-rationale-of-code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A formal approach to verify software scalability requirements using set theory and Hoare triple</title>
-      <link>https://amitealami.github.io/publication/hoare-triple/</link>
+      <link>https://amitsealami.github.io/publication/hoare-triple/</link>
       <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://amitealami.github.io/publication/hoare-triple/</guid>
+      <guid>https://amitsealami.github.io/publication/hoare-triple/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloud-Niagara: A high availability and low overhead fault tolerance middleware for the cloud.</title>
-      <link>https://amitealami.github.io/publication/cloud-niagara/</link>
+      <link>https://amitsealami.github.io/publication/cloud-niagara/</link>
       <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
       
-      <guid>https://amitealami.github.io/publication/cloud-niagara/</guid>
+      <guid>https://amitsealami.github.io/publication/cloud-niagara/</guid>
       <description></description>
     </item>
     
