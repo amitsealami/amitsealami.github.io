@@ -22,11 +22,11 @@
   <link rel="feed" href="https://amitealami.github.io/index.xml" type="application/rss+xml" title="Amit Seal Ami">
 
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-  <link rel="canonical" href="https://amitealami.github.io/publication/dead-code-detection/">
+  <link rel="canonical" href="https://amitealami.github.io/publication/providing-rationale-of-code/">
 
   
 
-  <title>A Static Code Search Technique to Identify  Dead Fields by Analyzing Usage of Setup Fields and Field Dependency in Test Code | Amit Seal Ami</title>
+  <title>A Content Assist based Approach for Providing Rationale of Method Change for Object Oriented Programming | Amit Seal Ami</title>
 
 </head>
 <body id="top">
@@ -74,10 +74,10 @@
 
   <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
     <div class="pub-title">
-      <h1 itemprop="name">A Static Code Search Technique to Identify  Dead Fields by Analyzing Usage of Setup Fields and Field Dependency in Test Code</h1>
+      <h1 itemprop="name">A Content Assist based Approach for Providing Rationale of Method Change for Object Oriented Programming</h1>
       <span class="pub-authors" itemprop="author">
                 
-                Abdus Satter, Amit Seal Ami, Kazi Sakib
+                Amit Seal Ami, Shariful Islam
                 
             </span>
       <span class="pull-right">
@@ -86,35 +86,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2famitealami.github.io%2fpublication%2fdead-code-detection%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2famitealami.github.io%2fpublication%2fproviding-rationale-of-code%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=A%20Static%20Code%20Search%20Technique%20to%20Identify%20%20Dead%20Fields%20by%20Analyzing%20Usage%20of%20Setup%20Fields%20and%20Field%20Dependency%20in%20Test%20Code&amp;url=https%3a%2f%2famitealami.github.io%2fpublication%2fdead-code-detection%2f"
+         href="https://twitter.com/intent/tweet?text=A%20Content%20Assist%20based%20Approach%20for%20Providing%20Rationale%20of%20Method%20Change%20for%20Object%20Oriented%20Programming&amp;url=https%3a%2f%2famitealami.github.io%2fpublication%2fproviding-rationale-of-code%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famitealami.github.io%2fpublication%2fdead-code-detection%2f&amp;title=A%20Static%20Code%20Search%20Technique%20to%20Identify%20%20Dead%20Fields%20by%20Analyzing%20Usage%20of%20Setup%20Fields%20and%20Field%20Dependency%20in%20Test%20Code"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famitealami.github.io%2fpublication%2fproviding-rationale-of-code%2f&amp;title=A%20Content%20Assist%20based%20Approach%20for%20Providing%20Rationale%20of%20Method%20Change%20for%20Object%20Oriented%20Programming"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famitealami.github.io%2fpublication%2fdead-code-detection%2f&amp;title=A%20Static%20Code%20Search%20Technique%20to%20Identify%20%20Dead%20Fields%20by%20Analyzing%20Usage%20of%20Setup%20Fields%20and%20Field%20Dependency%20in%20Test%20Code"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famitealami.github.io%2fpublication%2fproviding-rationale-of-code%2f&amp;title=A%20Content%20Assist%20based%20Approach%20for%20Providing%20Rationale%20of%20Method%20Change%20for%20Object%20Oriented%20Programming"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=A%20Static%20Code%20Search%20Technique%20to%20Identify%20%20Dead%20Fields%20by%20Analyzing%20Usage%20of%20Setup%20Fields%20and%20Field%20Dependency%20in%20Test%20Code&amp;body=https%3a%2f%2famitealami.github.io%2fpublication%2fdead-code-detection%2f">
+         href="mailto:?subject=A%20Content%20Assist%20based%20Approach%20for%20Providing%20Rationale%20of%20Method%20Change%20for%20Object%20Oriented%20Programming&amp;body=https%3a%2f%2famitealami.github.io%2fpublication%2fproviding-rationale-of-code%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -128,14 +128,14 @@
     
 
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Dead field is one of the most common test smells found in the test code which is responsible for degrading performance and creating misapprehension about the code. The reason of its occurrences is that in most of the cases, developers initialize setup fields without considering the usage of those fields in the test methods. In this paper, an automatic dead field identification technique is proposed where the test code is statically searched for identifying the usage of all the setup fields. It does so by figuring out all the setup fields which are initialized in the setup method or its invoked methods. After that, it detects such fields which are used by at least one test method directly or indirectly. In addition, field dependency is resolved to find all the fields on which used setup fields depend. At last, all the unused setup fields are gathered and considered as dead fields. To evaluate the technique, it was implemented in the form of a tool and two open source projects were run on it. It has been seen that it identifies all the dead fields in those projects correctly and performs better than existing dead field detection techniques.</p>
+    <p class="pub-abstract" itemprop="text">Software engineering requires modification of code during development and maintenance phase. During modification, a difficult task is to understand rationale of changed code. Present Integrated Development Environments (IDEs) attempt to help this by providing features integrated with different types of repositories. However, these features still consume developer&#39;s time as he has to switch from editor to another window for this purpose. Moreover, these features focus on elements available in present version of code, thus increasing the difficulty of finding rationale of an element removed or modified earlier. Leveraging different sources for providing information through code completion menus has been shown to be valuable, even when compared to standalone counterparts offering similar functionalities in literature. Literature also shows that it is one of the most used features for consuming information within IDE. Based on that, we prepare an Eclipse plug-in and a framework that allows providing reason of code change, at method granularity, across versions through a new code completion menu in IDE. These allow a software engineer to gain insight about rationale of removed or modified methods which are otherwise not available in present version of code. Professional software engineers participated in our empirical evaluation process and we observed that more than 80% participants considered this to be a useful approach for saving time and effort to understand rationale of method change. Later, based on their feedback, the plug-in and framework is modified to incorporate chronological factors. We perform quasi experimental evaluation with professional software engineers. It is found that time required to find rationale of method change is reduced to at least half compared to usual amount of time required for all the software engineers who participated in the quantitative evaluation.</p>
 
     <div class="row">
       <div class="col-sm-1"></div>
       <div class="col-sm-10">
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-          <div class="col-xs-12 col-sm-9">The 3rd International Workshop on Concept Discovery in Unstructured Data (CDUD 2016), 13th International Conference on Concept Lattices and Their Applications</div>
+          <div class="col-xs-12 col-sm-9">International Journal of Information Engineering and Electronic Business(IJIEEB)</div>
         </div>
       </div>
       <div class="col-sm-1"></div>
@@ -148,7 +148,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
           <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-            July, 2016
+            January, 2015
           </div>
         </div>
       </div>
@@ -168,7 +168,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://cla2016.hse.ru/data/2016/07/24/1119022942/CDUD2016.pdf">
+<a class="btn btn-primary btn-outline" href="http://www.mecs-press.net/ijieeb/ijieeb-v7-n1/IJIEEB-V7-N1-7.pdf">
   PDF
 </a>
 
@@ -178,8 +178,8 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://cla2016.hse.ru/cdud">
-  CDUD2016
+<a class="btn btn-primary btn-outline" href="http://www.mecs-press.net/ijieeb/ijieeb-v7-n1/v7n1-7.html">
+  IJIEEB
 </a>
 
 
@@ -200,10 +200,13 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://amitealami.github.io/publication/defect-prediction/"><span
-      aria-hidden="true">&larr;</span> Selecting best attributes for software defect prediction</a></li>
+    <li class="previous"><a href="https://amitealami.github.io/publication/hoare-triple/"><span
+      aria-hidden="true">&larr;</span> A formal approach to verify software scalability requirements using set theory and Hoare triple</a></li>
     
 
+    
+    <li class="next"><a href="https://amitealami.github.io/publication/defect-prediction/">Selecting best attributes for software defect prediction <span
+      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>

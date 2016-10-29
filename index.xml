@@ -38,5 +38,32 @@
       <description></description>
     </item>
     
+    <item>
+      <title>A Content Assist based Approach for Providing Rationale of Method Change for Object Oriented Programming</title>
+      <link>https://amitealami.github.io/publication/providing-rationale-of-code/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitealami.github.io/publication/providing-rationale-of-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A formal approach to verify software scalability requirements using set theory and Hoare triple</title>
+      <link>https://amitealami.github.io/publication/hoare-triple/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitealami.github.io/publication/hoare-triple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud-Niagara: A high availability and low overhead fault tolerance middleware for the cloud.</title>
+      <link>https://amitealami.github.io/publication/cloud-niagara/</link>
+      <pubDate>Fri, 01 Mar 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitealami.github.io/publication/cloud-niagara/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
