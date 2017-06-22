@@ -260,6 +260,12 @@
 <pre><code>hadoop fs -get &lt;filename&gt;
 </code></pre>
 
+<h3 id="running-mapping-and-reducer">Running Mapping and Reducer</h3>
+
+<pre><code>hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -mapper &lt;mapfile.py&gt; -reducer &lt;reducefile.py&gt; -file &lt;mapfile.py&gt; -file &lt;reducefile.py&gt; -input &lt;input_directory_in_hadoop&gt; -output &lt;output_directory_in_hadoop_must_not_exist_before&gt;
+
+</code></pre>
+
     </div>
   </div>
 

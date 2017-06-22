@@ -46,6 +46,12 @@
 
 &lt;pre&gt;&lt;code&gt;hadoop fs -get &amp;lt;filename&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;running-mapping-and-reducer&#34;&gt;Running Mapping and Reducer&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -mapper &amp;lt;mapfile.py&amp;gt; -reducer &amp;lt;reducefile.py&amp;gt; -file &amp;lt;mapfile.py&amp;gt; -file &amp;lt;reducefile.py&amp;gt; -input &amp;lt;input_directory_in_hadoop&amp;gt; -output &amp;lt;output_directory_in_hadoop_must_not_exist_before&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
