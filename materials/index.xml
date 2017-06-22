@@ -20,7 +20,33 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;setting_up&#34;&gt;Getting Started - Setting up the environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;necessary_commands&#34;&gt;Getting Started - Necessary Commands&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Necessary Commands</title>
+      <link>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</link>
+      <pubDate>Thu, 22 Jun 2017 03:19:57 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</guid>
+      <description>
+
+&lt;h4 id=&#34;any-generic-unix-commands&#34;&gt;Any Generic Unix Commands:&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;hadoop fs -&amp;lt;command here&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;uploading-a-local-file&#34;&gt;Uploading a Local File&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;hadoop fs -put &amp;lt;filename&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;downloading-a-hadoop-file&#34;&gt;Downloading a Hadoop File&lt;/h4&gt;
+
+&lt;pre&gt;&lt;code&gt;hadoop fs -get &amp;lt;filename&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
