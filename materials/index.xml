@@ -1,14 +1,90 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Materials-rsses on Amit Seal Ami</title>
+    <title>Materials on Amit Seal Ami</title>
     <link>https://amitsealami.github.io/materials/index.xml</link>
-    <description>Recent content in Materials-rsses on Amit Seal Ami</description>
+    <description>Recent content in Materials on Amit Seal Ami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Amit Seal Ami</copyright>
-    <lastBuildDate>Thu, 27 Apr 2017 03:19:57 +0600</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2017 03:19:57 +0600</lastBuildDate>
     <atom:link href="/materials/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Applied DataScience</title>
+      <link>https://amitsealami.github.io/materials/applied_datascience/</link>
+      <pubDate>Thu, 22 Jun 2017 03:19:57 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/applied_datascience/</guid>
+      <description>&lt;p&gt;Hello! This is the page for Applied DataScience Course offered at IIT, University of Dhaka. The contents are provided below:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;setting_up&#34;&gt;Setting up the environment&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Setting up Work Environment</title>
+      <link>https://amitsealami.github.io/materials/applied_datascience/setting_up/</link>
+      <pubDate>Thu, 22 Jun 2017 03:19:57 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/applied_datascience/setting_up/</guid>
+      <description>&lt;p&gt;We will be using the Cloudera-Udacity Hadoop course materials.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Head over &lt;a href=&#34;https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617&#34;&gt;udacity&lt;/a&gt; if you have not registered already.&lt;/li&gt;
+&lt;li&gt;Next, download the material from &lt;a href=&#34;https://docs.google.com/document/d/1v0zGBZ6EHap-Smsr3x3sGGpDW-54m82kDpPKC2M6uiY/edit&#34;&gt;here&lt;/a&gt; called  &amp;ldquo;Cloudera-Udacity-Training-VM-4.1.1.c.zip&amp;rdquo;. It is around 2GB in size, so make sure you &lt;strong&gt;download it once&lt;/strong&gt; and then share it amongst other classmates.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Additionally, install &lt;a href=&#34;http://www.7-zip.org/download.html&#34;&gt;7zip&lt;/a&gt; if you do not have already in Windows. It is considerably faster for unzipping materials. If you are in Linux - you need to open terminal and type&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;unzip Cloudera-Udacity-Training-VM-4.1.1.c.zip -d udacity-cloudera
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There are several files related to lightweight Hadoop setup from Cloudera in virtual disk image format. Even though it is possible to use VirtualBox to host the virtual image, &lt;a href=&#34;https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0&#34;&gt;VMware&lt;/a&gt; is the preferred choice since it performs better.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you are in Linux, you need to download the bundle file. When we downloaded it, it was &lt;code&gt;VMware-Player-12.5.6-5528349.x86_64.bundle&lt;/code&gt;. You need to execute the following from terminal:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;chmod +x VMware-Player-12.5.6-5528349.x86_64.bundle
+sudo ./VMware-Player-12.5.6-5528349.x86_64.bundle
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;When asked whether to install, install it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then, open VM Player. Click on Open a virtual machine, and select the vmx file from the extracted directory!
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;../images/2017-06-22-13-02-52.png&#34; width=&#34;100%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Opening the VMX file&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If everything was done properly, something like this will show up:
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;../images/2017-06-22-13-42-11.png&#34; width=&#34;100%&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Hadoop is ready for Running!&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Congratulations! You have successfully completed the setting up of work environment. :)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Promotion</title>

@@ -50,11 +50,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://amitsealami.github.io/materials/mysql/mysql1/">
+  <link rel="canonical" href="https://amitsealami.github.io/materials/applied_datascience/setting_up/">
 
   
 
-  <title>MySQL 1 | Amit Seal Ami</title>
+  <title>Setting up Work Environment | Amit Seal Ami</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -167,19 +167,33 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">MySQL 1</h1>
+    <h1 itemprop="name">Setting up Work Environment</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2017-02-19 12:18:57 &#43;0600 &#43;06" itemprop="datePublished">
-      Sun, Feb 19, 2017
+    <time datetime="2017-06-22 03:19:57 &#43;0600 &#43;06" itemprop="datePublished">
+      Thu, Jun 22, 2017
     </time>
   </span>
 
   
 
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/datascience">datascience</a
+    >, 
+    
+    <a href="/tags/course">course</a
+    >
+    
+  </span>
+  
   
 
   
@@ -188,35 +202,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2famitsealami.github.io%2fmaterials%2fmysql%2fmysql1%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fsetting_up%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=MySQL%201&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fmysql%2fmysql1%2f"
+         href="https://twitter.com/intent/tweet?text=Setting%20up%20Work%20Environment&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fsetting_up%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fmysql%2fmysql1%2f&amp;title=MySQL%201"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fsetting_up%2f&amp;title=Setting%20up%20Work%20Environment"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fmysql%2fmysql1%2f&amp;title=MySQL%201"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fsetting_up%2f&amp;title=Setting%20up%20Work%20Environment"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=MySQL%201&amp;body=https%3a%2f%2famitsealami.github.io%2fmaterials%2fmysql%2fmysql1%2f">
+         href="mailto:?subject=Setting%20up%20Work%20Environment&amp;body=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fsetting_up%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -229,9 +243,59 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <pre><code class="language-mysql">  
+      <p>We will be using the Cloudera-Udacity Hadoop course materials.</p>
 
+<ol>
+<li>Head over <a href="https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617">udacity</a> if you have not registered already.</li>
+<li>Next, download the material from <a href="https://docs.google.com/document/d/1v0zGBZ6EHap-Smsr3x3sGGpDW-54m82kDpPKC2M6uiY/edit">here</a> called  &ldquo;Cloudera-Udacity-Training-VM-4.1.1.c.zip&rdquo;. It is around 2GB in size, so make sure you <strong>download it once</strong> and then share it amongst other classmates.</li>
+
+<li><p>Additionally, install <a href="http://www.7-zip.org/download.html">7zip</a> if you do not have already in Windows. It is considerably faster for unzipping materials. If you are in Linux - you need to open terminal and type</p>
+
+<pre><code class="language-bash">unzip Cloudera-Udacity-Training-VM-4.1.1.c.zip -d udacity-cloudera
+</code></pre></li>
+
+<li><p>There are several files related to lightweight Hadoop setup from Cloudera in virtual disk image format. Even though it is possible to use VirtualBox to host the virtual image, <a href="https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0">VMware</a> is the preferred choice since it performs better.</p></li>
+
+<li><p>If you are in Linux, you need to download the bundle file. When we downloaded it, it was <code>VMware-Player-12.5.6-5528349.x86_64.bundle</code>. You need to execute the following from terminal:</p>
+
+<pre><code>chmod +x VMware-Player-12.5.6-5528349.x86_64.bundle
+sudo ./VMware-Player-12.5.6-5528349.x86_64.bundle
 </code></pre>
+
+<p>When asked whether to install, install it.</p></li>
+
+<li><p>Then, open VM Player. Click on Open a virtual machine, and select the vmx file from the extracted directory!
+
+<figure >
+    
+        <img src="../images/2017-06-22-13-02-52.png" width="100%" />
+    
+    
+    <figcaption>
+        <h4>Opening the VMX file</h4>
+        
+    </figcaption>
+    
+</figure>
+</p></li>
+
+<li><p>If everything was done properly, something like this will show up:
+
+<figure >
+    
+        <img src="../images/2017-06-22-13-42-11.png" width="100%" />
+    
+    
+    <figcaption>
+        <h4>Hadoop is ready for Running!</h4>
+        
+    </figcaption>
+    
+</figure>
+</p></li>
+</ol>
+
+<p>Congratulations! You have successfully completed the setting up of work environment. :)</p>
 
     </div>
   </div>
@@ -242,12 +306,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://amitsealami.github.io/materials/pgdit207/file/"><span
-      aria-hidden="true">&larr;</span> Internal File Storage Android</a></li>
+    <li class="previous"><a href="https://amitsealami.github.io/materials/ms1002/promotion/"><span
+      aria-hidden="true">&larr;</span> Promotion</a></li>
     
 
     
-    <li class="next"><a href="https://amitsealami.github.io/materials/ms1002/Schema-Operators/">Schema Operators <span
+    <li class="next"><a href="https://amitsealami.github.io/materials/applied_datascience/">Applied DataScience <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
@@ -262,9 +326,9 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'lordamit';
-    var disqus_identifier = 'https:\/\/amitsealami.github.io\/materials\/mysql\/mysql1\/';
-    var disqus_title = 'MySQL 1';
-    var disqus_url = 'https:\/\/amitsealami.github.io\/materials\/mysql\/mysql1\/';
+    var disqus_identifier = 'https:\/\/amitsealami.github.io\/materials\/applied_datascience\/setting_up\/';
+    var disqus_title = 'Setting up Work Environment';
+    var disqus_url = 'https:\/\/amitsealami.github.io\/materials\/applied_datascience\/setting_up\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -324,6 +388,13 @@
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 
