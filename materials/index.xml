@@ -11,15 +11,15 @@
     <atom:link href="/materials/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Applied DataScience</title>
+      <title>Applied Data Science</title>
       <link>https://amitsealami.github.io/materials/applied_datascience/</link>
       <pubDate>Thu, 22 Jun 2017 03:19:57 +0600</pubDate>
       
       <guid>https://amitsealami.github.io/materials/applied_datascience/</guid>
-      <description>&lt;p&gt;Hello! This is the page for Applied DataScience Course offered at IIT, University of Dhaka. The contents are provided below:&lt;/p&gt;
+      <description>&lt;p&gt;Hello! This is the page for Applied Data Science Course offered at IIT, University of Dhaka. The contents are provided below:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;setting_up&#34;&gt;Setting up the environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;setting_up&#34;&gt;Getting Started - Setting up the environment&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
