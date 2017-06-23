@@ -74,11 +74,15 @@
 
 &lt;li&gt;&lt;p&gt;There are several files related to lightweight Hadoop setup from Cloudera in virtual disk image format. Even though it is possible to use VirtualBox to host the virtual image, &lt;a href=&#34;https://my.vmware.com/en/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/12_0&#34;&gt;VMware&lt;/a&gt; is the preferred choice since it performs better.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;If you are in Linux, you need to download the bundle file. When we downloaded it, it was &lt;code&gt;VMware-Player-12.5.6-5528349.x86_64.bundle&lt;/code&gt;. You need to execute the following from terminal:&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;If you are in Linux, you need to download the bundle file. When we downloaded it, it was &lt;code&gt;VMware-Player-12.5.7-5813279.x86_64.bundle&lt;/code&gt;. You need to execute the following from terminal:&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;chmod +x VMware-Player-12.5.6-5528349.x86_64.bundle
-sudo ./VMware-Player-12.5.6-5528349.x86_64.bundle
+&lt;pre&gt;&lt;code&gt;chmod +x VMware-Player-12.5.7-5813279.x86_64.bundle
+sudo ./VMware-Player-12.5.7-5813279.x86_64.bundle
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;pro tip: VMWare Player has some advanced options hidden at &lt;code&gt;/usr/lib/vmware/bin&lt;/code&gt;. For example, &lt;code&gt;vmware-netcfg&lt;/code&gt; helps you edit VMWare related network settings, which is not available in the regular user interface of VMWare Player.&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;When asked whether to install, install it.&lt;/p&gt;&lt;/li&gt;
 
