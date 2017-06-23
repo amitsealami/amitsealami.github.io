@@ -10,31 +10,16 @@
     <atom:link href="/tags/datascience/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Applied Data Science</title>
-      <link>https://amitsealami.github.io/materials/applied_datascience/</link>
-      <pubDate>Thu, 22 Jun 2017 03:19:57 +0600</pubDate>
-      
-      <guid>https://amitsealami.github.io/materials/applied_datascience/</guid>
-      <description>&lt;p&gt;Hello! This is the page for Applied Data Science Course offered at IIT, University of Dhaka. The contents are provided below:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;setting_up&#34;&gt;Getting Started - Setting up the environment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;necessary_commands&#34;&gt;Getting Started - Necessary Commands&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Necessary Commands</title>
+      <title>Tips and Tricks</title>
       <link>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</link>
-      <pubDate>Thu, 22 Jun 2017 03:19:57 +0600</pubDate>
+      <pubDate>Thu, 22 Jun 2017 03:19:03 +0600</pubDate>
       
       <guid>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</guid>
       <description>
 
 &lt;h4 id=&#34;any-generic-unix-commands&#34;&gt;Any Generic Unix Commands:&lt;/h4&gt;
 
-&lt;pre&gt;&lt;code&gt;hadoop fs -&amp;lt;command here&amp;gt;
+&lt;pre&gt;&lt;code&gt;hadoop fs -&amp;lt;command&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4 id=&#34;uploading-a-local-file&#34;&gt;Uploading a Local File&lt;/h4&gt;
@@ -52,13 +37,35 @@
 &lt;pre&gt;&lt;code&gt;hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -mapper &amp;lt;mapfile.py&amp;gt; -reducer &amp;lt;reducefile.py&amp;gt; -file &amp;lt;mapfile.py&amp;gt; -file &amp;lt;reducefile.py&amp;gt; -input &amp;lt;input_directory_in_hadoop&amp;gt; -output &amp;lt;output_directory_in_hadoop_must_not_exist_before&amp;gt;
 
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Fortunately, Cloudera made an alias in the &lt;code&gt;~/.bashrc&lt;/code&gt; file which reduces the commands to  this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hs &amp;lt;mapper.py&amp;gt; &amp;lt;reducer.py&amp;gt; &amp;lt;input_directory&amp;gt; &amp;lt;output_directory&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Check out the file if you want to know how they intelligently created &lt;code&gt;shell function&lt;/code&gt; and &lt;code&gt;alias&lt;/code&gt; to reduce that huge command!&lt;/p&gt;
+
+&lt;h3 id=&#34;dry-testing-without-running-hadoop&#34;&gt;Dry Testing without Running Hadoop&lt;/h3&gt;
+
+&lt;p&gt;You probably already realized this, but hadoop runs like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;run mapper -&amp;gt; sort output -&amp;gt; send output to reducer -&amp;gt; output&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Therefore, you can use the same mapper and reducer files in your local machines. For example, I do something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;python mapper.py &amp;lt; short_input_file.txt | sort &amp;gt; output.txt
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;As you have guessed, I am using a short version of the actual input file to make things faster. If you are having trouble understanding what happened above, you need to understand a bit about Linux &lt;code&gt;Shell&lt;/code&gt; Commands, namely &lt;code&gt;Piping&lt;/code&gt; and &lt;code&gt;Filtering&lt;/code&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Setting up Work Environment</title>
       <link>https://amitsealami.github.io/materials/applied_datascience/setting_up/</link>
-      <pubDate>Thu, 22 Jun 2017 03:19:57 +0600</pubDate>
+      <pubDate>Thu, 22 Jun 2017 03:19:02 +0600</pubDate>
       
       <guid>https://amitsealami.github.io/materials/applied_datascience/setting_up/</guid>
       <description>&lt;p&gt;We will be using the Cloudera-Udacity Hadoop course materials.&lt;/p&gt;
@@ -118,6 +125,21 @@ sudo ./VMware-Player-12.5.7-5813279.x86_64.bundle
 &lt;/ol&gt;
 
 &lt;p&gt;Congratulations! You have successfully completed the setting up of work environment. :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Applied Data Science</title>
+      <link>https://amitsealami.github.io/materials/applied_datascience/</link>
+      <pubDate>Thu, 22 Jun 2017 03:19:01 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/applied_datascience/</guid>
+      <description>&lt;p&gt;Hello! This is the page for Applied Data Science Course offered at IIT, University of Dhaka. The contents are provided below:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;setting_up&#34;&gt;Getting Started - Setting up the environment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;necessary_commands&#34;&gt;Tips and Tricks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

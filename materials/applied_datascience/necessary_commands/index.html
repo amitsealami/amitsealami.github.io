@@ -54,7 +54,7 @@
 
   
 
-  <title>Necessary Commands | Amit Seal Ami</title>
+  <title>Tips and Tricks | Amit Seal Ami</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -167,13 +167,13 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Necessary Commands</h1>
+    <h1 itemprop="name">Tips and Tricks</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2017-06-22 03:19:57 &#43;0600 &#43;06" itemprop="datePublished">
+    <time datetime="2017-06-22 03:19:03 &#43;0600 &#43;06" itemprop="datePublished">
       Thu, Jun 22, 2017
     </time>
   </span>
@@ -209,28 +209,28 @@
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Necessary%20Commands&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f"
+         href="https://twitter.com/intent/tweet?text=Tips%20and%20Tricks&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f&amp;title=Necessary%20Commands"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f&amp;title=Tips%20and%20Tricks"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f&amp;title=Necessary%20Commands"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f&amp;title=Tips%20and%20Tricks"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Necessary%20Commands&amp;body=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f">
+         href="mailto:?subject=Tips%20and%20Tricks&amp;body=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -247,7 +247,7 @@
 
 <h4 id="any-generic-unix-commands">Any Generic Unix Commands:</h4>
 
-<pre><code>hadoop fs -&lt;command here&gt;
+<pre><code>hadoop fs -&lt;command&gt;
 </code></pre>
 
 <h4 id="uploading-a-local-file">Uploading a Local File</h4>
@@ -266,6 +266,28 @@
 
 </code></pre>
 
+<p>Fortunately, Cloudera made an alias in the <code>~/.bashrc</code> file which reduces the commands to  this:</p>
+
+<pre><code>hs &lt;mapper.py&gt; &lt;reducer.py&gt; &lt;input_directory&gt; &lt;output_directory&gt;
+</code></pre>
+
+<p>Check out the file if you want to know how they intelligently created <code>shell function</code> and <code>alias</code> to reduce that huge command!</p>
+
+<h3 id="dry-testing-without-running-hadoop">Dry Testing without Running Hadoop</h3>
+
+<p>You probably already realized this, but hadoop runs like this:</p>
+
+<blockquote>
+<p>run mapper -&gt; sort output -&gt; send output to reducer -&gt; output</p>
+</blockquote>
+
+<p>Therefore, you can use the same mapper and reducer files in your local machines. For example, I do something like this:</p>
+
+<pre><code class="language-python">python mapper.py &lt; short_input_file.txt | sort &gt; output.txt
+</code></pre>
+
+<p>As you have guessed, I am using a short version of the actual input file to make things faster. If you are having trouble understanding what happened above, you need to understand a bit about Linux <code>Shell</code> Commands, namely <code>Piping</code> and <code>Filtering</code>.</p>
+
     </div>
   </div>
 
@@ -280,9 +302,6 @@
     
 
     
-    <li class="next"><a href="https://amitsealami.github.io/materials/applied_datascience/">Applied Data Science <span
-      aria-hidden="true">&rarr;</span></a></li>
-    
   </ul>
 </nav>
 
@@ -296,7 +315,7 @@
 <script type="text/javascript">
     var disqus_shortname = 'amitsealami-github-io';
     var disqus_identifier = 'https:\/\/amitsealami.github.io\/materials\/applied_datascience\/necessary_commands\/';
-    var disqus_title = 'Necessary Commands';
+    var disqus_title = 'Tips and Tricks';
     var disqus_url = 'https:\/\/amitsealami.github.io\/materials\/applied_datascience\/necessary_commands\/';
 
     (function() {
