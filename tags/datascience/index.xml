@@ -53,7 +53,7 @@
 &lt;p&gt;run mapper -&amp;gt; sort output -&amp;gt; send output to reducer -&amp;gt; output&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Therefore, you can use the same mapper and reducer files in your local machines. For example, I do something like this:&lt;/p&gt;
+&lt;p&gt;Therefore, you can use the same mapper and reducer files in your local machine. For example, I do something like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;python mapper.py &amp;lt; short_input_file.txt | sort &amp;gt; output.txt
 &lt;/code&gt;&lt;/pre&gt;
