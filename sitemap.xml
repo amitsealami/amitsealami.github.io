@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://amitsealami.github.io/materials/se843/1/</loc>
+      <lastmod>2017-07-11T00:01:01+06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://amitsealami.github.io/materials/se843/</loc>
+      <lastmod>2017-07-11T00:00:01+06:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</loc>
       <lastmod>2017-06-22T03:19:03+06:00</lastmod>
     </url>
@@ -161,7 +179,7 @@
     <url>
     
       <loc>https://amitsealami.github.io/tags/course/</loc>
-      <lastmod>2017-06-22T03:19:03+06:00</lastmod>
+      <lastmod>2017-07-11T00:01:01+06:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -184,7 +202,17 @@
     <url>
     
       <loc>https://amitsealami.github.io/materials/</loc>
-      <lastmod>2017-06-22T03:19:03+06:00</lastmod>
+      <lastmod>2017-07-11T00:01:01+06:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://amitsealami.github.io/tags/metrics/</loc>
+      <lastmod>2017-07-11T00:01:01+06:00</lastmod>
       <priority>0</priority>
     </url>
     

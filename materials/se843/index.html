@@ -50,11 +50,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://amitsealami.github.io/materials/applied_datascience/necessary_commands/">
+  <link rel="canonical" href="https://amitsealami.github.io/materials/se843/">
 
   
 
-  <title>Tips and Tricks | Amit Seal Ami</title>
+  <title>SE843: Software Metrics | Amit Seal Ami</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -167,14 +167,14 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name">Tips and Tricks</h1>
+    <h1 itemprop="name">SE843: Software Metrics</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="2017-06-22 03:19:03 &#43;0600 &#43;06" itemprop="datePublished">
-      Thu, Jun 22, 2017
+    <time datetime="2017-07-11 00:00:01 &#43;0600 &#43;06" itemprop="datePublished">
+      Tue, Jul 11, 2017
     </time>
   </span>
 
@@ -186,7 +186,7 @@
   <span class="article-tags">
     <i class="fa fa-tags"></i>
     
-    <a href="/tags/datascience">datascience</a
+    <a href="/tags/metrics">metrics</a
     >, 
     
     <a href="/tags/course">course</a
@@ -202,35 +202,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2famitsealami.github.io%2fmaterials%2fse843%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Tips%20and%20Tricks&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f"
+         href="https://twitter.com/intent/tweet?text=SE843%3a%20Software%20Metrics&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fse843%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f&amp;title=Tips%20and%20Tricks"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fse843%2f&amp;title=SE843%3a%20Software%20Metrics"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f&amp;title=Tips%20and%20Tricks"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2famitsealami.github.io%2fmaterials%2fse843%2f&amp;title=SE843%3a%20Software%20Metrics"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Tips%20and%20Tricks&amp;body=https%3a%2f%2famitsealami.github.io%2fmaterials%2fapplied_datascience%2fnecessary_commands%2f">
+         href="mailto:?subject=SE843%3a%20Software%20Metrics&amp;body=https%3a%2f%2famitsealami.github.io%2fmaterials%2fse843%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -243,51 +243,12 @@
 </div>
 
     <div class="article-style" itemprop="articleBody">
-      <p>This article covers some necessary commands related to hadoop.
-</p>
+      <p>Hello! This is the page for SE 843: Software Metrics offered at IIT, University of Dhaka. The contents are provided below:</p>
 
-<h4 id="any-generic-unix-commands">Any Generic Unix Commands:</h4>
+<ul>
+<li><a href="1">Introduction</a></li>
+</ul>
 
-<pre><code>hadoop fs -&lt;command&gt;
-</code></pre>
-
-<h4 id="uploading-a-local-file">Uploading a Local File</h4>
-
-<pre><code>hadoop fs -put &lt;filename&gt;
-</code></pre>
-
-<h4 id="downloading-a-hadoop-file">Downloading a Hadoop File</h4>
-
-<pre><code>hadoop fs -get &lt;filename&gt;
-</code></pre>
-
-<h3 id="running-mapping-and-reducer">Running Mapping and Reducer</h3>
-
-<pre><code>hadoop jar /usr/lib/hadoop-0.20-mapreduce/contrib/streaming/hadoop-streaming-2.0.0-mr1-cdh4.1.1.jar -mapper &lt;mapfile.py&gt; -reducer &lt;reducefile.py&gt; -file &lt;mapfile.py&gt; -file &lt;reducefile.py&gt; -input &lt;input_directory_in_hadoop&gt; -output &lt;output_directory_in_hadoop_must_not_exist_before&gt;
-
-</code></pre>
-
-<p>Fortunately, Cloudera made an alias in the <code>~/.bashrc</code> file which reduces the commands to  this:</p>
-
-<pre><code>hs &lt;mapper.py&gt; &lt;reducer.py&gt; &lt;input_directory&gt; &lt;output_directory&gt;
-</code></pre>
-
-<p>Check out the file if you want to know how they intelligently created <code>shell function</code> and <code>alias</code> to reduce that huge command!</p>
-
-<h3 id="dry-testing-without-running-hadoop">Dry Testing without Running Hadoop</h3>
-
-<p>You probably already realized this, but hadoop runs like this:</p>
-
-<blockquote>
-<p>run mapper -&gt; sort output -&gt; send output to reducer -&gt; output</p>
-</blockquote>
-
-<p>Therefore, you can use the same mapper and reducer files in your local machine. For example, I do something like this:</p>
-
-<pre><code class="language-python">python mapper.py &lt; short_input_file.txt | sort &gt; output.txt
-</code></pre>
-
-<p>As you have guessed, I am using a short version of the actual input file to make things faster. If you are having trouble understanding what happened above, you need to understand a bit about Linux <code>Shell</code> Commands, namely <code>Piping</code> and <code>Filtering</code>.</p>
     </div>
   </div>
 
@@ -297,12 +258,12 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://amitsealami.github.io/materials/applied_datascience/setting_up/"><span
-      aria-hidden="true">&larr;</span> Setting up Work Environment</a></li>
+    <li class="previous"><a href="https://amitsealami.github.io/materials/applied_datascience/necessary_commands/"><span
+      aria-hidden="true">&larr;</span> Tips and Tricks</a></li>
     
 
     
-    <li class="next"><a href="https://amitsealami.github.io/materials/se843/">SE843: Software Metrics <span
+    <li class="next"><a href="https://amitsealami.github.io/materials/se843/1/">Introduction to Software Metrics <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
@@ -317,9 +278,9 @@
     <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = 'amitsealami-github-io';
-    var disqus_identifier = 'https:\/\/amitsealami.github.io\/materials\/applied_datascience\/necessary_commands\/';
-    var disqus_title = 'Tips and Tricks';
-    var disqus_url = 'https:\/\/amitsealami.github.io\/materials\/applied_datascience\/necessary_commands\/';
+    var disqus_identifier = 'https:\/\/amitsealami.github.io\/materials\/se843\/';
+    var disqus_title = 'SE843: Software Metrics';
+    var disqus_url = 'https:\/\/amitsealami.github.io\/materials\/se843\/';
 
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
