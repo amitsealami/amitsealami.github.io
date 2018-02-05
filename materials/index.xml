@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Materials on Amit Seal Ami</title>
+    <link>https://amitsealami.github.io/materials/</link>
+    <description>Recent content in Materials on Amit Seal Ami</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jul 2017 00:00:01 +0600</lastBuildDate>
+    
+	<atom:link href="https://amitsealami.github.io/materials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SE843: Software Metrics</title>
+      <link>https://amitsealami.github.io/materials/se843/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:01 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/se843/</guid>
+      <description>Hello! This is the page for SE 843: Software Metrics offered at IIT, University of Dhaka. The contents are provided below:
+ Introduction  </description>
+    </item>
+    
+    <item>
+      <title>Applied Data Science</title>
+      <link>https://amitsealami.github.io/materials/applied_datascience/</link>
+      <pubDate>Thu, 22 Jun 2017 03:19:01 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/applied_datascience/</guid>
+      <description>Hello! This is the page for Applied Data Science Course offered at IIT, University of Dhaka. The contents are provided below:
+ Getting Started - Setting up the environment Tips and Tricks  </description>
+    </item>
+    
+    <item>
+      <title>Promotion</title>
+      <link>https://amitsealami.github.io/materials/ms1002/promotion/</link>
+      <pubDate>Thu, 27 Apr 2017 03:19:57 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/ms1002/promotion/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Schema Operators</title>
+      <link>https://amitsealami.github.io/materials/ms1002/schema-operators/</link>
+      <pubDate>Thu, 27 Apr 2017 03:19:57 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/ms1002/schema-operators/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>MySQL 1</title>
+      <link>https://amitsealami.github.io/materials/mysql/mysql1/</link>
+      <pubDate>Sun, 19 Feb 2017 12:18:57 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/mysql/mysql1/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Internal File Storage Android</title>
+      <link>https://amitsealami.github.io/materials/pgdit207/file/</link>
+      <pubDate>Wed, 16 Nov 2016 23:29:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/pgdit207/file/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Activity Monitoring in Android</title>
+      <link>https://amitsealami.github.io/materials/pgdit207/activity/</link>
+      <pubDate>Mon, 24 Oct 2016 23:29:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/pgdit207/activity/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

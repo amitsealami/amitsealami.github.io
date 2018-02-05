@@ -3,14 +3,98 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://amitsealami.github.io/</loc>
+    <loc>https://amitsealami.github.io/home/publications_selected/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/home/affiliations/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/publication/</loc>
+    <lastmod>2018-01-01T01:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/news/</loc>
     <lastmod>2018-02-01T01:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/home/publications/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/courses/</loc>
+    <lastmod>2018-01-01T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/associations/</loc>
+    <lastmod>2018-01-01T01:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/home/administration/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/home/teaching/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/home/contact/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://amitsealami.github.io/</loc>
     <lastmod>2018-02-01T01:00:00+06:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/se843/</loc>
+    <lastmod>2017-07-11T00:00:01+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/applied_datascience/</loc>
+    <lastmod>2017-06-22T03:19:01+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/ms1002/promotion/</loc>
+    <lastmod>2017-04-27T03:19:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/ms1002/schema-operators/</loc>
+    <lastmod>2017-04-27T03:19:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/mysql/mysql1/</loc>
+    <lastmod>2017-02-19T12:18:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/pgdit207/file/</loc>
+    <lastmod>2016-11-16T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/pgdit207/activity/</loc>
+    <lastmod>2016-10-24T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/home/about/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -19,7 +103,50 @@
   </url>
   
   <url>
+    <loc>https://amitsealami.github.io/tags/code/</loc>
+    <lastmod>2016-11-16T23:29:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/tags/course/</loc>
+    <lastmod>2017-07-11T00:00:01+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/tags/datascience/</loc>
+    <lastmod>2017-06-22T03:19:01+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/home/</loc>
+    <lastmod>2016-04-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/</loc>
+    <lastmod>2017-07-11T00:00:01+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/tags/metrics/</loc>
+    <lastmod>2017-07-11T00:00:01+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/tags/slides/</loc>
+    <lastmod>2017-04-27T03:19:57+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://amitsealami.github.io/tags/</loc>
+    <lastmod>2016-11-16T23:29:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

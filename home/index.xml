@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Amit Seal Ami</title>
+    <link>https://amitsealami.github.io/home/</link>
+    <description>Recent content in Homes on Amit Seal Ami</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://amitsealami.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://amitsealami.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Affiliations / Activities</title>
+      <link>https://amitsealami.github.io/home/affiliations/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/home/affiliations/</guid>
+      <description> Due to previous achievements in different types of competitions and communities, as well as considering my current position - I am frequently invited to mentor, judge and speak at various events. Some of these are:
+2016  Mentor and Judge, National Hackathon Mentor, Smart City Hackathon Panel Speaker at Facebook&amp;rsquo;s F8 Meetup at Bangladesh Speaker at International Women&amp;rsquo;s Day Celebration - by IEEE AIUB Student Branch and Google Women Techmakers Bangladesh Judge, EATL-Prothom Alo App contest  2015  Moderator, IEEE Pro-Talk 2015 Technical Session on Mobile Apps Lifecycle and Ecosystem at EATL- Prothom Alo App Contest 2015 Bootcamp  </description>
+    </item>
+    
+    <item>
+      <title>Recent Publications</title>
+      <link>https://amitsealami.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Administration / Committees</title>
+      <link>https://amitsealami.github.io/home/administration/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/home/administration/</guid>
+      <description>As part of administration / committees - I made several contributions both individually and in group for Institute of Information Technology (IIT), University of Dhaka. Some of these are:
+4th Year Committee / Intern Placement Office As member of the 4th Year Management Committee and Intern Placement office, I contributed in:
+ Defining the guideline of SE 801.  Evening Program Management Committee (EPMO) As PGDIT Coordinator, I was a member of EPMO from year 2015-16.</description>
+    </item>
+    
+    <item>
+      <title>Courses</title>
+      <link>https://amitsealami.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/home/teaching/</guid>
+      <description>I lectured on the following courses at Institute of Information Technology, University of Dhaka:
+ CSE 401: Operating System CSE 501: Parallel Computing CSE 502: Web Technology SE 506: Design Patterns BUS 602: Management Information Systems SE 843: Software Metrics MSSE 1044: Software Analytics PGD 202: Object Oriented Programming PGD 207: Mobile Application MITM413: Strategic Management  </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://amitsealami.github.io/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://amitsealami.github.io/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/home/about/</guid>
+      <description> Biography </description>
+    </item>
+    
+  </channel>
+</rss>
