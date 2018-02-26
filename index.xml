@@ -12,21 +12,23 @@
     
     
     <item>
-      <title>Experiences</title>
+      <title>Qualification &amp; Experiences</title>
       <link>https://amitsealami.github.io/experiences/</link>
       <pubDate>Mon, 01 Jan 2018 01:00:00 +0600</pubDate>
       
       <guid>https://amitsealami.github.io/experiences/</guid>
-      <description> Academic Experiences  M.Sc. in Software Engineering, Institute of Information Technology, University of Dhaka - 2014, CGPA 3.96 / 4.00 M.Sc. thesis: An Efficient Approach for Providing Rationale of Method Change by Mining Software Repositories, Supervised by Dr. Md. Shariful Islam, Professor, Institute of Information Technology, University of Dhaka BSc. in IT (Major in Software Engineering), Institute of Information Technology, University of Dhaka - 2012, CGPA 3.93 / 4.00  Professional Experiences  Lecturer, Institute of Information Technology, University of Dhaka, 2014 - ongoing Adjunct Faculty member, East West University, 2015 Intern Software Engineer, Southtech Limited Bangladesh - 2011 Software Engineer, M&amp;amp;H Informatics, 2014  </description>
+      <description>Academic Qualifications  M.Sc. in Software Engineering, Institute of Information Technology, University of Dhaka - 2014, CGPA 3.96 / 4.00,
+M.Sc. thesis: An Efficient Approach for Providing Rationale of Method Change by Mining Software Repositories, Supervised by Dr. Md. Shariful Islam, Professor, Institute of Information Technology, University of Dhaka
+ BSc. in IT (Major in Software Engineering), Institute of Information Technology, University of Dhaka - 2012, CGPA 3.93 / 4.</description>
     </item>
     
     <item>
-      <title>Research &amp; Publications</title>
-      <link>https://amitsealami.github.io/publication/</link>
+      <title>Research Publications</title>
+      <link>https://amitsealami.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 2018 01:00:00 +0600</pubDate>
       
-      <guid>https://amitsealami.github.io/publication/</guid>
-      <description> 2017  MobileMonkey - A Contextual Stress Testing Framework for Android Application; Rayhanur Rahman, Amit Seal Ami, Kazi Sakib; International Journal of Computer Applications; Funded by Innovation Fund, ICT Division, Bangladesh. Modeling Software Defects as Anomalies: A Case Study on Promise Repository; Kamrun Nahar Neela, Syed Ali Asif, Amit Seal Ami, Alim Ul Gias; Journal of Software  2016  A Static Code Search Technique to Identify Dead Fields by Analyzing Usage of Setup Fields and Field Dependency in Test Code; Abdus Satter, Amit Seal Ami, Kazi Sakib; CDUD@ CLA  2015  Selecting best attributes for software defect prediction; Prianka Mandal, Amit Seal Ami; 2015 IEEE International WIE Conference on Electrical and Computer Engineering (WIECON-ECE) A Content Assist based Approach for Providing Rationale of Method Change for Object Oriented Programming, Amit Seal Ami, Shariful Islam, International Journal of Information Engineering and Electronic Business (IJIEEB), funded by ICT Fellowship  2014  An efficient approach for providing rationale of method change for object oriented programming; Amit Seal Ami, Md Shariful Islam; International Conference on Informatics, Electronics &amp;amp; Vision (ICIEV), funded by ICT Fellowship Cloud-niagara: A high availability and low overhead fault tolerance middleware for the cloud;Asif Imran, Alim Ul Gias, Rayhanur Rahman, Amit Seal, Tajkia Rahman, Farhan Ishraque, Kazi Sakib; 16th International Conference on Computer and Information Technology (ICCIT) A formal approach to verify software scalability requirements using set theory and Hoare triple; Alim Ul Gias, Mirza Rehenuma Tabassum, Amit Seal Ami, Asif Imran, Mohammad Ibrahim, Rayhanur Rahman, Kazi Sakib; 16th International Conference on Computer and Information Technology (ICCIT)  2013  Face Recognition and Adaptation for Secure Human Computer Interaction; SM Khaled, AU Gias, A Seal, M Hasanuzzaman; International Journal of Advanced Computer Science  </description>
+      <guid>https://amitsealami.github.io/publications/</guid>
+      <description> 2018  MobiCoMonkey - Context Testing of Android Apps, 5th IEE/ACM International Conference on Mobile Software Engineering and System (MobileSoft 2018), co-hosted with ICSE 2018.  2017  MobileMonkey - A Contextual Stress Testing Framework for Android Application; Rayhanur Rahman, Amit Seal Ami, Kazi Sakib; International Journal of Computer Applications; Funded by Innovation Fund, ICT Division, Bangladesh. Modeling Software Defects as Anomalies: A Case Study on Promise Repository; Kamrun Nahar Neela, Syed Ali Asif, Amit Seal Ami, Alim Ul Gias; Journal of Software  2016  A Static Code Search Technique to Identify Dead Fields by Analyzing Usage of Setup Fields and Field Dependency in Test Code; Abdus Satter, Amit Seal Ami, Kazi Sakib; CDUD@ CLA  2015  Selecting best attributes for software defect prediction; Prianka Mandal, Amit Seal Ami; 2015 IEEE International WIE Conference on Electrical and Computer Engineering (WIECON-ECE) A Content Assist based Approach for Providing Rationale of Method Change for Object Oriented Programming, Amit Seal Ami, Shariful Islam, International Journal of Information Engineering and Electronic Business (IJIEEB), funded by ICT Fellowship  2014  An efficient approach for providing rationale of method change for object oriented programming; Amit Seal Ami, Md Shariful Islam; International Conference on Informatics, Electronics &amp;amp; Vision (ICIEV), funded by ICT Fellowship Cloud-niagara: A high availability and low overhead fault tolerance middleware for the cloud;Asif Imran, Alim Ul Gias, Rayhanur Rahman, Amit Seal, Tajkia Rahman, Farhan Ishraque, Kazi Sakib; 16th International Conference on Computer and Information Technology (ICCIT) A formal approach to verify software scalability requirements using set theory and Hoare triple; Alim Ul Gias, Mirza Rehenuma Tabassum, Amit Seal Ami, Asif Imran, Mohammad Ibrahim, Rayhanur Rahman, Kazi Sakib; 16th International Conference on Computer and Information Technology (ICCIT)  2013  Face Recognition and Adaptation for Secure Human Computer Interaction; SM Khaled, AU Gias, A Seal, M Hasanuzzaman; International Journal of Advanced Computer Science  </description>
     </item>
     
     <item>
@@ -35,9 +37,7 @@
       <pubDate>Mon, 01 Jan 2018 01:00:00 +0600</pubDate>
       
       <guid>https://amitsealami.github.io/research/</guid>
-      <description>Research/Funded Projects Mobile Application Testing Lab - ICT Innovation Fund 2015
-
- The team members of this innovation fund project are Dr. Kazi Sakib, Md. Rayhanur Rahman and me, Amit Seal Ami. The target was to help make mobile application testing easier for both beginner and expert level mobile app developers. We targeted primarily Android app developers and created MobiCoMonkey, previously known as MobileMonkey. The project concluded satisfactorily in 2017.</description>
+      <description>Research/Funded Projects Mobile Application Testing Lab - ICT Innovation Fund 2015 The team members of this innovation fund project are Dr. Kazi Sakib, Md. Rayhanur Rahman and me, Amit Seal Ami. The target was to help make mobile application testing easier for both beginner and expert level mobile app developers. We targeted primarily Android app developers and created MobiCoMonkey, previously known as MobileMonkey. The project concluded satisfactorily in 2017.</description>
     </item>
     
     <item>
@@ -65,8 +65,9 @@
       <pubDate>Mon, 01 Jan 2018 01:00:00 +0600</pubDate>
       
       <guid>https://amitsealami.github.io/associations/</guid>
-      <description> I am frequently invited as Judge, Speaker and Mentor at various events due to my previous achievements as participants and contributions in similar events. Some of these are:
-2017  Seminar Speaker at Application Life Cycle Management (ALM), BASIS SoftExpo Mentor and Judge, Daffodil International University App Contest  2016  Mentor and Judge, National Hackathon Mentor, Smart City Hackathon Panel Speaker at Facebook’s F8 Meetup at Bangladesh Speaker at International Women’s Day Celebration - by IEEE AIUB Student Branch and Google Women Techmakers Bangladesh Judge, EATL-Prothom Alo App contest  2015  Moderator, IEEE Pro-Talk Technical Session on Mobile Apps Lifecycle and Ecosystem at EATL- Prothom Alo App Contest 2015 Bootcamp  2007  Vice President, Notre Dame English Club  </description>
+      <description>I am frequently invited as Judge, Speaker and/or Mentor at various events due to my previous achievements as participants and contributions in similar events. Some of these are:
+2018 Tech for Peace Initiative
+2017  Seminar Speaker, Application Life Cycle Management (ALM), BASIS SoftExpo Mentor and Judge, Daffodil International University App Contest Speaker, International Women’s Day Celebration, Google Women Techmakers Bangladesh and Barisal University  2016  Mentor and Judge, National Hackathon Mentor, Smart City Hackathon Panel Speaker, Facebook’s F8 Meetup at Bangladesh Speaker, International Women’s Day Celebration - by IEEE AIUB Student Branch and Google Women Techmakers Bangladesh Judge, EATL-Prothom Alo App contest  2015  Moderator, IEEE Pro-Talk Technical Session on Mobile Apps Lifecycle and Ecosystem at EATL-Prothom Alo App Contest 2015 Bootcamp  2013  Youth Delegate, 100 Youth Delegate to India from Bangladesh  2009-2012  Event Contact and Organizer, Institute of Information Technology, University of Dhaka As the representative of the Director, Institute of Information Technology, University of Dhaka, I communicated with different public and private organizations regarding different types of event organization.</description>
     </item>
     
     <item>
