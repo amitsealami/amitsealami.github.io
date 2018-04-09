@@ -1,0 +1,445 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Industrial attachment</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+    span.foldopened { color: white; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: visible;
+    cursor:pointer; }
+
+
+    span.foldclosed { color: #666666; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: hidden;
+    cursor:pointer; }
+
+    span.foldspecial { color: #666666; font-size: xx-small; border-style: none solid solid none;
+    border-color: #CCCCCC; border-width: 1; font-family: sans-serif; padding: 0em 0.1em 0em 0.1em; background: #e0e0e0;
+    cursor:pointer; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+
+<script type="text/javascript">
+   // Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+   // Mozilla 0.9.6.
+
+   if (document.layers) {
+      //Netscape 4 specific code
+      pre = 'document.';
+      post = ''; }
+   if (document.getElementById) {
+      //Netscape 6 specific code
+      pre = 'document.getElementById("';
+      post = '").style'; }
+   if (document.all) {
+      //IE4+ specific code
+      pre = 'document.all.';
+      post = '.style'; }
+
+function layer_exists(layer) {
+   try {
+      eval(pre + layer + post);
+      return true; }
+   catch (error) {
+      return false; }}
+
+function show_layer(layer) {
+   eval(pre + layer + post).position = 'relative'; 
+   eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+   eval(pre + layer + post).visibility = 'hidden';
+   eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder)
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+   var i;
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folding_layer(folder+'_'+i); }
+
+   hide_layer('hide'+folder);
+   hide_layer('show'+folder);
+   hide_layer('fold'+folder);
+
+   scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="fold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="unfold_document()">All -</SPAN>
+<p><span style="font-family: SansSerif, sans-serif; ">Industrial attachment</span>
+<ul><li><span style="font-family: SansSerif, sans-serif; ">Attached With Industry after enrollment at IIT - Intern Industrial Attachment</span>
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">Already attached with Industry</span>
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">Tasks</span>
+<ul><li><span style="font-family: SansSerif, sans-serif; ">Brief students about internship</span>
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">Tell them to Make CVs</span>
+
+</li>
+<li><span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Confirm Number of Interns in Companies</span>
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 3 Months Before Internship month start</span>
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">Call through contact persons, make initial confirmation</span>
+
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">Send emails to companies</span>
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_2" class="foldclosed" onClick="show_folder('1_2')" style="POSITION: absolute">+</span> <span id="hide1_2" class="foldopened" onClick="hide_folder('1_2')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Collect Intern Interested Fields</span>
+<ul id="fold1_2" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 3 months before internship month start</span>
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_3" class="foldclosed" onClick="show_folder('1_3')" style="POSITION: absolute">+</span> <span id="hide1_3" class="foldopened" onClick="hide_folder('1_3')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Send interns carrying letter to companies</span>
+<ul id="fold1_3" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 2 months before internship month start</span>
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_4" class="foldclosed" onClick="show_folder('1_4')" style="POSITION: absolute">+</span> <span id="hide1_4" class="foldopened" onClick="hide_folder('1_4')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Selected interns sent with confirmation letter to company </span>
+<ul id="fold1_4" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 1.5 Months before internship month start</span>
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_5" class="foldclosed" onClick="show_folder('1_5')" style="POSITION: absolute">+</span> <span id="hide1_5" class="foldopened" onClick="hide_folder('1_5')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Call supervisors</span>
+<ul id="fold1_5" style="POSITION: relative; VISIBILITY: visible;"><li><p><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 2 months After internship starts </span>
+<p><span style="font-family: SansSerif, sans-serif; ">Objective: the status of interns, inform them about the evaluation procedure, their impactful role and importance of industry academia collaboration</span>
+</li>
+</ul>
+</li>
+<li><span id="show1_6" class="foldclosed" onClick="show_folder('1_6')" style="POSITION: absolute">+</span> <span id="hide1_6" class="foldopened" onClick="hide_folder('1_6')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">First Presentation - Midterm</span>
+<ul id="fold1_6" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 3rd month, third working Saturday from 10AM</span>
+
+</li>
+<li><span id="show1_6_1" class="foldclosed" onClick="show_folder('1_6_1')" style="POSITION: absolute">+</span> <span id="hide1_6_1" class="foldopened" onClick="hide_folder('1_6_1')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Group presentation</span>
+<ul id="fold1_6_1" style="POSITION: relative; VISIBILITY: visible;"><li>2 members least, 3 members at most
+
+</li>
+<li><span id="show1_6_1_1" class="foldclosed" onClick="show_folder('1_6_1_1')" style="POSITION: absolute">+</span> <span id="hide1_6_1_1" class="foldopened" onClick="hide_folder('1_6_1_1')">-</span>
+Marking Criteria (25)
+<ul id="fold1_6_1_1" style="POSITION: relative; VISIBILITY: visible;"><li>Presentation (5)
+
+</li>
+<li><span id="show1_6_1_1_1" class="foldclosed" onClick="show_folder('1_6_1_1_1')" style="POSITION: absolute">+</span> <span id="hide1_6_1_1_1" class="foldopened" onClick="hide_folder('1_6_1_1_1')">-</span>
+Timing &nbsp;(5)
+<ul id="fold1_6_1_1_1" style="POSITION: relative; VISIBILITY: visible;"><li><p>Each person will be given 5 minutes for the presentation, thus - each group will have 10-15 minutes for presentation in total.
+</li>
+</ul>
+</li>
+<li>Company Introduction (5)
+
+</li>
+<li>Company Culture (5)
+
+</li>
+<li>Your activities till now (5)
+
+</li>
+
+</ul>
+</li>
+<li>Upload Presentation the day before Presentation day within 5PM
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_7" class="foldclosed" onClick="show_folder('1_7')" style="POSITION: absolute">+</span> <span id="hide1_7" class="foldopened" onClick="hide_folder('1_7')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Send Supervisors Intern Evalution Form</span>
+<ul id="fold1_7" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 1st Working Saturday, 5th Month</span>
+
+</li>
+<li><span id="show1_7_1" class="foldclosed" onClick="show_folder('1_7_1')" style="POSITION: absolute">+</span> <span id="hide1_7_1" class="foldopened" onClick="hide_folder('1_7_1')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Intern Evaluation Collection</span>
+<ul id="fold1_7_1" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 2nd Working Saturday, same month</span>
+
+</li>
+<li>Submission method: by students or by scanned copy
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_7_2" class="foldclosed" onClick="show_folder('1_7_2')" style="POSITION: absolute">+</span> <span id="hide1_7_2" class="foldopened" onClick="hide_folder('1_7_2')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Marking Criteria (60)</span>
+<ul id="fold1_7_2" style="POSITION: relative; VISIBILITY: visible;"><li>Attitude
+
+</li>
+<li>Ability to Learn
+
+</li>
+<li>Dependability
+
+</li>
+<li>Initiative
+
+</li>
+<li>Quality of Work
+
+</li>
+<li>Relations with others
+
+</li>
+<li>Matuirity - Poise
+
+</li>
+<li>Quantity of Work
+
+</li>
+<li>Judgement
+
+</li>
+<li>Attendance
+
+</li>
+<li>Puncuality
+
+</li>
+<li>Overall Performance
+
+</li>
+<li><span id="show1_7_2_1" class="foldclosed" onClick="show_folder('1_7_2_1')" style="POSITION: absolute">+</span> <span id="hide1_7_2_1" class="foldopened" onClick="hide_folder('1_7_2_1')">-</span>
+Comments
+<ul id="fold1_7_2_1" style="POSITION: relative; VISIBILITY: visible;"><li>Help / Hindering Factors
+
+</li>
+<li>Potential
+
+</li>
+<li>Recommendation regarding future employment
+
+</li>
+<li>Next semester IIT Interns?
+
+</li>
+<li>Evaluation shown to stdents?
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_8" class="foldclosed" onClick="show_folder('1_8')" style="POSITION: absolute">+</span> <span id="hide1_8" class="foldopened" onClick="hide_folder('1_8')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Final Report Submission</span>
+<ul id="fold1_8" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 5th Month, 2nd Working Saturday</span>
+
+</li>
+<li><span id="show1_8_1" class="foldclosed" onClick="show_folder('1_8_1')" style="POSITION: absolute">+</span> <span id="hide1_8_1" class="foldopened" onClick="hide_folder('1_8_1')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Report</span>
+<ul id="fold1_8_1" style="POSITION: relative; VISIBILITY: visible;"><li>Company
+
+</li>
+<li>Soft Skills
+
+</li>
+<li>Technical Skills
+
+</li>
+<li>Contributions
+
+</li>
+<li>Report organization
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_8_2" class="foldclosed" onClick="show_folder('1_8_2')" style="POSITION: absolute">+</span> <span id="hide1_8_2" class="foldopened" onClick="hide_folder('1_8_2')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Submission in both soft and hard copy format</span>
+<ul id="fold1_8_2" style="POSITION: relative; VISIBILITY: visible;"><li><span id="show1_8_2_1" class="foldclosed" onClick="show_folder('1_8_2_1')" style="POSITION: absolute">+</span> <span id="hide1_8_2_1" class="foldopened" onClick="hide_folder('1_8_2_1')">-</span>
+Soft Copy
+<ul id="fold1_8_2_1" style="POSITION: relative; VISIBILITY: visible;"><li>PDF
+
+</li>
+<li>Text
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span style="font-family: SansSerif, sans-serif; ">Must contain company's signature, sign, approval, no breach of secret information</span>
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9" class="foldclosed" onClick="show_folder('1_9')" style="POSITION: absolute">+</span> <span id="hide1_9" class="foldopened" onClick="hide_folder('1_9')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Prepare Committees, assign students and Distribute Reports</span>
+<ul id="fold1_9" style="POSITION: relative; VISIBILITY: visible;"><li><span id="show1_9_1" class="foldclosed" onClick="show_folder('1_9_1')" style="POSITION: absolute">+</span> <span id="hide1_9_1" class="foldopened" onClick="hide_folder('1_9_1')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Marking Criteria (25)</span>
+<ul id="fold1_9_1" style="POSITION: relative; VISIBILITY: visible;"><li>Company (5)
+
+</li>
+<li>Soft Skills (5)
+
+</li>
+<li>Technical Skills (5)
+
+</li>
+<li>Contributions (5)
+
+</li>
+<li>Report organization (5)
+
+</li>
+
+</ul>
+</li>
+<li><span id="show1_9_2" class="foldclosed" onClick="show_folder('1_9_2')" style="POSITION: absolute">+</span> <span id="hide1_9_2" class="foldopened" onClick="hide_folder('1_9_2')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Plagiarism Checking</span>
+<ul id="fold1_9_2" style="POSITION: relative; VISIBILITY: visible;"><li>Plagiarised Reports receive -10 marks
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_10" class="foldclosed" onClick="show_folder('1_10')" style="POSITION: absolute">+</span> <span id="hide1_10" class="foldopened" onClick="hide_folder('1_10')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Final Presentation</span>
+<ul id="fold1_10" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 5th Month, third Working Saturday</span>
+
+</li>
+<li><span id="show1_10_1" class="foldclosed" onClick="show_folder('1_10_1')" style="POSITION: absolute">+</span> <span id="hide1_10_1" class="foldopened" onClick="hide_folder('1_10_1')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Individual Presentation</span>
+<ul id="fold1_10_1" style="POSITION: relative; VISIBILITY: visible;"><li>15 minutes per person
+
+</li>
+<li><span id="show1_10_1_1" class="foldclosed" onClick="show_folder('1_10_1_1')" style="POSITION: absolute">+</span> <span id="hide1_10_1_1" class="foldopened" onClick="hide_folder('1_10_1_1')">-</span>
+Marking Criteria
+<ul id="fold1_10_1_1" style="POSITION: relative; VISIBILITY: visible;"><li>Presentation (5)
+
+</li>
+<li>Technical Skills Development (5)
+
+</li>
+<li>Soft Skills Development (5)
+
+</li>
+<li>What you did (5)
+
+</li>
+<li>Your contributions (5)
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li><span id="show1_11" class="foldclosed" onClick="show_folder('1_11')" style="POSITION: absolute">+</span> <span id="hide1_11" class="foldopened" onClick="hide_folder('1_11')">-</span>
+<span style="font-family: SansSerif, sans-serif; ">Send thank you emails to Supervisors</span>
+<ul id="fold1_11" style="POSITION: relative; VISIBILITY: visible;"><li><span style="font-family: SansSerif, sans-serif; font-weight: bold; ">Time: 6th Month, 2nd Saturday</span>
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul><SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
+</body>
+</html>
