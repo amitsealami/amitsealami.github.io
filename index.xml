@@ -71,6 +71,15 @@ M.Sc. thesis: An Efficient Approach for Providing Rationale of Method Change by 
     </item>
     
     <item>
+      <title>Introduction to Software Metrics</title>
+      <link>https://amitsealami.github.io/materials/se843/1/</link>
+      <pubDate>Tue, 11 Jul 2017 00:01:01 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/se843/1/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>SE843: Software Metrics</title>
       <link>https://amitsealami.github.io/materials/se843/</link>
       <pubDate>Tue, 11 Jul 2017 00:00:01 +0600</pubDate>
@@ -81,13 +90,23 @@ M.Sc. thesis: An Efficient Approach for Providing Rationale of Method Change by 
     </item>
     
     <item>
-      <title>Applied Data Science</title>
-      <link>https://amitsealami.github.io/materials/applied_datascience/</link>
-      <pubDate>Thu, 22 Jun 2017 03:19:01 +0600</pubDate>
+      <title>Tips and Tricks</title>
+      <link>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</link>
+      <pubDate>Thu, 22 Jun 2017 03:19:03 +0600</pubDate>
       
-      <guid>https://amitsealami.github.io/materials/applied_datascience/</guid>
-      <description>Hello! This is the page for Applied Data Science Course offered at IIT, University of Dhaka. The contents are provided below:
- Getting Started - Setting up the environment Tips and Tricks  </description>
+      <guid>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</guid>
+      <description>&lt;p&gt;This article covers some necessary commands related to hadoop.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Setting up Work Environment</title>
+      <link>https://amitsealami.github.io/materials/applied_datascience/setting_up/</link>
+      <pubDate>Thu, 22 Jun 2017 03:19:02 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/applied_datascience/setting_up/</guid>
+      <description>&lt;p&gt;We will be using the Cloudera-Udacity Hadoop course materials.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -127,11 +146,29 @@ M.Sc. thesis: An Efficient Approach for Providing Rationale of Method Change by 
     </item>
     
     <item>
+      <title>Measuring Internal Product Attributes - Structure</title>
+      <link>https://amitsealami.github.io/materials/se843/9/</link>
+      <pubDate>Sun, 30 Oct 2016 08:29:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/se843/9/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
       <title>Activity Monitoring in Android</title>
       <link>https://amitsealami.github.io/materials/pgdit207/activity/</link>
       <pubDate>Mon, 24 Oct 2016 23:29:00 +0000</pubDate>
       
       <guid>https://amitsealami.github.io/materials/pgdit207/activity/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Measuring Internal Product Attributes - Size</title>
+      <link>https://amitsealami.github.io/materials/se843/8/</link>
+      <pubDate>Mon, 24 Oct 2016 23:29:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/se843/8/</guid>
       <description> </description>
     </item>
     

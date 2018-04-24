@@ -38,13 +38,23 @@
   </url>
   
   <url>
+    <loc>https://amitsealami.github.io/materials/se843/1/</loc>
+    <lastmod>2017-07-11T00:01:01+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amitsealami.github.io/materials/se843/</loc>
     <lastmod>2017-07-11T00:00:01+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://amitsealami.github.io/materials/applied_datascience/</loc>
-    <lastmod>2017-06-22T03:19:01+06:00</lastmod>
+    <loc>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</loc>
+    <lastmod>2017-06-22T03:19:03+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/applied_datascience/setting_up/</loc>
+    <lastmod>2017-06-22T03:19:02+06:00</lastmod>
   </url>
   
   <url>
@@ -68,14 +78,47 @@
   </url>
   
   <url>
+    <loc>https://amitsealami.github.io/materials/se843/9/</loc>
+    <lastmod>2016-10-30T08:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amitsealami.github.io/materials/pgdit207/activity/</loc>
     <lastmod>2016-10-24T23:29:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://amitsealami.github.io/materials/se843/8/</loc>
+    <lastmod>2016-10-24T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amitsealami.github.io/materials/</loc>
-    <lastmod>2017-07-11T00:00:01+06:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/applied_datascience/</loc>
+    <lastmod>2017-06-22T03:19:03+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/ms1002/</loc>
+    <lastmod>2017-04-27T03:19:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/mysql/</loc>
+    <lastmod>2017-02-19T12:18:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/pgdit207/</loc>
+    <lastmod>2016-11-16T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/se843/</loc>
+    <lastmod>2017-07-11T00:01:01+06:00</lastmod>
   </url>
   
 </urlset>
