@@ -3,71 +3,65 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/blog/posts/nesting-hugo-blog-in-hugo-site/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
+    <loc>https://amitsealami.github.io/blog/posts/nesting-hugo-blog-in-hugo-site/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/posts/first/</loc>
+    <loc>https://amitsealami.github.io/blog/posts/first/</loc>
     <lastmod>2018-05-15T19:07:23+06:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
+    <loc>https://amitsealami.github.io/blog/posts/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/tags/blogging/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
+    <loc>https://amitsealami.github.io/blog/categories/blogging/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/categories/</loc>
+    <loc>https://amitsealami.github.io/blog/categories/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/categories/development/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
+    <loc>https://amitsealami.github.io/blog/tags/development/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/tags/hugo/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
+    <loc>https://amitsealami.github.io/blog/categories/development/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/posts/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
+    <loc>https://amitsealami.github.io/blog/tags/hugo/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/tags/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
+    <loc>https://amitsealami.github.io/blog/categories/hugo/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/blog/tags/tutorial/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/blog/categories/vim/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/blog/tags/website/</loc>
-    <lastmod>2018-05-15T20:53:00+06:00</lastmod>
+    <loc>https://amitsealami.github.io/blog/tags/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   

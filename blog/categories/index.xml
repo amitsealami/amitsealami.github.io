@@ -2,29 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Blog | Amit Seal Ami</title>
-    <link>/blog/categories/</link>
+    <link>https://amitsealami.github.io/blog/categories/</link>
     <description>Recent content in Categories on Blog | Amit Seal Ami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 22:01:09 +0600</lastBuildDate>
     
-	<atom:link href="/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amitsealami.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>/blog/categories/development/</link>
-      <pubDate>Tue, 15 May 2018 20:53:00 +0600</pubDate>
+      <title>Blogging</title>
+      <link>https://amitsealami.github.io/blog/categories/blogging/</link>
+      <pubDate>Tue, 15 May 2018 22:01:09 +0600</pubDate>
       
-      <guid>/blog/categories/development/</guid>
+      <guid>https://amitsealami.github.io/blog/categories/blogging/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Vim</title>
-      <link>/blog/categories/vim/</link>
-      <pubDate>Tue, 15 May 2018 20:53:00 +0600</pubDate>
+      <title>Development</title>
+      <link>https://amitsealami.github.io/blog/categories/development/</link>
+      <pubDate>Tue, 15 May 2018 22:01:09 +0600</pubDate>
       
-      <guid>/blog/categories/vim/</guid>
+      <guid>https://amitsealami.github.io/blog/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://amitsealami.github.io/blog/categories/hugo/</link>
+      <pubDate>Tue, 15 May 2018 22:01:09 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/categories/hugo/</guid>
       <description></description>
     </item>
     

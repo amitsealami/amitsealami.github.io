@@ -2,22 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Blog | Amit Seal Ami</title>
-    <link>/blog/tags/hugo/</link>
+    <link>https://amitsealami.github.io/blog/tags/hugo/</link>
     <description>Recent content in Hugo on Blog | Amit Seal Ami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 May 2018 20:53:00 +0600</lastBuildDate>
+    <lastBuildDate>Tue, 15 May 2018 22:01:09 +0600</lastBuildDate>
     
-	<atom:link href="/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amitsealami.github.io/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Nesting Hugo Blog in Hugo Site</title>
-      <link>/blog/posts/nesting-hugo-blog-in-hugo-site/</link>
-      <pubDate>Tue, 15 May 2018 20:53:00 +0600</pubDate>
+      <link>https://amitsealami.github.io/blog/posts/nesting-hugo-blog-in-hugo-site/</link>
+      <pubDate>Tue, 15 May 2018 22:01:09 +0600</pubDate>
       
-      <guid>/blog/posts/nesting-hugo-blog-in-hugo-site/</guid>
-      <description></description>
+      <guid>https://amitsealami.github.io/blog/posts/nesting-hugo-blog-in-hugo-site/</guid>
+      <description>Here is the scenario: I wanted to include a blog in this website. That is, the blog http://amitsealami.github.io/blog will be in http://amitsealami.github.io. However, there were a few things I wanted to achieve with it:
+ The sites will be using different themes, configurations. In short, the parent and blog site will be separately handled. The blog should be AMP enabled The blog should have its own sitemap.xml file which won&amp;rsquo;t be interfering with the original site&amp;rsquo;s sitemap.</description>
     </item>
     
   </channel>
