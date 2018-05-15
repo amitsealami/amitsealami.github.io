@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog | Amit Seal Ami</title>
-    <link>/blog/</link>
-    <description>Recent content on Blog | Amit Seal Ami</description>
+    <title>Hugo on Blog | Amit Seal Ami</title>
+    <link>/blog/tags/hugo/</link>
+    <description>Recent content in Hugo on Blog | Amit Seal Ami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 May 2018 20:53:00 +0600</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/blog/posts/nesting-hugo-blog-in-hugo-site/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>/blog/posts/first/</link>
-      <pubDate>Tue, 15 May 2018 19:07:23 +0600</pubDate>
-      
-      <guid>/blog/posts/first/</guid>
-      <description>Hello World! This is going to be my blog regarding various topics!</description>
     </item>
     
   </channel>
