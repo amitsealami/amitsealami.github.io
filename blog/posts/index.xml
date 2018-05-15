@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Blog | Amit Seal Ami</title>
+    <link>https://amitsealamig.github.io/blog/posts/</link>
+    <description>Recent content in Posts on Blog | Amit Seal Ami</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 May 2018 19:07:23 +0600</lastBuildDate>
+    
+	<atom:link href="https://amitsealamig.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First</title>
+      <link>https://amitsealamig.github.io/blog/posts/first/</link>
+      <pubDate>Tue, 15 May 2018 19:07:23 +0600</pubDate>
+      
+      <guid>https://amitsealamig.github.io/blog/posts/first/</guid>
+      <description>Hello World! This is going to be my blog regarding various topics!</description>
+    </item>
+    
+  </channel>
+</rss>
