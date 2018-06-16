@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://amitsealami.github.io/blog/posts/zotero-for-research-paper-management/</loc>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amitsealami.github.io/blog/posts/nesting-hugo-blog-in-hugo-site/</loc>
     <lastmod>2018-05-15T22:01:09+06:00</lastmod>
   </url>
@@ -14,12 +19,12 @@
   
   <url>
     <loc>https://amitsealami.github.io/blog/posts/</loc>
-    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://amitsealami.github.io/blog/</loc>
-    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -60,8 +65,44 @@
   </url>
   
   <url>
+    <loc>https://amitsealami.github.io/blog/tags/research/</loc>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/categories/research/</loc>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://amitsealami.github.io/blog/tags/</loc>
     <lastmod>2018-05-15T22:01:09+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/tags/tips/</loc>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/tags/tutorial/</loc>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/categories/zotero/</loc>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/tags/zotfile/</loc>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
     <priority>0</priority>
   </url>
   
