@@ -52,19 +52,13 @@
   </url>
   
   <url>
-    <loc>https://amitsealami.github.io/blog/tags/development/</loc>
-    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://amitsealami.github.io/blog/categories/development/</loc>
     <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://amitsealami.github.io/blog/tags/hugo/</loc>
+    <loc>https://amitsealami.github.io/blog/tags/development/</loc>
     <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
@@ -76,13 +70,19 @@
   </url>
   
   <url>
-    <loc>https://amitsealami.github.io/blog/tags/research/</loc>
-    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
+    <loc>https://amitsealami.github.io/blog/tags/hugo/</loc>
+    <lastmod>2018-05-15T22:01:09+06:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://amitsealami.github.io/blog/categories/research/</loc>
+    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/tags/research/</loc>
     <lastmod>2018-06-16T00:58:44+06:00</lastmod>
     <priority>0</priority>
   </url>
