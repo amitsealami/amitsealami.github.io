@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://amitsealami.github.io/blog/posts/installing-ubuntu-in-nvidia-optimus/</loc>
+    <lastmod>2018-08-25T00:00:21-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://amitsealami.github.io/blog/posts/visiting-sweden-2/</loc>
     <lastmod>2018-06-28T00:21:33+06:00</lastmod>
   </url>
@@ -29,18 +34,18 @@
   
   <url>
     <loc>https://amitsealami.github.io/blog/posts/</loc>
-    <lastmod>2018-06-28T00:21:33+06:00</lastmod>
+    <lastmod>2018-08-25T00:00:21-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://amitsealami.github.io/blog/categories/blog/</loc>
-    <lastmod>2018-06-28T00:21:33+06:00</lastmod>
+    <lastmod>2018-08-25T00:00:21-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://amitsealami.github.io/blog/</loc>
-    <lastmod>2018-06-28T00:21:33+06:00</lastmod>
+    <lastmod>2018-08-25T00:00:21-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -52,7 +57,7 @@
   
   <url>
     <loc>https://amitsealami.github.io/blog/categories/</loc>
-    <lastmod>2018-06-28T00:21:33+06:00</lastmod>
+    <lastmod>2018-08-25T00:00:21-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -77,6 +82,12 @@
   <url>
     <loc>https://amitsealami.github.io/blog/categories/hugo/</loc>
     <lastmod>2018-05-15T22:01:09+06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/tags/linux/</loc>
+    <lastmod>2018-08-25T00:00:21-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -106,7 +117,13 @@
   
   <url>
     <loc>https://amitsealami.github.io/blog/tags/tutorial/</loc>
-    <lastmod>2018-06-16T00:58:44+06:00</lastmod>
+    <lastmod>2018-08-25T00:00:21-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/categories/tutorial/</loc>
+    <lastmod>2018-08-25T00:00:21-05:00</lastmod>
     <priority>0</priority>
   </url>
   

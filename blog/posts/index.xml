@@ -6,10 +6,19 @@
     <description>Recent content on Blog of Amit Seal Ami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jun 2018 00:21:33 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 25 Aug 2018 00:00:21 -0500</lastBuildDate>
     
 	<atom:link href="https://amitsealami.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5</title>
+      <link>https://amitsealami.github.io/blog/posts/installing-ubuntu-in-nvidia-optimus/</link>
+      <pubDate>Sat, 25 Aug 2018 00:00:21 -0500</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/posts/installing-ubuntu-in-nvidia-optimus/</guid>
+      <description>So.. yeah. You are probably here, pissed off, angry at your NVidia Prime / Optimus Laptop because - It does not allow you to even Try Ubuntu/Kubuntu because it freezes - It throws &amp;ldquo;dell smbios unable to tun on non dell system for installing&amp;rdquo; - You installed Ubuntu/Kubuntu directly by clicking on Install Ubuntu/Kubuntu - but it does not start - You installed Ubuntu/Kubuntu directly by clicking on Install Ubuntu/Kubuntu - but when you login, it shows a black screen with plasma icon, and freezes</description>
+    </item>
     
     <item>
       <title>সুইডেনের পথে, ICSE এর সাথে - পর্ব ২</title>

@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Blog of Amit Seal Ami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jun 2018 00:21:33 +0600</lastBuildDate>
+    <lastBuildDate>Sat, 25 Aug 2018 00:00:21 -0500</lastBuildDate>
     
 	<atom:link href="https://amitsealami.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Blog</title>
       <link>https://amitsealami.github.io/blog/categories/blog/</link>
-      <pubDate>Thu, 28 Jun 2018 00:21:33 +0600</pubDate>
+      <pubDate>Sat, 25 Aug 2018 00:00:21 -0500</pubDate>
       
       <guid>https://amitsealami.github.io/blog/categories/blog/</guid>
       <description></description>
@@ -53,6 +53,15 @@
       <pubDate>Sat, 16 Jun 2018 00:58:44 +0600</pubDate>
       
       <guid>https://amitsealami.github.io/blog/categories/research/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://amitsealami.github.io/blog/categories/tutorial/</link>
+      <pubDate>Sat, 25 Aug 2018 00:00:21 -0500</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/categories/tutorial/</guid>
       <description></description>
     </item>
     
