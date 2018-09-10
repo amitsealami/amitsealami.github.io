@@ -194,18 +194,18 @@ GRUB_CMDLINE_LINUX=&quot;nodemodeset&quot;</code></p>
 <p>make it like:</p>
 
 <p><code>GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet splash nouveau.runpm=0&quot;
-GRUB_CMDLINE_LINUX=&quot;&quot;</code>
+GRUB_CMDLINE_LINUX=&quot;nouveau.modeset=0&quot;</code>
 and save it</p></li>
+</ul>
 
-<li><p>time to select your graphics driver. There are two options, Nvidia and intel. You should change to intel when you need to save power.</p></li>
+<p>The reason for changing it because without it; your laptop will not be going to sleep and waking up properly.</p>
 
-<li><p><code>sudo prime-select intel</code></p></li>
-
-<li><p>and you will see that it is remaking the initramfs image, rewriting the grub and other things.</p></li>
-
-<li><p>reboot, and you will see that the lagging stopped. if you want to switch to your nvidia graphics, use</p></li>
-
-<li><p><code>sudo prime-select nvidia</code>, reboot. Using this is not recommended as it will significantly increase the battery consumption.</p></li>
+<ul>
+<li>time to select your graphics driver. There are two options, Nvidia and intel. You should change to intel when you need to save power.</li>
+<li><code>sudo prime-select intel</code></li>
+<li>and you will see that it is remaking the initramfs image, rewriting the grub and other things.</li>
+<li>reboot, and you will see that the lagging stopped. if you want to switch to your nvidia graphics, use</li>
+<li><code>sudo prime-select nvidia</code>, reboot. Using this is not recommended as it will significantly increase the battery consumption.</li>
 </ul>
 
 <p>This should be all!</p>
