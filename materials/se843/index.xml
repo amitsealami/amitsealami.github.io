@@ -1,2 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Amit Seal Ami</title><link>https://amitsealami.github.io/materials/se843/</link><description>Recent content on Amit Seal Ami</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Jul 2017 00:01:01 +0600</lastBuildDate><atom:link href="https://amitsealami.github.io/materials/se843/index.xml" rel="self" type="application/rss+xml"/><item><title>Introduction to Software Metrics</title><link>https://amitsealami.github.io/materials/se843/1/</link><pubDate>Tue, 11 Jul 2017 00:01:01 +0600</pubDate><guid>https://amitsealami.github.io/materials/se843/1/</guid><description/></item><item><title>SE843: Software Metrics</title><link>https://amitsealami.github.io/materials/se843/</link><pubDate>Tue, 11 Jul 2017 00:00:01 +0600</pubDate><guid>https://amitsealami.github.io/materials/se843/</guid><description>Hello! This is the page for SE 843: Software Metrics offered at IIT, University of Dhaka. The contents are provided below:
-Introduction</description></item><item><title>Measuring Internal Product Attributes - Structure</title><link>https://amitsealami.github.io/materials/se843/9/</link><pubDate>Sun, 30 Oct 2016 08:29:00 +0000</pubDate><guid>https://amitsealami.github.io/materials/se843/9/</guid><description/></item><item><title>Measuring Internal Product Attributes - Size</title><link>https://amitsealami.github.io/materials/se843/8/</link><pubDate>Mon, 24 Oct 2016 23:29:00 +0000</pubDate><guid>https://amitsealami.github.io/materials/se843/8/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amit Seal Ami</title>
+    <link>https://amitsealami.github.io/materials/se843/</link>
+    <description>Recent content on Amit Seal Ami</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jul 2017 00:01:01 +0600</lastBuildDate>
+    
+	<atom:link href="https://amitsealami.github.io/materials/se843/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to Software Metrics</title>
+      <link>https://amitsealami.github.io/materials/se843/1/</link>
+      <pubDate>Tue, 11 Jul 2017 00:01:01 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/se843/1/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>SE843: Software Metrics</title>
+      <link>https://amitsealami.github.io/materials/se843/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:01 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/se843/</guid>
+      <description>Hello! This is the page for SE 843: Software Metrics offered at IIT, University of Dhaka. The contents are provided below:
+ Introduction  </description>
+    </item>
+    
+    <item>
+      <title>Measuring Internal Product Attributes - Structure</title>
+      <link>https://amitsealami.github.io/materials/se843/9/</link>
+      <pubDate>Sun, 30 Oct 2016 08:29:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/se843/9/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Measuring Internal Product Attributes - Size</title>
+      <link>https://amitsealami.github.io/materials/se843/8/</link>
+      <pubDate>Mon, 24 Oct 2016 23:29:00 +0000</pubDate>
+      
+      <guid>https://amitsealami.github.io/materials/se843/8/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

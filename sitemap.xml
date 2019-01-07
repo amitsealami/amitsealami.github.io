@@ -1,1 +1,128 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://amitsealami.github.io/experiences/</loc><lastmod>2018-01-01T01:00:00+06:00</lastmod></url><url><loc>https://amitsealami.github.io/publications/</loc><lastmod>2018-01-01T01:00:00+06:00</lastmod></url><url><loc>https://amitsealami.github.io/research/</loc><lastmod>2018-01-01T01:00:00+06:00</lastmod></url><url><loc>https://amitsealami.github.io/news/</loc><lastmod>2018-02-01T01:00:00+06:00</lastmod></url><url><loc>https://amitsealami.github.io/courses/</loc><lastmod>2018-01-01T01:00:00+00:00</lastmod></url><url><loc>https://amitsealami.github.io/associations/</loc><lastmod>2018-01-01T01:00:00+06:00</lastmod></url><url><loc>https://amitsealami.github.io/</loc><lastmod>2018-02-01T01:00:00+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/se843/1/</loc><lastmod>2017-07-11T00:01:01+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/se843/</loc><lastmod>2017-07-11T00:00:01+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</loc><lastmod>2017-06-22T03:19:03+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/applied_datascience/setting_up/</loc><lastmod>2017-06-22T03:19:02+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/ms1002/promotion/</loc><lastmod>2017-04-27T03:19:57+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/ms1002/schema-operators/</loc><lastmod>2017-04-27T03:19:57+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/mysql/mysql1/</loc><lastmod>2017-02-19T12:18:57+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/pgdit207/file/</loc><lastmod>2016-11-16T23:29:00+00:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/se843/9/</loc><lastmod>2016-10-30T08:29:00+00:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/pgdit207/activity/</loc><lastmod>2016-10-24T23:29:00+00:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/se843/8/</loc><lastmod>2016-10-24T23:29:00+00:00</lastmod></url><url><loc>https://amitsealami.github.io/blog/</loc></url><url><loc>https://amitsealami.github.io/materials/</loc></url><url><loc>https://amitsealami.github.io/materials/applied_datascience/</loc><lastmod>2017-06-22T03:19:03+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/ms1002/</loc><lastmod>2017-04-27T03:19:57+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/mysql/</loc><lastmod>2017-02-19T12:18:57+06:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/pgdit207/</loc><lastmod>2016-11-16T23:29:00+00:00</lastmod></url><url><loc>https://amitsealami.github.io/materials/se843/</loc><lastmod>2017-07-11T00:01:01+06:00</lastmod></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://amitsealami.github.io/experiences/</loc>
+    <lastmod>2018-01-01T01:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/publications/</loc>
+    <lastmod>2018-01-01T01:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/research/</loc>
+    <lastmod>2018-01-01T01:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/news/</loc>
+    <lastmod>2018-02-01T01:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/courses/</loc>
+    <lastmod>2018-01-01T01:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/associations/</loc>
+    <lastmod>2018-01-01T01:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/</loc>
+    <lastmod>2018-02-01T01:00:00+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/se843/1/</loc>
+    <lastmod>2017-07-11T00:01:01+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/se843/</loc>
+    <lastmod>2017-07-11T00:00:01+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/applied_datascience/necessary_commands/</loc>
+    <lastmod>2017-06-22T03:19:03+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/applied_datascience/setting_up/</loc>
+    <lastmod>2017-06-22T03:19:02+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/ms1002/promotion/</loc>
+    <lastmod>2017-04-27T03:19:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/ms1002/schema-operators/</loc>
+    <lastmod>2017-04-27T03:19:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/mysql/mysql1/</loc>
+    <lastmod>2017-02-19T12:18:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/pgdit207/file/</loc>
+    <lastmod>2016-11-16T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/se843/9/</loc>
+    <lastmod>2016-10-30T08:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/pgdit207/activity/</loc>
+    <lastmod>2016-10-24T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/se843/8/</loc>
+    <lastmod>2016-10-24T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/blog/</loc>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/</loc>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/applied_datascience/</loc>
+    <lastmod>2017-06-22T03:19:03+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/ms1002/</loc>
+    <lastmod>2017-04-27T03:19:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/mysql/</loc>
+    <lastmod>2017-02-19T12:18:57+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/pgdit207/</loc>
+    <lastmod>2016-11-16T23:29:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://amitsealami.github.io/materials/se843/</loc>
+    <lastmod>2017-07-11T00:01:01+06:00</lastmod>
+  </url>
+  
+</urlset>
