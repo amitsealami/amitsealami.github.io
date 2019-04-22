@@ -1,1 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>My page on Blog of Amit Seal Ami</title><link>https://amitsealami.github.io/blog/posts/</link><description>Recent content in My page on Blog of Amit Seal Ami</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 15 May 2018 19:07:23 +0600</lastBuildDate><atom:link href="https://amitsealami.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>First</title><link>https://amitsealami.github.io/blog/posts/first/</link><pubDate>Tue, 15 May 2018 19:07:23 +0600</pubDate><guid>https://amitsealami.github.io/blog/posts/first/</guid><description>Hello World! This is going to be my blog regarding various topics!</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog of Amit Seal Ami</title>
+    <link>https://amitsealami.github.io/blog/posts/</link>
+    <description>Recent content on Blog of Amit Seal Ami</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 25 Aug 2018 00:00:21 -0500</lastBuildDate>
+    
+	<atom:link href="https://amitsealami.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5</title>
+      <link>https://amitsealami.github.io/blog/posts/installing-ubuntu-in-nvidia-optimus/</link>
+      <pubDate>Sat, 25 Aug 2018 00:00:21 -0500</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/posts/installing-ubuntu-in-nvidia-optimus/</guid>
+      <description>So.. yeah. You are probably here, pissed off, angry at your NVidia Prime / Optimus Laptop because - It does not allow you to even Try Ubuntu/Kubuntu because it freezes - It throws &amp;ldquo;dell smbios unable to tun on non dell system for installing&amp;rdquo; - You installed Ubuntu/Kubuntu directly by clicking on Install Ubuntu/Kubuntu - but it does not start - You installed Ubuntu/Kubuntu directly by clicking on Install Ubuntu/Kubuntu - but when you login, it shows a black screen with plasma icon, and freezes</description>
+    </item>
+    
+    <item>
+      <title>সুইডেনের পথে, ICSE এর সাথে - পর্ব ২</title>
+      <link>https://amitsealami.github.io/blog/posts/visiting-sweden-2/</link>
+      <pubDate>Thu, 28 Jun 2018 00:21:33 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/posts/visiting-sweden-2/</guid>
+      <description>স্টকহোম থেকে গোটেবর্গ (লোকাল উচ্চারণ) আসার জন্য উঠেছিলাম SAS এর প্লেনে। এদের প্লেনে আবার ক্লাসিফিকেশন আছে লোকাল ফ্লাইটেও। যেমন SAS plus একাউন্ট থাকলে লাইনে আপনাকে আগে ঢুকতে দিবে, প্লেনের ভিতরে লেখা থাকবে এই সিটগুলো প্লাসের। আবার খাবারও ওদের বেশি বেশি দিবে। তো উঠার আগে লোকাল টার্মিনালের লাউঞ্জে বসে ছিলাম। ওখানেই দেখলাম 100% গ্রিন পাওয়ার। এরা যে কি পরিবেশ সচেতন বলা যাবে না। যাকগে, আমি প্লাস ছিলাম না বলে আমার প্লেনে কফি খেয়েই সারতে হয়েছে। সাধারণত ডোমেস্টিক ফ্লাইটে ছোট প্লেন ব্যবহার করে, আর ছোট প্লেন বেশি কাঁপে বলে আমার বরাবরই বেশ ভয় লাগে। এই প্লেনটা টেক অফ করার সময় চালকের মুন্সিয়ানার বেশ খুশি হলাম, বাহ - ভালো চালায় তো। কাপাকপি নাই। আগে শুনেছিলাম SAS এর পাইলটরা ক্রেজি, কথাটা অমূলক। ভাবতে না ভাবতেই প্লেন দিলো ডানদিকে টান। এমন টান যে মনে হলো পড়েই যাবো আরেকটু হলে। করে কি করে কি, ভাবতে ভাবতে নীচে তাকিয়ে অবাক হয়ে গেলাম। এমনিতেই সুইডেনে গাছপালায় ভর্তি। একটু উপরে উঠলেই গাছ আর গাছ। সেখানে দেখি বেশ সুন্দর এক একটা বিশাল লেক পার হয়ে যাচ্ছি। আবারও গোটেবর্গ এর কাছে গিয়ে টান মারা অংশটা বাদ দিলে আর তেমন কোন কিছু হয়নি।</description>
+    </item>
+    
+    <item>
+      <title>সুইডেনের পথে, ICSE এর সাথে - পর্ব ১</title>
+      <link>https://amitsealami.github.io/blog/posts/visiting-sweden-1/</link>
+      <pubDate>Wed, 27 Jun 2018 19:00:21 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/posts/visiting-sweden-1/</guid>
+      <description>দোহার এয়ারপোর্টে যাত্রাবিরতীর সময় এখানে আকাশ পথে আসার সময় যথারীতি কি পান করবো জিজ্ঞাসা করলে আমার উত্তর আপেল জুস আর আমের জুসেই ছিল।    দোহা এয়ারপোর্ট   দুর্ভাগ্যক্রমে শেষ আপেলের জুসের গ্লাস ফুটা ছিল, খেয়াল করিনি, প্যান্ট গেল ভিজে। পরে টিস্যু দিয়ে ডলাডলি করে সেরেছি। গরম বাতাসে শুকানোর ব্যবস্থা আছে নাকি জিজ্ঞাসা করায় এরা উত্তর দিলো আছে, কিন্তু হয় তোমার উপরে ঝুলে থাকতে হবে, নাহলে প্যান্ট খুলে উপরে ঝুলাতে হবে। দুঃখজনক ভাবে একটাও পছন্দ হয়নি। তবে এরা অনেকবার দুঃখ প্রকাশ করে টিস্যু সাপ্লাই দিয়েছে বলে আর কিছু বলি নাই।</description>
+    </item>
+    
+    <item>
+      <title>গবেষণার পেপার ম্যানেজ করার জন্য জোটেরো (Zotero)</title>
+      <link>https://amitsealami.github.io/blog/posts/zotero-for-research-paper-management/</link>
+      <pubDate>Sat, 16 Jun 2018 00:58:44 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/posts/zotero-for-research-paper-management/</guid>
+      <description>জটেরো (Zotero) একটা বেশ ভালো জিনিষ গবেষণা পত্র ম্যানেজ করার জন্য। এর আগে আমি Elsvier এর তৈরী করা Mendeley ব্যবহার করতাম। আর মেন্ডেলে লাইব্রেরি ম্যানেজার হিসাবে খুবই ভালো একটা টুল হলেও এটায় নিয়মিত sync এর সমস্যা হতো। ওটায় নিয়মিত PDF এ নোট করে সেগুলো সার্চ করা গেলেও সেই নোটগুলো আবার ওখানেই রয়ে যেত। ম্যানুয়ালি বার না করলে, আর লাইব্রেরি জনিত বিভ্রাট ঘটলে সেই নোটগুলো ফুরুত!
+সব মিলিয়ে অনেকের রিকমেন্ডেশনের পরে Zotero ব্যবহার করা শুরু করলাম।</description>
+    </item>
+    
+    <item>
+      <title>Nesting Hugo Blog in Hugo Site</title>
+      <link>https://amitsealami.github.io/blog/posts/nesting-hugo-blog-in-hugo-site/</link>
+      <pubDate>Tue, 15 May 2018 22:01:09 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/posts/nesting-hugo-blog-in-hugo-site/</guid>
+      <description>Here is the scenario: I wanted to include a blog in this website. That is, the blog http://amitsealami.github.io/blog will be in http://amitsealami.github.io. However, there were a few things I wanted to achieve with it:
+ The sites will be using different themes, configurations. In short, the parent and blog site will be separately handled. The blog should be AMP enabled The blog should have its own sitemap.xml file which won&amp;rsquo;t be interfering with the original site&amp;rsquo;s sitemap.</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://amitsealami.github.io/blog/posts/first/</link>
+      <pubDate>Tue, 15 May 2018 19:07:23 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/posts/first/</guid>
+      <description>Hello World! This is going to be my blog regarding various topics!</description>
+    </item>
+    
+  </channel>
+</rss>
