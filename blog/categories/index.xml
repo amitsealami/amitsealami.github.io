@@ -6,15 +6,24 @@
     <description>Recent content in Categories on Blog of Amit Seal Ami</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 Aug 2018 00:00:21 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 05 May 2019 11:53:04 -0400</lastBuildDate>
     
 	<atom:link href="https://amitsealami.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Bangladesh</title>
+      <link>https://amitsealami.github.io/blog/categories/bangladesh/</link>
+      <pubDate>Sun, 05 May 2019 11:53:04 -0400</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/categories/bangladesh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Blog</title>
       <link>https://amitsealami.github.io/blog/categories/blog/</link>
-      <pubDate>Sat, 25 Aug 2018 00:00:21 -0500</pubDate>
+      <pubDate>Sun, 05 May 2019 11:53:04 -0400</pubDate>
       
       <guid>https://amitsealami.github.io/blog/categories/blog/</guid>
       <description></description>
@@ -39,11 +48,29 @@
     </item>
     
     <item>
+      <title>Education</title>
+      <link>https://amitsealami.github.io/blog/categories/education/</link>
+      <pubDate>Sun, 05 May 2019 11:53:04 -0400</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/categories/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Hugo</title>
       <link>https://amitsealami.github.io/blog/categories/hugo/</link>
       <pubDate>Tue, 15 May 2018 22:01:09 +0600</pubDate>
       
       <guid>https://amitsealami.github.io/blog/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Others</title>
+      <link>https://amitsealami.github.io/blog/categories/others/</link>
+      <pubDate>Sun, 05 May 2019 11:53:04 -0400</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/categories/others/</guid>
       <description></description>
     </item>
     
@@ -57,11 +84,29 @@
     </item>
     
     <item>
+      <title>Travelling</title>
+      <link>https://amitsealami.github.io/blog/categories/travelling/</link>
+      <pubDate>Sat, 30 Jun 2018 00:13:55 +0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/categories/travelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Tutorial</title>
       <link>https://amitsealami.github.io/blog/categories/tutorial/</link>
       <pubDate>Sat, 25 Aug 2018 00:00:21 -0500</pubDate>
       
       <guid>https://amitsealami.github.io/blog/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usa</title>
+      <link>https://amitsealami.github.io/blog/categories/usa/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 -0600</pubDate>
+      
+      <guid>https://amitsealami.github.io/blog/categories/usa/</guid>
       <description></description>
     </item>
     

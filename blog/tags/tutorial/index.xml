@@ -13,21 +13,23 @@
     
     <item>
       <title>Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5</title>
-      <link>https://amitsealami.github.io/blog/posts/installing-ubuntu-in-nvidia-optimus/</link>
+      <link>https://amitsealami.github.io/blog/techie/installing-ubuntu-in-nvidia-optimus/</link>
       <pubDate>Sat, 25 Aug 2018 00:00:21 -0500</pubDate>
       
-      <guid>https://amitsealami.github.io/blog/posts/installing-ubuntu-in-nvidia-optimus/</guid>
-      <description>So.. yeah. You are probably here, pissed off, angry at your NVidia Prime / Optimus Laptop because - It does not allow you to even Try Ubuntu/Kubuntu because it freezes - It throws &amp;ldquo;dell smbios unable to tun on non dell system for installing&amp;rdquo; - You installed Ubuntu/Kubuntu directly by clicking on Install Ubuntu/Kubuntu - but it does not start - You installed Ubuntu/Kubuntu directly by clicking on Install Ubuntu/Kubuntu - but when you login, it shows a black screen with plasma icon, and freezes</description>
+      <guid>https://amitsealami.github.io/blog/techie/installing-ubuntu-in-nvidia-optimus/</guid>
+      <description>So.. yeah. You are probably here, pissed off, angry at your NVidia Prime / Optimus Laptop because - It does not allow you to even Try Ubuntu/Kubuntu because it freezes - It throws &amp;ldquo;dell smbios unable to tun on non dell system for installing&amp;rdquo; - You installed Ubuntu/Kubuntu directly by clicking on Install Ubuntu/Kubuntu - but it does not start - You installed Ubuntu/Kubuntu directly by clicking on Install Ubuntu/Kubuntu - but when you login, it shows a black screen with plasma icon, and freezes
+Well, welcome to the boat. I went through this hell as well. And this post comes with absolutely no certainty here that it will work.</description>
     </item>
     
     <item>
       <title>গবেষণার পেপার ম্যানেজ করার জন্য জোটেরো (Zotero)</title>
-      <link>https://amitsealami.github.io/blog/posts/zotero-for-research-paper-management/</link>
+      <link>https://amitsealami.github.io/blog/research/zotero-for-research-paper-management/</link>
       <pubDate>Sat, 16 Jun 2018 00:58:44 +0600</pubDate>
       
-      <guid>https://amitsealami.github.io/blog/posts/zotero-for-research-paper-management/</guid>
+      <guid>https://amitsealami.github.io/blog/research/zotero-for-research-paper-management/</guid>
       <description>জটেরো (Zotero) একটা বেশ ভালো জিনিষ গবেষণা পত্র ম্যানেজ করার জন্য। এর আগে আমি Elsvier এর তৈরী করা Mendeley ব্যবহার করতাম। আর মেন্ডেলে লাইব্রেরি ম্যানেজার হিসাবে খুবই ভালো একটা টুল হলেও এটায় নিয়মিত sync এর সমস্যা হতো। ওটায় নিয়মিত PDF এ নোট করে সেগুলো সার্চ করা গেলেও সেই নোটগুলো আবার ওখানেই রয়ে যেত। ম্যানুয়ালি বার না করলে, আর লাইব্রেরি জনিত বিভ্রাট ঘটলে সেই নোটগুলো ফুরুত!
-সব মিলিয়ে অনেকের রিকমেন্ডেশনের পরে Zotero ব্যবহার করা শুরু করলাম।</description>
+সব মিলিয়ে অনেকের রিকমেন্ডেশনের পরে Zotero ব্যবহার করা শুরু করলাম।
+Zotero এর সুবিধাগুলো  ব্রাউজারের সাথে ইন্টেগ্রেশন করা যায়। প্রায় যেকোন স্বীকৃত পেপারের সাইটে গিয়ে একটা বাটনে ক্লিক করলেই সেটার Reference আপনার Zotero তে চলে আসবে Sync এর সুবিধা - কাজেই আপনি আপনার লাইব্রেরিতে যা সেভ করবেন, সেগুলো থাকবে অন্যের তৈরী করা Add-on - ZotFile এর মাধ্যমে আপনি সহজেই PDF এ যা নোট করেছেন সেগুলো পেতে পারবেন। সেগুলো বার করে আনাও ভারি সহজ!</description>
     </item>
     
   </channel>
