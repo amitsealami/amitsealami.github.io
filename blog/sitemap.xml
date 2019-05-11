@@ -10,6 +10,13 @@
     </url>
   
     <url>
+        <loc>https://amitsealami.github.io/blog/others/</loc>
+        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+  
+    <url>
         <loc>https://amitsealami.github.io/blog/techie/</loc>
         <lastmod>2018-08-25T00:00:21-05:00</lastmod>
         <changefreq>weekly</changefreq>
@@ -24,8 +31,8 @@
     </url>
   
     <url>
-        <loc>https://amitsealami.github.io/blog/others/</loc>
-        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <loc>https://amitsealami.github.io/blog/onnanno/</loc>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -33,6 +40,20 @@
     <url>
         <loc>https://amitsealami.github.io/blog/sweden/</loc>
         <lastmod>2018-06-30T00:13:55+06:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+  
+    <url>
+        <loc>https://amitsealami.github.io/blog/onnanno/times-ranking-and-our-university/</loc>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+    </url>
+  
+    <url>
+        <loc>https://amitsealami.github.io/blog/onnanno/proposal-by-teachers-network-my-response/</loc>
+        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -129,21 +150,21 @@
   
     <url>
         <loc>https://amitsealami.github.io/blog/categories/bangladesh/</loc>
-        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0</priority>
     </url>
   
     <url>
         <loc>https://amitsealami.github.io/blog/tags/blog/</loc>
-        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0</priority>
     </url>
   
     <url>
         <loc>https://amitsealami.github.io/blog/categories/blog/</loc>
-        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0</priority>
     </url>
@@ -157,7 +178,7 @@
   
     <url>
         <loc>https://amitsealami.github.io/blog/categories/</loc>
-        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0</priority>
     </url>
@@ -178,7 +199,7 @@
   
     <url>
         <loc>https://amitsealami.github.io/blog/categories/education/</loc>
-        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0</priority>
     </url>
@@ -213,7 +234,7 @@
   
     <url>
         <loc>https://amitsealami.github.io/blog/categories/others/</loc>
-        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0</priority>
     </url>
@@ -290,7 +311,7 @@
   
     <url>
         <loc>https://amitsealami.github.io/blog/</loc>
-        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
@@ -311,7 +332,7 @@
   
     <url>
         <loc>https://amitsealami.github.io/blog/tags/%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE/</loc>
-        <lastmod>2019-05-05T11:53:04-04:00</lastmod>
+        <lastmod>2019-05-11T00:17:04-04:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0</priority>
     </url>
