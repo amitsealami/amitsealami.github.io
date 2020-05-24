@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/blog/sitemap.xml
+Sitemap: https://amitsealami.github.io/blog//blog/sitemap.xml
