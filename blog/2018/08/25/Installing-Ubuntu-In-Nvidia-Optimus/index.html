@@ -30,26 +30,26 @@
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
     <!-- Begin Jekyll SEO tag v2.6.1 -->
-<meta name="generator" content="Jekyll v3.8.6" />
+<meta name="generator" content="Jekyll v4.1.1" />
 <meta property="og:title" content="Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5" />
 <meta name="author" content="Amit Seal Ami" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Got anything like Try Ubuntu Freezes, Try Kubuntu Freezes, Ubuntu Nvidia Prime, kubuntu dell smbios unable to tun on non dell system for installing? You might try this." />
 <meta property="og:description" content="Got anything like Try Ubuntu Freezes, Try Kubuntu Freezes, Ubuntu Nvidia Prime, kubuntu dell smbios unable to tun on non dell system for installing? You might try this." />
-<link rel="canonical" href="https://amitsealami.github.io/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/" />
-<meta property="og:url" content="https://amitsealami.github.io/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/" />
+<link rel="canonical" href="https://amitsealami.com/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/" />
+<meta property="og:url" content="https://amitsealami.com/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/" />
 <meta property="og:site_name" content="Amit Seal Ami’s Blog" />
-<meta property="og:image" content="https://amitsealami.github.io/blog/images/default.jpg" />
+<meta property="og:image" content="https://amitsealami.com/blog/images/default.jpg" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2018-08-25T01:00:21-04:00" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta property="twitter:image" content="https://amitsealami.github.io/blog/images/default.jpg" />
+<meta property="twitter:image" content="https://amitsealami.com/blog/images/default.jpg" />
 <meta property="twitter:title" content="Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5" />
 <meta name="twitter:site" content="@AmitSealAmi" />
 <meta name="twitter:creator" content="@Amit Seal Ami" />
 <meta name="google-site-verification" content="f4dZjKOD0HrgHKFR1yesOe4sM4pUrL_4hkd-4Jgyo1w" />
 <script type="application/ld+json">
-{"description":"Got anything like Try Ubuntu Freezes, Try Kubuntu Freezes, Ubuntu Nvidia Prime, kubuntu dell smbios unable to tun on non dell system for installing? You might try this.","datePublished":"2018-08-25T01:00:21-04:00","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://amitsealami.github.io/blog/images/default.jpg"},"name":"Amit Seal Ami"},"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://amitsealami.github.io/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/"},"url":"https://amitsealami.github.io/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/","image":"https://amitsealami.github.io/blog/images/default.jpg","author":{"@type":"Person","name":"Amit Seal Ami"},"headline":"Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5","dateModified":"2018-08-25T01:00:21-04:00","@context":"https://schema.org"}</script>
+{"description":"Got anything like Try Ubuntu Freezes, Try Kubuntu Freezes, Ubuntu Nvidia Prime, kubuntu dell smbios unable to tun on non dell system for installing? You might try this.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://amitsealami.com/blog/images/default.jpg"},"name":"Amit Seal Ami"},"@type":"BlogPosting","headline":"Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5","dateModified":"2018-08-25T01:00:21-04:00","datePublished":"2018-08-25T01:00:21-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://amitsealami.com/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/"},"url":"https://amitsealami.com/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/","image":"https://amitsealami.com/blog/images/default.jpg","author":{"@type":"Person","name":"Amit Seal Ami"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>
@@ -67,7 +67,7 @@
                 </div>
 
                 <nav>
-                    <a href="https://amitsealami.github.io">Home</a>
+                    <a href="https://amitsealami.com">Home</a>
                     <a href="/blog/">Blog</a>
                     <a href="/blog/archive/">Archive</a>
                 </nav>
@@ -103,13 +103,13 @@ So.. yeah. You are probably here, pissed off, angry at your NVidia Prime / Optim
 
 <ul>
   <li>When you insert the live usb, and it starts booting - before the Try/Install option shows up, frantically start pressing F6. Yeah, apparently a hidden keyboard action that allows you to switch to the text based options. You might see options such as check for defects, troubleshooting - etc.</li>
-  <li>Press F6 again, and a menu shows up. Enable <code class="highlighter-rouge">nomodeset</code>, and then go for start</li>
+  <li>Press F6 again, and a menu shows up. Enable <code class="language-plaintext highlighter-rouge">nomodeset</code>, and then go for start</li>
   <li>It will hopefully start using basic graphical capabilities. You should be able to install now.</li>
   <li>After installation is complete, do the usual routine of removing usb, reboot, view the grub</li>
-  <li>Check in the grub entry by pressing <code class="highlighter-rouge">e</code> and seeing whether the nomodeset is there or not. It should be there since you installed it using <code class="highlighter-rouge">nomodeset</code></li>
+  <li>Check in the grub entry by pressing <code class="language-plaintext highlighter-rouge">e</code> and seeing whether the nomodeset is there or not. It should be there since you installed it using <code class="language-plaintext highlighter-rouge">nomodeset</code></li>
   <li>Continue and login. You will notice that the graphics is significantly lagging.</li>
-  <li>Open a terminal, update the package list by <code class="highlighter-rouge">sudo apt update</code></li>
-  <li>Here comes the magically command. <code class="highlighter-rouge">sudo ubuntu-drivers autoinstall</code>.</li>
+  <li>Open a terminal, update the package list by <code class="language-plaintext highlighter-rouge">sudo apt update</code></li>
+  <li>Here comes the magically command. <code class="language-plaintext highlighter-rouge">sudo ubuntu-drivers autoinstall</code>.</li>
 </ul>
 
 <p>This command will automatically install the required nvidia drivers.</p>
@@ -117,7 +117,7 @@ So.. yeah. You are probably here, pissed off, angry at your NVidia Prime / Optim
 <p>After this, you should reboot your computer, and you need to edit the grub to remove nomodeset permanently. So,</p>
 
 <ul>
-  <li>open terminal, <code class="highlighter-rouge">sudo nano /etc/default/grub</code></li>
+  <li>open terminal, <code class="language-plaintext highlighter-rouge">sudo nano /etc/default/grub</code></li>
   <li>there should be two lines like:</li>
 </ul>
 
@@ -202,7 +202,7 @@ So.. yeah. You are probably here, pissed off, angry at your NVidia Prime / Optim
 
 		ga('create', 'UA-11383434-11', 'auto');
 		ga('send', 'pageview', {
-		  'page': 'https://amitsealami.github.io/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/',
+		  'page': 'https://amitsealami.com/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/',
 		  'title': 'Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5'
 		});
 	</script>

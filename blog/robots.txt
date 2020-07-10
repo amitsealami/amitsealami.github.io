@@ -1,1 +1,1 @@
-Sitemap: https://amitsealami.github.io/blog/sitemap.xml
+Sitemap: https://amitsealami.com/blog/sitemap.xml
