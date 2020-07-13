@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2020-07-12T23:26:53-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="bn"><title type="html">একাডেমিক সাইটেশন, রিসার্চগেট আর জার্নাল ভিত্তিক স্কোরিং - কতটা যুক্তিযুক্ত?</title><link href="https://amitsealami.com/blog/2020/06/26/academic-score-citation/" rel="alternate" type="text/html" title="একাডেমিক সাইটেশন, রিসার্চগেট আর জার্নাল ভিত্তিক স্কোরিং - কতটা যুক্তিযুক্ত?" /><published>2020-06-26T23:00:00-04:00</published><updated>2020-06-26T23:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/06/26/academic-score-citation</id><content type="html" xml:base="https://amitsealami.com/blog/2020/06/26/academic-score-citation/">&lt;p&gt;একাডেমিয়াতে গবেষণার বিকল্প নেই। আর সেই গবেষণায় কে কতটা ভালো তা বুঝতে বা আন্দাজ পেতে আমরা নানারকম ভাবে “মেট্রিকস” বা মাপজোকের চেষ্টা করি। কিন্তু সেই মাপজোকের চেষ্টায় কিছু ঝামেলা (বা বায়াস) আমরা নিজের অজান্তেই করে ফেলি। এগুলো নিয়ে কিছু সাবধাণতা অবলম্বন করা দরকার সবারই, সে বিষয়েই এই লেখাটা:
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2020-07-13T13:18:38-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="bn"><title type="html">একাডেমিক সাইটেশন, রিসার্চগেট আর জার্নাল ভিত্তিক স্কোরিং - কতটা যুক্তিযুক্ত?</title><link href="https://amitsealami.com/blog/2020/06/26/academic-score-citation/" rel="alternate" type="text/html" title="একাডেমিক সাইটেশন, রিসার্চগেট আর জার্নাল ভিত্তিক স্কোরিং - কতটা যুক্তিযুক্ত?" /><published>2020-06-26T23:00:00-04:00</published><updated>2020-06-26T23:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/06/26/academic-score-citation</id><content type="html" xml:base="https://amitsealami.com/blog/2020/06/26/academic-score-citation/">&lt;p&gt;একাডেমিয়াতে গবেষণার বিকল্প নেই। আর সেই গবেষণায় কে কতটা ভালো তা বুঝতে বা আন্দাজ পেতে আমরা নানারকম ভাবে “মেট্রিকস” বা মাপজোকের চেষ্টা করি। কিন্তু সেই মাপজোকের চেষ্টায় কিছু ঝামেলা (বা বায়াস) আমরা নিজের অজান্তেই করে ফেলি। এগুলো নিয়ে কিছু সাবধাণতা অবলম্বন করা দরকার সবারই, সে বিষয়েই এই লেখাটা:
 &lt;!-- more --&gt;&lt;/p&gt;
 &lt;h2 id=&quot;সাইটেশন&quot;&gt;সাইটেশন&lt;/h2&gt;
 
@@ -74,7 +74,510 @@
 
 &lt;p&gt;অনেক প্রাণী আছে এই বিশ্বে যাদের দেখতে চিন্তাশীল মনে হয়। কিন্তু তারা চিন্তাশীল না। যেমন দুপেয়ে এক রকম প্রাণী আছে পৃথাবা নামক গ্রহে, আমাদেরই দুধসর গ্যালাক্সিতে - ওদের সভ্যতা আপাতদৃষ্টিতে খুবই উন্নত। কিন্তু ওরা চিন্তা করে না। পিঁপড়া যেমন কয়েকটা মারা গেলেও প্রভাব থাকে না, নিজেদের কাজ নিজেরা করতেই থাকে এরাও তেমন। ওদের ওখানে যখন রোগের মহামারি শুরু হলো - তখন তারা পারতো ঠিকমতো ব্যবস্থা নিতে, রোগীদের আলাদা করতে, তাদের যত্ন নিতে যেন তাদের সমস্যা না হয়। সর্বোচ্চ গুরুত্ব দিতে স্বাস্থ্য আর শিক্ষাব্যবস্থায় যেন সবাই জানতো এ ধরণের সময়ে কী করা লাগে, আর কী করা দরকার। যেমনটা আমরা দেই। কিন্তু তা না করে তারা নিজেদের যে কাজ তাই করেই যাচ্ছিলো, চিন্তা করেনি কীকরা জরুরী। ইতিহাস থেকে শিক্ষাও নেয়নি। সভ্যতা হিসাবে তারা ব্যর্থ এ যায়গাটাতেই। আর ঠিক এখানেই আমাদের সাথে তাদের পার্থক্য।&lt;/p&gt;
 
-&lt;p&gt;তারা চিন্তা করে না। বা হয়তো পারেই না!&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html">প্রাণী বিজ্ঞান ক্লাসের অমিম হাত উঁচিয়ে তুললো: স্যার! প্রাণ থাকলেই কি প্রাণী বলে? প্রিষম স্যার স্মিত হাসলেন, তারপরে বলা শুরু করলেন ধীরে ধীরে, তাঁর স্বভাব সুলভ গমগমে গলায়: খুবই ভালো প্রশ্ন করেছো। প্রাণ থাকলেই যদি প্রাণী হয়, তাহলে সেক্ষেত্রে আমরা কি একটা প্রাণী হিসাবে নিজেদের বলতে পারি? আমাদের শরীরের প্রতিটা কোষের আলাদা জীবন আছে, এন্টিবডি আছে, আবার হজম প্রক্রিয়ায় অণুজীব আছে - তারা প্রত্যেকেই বাঁচে, মরে - আমরা বেঁচে থাকা অবস্থাতেই। তাহলে আমরা কি প্রাণী? নাকি আমরা প্রাণী সমষ্টি? কি মনে হয় তোমাদের? ক্লাসের একটু ফাঁকিবাজ কানতু শুঁড় উচিয়ে বললো, স্যার আমরা মনে হয় দুইটাই। আমরাও প্রাণী, আমাদের কোষগুলোও প্রাণী। সবগুলাই প্রাণী। প্রিষম স্যার হাসলেন, তারপরে বললেন - তোমার কথাটা ঠিক। সবগুলোই প্রাণী, আর প্রাণ থাকলেই আমরা প্রাণী বলছি। তবে আমাদের সাথে এই কোষগুলোর একটা ছোট্ট পার্থক্য আছে - সেটা হচ্ছে চিন্তা করার সক্ষমতা।</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default_bn.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default_bn.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">আত্মহত্যা: কিভাবে ঠেকানো যায়, আর আমাদের ভূমিকা</title><link href="https://amitsealami.com/blog/2019/07/07/Suicide-prevention/" rel="alternate" type="text/html" title="আত্মহত্যা: কিভাবে ঠেকানো যায়, আর আমাদের ভূমিকা" /><published>2019-07-07T00:00:04-04:00</published><updated>2019-07-07T00:00:04-04:00</updated><id>https://amitsealami.com/blog/2019/07/07/Suicide-prevention</id><content type="html" xml:base="https://amitsealami.com/blog/2019/07/07/Suicide-prevention/">&lt;p&gt;আত্মহত্যা থামানোর জন্য কি করা যায়, শিক্ষক, ছাত্র (পড়ুন বন্ধু) এবং কর্মচারী হিসেবে - এই বিষয়ে ১লা জুলাই একটা ওয়ার্কশপ হলো William &amp;amp; Mary তে। আমেরিকায় কলেজ বা বিশ্ববিদ্যালয় পর্যায়ে মৃত্যুর দ্বিতীয় সর্বোচ্চ কারণ আত্মহত্যা। প্রতি বছর প্রায় ৪৫,০০০ শিক্ষার্থী মারা যায় আত্মহত্যা করে! &lt;a href=&quot;https://www.prothomalo.com/opinion/article/307480?fbclid=IwAR3wIHGxA-a5qWtI0A8zvRNxsyCYWQIjLGGFeuZIej8V9G6L6hrupzzgPEI&quot;&gt;বাংলাদেশেও প্রায় ৬৫লাখ মানুষ আত্মহত্যার ঝুঁকিতে আছে&lt;/a&gt;। &lt;a href=&quot;https://samakal.com/bangladesh/article/18011312/%EF%BB%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A7%A8%E0%A7%AF-%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF?fbclid=IwAR2d_KA4b5HRrXrvQRJcMuntlw9wU38UE6dMFzE2UMtWCbDiazRi8io2k40&quot;&gt;প্রতিদিন প্রায় ২৯জন মারা যাচ্ছে বাংলাদশে আত্মহত্যা করে&lt;/a&gt;।  উইলিয়াম মেরি তো আরেক কাঠি বাড়া - পরিচিতই ছিলো &lt;a href=&quot;https://www.washingtonpost.com/news/grade-point/wp/2015/04/15/suicide-at-william-mary-fourth-this-year-triggers-concern-about-mental-health/?fbclid=IwAR2XrIIgDlvKYPHUERKUFHm3X0OcyKsOj6LYcMPl-v_Tqns9WOgrHo30KyE&amp;amp;noredirect=on&amp;amp;utm_term=.f05166d72f79&quot;&gt;Suicide School&lt;/a&gt; হিসেবে!&lt;/p&gt;
+&lt;p&gt;তারা চিন্তা করে না। বা হয়তো পারেই না!&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html">প্রাণী বিজ্ঞান ক্লাসের অমিম হাত উঁচিয়ে তুললো: স্যার! প্রাণ থাকলেই কি প্রাণী বলে? প্রিষম স্যার স্মিত হাসলেন, তারপরে বলা শুরু করলেন ধীরে ধীরে, তাঁর স্বভাব সুলভ গমগমে গলায়: খুবই ভালো প্রশ্ন করেছো। প্রাণ থাকলেই যদি প্রাণী হয়, তাহলে সেক্ষেত্রে আমরা কি একটা প্রাণী হিসাবে নিজেদের বলতে পারি? আমাদের শরীরের প্রতিটা কোষের আলাদা জীবন আছে, এন্টিবডি আছে, আবার হজম প্রক্রিয়ায় অণুজীব আছে - তারা প্রত্যেকেই বাঁচে, মরে - আমরা বেঁচে থাকা অবস্থাতেই। তাহলে আমরা কি প্রাণী? নাকি আমরা প্রাণী সমষ্টি? কি মনে হয় তোমাদের? ক্লাসের একটু ফাঁকিবাজ কানতু শুঁড় উচিয়ে বললো, স্যার আমরা মনে হয় দুইটাই। আমরাও প্রাণী, আমাদের কোষগুলোও প্রাণী। সবগুলাই প্রাণী। প্রিষম স্যার হাসলেন, তারপরে বললেন - তোমার কথাটা ঠিক। সবগুলোই প্রাণী, আর প্রাণ থাকলেই আমরা প্রাণী বলছি। তবে আমাদের সাথে এই কোষগুলোর একটা ছোট্ট পার্থক্য আছে - সেটা হচ্ছে চিন্তা করার সক্ষমতা।</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default_bn.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default_bn.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Temporary Post</title><link href="https://amitsealami.com/blog/2019/10/31/temp/" rel="alternate" type="text/html" title="Temporary Post" /><published>2019-10-31T14:00:00-04:00</published><updated>2019-11-30T13:00:00-05:00</updated><id>https://amitsealami.com/blog/2019/10/31/temp</id><content type="html" xml:base="https://amitsealami.com/blog/2019/10/31/temp/">&lt;!-- more --&gt;
+
+&lt;div class=&quot;note&quot;&gt;
+Hello World
+&lt;/div&gt;
+
+&lt;div class=&quot;warning&quot;&gt;
+Hello World
+&lt;/div&gt;
+
+&lt;div class=&quot;admonition&quot;&gt;
+Hello World
+&lt;/div&gt;
+
+&lt;div class=&quot;todo&quot;&gt;
+Hello World
+&lt;/div&gt;
+
+&lt;div class=&quot;hint&quot;&gt;
+Hello World
+&lt;/div&gt;
+
+&lt;div class=&quot;seealso&quot;&gt;
+Hello World
+&lt;/div&gt;
+
+&lt;p&gt;foo&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;aasd&lt;/li&gt;
+  &lt;li&gt;b&lt;/li&gt;
+  &lt;li&gt;c&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;bla&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a&lt;/li&gt;
+  &lt;li&gt;b&lt;/li&gt;
+  &lt;li&gt;c&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;a
+:b&lt;/p&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;hello&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;world&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello Worlda&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;ইহা একটি টেস্ট মার্কা লেখা - যাহায় যথেষ্ঠ পরিমাণে যুক্তাক্ষর ব্যবহৃত হয়েছে।&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h1 id=&quot;shell&quot;&gt;shell&lt;/h1&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;glade&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;glade
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;glade&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nv&quot;&gt;DPI&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;160 &lt;span class=&quot;nv&quot;&gt;UVESA_MODE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1366x768
+&lt;span class=&quot;nv&quot;&gt;DPI&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;265 &lt;span class=&quot;nv&quot;&gt;UVESA_MODE&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;2880x1800&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;normal&quot;&gt;normal&lt;/h1&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bibtex&quot; data-lang=&quot;bibtex&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;    &lt;span class=&quot;nc&quot;&gt;@online&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;Thornburg01&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;author&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;{Harry Thornburg}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;year&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;{2001}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;title&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;{Introduction to Bayesian Statistics}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;{http://ccrma.stanford.edu/~jos/bayes/bayes.html}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;month&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;{mar}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;lastaccessed&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;{March 2, 2005}&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;json&quot;&gt;json&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;code-runner.executorMap&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;javascript&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;node&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;php&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;C:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;php&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;php.exe&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;python&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;python&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;perl&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;perl&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;ruby&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;C:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Ruby23-x64&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;bin&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;ruby.exe&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;go&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;go run&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;html&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;C:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Program Files (x86)&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Google&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Chrome&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;Application&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;chrome.exe&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;java&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;cd $dir &amp;amp;&amp;amp; javac $fileName &amp;amp;&amp;amp; java $fileNameWithoutExt&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;c&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;cd $dir &amp;amp;&amp;amp; gcc $fileName -o $fileNameWithoutExt &amp;amp;&amp;amp; $dir$fileNameWithoutExt&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;json-1&quot;&gt;json&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;alloy&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;java -jar &amp;lt;pathToAlloyHere&amp;gt; $fullfilename&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;c-code-example&quot;&gt;C code example&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-c&quot; data-lang=&quot;c&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;cp&quot;&gt;# C Code that includes a testGlade.glade file
+# for designing UI
+&lt;/span&gt;
+&lt;span class=&quot;cp&quot;&gt;#include&amp;lt;gtk/gtk.h&amp;gt;
+&lt;/span&gt;
+&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;char&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[]){&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;GtkBuilder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gtkBuilder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;GtkWidget&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;gtk_init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;argv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;gtkBuilder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gtk_builder_new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;gtk_builder_add_from_file&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gtkBuilder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;testGlade.glade&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;NULL&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;window&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;GTK_WIDGET&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gtk_builder_get_object&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gtkBuilder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;mywindow&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;g_object_unref&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;G_OBJECT&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gtkBuilder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;gtk_widget_show&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;gtk_main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;ui.help&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Ui_Form&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Help_Ui_Form&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;util.executor&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Executor&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;util.check_displays&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CDisplay&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;util.write_config&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;WriteConfig&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;util.read_config&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ReadConfig&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;MyApplication&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;QtGui&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;QMainWindow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__assign_displays&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;assigns display name &quot;&quot;&quot;&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;displays&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;CDisplay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;detect_display_devices&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no_of_displays&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;len&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;displays&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no_of_connected_dev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no_of_displays&lt;/span&gt;
+
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no_of_displays&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+
+            &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;display1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;displays&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;elif&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no_of_displays&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;is&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+
+            &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;display1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;displays&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+            &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;display2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;displays&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot;Initializes&quot;&quot;&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;QtGui&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;QMainWindow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ui&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Ui_MainWindow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ui&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setupUi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;display1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;display2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;temperature&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'Default'&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;no_of_connected_dev&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;__assign_displays&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup_default_directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;generate_dynamic_items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default_config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/home/{}/.config/'&lt;/span&gt; \
+            &lt;span class=&quot;s&quot;&gt;'brightness_controller/settings'&lt;/span&gt;      \
+            &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getuser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array_value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.01&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;xrange&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;values&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array_value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;array_value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+=&lt;/span&gt; &lt;span class=&quot;mf&quot;&gt;0.01&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;connect_handlers&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup_widgets&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default_config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;load_settings&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;default_config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+        &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;setup_tray&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;parent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;setup_default_directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;&quot;&quot; Create default settings directory if it doesnt exist &quot;&quot;&quot;&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'/home/{}/.config/'&lt;/span&gt; \
+            &lt;span class=&quot;s&quot;&gt;'brightness_controller/'&lt;/span&gt;    \
+            &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getpass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;getuser&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;path&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;exists&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;n&quot;&gt;makedirs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            &lt;span class=&quot;k&quot;&gt;except&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;error&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
+                &lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;_show_error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;str&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;yaml&quot;&gt;yaml&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;presentation&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# presentation theme&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# === available themes ===&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;beige.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;black.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;blood.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;league.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;moon.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;night.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;serif.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;simple.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;sky.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;solarized.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;white.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# &quot;none.css&quot;&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;theme&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;white.css&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# The &quot;normal&quot; size of the presentation, aspect ratio will be preserved&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# when the presentation is scaled to fit different resolutions. Can be&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# specified using percentage units.&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;960&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;700&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Factor of the display size that should remain empty around the content&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Bounds for smallest/largest possible scale to apply to content&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;minScale&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0.2&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;maxScale&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.5&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Display controls in the bottom right corner&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;controls&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Display a presentation progress bar&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;progress&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Display the page number of the current slide&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;slideNumber&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Push each slide change to the browser history&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;history&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Enable keyboard shortcuts for navigation&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;keyboard&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Enable the slide overview mode&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;overview&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Vertical centering of slides&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Enables touch navigation on devices with touch input&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;touch&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Loop the presentation&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;loop&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Change the presentation direction to be RTL&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;rtl&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Randomizes the order of slides each time the presentation loads&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;shuffle&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Turns fragments on and off globally&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;fragments&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Flags if the presentation is running in an embedded mode,&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# i.e. contained within a limited portion of the screen&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;embedded&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Flags if we should show a help overlay when the questionmark&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# key is pressed&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Flags if speaker notes should be visible to all viewers&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;showNotes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Number of milliseconds between automatically proceeding to the&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# next slide, disabled when set to 0, this value can be overwritten&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# by using a data-autoslide attribute on your slides&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;autoSlide&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Stop auto-sliding after user input&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;autoSlideStoppable&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Enable slide navigation via mouse wheel&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;mouseWheel&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Hides the address bar on mobile devices&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;hideAddressBar&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Opens links in an iframe preview overlay&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;previewLinks&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Transition style&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;transition&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;default'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# none/fade/slide/convex/concave/zoom&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Transition speed&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;transitionSpeed&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;default'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# default/fast/slow&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Transition style for full page slide backgrounds&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;backgroundTransition&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;default'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# none/fade/slide/convex/concave/zoom&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Number of slides away from the current that are visible&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;viewDistance&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Parallax background image&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;parallaxBackgroundImage&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# e.g. &quot;'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'&quot;&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Parallax background size&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;parallaxBackgroundSize&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# CSS syntax, e.g. &quot;2100px 900px&quot;&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Number of pixels to move the parallax background per slide&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# - Calculated automatically unless specified&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# - Set to 0 to disable movement along an axis&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;parallaxBackgroundHorizontal&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;null&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;parallaxBackgroundVertical&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;null&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Parallax background image&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;parallaxBackgroundImage&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# e.g. &quot;https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg&quot;&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Parallax background size&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;parallaxBackgroundSize&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;# CSS syntax, e.g. &quot;2100px 900px&quot; - currently only pixels are supported (don't use % or auto)&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Number of pixels to move the parallax background per slide&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# - Calculated automatically unless specified&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;# - Set to 0 to disable movement along an axis&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;parallaxBackgroundHorizontal&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;200&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;parallaxBackgroundVertical&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50&lt;/span&gt;
+
+  &lt;span class=&quot;c1&quot;&gt;# Enable Speaker Notes&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;enableSpeakerNotes&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/amit.png" /><media:content medium="image" url="https://amitsealami.com/blog/images/amit.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">আত্মহত্যা: কিভাবে ঠেকানো যায়, আর আমাদের ভূমিকা</title><link href="https://amitsealami.com/blog/2019/07/07/Suicide-prevention/" rel="alternate" type="text/html" title="আত্মহত্যা: কিভাবে ঠেকানো যায়, আর আমাদের ভূমিকা" /><published>2019-07-07T00:00:04-04:00</published><updated>2019-07-07T00:00:04-04:00</updated><id>https://amitsealami.com/blog/2019/07/07/Suicide-prevention</id><content type="html" xml:base="https://amitsealami.com/blog/2019/07/07/Suicide-prevention/">&lt;p&gt;আত্মহত্যা থামানোর জন্য কি করা যায়, শিক্ষক, ছাত্র (পড়ুন বন্ধু) এবং কর্মচারী হিসেবে - এই বিষয়ে ১লা জুলাই একটা ওয়ার্কশপ হলো William &amp;amp; Mary তে। আমেরিকায় কলেজ বা বিশ্ববিদ্যালয় পর্যায়ে মৃত্যুর দ্বিতীয় সর্বোচ্চ কারণ আত্মহত্যা। প্রতি বছর প্রায় ৪৫,০০০ শিক্ষার্থী মারা যায় আত্মহত্যা করে! &lt;a href=&quot;https://www.prothomalo.com/opinion/article/307480?fbclid=IwAR3wIHGxA-a5qWtI0A8zvRNxsyCYWQIjLGGFeuZIej8V9G6L6hrupzzgPEI&quot;&gt;বাংলাদেশেও প্রায় ৬৫লাখ মানুষ আত্মহত্যার ঝুঁকিতে আছে&lt;/a&gt;। &lt;a href=&quot;https://samakal.com/bangladesh/article/18011312/%EF%BB%BF-%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A6%A4%E0%A6%BF%E0%A6%A6%E0%A6%BF%E0%A6%A8-%E0%A6%86%E0%A6%A4%E0%A7%8D%E0%A6%AE%E0%A6%B9%E0%A6%A4%E0%A7%8D%E0%A6%AF%E0%A6%BE-%E0%A7%A8%E0%A7%AF-%E0%A6%9C%E0%A6%A8%E0%A7%87%E0%A6%B0-%E0%A6%AC%E0%A7%87%E0%A6%B6%E0%A6%BF?fbclid=IwAR2d_KA4b5HRrXrvQRJcMuntlw9wU38UE6dMFzE2UMtWCbDiazRi8io2k40&quot;&gt;প্রতিদিন প্রায় ২৯জন মারা যাচ্ছে বাংলাদশে আত্মহত্যা করে&lt;/a&gt;।  উইলিয়াম মেরি তো আরেক কাঠি বাড়া - পরিচিতই ছিলো &lt;a href=&quot;https://www.washingtonpost.com/news/grade-point/wp/2015/04/15/suicide-at-william-mary-fourth-this-year-triggers-concern-about-mental-health/?fbclid=IwAR2XrIIgDlvKYPHUERKUFHm3X0OcyKsOj6LYcMPl-v_Tqns9WOgrHo30KyE&amp;amp;noredirect=on&amp;amp;utm_term=.f05166d72f79&quot;&gt;Suicide School&lt;/a&gt; হিসেবে!&lt;/p&gt;
 
 &lt;p&gt;বর্তমানে অবশ্য ধীরে ধীরে অবস্থার উন্নতি হয়েছে - উইলিয়াম মেরি এখন আমেরিকায় &lt;a href=&quot;https://www.wm.edu/about/rankings/index.php?fbclid=IwAR3P_wv24qjQGgP-XmSIZ3MRBR9wiA3SgdTV9DZ6bm16GHy67IrVg9TKiCE&quot;&gt;আন্ডারগ্রেড লেভেলে অনেক কেয়ারিং স্কুল হিসাবে র‍্যাংকিং এ আসে নিয়মিতই&lt;/a&gt;। তার উপরে &lt;a href=&quot;https://www.wm.edu/news/stories/2018/wms-students-ranked-happiest-in-the-nation.php?fbclid=IwAR2Kmci6q4It55ryawkF2GKdU2ZA_z3S2ZfN7sqSMy8zmsuSaOLoLCXG6Kk&quot;&gt;উইলিয়াম মেরির শিক্ষার্থীরা সবচেয়ে সুখী শিক্ষার্থী আমেরিকায়&lt;/a&gt; - এমন র‍্যাংকিং তো আছেই !
 অনেকগুলো পদক্ষেপের মাঝে ওরা যেটা করে সেটা হলো &lt;a href=&quot;https://www.wm.edu/offices/wellness/counselingcenter/resources/selfhelpmaterials/suicideprevention/index.php?fbclid=IwAR2IjwO-BL4xBhotMjHfvCwy8jBXoYmlypMD4wboPQJf0C_8luxw4kTSOFU&quot;&gt;নিয়মিত আত্মহত্যা ঠেকানো (সুইসাইড প্রিভেনশন) বিষয়ে ওয়ার্কশপ করে&lt;/a&gt;। ওয়ার্কশপ নেন সাইকোলোজিস্টরা, আর শিক্ষকতা লাইনে যারা আছেন তারা মিলে। আমার এটায় এটেন্ড করার জন্য আরো বেশি আগ্রহ ছিলো কারণ আমি ব্যক্তিগত ভাবে অন্ততঃ তিনজনকে চিনি যারা কোন না কোন সময় আত্মহত্যা করতে চেয়েছে। আরো বেশি চেয়েছি কারণ বাংলাদেশে প্রায়ই শুনি মানুষ আত্মহত্যা করেছে - কোন না কোন কারণে। আত্মহত্যা হবার পরে অনেক আহা উহু ইত্যাদি জানতে পারলেও আত্মহত্যার অশনিসংকেত কি, কি দেখে বুঝা যেতে পারে কেউ আত্মহত্যা করতে পারে, এবং কিভাবে তাকে সাহায্য করা যায় - এ বিষয়ে জানার আগ্রহ থেকেই যাওয়া।&lt;/p&gt;
@@ -474,9 +977,4 @@ So.. yeah. You are probably here, pissed off, angry at your NVidia Prime / Optim
   &lt;li&gt;কনফারেন্স এ গেলে লেটেস্ট এন্ড গ্রেটেস্ট কাজ সম্পর্কে জানা যায় তো অবশ্যই, কিন্তু তার চেয়েও বেশি জানা যায় সামনে কি কি আসছে এটা নিয়ে আলাপ&lt;/li&gt;
   &lt;li&gt;ইন্ডাস্ট্রি একাডেমিক কোলাবরেশন ওখানে বেশ গুরুত্ব দিয়ে দেখা হয়&lt;/li&gt;
   &lt;li&gt;প্রশ্ন করার ক্ষেত্রে কোন ছাড় নাই। প্যানেল ডিসকাশন এর সময় Android Studio না xcode, iOS না Android জাতীয় খুচরা আলাপ এর সময় অডিয়েন্স থেকে একজন মুখের উপর বলে দিয়েছিল - গ্রেট, আমরা কি এখন ফান্ডামেন্টাল সমস্যা নিয়ে আলাপ না করে তাহলে এখন টুল আর ল্যাঙ্গুয়েজ নিয়ে আলাপ করছি?&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Amit Seal Ami</name></author><category term="travelling" /><category term="blog" /><category term="blog" /><category term="travelling" /><category term="bangla" /><summary type="html">ঘুম থেকে উঠেই তড়াক করে রেডি হতে গেলাম। হিসাব করে দেখলাম খাওয়ার সময় নেই, কারন অপিরিচিত জায়গা, সব বুঝে শুনে উঠতেই সময় চলে যাবে। কনফারেন্স ব্রেকফাস্ট দিবে, কাজেই ওটা নিয়ে বেশি চিন্তা না করলেও চলে। বাসা থেকে ব্লেজার এনেছিলাম, কিন্তু তাপমাত্রার অবস্থা দেখে বুঝলাম ওটা পরে যাওয়া যাবে না, ঘেমে নেয়ে বিতিকিচ্ছিরি অবস্থা হবে। সুতরাং শার্ট প্যান্ট পরেই দৌড়।</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">সুইডেনের পথে, ICSE এর সাথে - পর্ব ৩</title><link href="https://amitsealami.com/blog/2018/06/28/visiting-sweden-3/" rel="alternate" type="text/html" title="সুইডেনের পথে, ICSE এর সাথে - পর্ব ৩" /><published>2018-06-28T14:13:55-04:00</published><updated>2018-06-28T14:13:55-04:00</updated><id>https://amitsealami.com/blog/2018/06/28/visiting-sweden-3</id><content type="html" xml:base="https://amitsealami.com/blog/2018/06/28/visiting-sweden-3/">&lt;p&gt;আমি যে হোস্টেলে উঠেছি সেটা বেশ পরিচিত। হাজার খানেক ৫ তারা পেয়েছে আমার আগের অভিযাত্রীদের থেকে। তো ওখানে ঢুকে নাম ঠিকানা বলে বুকিং অনুসারে রুমের চাবি নিলাম। তার পরেই প্রশ্ন, ইন্টারনেট লাগবে? হু বলতেই একটা কাগজ ধরিয়ে দিলো যেটায় পাসওয়ার্ড লেখা। পাসওয়ার্ড এর বাংলা করলে দাঁড়ায়, “তুমি অনেক অনেক লক্ষী”। রিসেপশনে যিনি ছিলেন এমনিতেই তার ব্যবহার অসাধারণ। আমিও সুন্দর করে তাই বলে দিলাম, তুমি অনেক অনেক লক্ষী! রুমে ঢুকে দেখি সিস্টেম বেশ মজার। আগেই বুঝিয়ে দিয়েছিল একটা কাগজে আমার নাম আর কত তারিখে চলে যাবো সেটা লিখে দিয়ে যে রুমে গিয়ে প্রথম কাজ কি হবে। রুমে ১৬টা বিছানা, দুই স্তরে থাক করে। প্রতি বিছানার সাথে একটা সংখ্যা দেয়া, সংখ্যার পাশে ওই কাগজ রাখার জায়গা। সেই একই সংখ্যা লেখা একটা ট্রাংক ও আছে, তালা মারা যায়। যে বিছানা কেউ দখল করতে চায় সে দেখে আগে ওই বিছানায় কেউ আগেই কাগজ দিয়েছে নাকি। না দিলে সে কাগজ রেখে দিলেই অন্যরা বুঝে যাবে এটা দখল করা বিছানা, ওই তারিখ পর্যন্ত। আমিও সুন্দর করে একটা খালি বিছানা দখল করে ফেললাম, সেখানের ট্রাংক এ নিজের লাগেজ রেখে তালাও মেরে দিলাম। আগেই ওরা বিছানার আর কম্বলের চাদর দিয়ে দিয়েছিল, সেগুলো বিছিয়ে রেখে বার হলাম ঘর থেকে।
-&lt;!-- more --&gt;
-এখানে এসে জানতে পারলাম ওরা নিয়মিত ফ্রী অনুষ্ঠান করে প্রায়ই। যেমন আমি যেদিন গেছি ওইদিনই ওরা বারবিকিউ/গ্রিল পার্টি করবে পার্কে গিয়ে। এরেঞ্জ করে দিবে ওদের স্টাফ, আমরা যে যার পছন্দ তাই ওখানে গ্রিল করতে পারবো। সবাই মিলে গেলাম এক কাঁচাবাজারের দোকানে। হোটেল থেকে বার হয়েই পিছনে ২মিনিটের হাঁটা রাস্তা। যাবার পথে সুন্দর সুন্দর ঝর্ণাওয়ালা ভাস্কর্য। ওখানেই রেলিং দিয়ে পানি জমিয়ে প্রায় ইঞ্চি খানেক পানি জমিয়েছে, বাচ্চারা খেলে সে পানিতে। বেশ সুন্দর ঝিরি ঝিরি বাতাসে ক্লান্তি চলে যায়। যেতে যেতে আলাপ, কে কই থেকে আসছে। কানাডা, অস্ট্রেলিয়া, ইতালি, ফ্রাঁন্স, জার্মানি - এক এক জায়গার এক এক জন। আমি বাংলাদেশ থেকে এসেছি শুনে ওরা অবাক! তার উপরে প্রথমবার ইউরোপে, তাও একা! এসব আলাপ করতে করতে কাঁচাবাজারে ঢুকলাম(কাচাবাজার মানে স্বপ্ন জাতীয় বাজার)। সেখানে এক একজন বার্গারের বান, মাংস, সস, সসেজ সহ অনেক কিছু কেনা শুরু করলো। আমি না পারি সুইডিশ পড়তে, না কিছু বুঝতে। ইতিউতি তাকিয়ে ৪পিস মাশরুম দখল করলাম। এরা কিছুক্ষন অবাক হয়ে তাকিয়ে বললো মাশরুম খাবা খালি? আরো কিছু নাও? আমি উহু বলে লাইনে দাঁড়ালাম - না জানি কত ক্রোনা লাগে এগুলোর জন্য! কোথাও কিছু তো লেখা বুঝি না (পরের দিনই বুঝেছিলাম এগুলো কেমনে পড়তে হয় অবশ্য)। সাথের অস্ট্রেলিয়ান একজনকে জিজ্ঞাসা করলাম, ভাই এইগুলা কত ক্রোনা হইতে পারে? সে কি কি জানি হিসাব করে ছো মেরে মাশরুম নিয়ে নিজের প্যাকেটে দিয়ে বললো বেশি হইলে অস্ট্রেলিয়ান এক ডলার, এইটা আমি খাওয়াচ্ছি তোমারে। প্রথম আসছো ইউরোপে। সুযোগ দিলো না আর কিছুই বলার। যাকগে,কেনাকাটা এর পর রওনা দিলাম সবাই পার্কের দিকে।&lt;/p&gt;
-
-&lt;p&gt;পার্ক এ হেঁটে যেতে লাগে মিনিট দশেক। হাঁটার সময় একেক জনের সে কি হাসি ঠাট্টা! পার্কে খালি গাছ, ঘাস আর মানুষ। মাঝে পাকা রাস্তা, সেটা দিয়ে মাঝে মাঝে কেউ সাইকেল চালিয়ে যাচ্ছে টুং টাং করে বেল বাজাতে বাজাতে। দুই পাশে যেদিকে দু চোখ যায় ঘাস আর বড় গাছ। কোন খানে কেউ উদোম হয়ে রৌদ্রস্নান করছে। কোথাও বা বাচ্চারা দৌড়াচ্ছে, আর কোথাও বাবা বা মা ট্রলি ঠেলে বাচ্চাদের নিয়ে হাঁটছে। বেশ সুন্দর পরিবেশ। একটু পর পর আবার দেখি সিগালও (বা ওই জাতীয়) উড়ছে। ছোট ছোট লেকও কয়েকটা। হয়তো এজন্যই সিগাল এখানে উড়ে। পৌঁছে এক এক জন তাদের গল্প শুরু করলো। একজন নরওয়ের, দেখতে অনেকটা এভেঞ্জার্সের থরের মতো। সেটা বলতেই সে তড়াক করে উঠে গেল, বললো তুমি জানো থরের কাকে ছাড়া চলেই না? আমি তো মাথা চুলকাচ্ছি .. সুন্দর করে প্যান্ট গুটিয়ে দেখালো - পায়ে ইয়া বড় উল্কি হাল্কের! আরেকজন গল্প করতে করতে জানালো, সে রেসিং করে মোটরসাইকেলের। ছবিও দেখালো, রেসিং করার সময় সে কিভাবে একবার একসিডেন্ট করে ডিগবাজি খেয়েছিল। আবার মজাও করলো, জানো- আমি তো ডিগবাজি খেয়ে মাটিতে পড়ে আছি। রেস তো চলছে। আমি মনে মনে বিরক্ত হয়ে শুয়ে আছি, ভাবতেছি ধুর - উঠুম না, রেস করে কি হবে। সবাই দৌড়ে আসছে আমি অজ্ঞান হয়ে গেছি ভেবে, হাহাহাহাহা। শুনে আমরাও বলি, হাহাহাহাহা! গল্প চলছে, গ্রীলও চলছে। আমার মাথায় ও টেনশন চলছে। পরের দিন MobileSoft কনফারেন্সে আমার পেপার প্রেজেন্টেশন আছে। কি করবো কেমনে করবো ভাবতে ভাবতেই আরেকজনকে দেখলাম আমাদের কাছে আসতে। ছেলেটাকে হোস্টেলে ল্যাপটপে খুটুর খাতুর করতে দেখলেও এখানে আসতে চায়নি। বলেছিল কি যেন কাজে ব্যস্ত। এখানে এসেও দেখি এপাশ ওপাশ তাকিয়ে আমার মাথা আউলায়ে আছে! বলে লেকের দিকে হাঁটা মারলো। আমি অবশ্য হাসি ঠাট্টা তেমন বুঝতেছিলাম না। কি কি সব মোটরসাইকেল, গ্রেনেড, বন্দুক নিয়ে আলাপ করে এক এক জন। হেঁটে আসতে পারলে হয়তো একটু মাথা ঠান্ডা হবে। কাজেই আমিও রওনা দিলাম লেকের দিকে।
-(চলবে)&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><category term="travelling" /><category term="blog" /><category term="blog" /><category term="travelling" /><category term="bangla" /><summary type="html">আমি যে হোস্টেলে উঠেছি সেটা বেশ পরিচিত। হাজার খানেক ৫ তারা পেয়েছে আমার আগের অভিযাত্রীদের থেকে। তো ওখানে ঢুকে নাম ঠিকানা বলে বুকিং অনুসারে রুমের চাবি নিলাম। তার পরেই প্রশ্ন, ইন্টারনেট লাগবে? হু বলতেই একটা কাগজ ধরিয়ে দিলো যেটায় পাসওয়ার্ড লেখা। পাসওয়ার্ড এর বাংলা করলে দাঁড়ায়, “তুমি অনেক অনেক লক্ষী”। রিসেপশনে যিনি ছিলেন এমনিতেই তার ব্যবহার অসাধারণ। আমিও সুন্দর করে তাই বলে দিলাম, তুমি অনেক অনেক লক্ষী! রুমে ঢুকে দেখি সিস্টেম বেশ মজার। আগেই বুঝিয়ে দিয়েছিল একটা কাগজে আমার নাম আর কত তারিখে চলে যাবো সেটা লিখে দিয়ে যে রুমে গিয়ে প্রথম কাজ কি হবে। রুমে ১৬টা বিছানা, দুই স্তরে থাক করে। প্রতি বিছানার সাথে একটা সংখ্যা দেয়া, সংখ্যার পাশে ওই কাগজ রাখার জায়গা। সেই একই সংখ্যা লেখা একটা ট্রাংক ও আছে, তালা মারা যায়। যে বিছানা কেউ দখল করতে চায় সে দেখে আগে ওই বিছানায় কেউ আগেই কাগজ দিয়েছে নাকি। না দিলে সে কাগজ রেখে দিলেই অন্যরা বুঝে যাবে এটা দখল করা বিছানা, ওই তারিখ পর্যন্ত। আমিও সুন্দর করে একটা খালি বিছানা দখল করে ফেললাম, সেখানের ট্রাংক এ নিজের লাগেজ রেখে তালাও মেরে দিলাম। আগেই ওরা বিছানার আর কম্বলের চাদর দিয়ে দিয়েছিল, সেগুলো বিছিয়ে রেখে বার হলাম ঘর থেকে।</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name>Amit Seal Ami</name></author><category term="travelling" /><category term="blog" /><category term="blog" /><category term="travelling" /><category term="bangla" /><summary type="html">ঘুম থেকে উঠেই তড়াক করে রেডি হতে গেলাম। হিসাব করে দেখলাম খাওয়ার সময় নেই, কারন অপিরিচিত জায়গা, সব বুঝে শুনে উঠতেই সময় চলে যাবে। কনফারেন্স ব্রেকফাস্ট দিবে, কাজেই ওটা নিয়ে বেশি চিন্তা না করলেও চলে। বাসা থেকে ব্লেজার এনেছিলাম, কিন্তু তাপমাত্রার অবস্থা দেখে বুঝলাম ওটা পরে যাওয়া যাবে না, ঘেমে নেয়ে বিতিকিচ্ছিরি অবস্থা হবে। সুতরাং শার্ট প্যান্ট পরেই দৌড়।</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
