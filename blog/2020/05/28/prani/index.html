@@ -119,20 +119,18 @@
 <!-- Comments -->
 
 <!-- Comments Form -->
-  <form method="POST" action="https://api.staticman.net/v3/entry/github/lordamit/amitsealami.github.io.blog.src/master/comments">
-    <input name="options[redirect]" type="hidden" value="https://amitsealami.com/blog/2020/05/28/prani/">
-    <input name="options[slug]" type="hidden" value="prani">
-      <label>Name</label>
-      <input name="fields[name]" type="text">
-      <!-- <label>E-mail (optional)</label>
-      <input name="fields[email]" type="email"> -->
-      <!-- <label>Website (optional)</label>
-      <input name="fields[url]" type="url"> -->
-      <label>Message</label>
-      <textarea style="width:100%" name="fields[message]" rows="12"></textarea>
-      <p>Comments will appear after moderation.</p>
-      <button type="submit">Submit comment</button>
-  </form>
+<form method="POST" action="https://api.staticman.net/v3/entry/github/lordamit/amitsealami.github.io.blog.src/master/comments">
+  <input name="options[redirect]" type="hidden" value="https://amitsealami.com/blog/2020/05/28/prani/">
+  <input name="options[slug]" type="hidden" value="prani">
+  <label for="name">Name / নাম
+    <input name="fields[name]" type="text">  </br>
+  </label>
+  <label>Comment / মন্তব্য
+  <textarea name="fields[message]" rows="12"></textarea>
+  </label>
+  <p>Comments will appear after moderation.</p>
+  <input type="submit" value="Submit Comment" aria-label="submit"/>
+</form>
 
 
 </article>
