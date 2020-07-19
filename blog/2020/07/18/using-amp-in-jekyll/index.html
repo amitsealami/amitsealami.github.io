@@ -129,7 +129,7 @@
 </span><span class="gi">+ @import "../_sass/reset";
 + @import "../_sass/variables";</span></code></pre></figure>
 
-<p>In essence, the <code class="language-plaintext highlighter-rouge">amp-style.css</code> file will be importing necessary scss files from the <code class="language-plaintext highlighter-rouge">_sass</code> folder. However, to use it, we still need to include it in our AMP article. So we do that through the help of a new layout file, namely <code class="language-plaintext highlighter-rouge">amp.html</code> in <code class="language-plaintext highlighter-rouge">_layouts</code> folder. It is mostly going to be the same as the <code class="language-plaintext highlighter-rouge">default.html</code> layout, except we are going to remove scripts and imported stylesheet file, since AMP does not allow either of those.</p>
+<p>In essence, the <code class="language-plaintext highlighter-rouge">amp_style.scss</code> file will be importing necessary scss files from the <code class="language-plaintext highlighter-rouge">_sass</code> folder. However, to use it, we still need to include it in our AMP article. So we do that through the help of a new layout file, namely <code class="language-plaintext highlighter-rouge">amp.html</code> in <code class="language-plaintext highlighter-rouge">_layouts</code> folder. It is mostly going to be the same as the <code class="language-plaintext highlighter-rouge">default.html</code> layout, except we are going to remove scripts and imported stylesheet file, since AMP does not allow either of those.</p>
 
 <p>You may not have realized this, but a serious advantage due to this step is that you can now use all your style in AMP as long as you are putting them in the inline format.</p>
 
