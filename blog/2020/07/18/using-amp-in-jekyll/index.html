@@ -220,13 +220,22 @@ Gotcha: You might have to change sass style to compressed in the _config.yml fil
 57
 58
 59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
 </pre></td><td class="code"><pre><span class="cp">&lt;!doctype html&gt;</span>
 <span class="nt">&lt;html</span> <span class="na">amp</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;head&gt;</span>
     {% include meta.html %}
     <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"canonical"</span> <span class="na">href=</span><span class="s">"{{ site.url}}{{site.baseurl}}{{ page.url | replace: '/amp', '' }}"</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;title&gt;</span>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}
-    <span class="nt">&lt;/title&gt;</span>
+    <span class="nt">&lt;title&gt;</span>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}<span class="nt">&lt;/title&gt;</span>
     {% capture styles %}
     {% include amp_style.scss %}
     {% endcapture %}
@@ -267,9 +276,20 @@ Gotcha: You might have to change sass style to compressed in the _config.yml fil
     <span class="nt">&lt;/div&gt;</span>
 
     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"main"</span> <span class="na">role=</span><span class="s">"main"</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
-        {{ content }}
+      <span class="nt">&lt;article</span> <span class="na">class=</span><span class="s">"post"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;h1&gt;</span>{{ page.title }}<span class="nt">&lt;/h1&gt;</span>
+        
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"date"</span><span class="nt">&gt;</span>
+          Written on {{ page.date | date: "%B %e, %Y" }}
+          {% if page.last_modified_at %}
+          , Last updated on: {{ page.date | date: "%B %e, %Y" }}
+          {% endif %}
+        <span class="nt">&lt;/div&gt;</span>      
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"entry"</span><span class="nt">&gt;</span>
+          {{ content }}
+        <span class="nt">&lt;/div&gt;</span>
+      <span class="nt">&lt;/article&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
-
     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"wrapper-footer"</span><span class="nt">&gt;</span>
       <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
         <span class="nt">&lt;footer</span> <span class="na">class=</span><span class="s">"footer"</span><span class="nt">&gt;</span>
