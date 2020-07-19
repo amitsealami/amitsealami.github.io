@@ -29,7 +29,8 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
     <script async src="https://cdn.ampproject.org/v0.js"></script>
-  
+    <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
 </head>
 
   <body>
@@ -152,5 +153,17 @@
         </footer>
       </div>
     </div>
+    <amp-analytics type="gtag" data-credentials="include">
+      <script type="application/json">
+      {
+        "vars" : {
+          "gtag_id": "UA-11383434-11",
+          "config" : {
+            "UA-11383434-11": { "groups": "default" }
+          }
+        }
+      }
+      </script>
+      </amp-analytics>
   </body>
 </html>
