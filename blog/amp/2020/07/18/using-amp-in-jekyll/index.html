@@ -81,6 +81,7 @@
   </li>
   <li><a href="#6-writing-once-putting-everywhere">6. Writing Once, Putting everywhere</a></li>
   <li><a href="#7-bonus-if-you-want-excerpt">7. Bonus: If you want excerpt</a></li>
+  <li><a href="#sample-repositorycodewebsite">Sample Repository/Code/Website</a></li>
 </ul>
 
 <p>I decided to make AMP work with Jekyll after I was heartbroken by the mess called Facebook instant article. AMP is easier, but if you want to use it with jekyll, there are two options: either use a theme that allows posting AMP articles, or using a plugin that makes AMP versions of your existing posts. The second option is obsolete, and I did not want to change my theme. Moreover, there is also this issue of AMP not supporting a lot of things like syntax highlighting and what not, and I did not want to make <em>all</em> of my posts AMP based.</p>
@@ -130,76 +131,7 @@ Gotcha: You might have to change sass style to compressed in the _config.yml fil
 <details>
 <summary>Sample _layouts/amp.html</summary>
 
-<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-</pre></td><td class="code"><pre><span class="cp">&lt;!doctype html&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!doctype html&gt;</span>
 <span class="nt">&lt;html</span> <span class="na">amp</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
   <span class="nt">&lt;head&gt;</span>
     {% include meta.html %}
@@ -267,10 +199,11 @@ Gotcha: You might have to change sass style to compressed in the _config.yml fil
       <span class="nt">&lt;/div&gt;</span>
     <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/body&gt;</span>
-<span class="nt">&lt;/html&gt;</span>
-</pre></td></tr></tbody></table></code></pre></figure>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
 
 </details>
+
+<p>The gist version is <a href="https://gist.github.com/LordAmit/34c2c2e59f072091cf6729dbe6e7d7f4">here</a>.</p>
 
 <p>Please remember that this is <em>NOT</em> a template file you can use as it is. You may have to change it according to your own needs.</p>
 
@@ -361,6 +294,16 @@ So, for example, this post will have two markdown files.</p>
 <p>Aaand, that’s it!</p>
 
 <p><strong>ps</strong>: I still have not figured out a way to add <code class="language-plaintext highlighter-rouge">amp-img</code>. But I barely use them anyway!</p>
+
+<h2 id="sample-repositorycodewebsite">Sample Repository/Code/Website</h2>
+
+<p>A Sample Source code repository built using the <a href="https://github.com/barryclark/jekyll-now" target="_blank">Jekyll Now</a> with AMP support is available here:</p>
+
+<p><a href="https://github.com/LordAmit/jekyll-amp-sample" target="_blank">https://github.com/LordAmit/jekyll-amp-sample</a></p>
+
+<p>This post is created using this same tutorial. Still, if you want to see sample repository in working, check this:</p>
+
+<p><a href="https://lordamit.github.io/jekyll-amp-sample/" target="_blank">https://lordamit.github.io/jekyll-amp-sample/</a></p>
 
         </div>
       </article>

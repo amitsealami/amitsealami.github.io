@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2020-07-19T04:57:37-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Using AMP with Jekyll</title><link href="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/" rel="alternate" type="text/html" title="Using AMP with Jekyll" /><published>2020-07-18T00:00:00-04:00</published><updated>2020-07-10T00:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll</id><content type="html" xml:base="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2020-07-19T12:51:47-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Using AMP with Jekyll</title><link href="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/" rel="alternate" type="text/html" title="Using AMP with Jekyll" /><published>2020-07-18T00:00:00-04:00</published><updated>2020-07-10T00:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll</id><content type="html" xml:base="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#1-creating-inline-css&quot;&gt;1. Creating Inline CSS&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2-making-a-amp-specific-layout-file&quot;&gt;2. Making a AMP specific Layout File&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#3-establishing-relation-from-amp-to-non-amp-page&quot;&gt;3. Establishing Relation from AMP to non-AMP page&lt;/a&gt;&lt;/li&gt;
@@ -11,6 +11,7 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#6-writing-once-putting-everywhere&quot;&gt;6. Writing Once, Putting everywhere&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#7-bonus-if-you-want-excerpt&quot;&gt;7. Bonus: If you want excerpt&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#sample-repositorycodewebsite&quot;&gt;Sample Repository/Code/Website&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I decided to make AMP work with Jekyll after I was heartbroken by the mess called Facebook instant article. AMP is easier, but if you want to use it with jekyll, there are two options: either use a theme that allows posting AMP articles, or using a plugin that makes AMP versions of your existing posts. The second option is obsolete, and I did not want to change my theme. Moreover, there is also this issue of AMP not supporting a lot of things like syntax highlighting and what not, and I did not want to make &lt;em&gt;all&lt;/em&gt; of my posts AMP based.&lt;/p&gt;
@@ -60,76 +61,7 @@ Gotcha: You might have to change sass style to compressed in the _config.yml fil
 &lt;details&gt;
 &lt;summary&gt;Sample _layouts/amp.html&lt;/summary&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
 &lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;amp&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
     {% include meta.html %}
@@ -197,10 +129,11 @@ Gotcha: You might have to change sass style to compressed in the _config.yml fil
       &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
     &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
   &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;/details&gt;
+
+&lt;p&gt;The gist version is &lt;a href=&quot;https://gist.github.com/LordAmit/34c2c2e59f072091cf6729dbe6e7d7f4&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Please remember that this is &lt;em&gt;NOT&lt;/em&gt; a template file you can use as it is. You may have to change it according to your own needs.&lt;/p&gt;
 
@@ -290,7 +223,17 @@ So, for example, this post will have two markdown files.&lt;/p&gt;
 
 &lt;p&gt;Aaand, that’s it!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;ps&lt;/strong&gt;: I still have not figured out a way to add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp-img&lt;/code&gt;. But I barely use them anyway!&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html">I decided to make AMP work with Jekyll after I was heartbroken by the mess called Facebook instant article. AMP is easier, but if you want to use it with jekyll, there are two options: either use a theme that allows posting AMP articles, or using a plugin that makes AMP versions of your existing posts. The second option is obsolete, and I did not want to change my theme. Moreover, there is also this issue of AMP not supporting a lot of things like syntax highlighting and what not, and I did not want to make _all_ of my posts AMP based. So I had to make my own option: create a manual-ish approach that automates everything as much as possible with me having a fine degree of control on what gets to be converted.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="bn"><title type="html">একাডেমিক সাইটেশন, রিসার্চগেট আর জার্নাল ভিত্তিক স্কোরিং - কতটা যুক্তিযুক্ত?</title><link href="https://amitsealami.com/blog/2020/06/26/academic-score-citation/" rel="alternate" type="text/html" title="একাডেমিক সাইটেশন, রিসার্চগেট আর জার্নাল ভিত্তিক স্কোরিং - কতটা যুক্তিযুক্ত?" /><published>2020-06-26T23:00:00-04:00</published><updated>2020-06-26T23:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/06/26/academic-score-citation</id><content type="html" xml:base="https://amitsealami.com/blog/2020/06/26/academic-score-citation/">&lt;p&gt;একাডেমিয়াতে গবেষণার বিকল্প নেই। আর সেই গবেষণায় কে কতটা ভালো তা বুঝতে বা আন্দাজ পেতে আমরা নানারকম ভাবে “মেট্রিকস” বা মাপজোকের চেষ্টা করি। কিন্তু সেই মাপজোকের চেষ্টায় কিছু ঝামেলা (বা বায়াস) আমরা নিজের অজান্তেই করে ফেলি। এগুলো নিয়ে কিছু সাবধাণতা অবলম্বন করা দরকার সবারই, সে বিষয়েই এই লেখাটা:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;ps&lt;/strong&gt;: I still have not figured out a way to add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp-img&lt;/code&gt;. But I barely use them anyway!&lt;/p&gt;
+
+&lt;h2 id=&quot;sample-repositorycodewebsite&quot;&gt;Sample Repository/Code/Website&lt;/h2&gt;
+
+&lt;p&gt;A Sample Source code repository built using the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot; target=&quot;_blank&quot;&gt;Jekyll Now&lt;/a&gt; with AMP support is available here:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/LordAmit/jekyll-amp-sample&quot; target=&quot;_blank&quot;&gt;https://github.com/LordAmit/jekyll-amp-sample&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This post is created using this same tutorial. Still, if you want to see sample repository in working, check this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://lordamit.github.io/jekyll-amp-sample/&quot; target=&quot;_blank&quot;&gt;https://lordamit.github.io/jekyll-amp-sample/&lt;/a&gt;&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html">I decided to make AMP work with Jekyll after I was heartbroken by the mess called Facebook instant article. AMP is easier, but if you want to use it with jekyll, there are two options: either use a theme that allows posting AMP articles, or using a plugin that makes AMP versions of your existing posts. The second option is obsolete, and I did not want to change my theme. Moreover, there is also this issue of AMP not supporting a lot of things like syntax highlighting and what not, and I did not want to make _all_ of my posts AMP based. So I had to make my own option: create a manual-ish approach that automates everything as much as possible with me having a fine degree of control on what gets to be converted.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="bn"><title type="html">একাডেমিক সাইটেশন, রিসার্চগেট আর জার্নাল ভিত্তিক স্কোরিং - কতটা যুক্তিযুক্ত?</title><link href="https://amitsealami.com/blog/2020/06/26/academic-score-citation/" rel="alternate" type="text/html" title="একাডেমিক সাইটেশন, রিসার্চগেট আর জার্নাল ভিত্তিক স্কোরিং - কতটা যুক্তিযুক্ত?" /><published>2020-06-26T23:00:00-04:00</published><updated>2020-06-26T23:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/06/26/academic-score-citation</id><content type="html" xml:base="https://amitsealami.com/blog/2020/06/26/academic-score-citation/">&lt;p&gt;একাডেমিয়াতে গবেষণার বিকল্প নেই। আর সেই গবেষণায় কে কতটা ভালো তা বুঝতে বা আন্দাজ পেতে আমরা নানারকম ভাবে “মেট্রিকস” বা মাপজোকের চেষ্টা করি। কিন্তু সেই মাপজোকের চেষ্টায় কিছু ঝামেলা (বা বায়াস) আমরা নিজের অজান্তেই করে ফেলি। এগুলো নিয়ে কিছু সাবধাণতা অবলম্বন করা দরকার সবারই, সে বিষয়েই এই লেখাটা:&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
