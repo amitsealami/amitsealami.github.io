@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2020-07-19T12:51:47-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Using AMP with Jekyll</title><link href="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/" rel="alternate" type="text/html" title="Using AMP with Jekyll" /><published>2020-07-18T00:00:00-04:00</published><updated>2020-07-10T00:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll</id><content type="html" xml:base="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/">&lt;ul&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2020-07-19T12:53:44-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Using AMP with Jekyll</title><link href="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/" rel="alternate" type="text/html" title="Using AMP with Jekyll" /><published>2020-07-18T00:00:00-04:00</published><updated>2020-07-10T00:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll</id><content type="html" xml:base="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/">&lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;#1-creating-inline-css&quot;&gt;1. Creating Inline CSS&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#2-making-a-amp-specific-layout-file&quot;&gt;2. Making a AMP specific Layout File&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#3-establishing-relation-from-amp-to-non-amp-page&quot;&gt;3. Establishing Relation from AMP to non-AMP page&lt;/a&gt;&lt;/li&gt;
@@ -11,7 +11,7 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#6-writing-once-putting-everywhere&quot;&gt;6. Writing Once, Putting everywhere&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#7-bonus-if-you-want-excerpt&quot;&gt;7. Bonus: If you want excerpt&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#sample-repositorycodewebsite&quot;&gt;Sample Repository/Code/Website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#8-sample-repositorycodewebsite&quot;&gt;8. Sample Repository/Code/Website&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I decided to make AMP work with Jekyll after I was heartbroken by the mess called Facebook instant article. AMP is easier, but if you want to use it with jekyll, there are two options: either use a theme that allows posting AMP articles, or using a plugin that makes AMP versions of your existing posts. The second option is obsolete, and I did not want to change my theme. Moreover, there is also this issue of AMP not supporting a lot of things like syntax highlighting and what not, and I did not want to make &lt;em&gt;all&lt;/em&gt; of my posts AMP based.&lt;/p&gt;
@@ -225,7 +225,7 @@ So, for example, this post will have two markdown files.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;ps&lt;/strong&gt;: I still have not figured out a way to add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp-img&lt;/code&gt;. But I barely use them anyway!&lt;/p&gt;
 
-&lt;h2 id=&quot;sample-repositorycodewebsite&quot;&gt;Sample Repository/Code/Website&lt;/h2&gt;
+&lt;h2 id=&quot;8-sample-repositorycodewebsite&quot;&gt;8. Sample Repository/Code/Website&lt;/h2&gt;
 
 &lt;p&gt;A Sample Source code repository built using the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot; target=&quot;_blank&quot;&gt;Jekyll Now&lt;/a&gt; with AMP support is available here:&lt;/p&gt;
 
