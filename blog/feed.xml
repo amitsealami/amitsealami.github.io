@@ -1,4 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2020-08-24T12:59:17-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="bn"><title type="html">শিখতে শেখা - নিউরাল সায়েন্স আর কোর্সেরার আলোকে</title><link href="https://amitsealami.com/blog/2020/08/24/learning-how-to-learn/" rel="alternate" type="text/html" title="শিখতে শেখা - নিউরাল সায়েন্স আর কোর্সেরার আলোকে" /><published>2020-08-24T00:00:00-04:00</published><updated>2020-08-24T00:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/08/24/learning-how-to-learn</id><content type="html" xml:base="https://amitsealami.com/blog/2020/08/24/learning-how-to-learn/">&lt;h2 id=&quot;ভূমিকা&quot;&gt;ভূমিকা&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2020-09-09T16:01:58-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Why I left Preview and Started using Skim for Reading Research Papers</title><link href="https://amitsealami.com/blog/2020/09/08/use-skim-not-preview/" rel="alternate" type="text/html" title="Why I left Preview and Started using Skim for Reading Research Papers" /><published>2020-09-08T00:00:00-04:00</published><updated>2020-09-08T00:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/09/08/use-skim-not-preview</id><content type="html" xml:base="https://amitsealami.com/blog/2020/09/08/use-skim-not-preview/">&lt;h2 id=&quot;problems-in-osx-preview-for-pdf&quot;&gt;Problems in OSX Preview for PDF&lt;/h2&gt;
+
+&lt;p&gt;Preview is good and all for reading PDF. I admit that its user interface is really sleek, beautiful. But (there is always a but) it &lt;em&gt;is&lt;/em&gt; bad when you try to use it for highlighting PDFs and writing notes, which is really important when it comes to research. That’s exactly where I found three issues which forced me to stop using it.&lt;/p&gt;
+
+&lt;h3 id=&quot;highlight-messes-up-selection-tool&quot;&gt;Highlight Messes up Selection Tool&lt;/h3&gt;
+
+&lt;p&gt;So, if you select highlight tool, then select text selection tool - it will continue highlighting text. This gets really annoying. Here is a video that shows what I am talking about:&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; playsinline=&quot;&quot; src=&quot;/blog/videos/preview_bug/preview_wat.mp4&quot; poster=&quot;/blog/images/preview_bug/preview_wat.jpg&quot; width=&quot;100%&quot;&gt;
+
+Sorry to see that your browser is not supporting embedded videos. Please click here to view [the video](/blog/videos/preview_bug/preview_wat.mp4)
+&lt;/video&gt;
+
+&lt;h3 id=&quot;highlight-bar-also-messes-up-search-function&quot;&gt;Highlight Bar also Messes up Search Function&lt;/h3&gt;
+
+&lt;p&gt;And guess what? Searching is also buggy. It won’t work if you have highlights bar on. It also won’t search if you hide the side bar after searching with the side bar on. You &lt;em&gt;have&lt;/em&gt; to hide the bar, and then type the keyword again. And then if you enable the side bar, it will automatically highlight the word you are searching for. And by automatic highlight, I don’t mean highlighting as found keyword, but as PDF annotation.&lt;/p&gt;
+
+&lt;video controls=&quot;&quot; playsinline=&quot;&quot; src=&quot;/blog/videos/preview_bug/preview_shrug.mp4&quot; poster=&quot;/blog/images/preview_bug/preview_shrug.jpg&quot; width=&quot;100%&quot;&gt;
+
+Sorry to see that your browser is not supporting embedded videos. Please click here to view [the video](/blog/videos/preview_bug/preview_shrug.mp4)
+&lt;/video&gt;
+
+&lt;h2 id=&quot;random-crashes&quot;&gt;Random Crashes&lt;/h2&gt;
+
+&lt;p&gt;Pity that I can not share a screen-cast because I do not know what causes it. But last time I tried annotating a PDF - I was half way through reading a 20 page paper and Preview decided to crash on me. Interestingly, I press command+S to save my annotations quite frequently, and I was surprised that barely any of the annotations I made was saved. Maybe it was the size of the PDF, maybe it was my bad luck - but it happened. So I began to look at other options that allows me to highlight PDFs in different colors, preferably using colors I chose with opacity.&lt;/p&gt;
+
+&lt;h3 id=&quot;alternatives-i-tried&quot;&gt;Alternatives I tried&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Foxit PDF Reader - Honestly, it would be my go to choice if I did not find Skim. The only issue I find is that I can not change the color presets, i.e. you either have to use their color preset, or &lt;em&gt;have to&lt;/em&gt; change color manually for each highlight&lt;/li&gt;
+  &lt;li&gt;Adobe PDF Reader - Slow, sidebar takes too much space, color change tedious, did not find color presets&lt;/li&gt;
+  &lt;li&gt;PDF Expert Free - Does not allow saving annotated PDF in free version&lt;/li&gt;
+  &lt;li&gt;PDFReader Pro Lite - Looks like and feels like Skim PDF, and has advertisements. Interestingly, it also was able to render notes I made using Skim.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;skim---the-pdf-reader-i-chose&quot;&gt;SKIM - The PDF Reader I chose&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://skim-app.sourceforge.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Skim is an open source, free PDF reader and annotator&lt;/a&gt; that’s built for OSX. Here are the advantages due to which I use Skim:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fast&lt;/li&gt;
+  &lt;li&gt;Allows you to create custom color presets, choose colors from touch bar or basically use them easily&lt;/li&gt;
+  &lt;li&gt;Allows you to &lt;strong&gt;sort your annotations&lt;/strong&gt; by note type, author, date and &lt;em&gt;drum roll&lt;/em&gt; &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;colors&lt;/code&gt;! Really helpful if you are color coding your notes&lt;/li&gt;
+  &lt;li&gt;Has Tex Sync - which is really important if you are writing your research papers using LaTeX&lt;/li&gt;
+  &lt;li&gt;Can optionally save all your annotations in external files, so even if your PDF crashes, your notes will be saved elsewhere.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/resized/preview_bug/skim-800-2156acf7c.jpg&quot; alt=&quot;image of Skim PDF showing highlights&quot; srcset=&quot;/blog/images/resized/preview_bug/skim-400-2156acf7c.jpg 400w, /blog/images/resized/preview_bug/skim-600-2156acf7c.jpg 600w, /blog/images/resized/preview_bug/skim-800-2156acf7c.jpg 800w, /blog/images/resized/preview_bug/skim-1000-2156acf7c.jpg 1000w&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Under the hood, it uses Apple’s PDF Kit, which adds both advantages and disadvantages. The main advantage is that is is really fast. The main disadvantage is that it creates an issue for storing annotations in PDF. In their words:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Skim uses Apple’s PDFKit framework as a PDF engine. In Tiger, PDFKit cannot save annotations to a PDF. It can save them as ‘ordinary’ PDF (as Preview and Skim’s export as PDF With Embedded Notes do), but you will lose the ability to edit the notes. On Leopard, some notes can be embedded as editable annotations in the PDF, but this is rather buggy and some types of notes still cannot be saved without loss of data (compare Export as PDF With Embedded Notes). Moreover, in many cases it is nice not to change the PDF itself. In some cases, such as when the PDF is password-protected, this is not even possible. Another reason is that Adobe’s PDF specifications do not allow a note such as Skim’s Anchored Note, featuring rich text and an attached image. So saving notes in the PDF would always lead to data loss.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In short, Skim stores annotations as external attributes of File, and optionally in external files (i.e. your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;PDFName.skim&lt;/code&gt;). When you open the PDF using Skim, it reads those annotations and renders them on your PDF.&lt;/p&gt;
+
+&lt;p&gt;This also means opening that PDF in any other PDF reader will show none of the annotations, and if you are emailing it - the external attributes might go missing. However, You can export your Skim annotated PDF as properly annotated PDF and email/read in any other PDF reader. If you open that properly annotated PDF in Skim, you won’t be able to modify existing annotations. You will be able to make new annotations regardless, and you can also convert existing annotations to SKIM type to modify them again.&lt;/p&gt;
+
+&lt;h2 id=&quot;current-workflow&quot;&gt;Current workflow&lt;/h2&gt;
+
+&lt;p&gt;So, here is how I am using skim pdf now:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Open PDF (from Zotero or whatever) using Skim&lt;/li&gt;
+  &lt;li&gt;Annotate PDF&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Depending on whether I think I need to go back to that particular PDF, I also do the following, optional steps:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;export PDF as an annotated version without overwriting the existing one&lt;/li&gt;
+  &lt;li&gt;export note as RTF/txt&lt;/li&gt;
+  &lt;li&gt;save those notes in Zotero&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html">Problems in OSX Preview for PDF Preview is good and all for reading PDF. I admit that its user interface is really sleek, beautiful. But (there is always a but) it is bad when you try to use it for highlighting PDFs and writing notes, which is really important when it comes to research. That’s exactly where I found three issues which forced me to stop using it. Highlight Messes up Selection Tool So, if you select highlight tool, then select text selection tool - it will continue highlighting text. This gets really annoying. Here is a video that shows what I am talking about: Sorry to see that your browser is not supporting embedded videos. Please click here to view [the video](/blog/videos/preview_bug/preview_wat.mp4) Highlight Bar also Messes up Search Function And guess what? Searching is also buggy. It won’t work if you have highlights bar on. It also won’t search if you hide the side bar after searching with the side bar on. You have to hide the bar, and then type the keyword again. And then if you enable the side bar, it will automatically highlight the word you are searching for. And by automatic highlight, I don’t mean highlighting as found keyword, but as PDF annotation. Sorry to see that your browser is not supporting embedded videos. Please click here to view [the video](/blog/videos/preview_bug/preview_shrug.mp4) Random Crashes Pity that I can not share a screen-cast because I do not know what causes it. But last time I tried annotating a PDF - I was half way through reading a 20 page paper and Preview decided to crash on me. Interestingly, I press command+S to save my annotations quite frequently, and I was surprised that barely any of the annotations I made was saved. Maybe it was the size of the PDF, maybe it was my bad luck - but it happened. So I began to look at other options that allows me to highlight PDFs in different colors, preferably using colors I chose with opacity. Alternatives I tried Foxit PDF Reader - Honestly, it would be my go to choice if I did not find Skim. The only issue I find is that I can not change the color presets, i.e. you either have to use their color preset, or have to change color manually for each highlight Adobe PDF Reader - Slow, sidebar takes too much space, color change tedious, did not find color presets PDF Expert Free - Does not allow saving annotated PDF in free version PDFReader Pro Lite - Looks like and feels like Skim PDF, and has advertisements. Interestingly, it also was able to render notes I made using Skim. SKIM - The PDF Reader I chose Skim is an open source, free PDF reader and annotator that’s built for OSX. Here are the advantages due to which I use Skim: Fast Allows you to create custom color presets, choose colors from touch bar or basically use them easily Allows you to sort your annotations by note type, author, date and drum roll colors! Really helpful if you are color coding your notes Has Tex Sync - which is really important if you are writing your research papers using LaTeX Can optionally save all your annotations in external files, so even if your PDF crashes, your notes will be saved elsewhere. Under the hood, it uses Apple’s PDF Kit, which adds both advantages and disadvantages. The main advantage is that is is really fast. The main disadvantage is that it creates an issue for storing annotations in PDF. In their words: Skim uses Apple’s PDFKit framework as a PDF engine. In Tiger, PDFKit cannot save annotations to a PDF. It can save them as ‘ordinary’ PDF (as Preview and Skim’s export as PDF With Embedded Notes do), but you will lose the ability to edit the notes. On Leopard, some notes can be embedded as editable annotations in the PDF, but this is rather buggy and some types of notes still cannot be saved without loss of data (compare Export as PDF With Embedded Notes). Moreover, in many cases it is nice not to change the PDF itself. In some cases, such as when the PDF is password-protected, this is not even possible. Another reason is that Adobe’s PDF specifications do not allow a note such as Skim’s Anchored Note, featuring rich text and an attached image. So saving notes in the PDF would always lead to data loss. In short, Skim stores annotations as external attributes of File, and optionally in external files (i.e. your PDFName.skim). When you open the PDF using Skim, it reads those annotations and renders them on your PDF. This also means opening that PDF in any other PDF reader will show none of the annotations, and if you are emailing it - the external attributes might go missing. However, You can export your Skim annotated PDF as properly annotated PDF and email/read in any other PDF reader. If you open that properly annotated PDF in Skim, you won’t be able to modify existing annotations. You will be able to make new annotations regardless, and you can also convert existing annotations to SKIM type to modify them again. Current workflow So, here is how I am using skim pdf now: Open PDF (from Zotero or whatever) using Skim Annotate PDF Depending on whether I think I need to go back to that particular PDF, I also do the following, optional steps: export PDF as an annotated version without overwriting the existing one export note as RTF/txt save those notes in Zotero</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="bn"><title type="html">শিখতে শেখা - নিউরাল সায়েন্স আর কোর্সেরার আলোকে</title><link href="https://amitsealami.com/blog/2020/08/24/learning-how-to-learn/" rel="alternate" type="text/html" title="শিখতে শেখা - নিউরাল সায়েন্স আর কোর্সেরার আলোকে" /><published>2020-08-24T00:00:00-04:00</published><updated>2020-08-24T00:00:00-04:00</updated><id>https://amitsealami.com/blog/2020/08/24/learning-how-to-learn</id><content type="html" xml:base="https://amitsealami.com/blog/2020/08/24/learning-how-to-learn/">&lt;h2 id=&quot;ভূমিকা&quot;&gt;ভূমিকা&lt;/h2&gt;
 
 &lt;p&gt;কোর্সেরায় একটা মজার কোর্স আছে, &lt;a href=&quot;https://www.coursera.org/learn/learning-how-to-learn/&quot; rel=&quot;nofollow&quot;&gt;Learning How to Learn: Powerful mental tools to help you master tough subjects&lt;/a&gt;। কোর্সটা পৃথিবীর সবচাইতে জনপ্রিয় অনলাইন কোর্সগুলোর একটা, যেটায় প্রায় ১১ লাখ মানুষ এখন পর্যন্ত এনরোল/ভর্তি হয়েছে। কোর্সটা যারা নেন তাঁরাও অনেক জ্ঞানী। প্রথম জন অধ্যাপক Barbara Oakley, যিনি প্রকৌশল, শিক্ষা সহ আরো নানা কিছু নিয়ে গবেষণা করেন। আরেকজন অধ্যাপক Terry Sejnowski, যিনি মগজের ভিতরে কি হয় তা নিয়ে গবেষণা করেন। দুইজনেরই নিজ নিজ বিষয়ে যথেষ্ট গবেষণা আর অর্জন আছে।&lt;/p&gt;
 
@@ -636,50 +710,4 @@ So, for example, this post will have two markdown files.&lt;/p&gt;
 &lt;p&gt;সহকারী অধ্যাপক,&lt;/p&gt;
 
 &lt;p&gt;ঢাকা বিশ্ববিদ্যালয়
-(পিএইচডির জন্য আমেরিকায় William &amp;amp; Mary তে আছেন শিক্ষাছুটিতে)&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><category term="education" /><category term="Bangladesh" /><category term="others" /><category term="blog" /><category term="বাংলা" /><category term="blog" /><summary type="html">শিক্ষক নেটওয়ার্কের উদ্যোগে বাংলাদেশের বিশ্ববিদ্যালয় পর্যায়ে পরিবর্তন নিয়ে বেশ কিছু প্রস্তাব এসেছে, অত্যন্ত ভালো উদ্যোগ। সেটাকে আরো ভালো করার জন্য আমার এই ক্ষুদ্র প্রয়াস। প্রস্তাবগুলোর মধ্যে যেগুলো নিয়ে মতামত আছে, শুধুমাত্র সেগুলো এখানে উল্লেখ করা হলো।</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">আমেরিকায় পড়াশুনা (২) - কোন ভার্সিটিতে পড়বো?</title><link href="https://amitsealami.com/blog/2019/03/05/USA-education-2/" rel="alternate" type="text/html" title="আমেরিকায় পড়াশুনা (২) - কোন ভার্সিটিতে পড়বো?" /><published>2019-03-05T01:00:00-05:00</published><updated>2019-03-05T01:00:00-05:00</updated><id>https://amitsealami.com/blog/2019/03/05/USA-education-2</id><content type="html" xml:base="https://amitsealami.com/blog/2019/03/05/USA-education-2/">&lt;p&gt;আগেই বলে রাখি, এই লেখাটা যারা শুধুই আমেরিকায় আসতে চান, সেজন্য পড়াশুনার অজুহাতে বা যেকোন অজুহাতে আসবেন তাদের জন্য না। যারা পড়াশুনা নিয়ে আগ্রহী, গবেষণা করতে চান, বা ভালো ক্যারিয়ার গড়তে চান উচ্চ পর্যায়ের পড়াশুনা শেষে, তাদের জন্য। আমি আরো ধরে নিচ্ছি আপনার সিজিপিএ, জিআরই, টোফেল বা আয়েল্টস, পাবলিকেশন এগুলোতে মোটামুটি স্কোর আছে।&lt;/p&gt;
-
-&lt;p&gt;আমেরিকায় সাধারণত মানুষ ১০-১২টায় এপ্লাই করে, কেউবা করে ৩০টা ইউনিভার্সিটিতে। গড়পড়তা নিয়ম হচ্ছে এপ্লাই করার আগে তিন ক্যাটেগরিতে ভাগ করা:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;যেখানে পড়াশুনা করতে পারলে ভাগ্যবান হবে নিজেকে,&lt;/li&gt;
-  &lt;li&gt;যেটায় পড়াশুনা করতে পারলে ভালো, আর&lt;/li&gt;
-  &lt;li&gt;যেটায় পড়াশুনা করতে পারলে ইউনিভার্সিটি নিজেকে ভাগ্যবান মনে করবে।&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;সাধারণত টপ স্কুলগুলোকে প্রথম ক্যাটেগরির ধরা হয়।&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;p&gt;বাংলাদেশ এর উদাহরণ দেই কলেজ দিয়ে। প্রথম ক্যাটাগরির কলেজ হিসেবে হয়তো আপনি নটর ডেমে পড়তে পারলে নিজেকে ভাগ্যবান মনে করতে পারবেন। দ্বিতীয় ক্যাটাগরিতে হয়তো কোন কলেজ আপনার পছন্দ কিন্তু শীর্ষ কলেজ হিসেবে ধরা হয় না, এমন কলেজ পাবেন আর তৃতীয় ক্যাটাগরি তে ভুঁইফোড় কলেজ গুলো থাকবে যেগুলো নামকাওয়াস্তে কলেজ - তলে তলে ব্যবসা প্রতিষ্ঠান। এগুলো অনেকে সময় দেখবেন A+ পাওয়া শিক্ষার্থীদের বলছে এসে ভর্তি হও, বেতন দেয়া লাগবে না, উল্টা টাকা দেব। এগুলো ভালো পরিচিতির আশায় এরকম শিক্ষার্থী খুঁজে যেন HSC পর্যায়ে তুলনামূলক কম পরিশ্রমের বিনিময়ে ভালো রেজাল্ট বাকিদের দেখাতে পারে। আমেরিকায়ও এমন প্রচুর ইউনিভার্সিটি আছে যেগুলো হিসাবে তেমন কাজের না। এগুলো চায় ফুসলিয়ে ফাসলিয়ে আপনাকে নিয়ে আসতে, বিশেষ করে আপনি যদি নিজে ভালো শিক্ষার্থী হন। নিদেন পক্ষে একটা এপ্লিকেশন পেলেও, সেক্ষেত্রে এপ্লিকেশন ফিটাই ওদের লাভ।&lt;/p&gt;
-
-&lt;p&gt;বিশ্ববিদ্যালয়ের র‍্যাংকিং, ছাত্ররা সাধারণত কি কি ফ্যাক্টর হিসাবে নেয়, কি কি নেয়া  উচিৎ, প্রফেসররা কি দেখে সাধারণত - এসব নিয়ে মাঝে সাঝেই আলাপ হয় আমাদের সাথে প্রফেসরদের। আবার অনেক সময় প্রফেসররা টপ র‍্যাংকড কনফারেন্সে ওয়ার্কশপ নেন কিভাবে PhD এর প্ল্যান করা উচিত, কি করে আগানো যায় ইত্যাদি নিয়ে।  সেগুলো আমি চেয়ে নেই, দেখি আর শিখি।&lt;br /&gt;
-সবকিছু থেকে চুম্বক অংশগুলোর ভিত্তিতে আমার নিজস্ব চিন্তাভাবনা নিয়ে লিখছি।&lt;/p&gt;
-
-&lt;h2 id=&quot;র্যাংকিং&quot;&gt;র‍্যাংকিং&lt;/h2&gt;
-
-&lt;p&gt;র‍্যাংকিং দেখতে গিয়ে অনেকে ওয়েবসাইটে র‍্যাংকিং দেখে বেশ কিছু র‍্যাংকিং আছে, QS Ranking, Times Higher Education Ranking ইত্যাদি। এগুলোর উপরে নির্ভর করা ঠিক না এজন্য যে এগুলো ডাটা কালেকশনের উপরে পুরোপুরি নির্ভরশীল। অনেক বিশ্ববিদ্যালয়ই ডাটা পাঠায় না বলে র‍্যাংকিং এ আসেই না। আবার যেসব ডাটা সংগ্রহ করা হয়, সে ডাটায় নানা অংশে নানারকম গুরুত্ব দেয় এক এক প্রতিষ্ঠান। এতে দেখা যায় একই বিশ্ববিদ্যালয় এক এক ওয়েবসাইটে এক একরকম র‍্যাংকিং এ। আবার পাবলিকেশন এর ক্ষেত্রেও ঝামেলা আছে। টপ ক্যাটাগরির কনফারেন্স কোনটা হবে সেটা নিয়ে সাধারণত মতবিরোধ থাকে না। কিন্তু তার পরের ক্যাটাগরির কনফারেন্স কে কেউ গুনেই না, কেউ আবার টপ ক্যাটাগরির সাথেই ধরে, বা কেউ ধরে সেকেন্ড ক্যাটাগরি হিসেবে। যেহেতু এই ধরাধরি বা গুরুত্ব দেয়ার ব্যাপারগুলো সাবজেক্টিভ, তাই র‍্যাংকিং এর উপরে দিনশেষে ভরসা তেমন করা যায় না।&lt;/p&gt;
-
-&lt;p&gt;কাজেই সে র‍্যাংকিং গুলো দেখবেন, কিন্তু সেটা দেখবেন ধারণা পেতে, শর্টলিস্ট করতে। তারপরে শুধুমাত্র নিজের জন্য আপনার নিজেরই র‍্যাংকিং করা লাগবে। এই র‍্যাংকিং করার সময় কিছু প্রশ্ন করা লাগবে আপনার:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;র‍্যাংকিং কি সাবজেক্টের না ইউনিভার্সিটির? নাকি ইউনিভার্সিটির ফ্যাসিলিটির? নাকি ফ্যাকাল্টির?&lt;/li&gt;
-  &lt;li&gt;র‍্যাংকিংটায় কি প্রফেসরদের গবেষণার মান উঠে এসেছে?&lt;/li&gt;
-  &lt;li&gt;যে সাবজেক্ট র‍্যাংকিং দেখছেন, তার যে ফিল্ডে আপনি কাজ করতে চান সে ফিল্ডে ঐ ডিপার্টমেন্টের কোন প্রফেসরের ভালো পাবলিকেশন আছে?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;সাথে সাথে প্রফেসরদেরও তালিকা করা লাগবে, যে তালিকায় র‍্যাংকিং করার সময় নিচের বিষয়গুলোর খেয়াল রাখা লাগবে:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;প্রফেসর শেষ কবে ফান্ড বা গ্রান্ট পেয়েছেন? উনি কি নিয়মিত গুরুত্ত্বপূর্ণ কনফারেন্স বা জার্নাল কমিটিতে থাকেন?&lt;/li&gt;
-  &lt;li&gt;প্রফেসর কি টেনুর পেয়ে গেছেন নাকি পাবেন? বয়স কেমন? রিসার্চ গ্রুপে কতজন ছাত্র বর্তমানে আছে?&lt;/li&gt;
-  &lt;li&gt;এডভাইজার হিসাবে প্রফেসর কেমন? সপ্তাহে কি নিয়মিত স্টুডেন্টদের সাথে দেখা হয়? নাকি কাজ দিয়ে মাস দুয়েক উধাও হয়ে যান?&lt;/li&gt;
-  &lt;li&gt;ল্যাবে কি স্টুডেন্টরা একজন আরেকজনের সাথে টীম ওয়ার্ক করে নাকি সারাদিন কানাকানি মারামারি করে?&lt;/li&gt;
-  &lt;li&gt;ল্যাবের স্টুডেন্টরা গড়ে বছরে কয়টা পেপার বার করে? তারা কি গবেষণার পরে একাডেমিয়াতে গেছে নাকি ইন্ডাস্ট্রিতে?&lt;/li&gt;
-  &lt;li&gt;যেখানে যাবেন সেখানের ফান্ডিং এর হিসাবে জীবনযাত্রার খরচ কি উঠে আসবে? নাকি কষ্ট হবে?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;এই প্রশ্নগুলো করে আপনার আগাতে হবে। 
-লেখার শুরুতে প্রশ্ন করেছিলাম - কোন ভার্সিটিতে পড়বো? লেখার আলাপ করতে করতে কার সাথে কাজ করবেন সেটায় গিয়ে ঠেঁকেছি। আর এটাই সবচেয়ে গুরুত্বপূর্ণ ফ্যাক্টর আমার মতে।
-PhD জীবনে একবারই করবেন। তাই সময় নিয়ে প্রস্তুতি নিলেই ভালো। রিসার্চের ক্ষেত্রে সুপারভাইজার আপনাকে গড়তে পারে বা ভাঙতে পারে। PhD কে অনেকে শুধুমাত্র একটা  ডিগ্রি হিসাবে দেখে, কিন্তু পরিসংখ্যান বলে PhD করতে শিক্ষার্থীদের এক তৃতীয়াংশ বা তার বেশি মানসিক চাপে ভুগে এবং পরবর্তীতে মানসিক সমস্যায় বা &lt;a href=&quot;https://www nature.com/articles/d41586-018-03803-3&quot;&gt;ডিপ্রেশনে&lt;/a&gt; পড়তে পারে। তাই ভালো সুপারভাইজারের বিকল্প নেই, একদমই নেই। সব মিলিয়ে খুব ভালোমতো আঁটঘাঁট বেঁধে নামা উচিত ইউনিভার্সিটি সিলেক্ট করার সময়।&lt;/p&gt;
-
-&lt;p&gt;সবার জন্য শুভকামনা :)&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><category term="education" /><category term="USA" /><category term="blog" /><category term="USA" /><category term="বাংলা" /><category term="blog" /><summary type="html">আগেই বলে রাখি, এই লেখাটা যারা শুধুই আমেরিকায় আসতে চান, সেজন্য পড়াশুনার অজুহাতে বা যেকোন অজুহাতে আসবেন তাদের জন্য না। যারা পড়াশুনা নিয়ে আগ্রহী, গবেষণা করতে চান, বা ভালো ক্যারিয়ার গড়তে চান উচ্চ পর্যায়ের পড়াশুনা শেষে, তাদের জন্য। আমি আরো ধরে নিচ্ছি আপনার সিজিপিএ, জিআরই, টোফেল বা আয়েল্টস, পাবলিকেশন এগুলোতে মোটামুটি স্কোর আছে। আমেরিকায় সাধারণত মানুষ ১০-১২টায় এপ্লাই করে, কেউবা করে ৩০টা ইউনিভার্সিটিতে। গড়পড়তা নিয়ম হচ্ছে এপ্লাই করার আগে তিন ক্যাটেগরিতে ভাগ করা: যেখানে পড়াশুনা করতে পারলে ভাগ্যবান হবে নিজেকে, যেটায় পড়াশুনা করতে পারলে ভালো, আর যেটায় পড়াশুনা করতে পারলে ইউনিভার্সিটি নিজেকে ভাগ্যবান মনে করবে। সাধারণত টপ স্কুলগুলোকে প্রথম ক্যাটেগরির ধরা হয়।</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+(পিএইচডির জন্য আমেরিকায় William &amp;amp; Mary তে আছেন শিক্ষাছুটিতে)&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><category term="education" /><category term="Bangladesh" /><category term="others" /><category term="blog" /><category term="বাংলা" /><category term="blog" /><summary type="html">শিক্ষক নেটওয়ার্কের উদ্যোগে বাংলাদেশের বিশ্ববিদ্যালয় পর্যায়ে পরিবর্তন নিয়ে বেশ কিছু প্রস্তাব এসেছে, অত্যন্ত ভালো উদ্যোগ। সেটাকে আরো ভালো করার জন্য আমার এই ক্ষুদ্র প্রয়াস। প্রস্তাবগুলোর মধ্যে যেগুলো নিয়ে মতামত আছে, শুধুমাত্র সেগুলো এখানে উল্লেখ করা হলো।</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
