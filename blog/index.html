@@ -97,79 +97,8 @@
     <div class="entry">
       <h2 id="problems-in-osx-preview-for-pdf">Problems in OSX Preview for PDF</h2>
 
-<p>Preview is good and all for reading PDF. I admit that its user interface is really sleek, beautiful. But (there is always a but) it <em>is</em> bad when you try to use it for highlighting PDFs and writing notes, which is really important when it comes to research. That’s exactly where I found three issues which forced me to stop using it.</p>
+<p>Preview is good and all for reading PDF. I admit that its user interface is really sleek, beautiful. But (there is always a but) it <em>is</em> bad when you try to use it for highlighting PDFs and writing notes, which is really important when it comes to research. That’s exactly where I found three issues which forced me to stop using it and choose Skim - an open source, free PDF reader instead.</p>
 
-<h3 id="highlight-messes-up-selection-tool">Highlight Messes up Selection Tool</h3>
-
-<p>So, if you select highlight tool, then select text selection tool - it will continue highlighting text. This gets really annoying. Here is a video that shows what I am talking about:</p>
-
-<video controls="" playsinline="" src="/blog/videos/preview_bug/preview_wat.mp4" poster="/blog/images/preview_bug/preview_wat.jpg" width="100%">
-
-Sorry to see that your browser is not supporting embedded videos. Please click here to view [the video](/blog/videos/preview_bug/preview_wat.mp4)
-</video>
-
-<h3 id="highlight-bar-also-messes-up-search-function">Highlight Bar also Messes up Search Function</h3>
-
-<p>And guess what? Searching is also buggy. It won’t work if you have highlights bar on. It also won’t search if you hide the side bar after searching with the side bar on. You <em>have</em> to hide the bar, and then type the keyword again. And then if you enable the side bar, it will automatically highlight the word you are searching for. And by automatic highlight, I don’t mean highlighting as found keyword, but as PDF annotation.</p>
-
-<video controls="" playsinline="" src="/blog/videos/preview_bug/preview_shrug.mp4" poster="/blog/images/preview_bug/preview_shrug.jpg" width="100%">
-
-Sorry to see that your browser is not supporting embedded videos. Please click here to view [the video](/blog/videos/preview_bug/preview_shrug.mp4)
-</video>
-
-<h2 id="random-crashes">Random Crashes</h2>
-
-<p>Pity that I can not share a screen-cast because I do not know what causes it. But last time I tried annotating a PDF - I was half way through reading a 20 page paper and Preview decided to crash on me. Interestingly, I press command+S to save my annotations quite frequently, and I was surprised that barely any of the annotations I made was saved. Maybe it was the size of the PDF, maybe it was my bad luck - but it happened. So I began to look at other options that allows me to highlight PDFs in different colors, preferably using colors I chose with opacity.</p>
-
-<h3 id="alternatives-i-tried">Alternatives I tried</h3>
-
-<ul>
-  <li>Foxit PDF Reader - Honestly, it would be my go to choice if I did not find Skim. The only issue I find is that I can not change the color presets, i.e. you either have to use their color preset, or <em>have to</em> change color manually for each highlight</li>
-  <li>Adobe PDF Reader - Slow, sidebar takes too much space, color change tedious, did not find color presets</li>
-  <li>PDF Expert Free - Does not allow saving annotated PDF in free version</li>
-  <li>PDFReader Pro Lite - Looks like and feels like Skim PDF, and has advertisements. Interestingly, it also was able to render notes I made using Skim.</li>
-</ul>
-
-<h2 id="skim---the-pdf-reader-i-chose">SKIM - The PDF Reader I chose</h2>
-
-<p><a href="https://skim-app.sourceforge.io/" target="_blank" rel="nofollow">Skim is an open source, free PDF reader and annotator</a> that’s built for OSX. Here are the advantages due to which I use Skim:</p>
-
-<ul>
-  <li>Fast</li>
-  <li>Allows you to create custom color presets, choose colors from touch bar or basically use them easily</li>
-  <li>Allows you to <strong>sort your annotations</strong> by note type, author, date and <em>drum roll</em> <code class="language-plaintext highlighter-rouge">colors</code>! Really helpful if you are color coding your notes</li>
-  <li>Has Tex Sync - which is really important if you are writing your research papers using LaTeX</li>
-  <li>Can optionally save all your annotations in external files, so even if your PDF crashes, your notes will be saved elsewhere.</li>
-</ul>
-
-<p><img src="/blog/images/resized/preview_bug/skim-800-2156acf7c.jpg" alt="image of Skim PDF showing highlights" srcset="/blog/images/resized/preview_bug/skim-400-2156acf7c.jpg 400w, /blog/images/resized/preview_bug/skim-600-2156acf7c.jpg 600w, /blog/images/resized/preview_bug/skim-800-2156acf7c.jpg 800w, /blog/images/resized/preview_bug/skim-1000-2156acf7c.jpg 1000w" /></p>
-
-<p>Under the hood, it uses Apple’s PDF Kit, which adds both advantages and disadvantages. The main advantage is that is is really fast. The main disadvantage is that it creates an issue for storing annotations in PDF. In their words:</p>
-
-<blockquote>
-  <p>Skim uses Apple’s PDFKit framework as a PDF engine. In Tiger, PDFKit cannot save annotations to a PDF. It can save them as ‘ordinary’ PDF (as Preview and Skim’s export as PDF With Embedded Notes do), but you will lose the ability to edit the notes. On Leopard, some notes can be embedded as editable annotations in the PDF, but this is rather buggy and some types of notes still cannot be saved without loss of data (compare Export as PDF With Embedded Notes). Moreover, in many cases it is nice not to change the PDF itself. In some cases, such as when the PDF is password-protected, this is not even possible. Another reason is that Adobe’s PDF specifications do not allow a note such as Skim’s Anchored Note, featuring rich text and an attached image. So saving notes in the PDF would always lead to data loss.</p>
-</blockquote>
-
-<p>In short, Skim stores annotations as external attributes of File, and optionally in external files (i.e. your <code class="language-plaintext highlighter-rouge">PDFName.skim</code>). When you open the PDF using Skim, it reads those annotations and renders them on your PDF.</p>
-
-<p>This also means opening that PDF in any other PDF reader will show none of the annotations, and if you are emailing it - the external attributes might go missing. However, You can export your Skim annotated PDF as properly annotated PDF and email/read in any other PDF reader. If you open that properly annotated PDF in Skim, you won’t be able to modify existing annotations. You will be able to make new annotations regardless, and you can also convert existing annotations to SKIM type to modify them again.</p>
-
-<h2 id="current-workflow">Current workflow</h2>
-
-<p>So, here is how I am using skim pdf now:</p>
-
-<ul>
-  <li>Open PDF (from Zotero or whatever) using Skim</li>
-  <li>Annotate PDF</li>
-</ul>
-
-<p>Depending on whether I think I need to go back to that particular PDF, I also do the following, optional steps:</p>
-
-<ul>
-  <li>export PDF as an annotated version without overwriting the existing one</li>
-  <li>export note as RTF/txt</li>
-  <li>save those notes in Zotero</li>
-</ul>
 
     </div>
 
