@@ -96,16 +96,87 @@
   <div class="entry">
     <p>Content.</p>
 
-<form method="POST" action="https://amitsealami-staticman.herokuapp.com/v2/entry/LordAmit/amitsealami.github.io.blog.src/master/comments">
-  <input name="options[redirect]" type="hidden" value="https://amitsealami.com/blog/test/" />
-  <!-- e.g. "2016-01-02-this-is-a-post" -->
-  <input name="options[slug]" type="hidden" value="" />
-  <label><input name="fields[name]" type="text" />Name</label>
-  <label><input name="fields[email]" type="email" />E-mail</label>
-  <label><textarea name="fields[message]"></textarea>Message</label>
+<section class="comments">
+    <hr />
+    
 
-  <button type="submit">Submit Comment</button>
-</form>
+    <!-- New comment form -->
+    <div id="respond" class="comment__new">
+      <form class="js-form form" method="post" action="https://amitsealami-staticman.herokuapp.com/v2/entry/LordAmit/amitsealami.github.io.blog.src/master/comments" autocomplete="off">
+    <input type="hidden" name="options[origin]" value="https://amitsealami.com/blog/test/" />
+    <input type="hidden" name="options[parent]" value="https://amitsealami.com/blog/test/" />
+    <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="" />
+    <input type="hidden" name="options[slug]" value="" />
+    <input type="hidden" name="options[reCaptcha][siteKey]" value="6LdGRiEaAAAAANreW5KD6OSMFQPmUFqU8S-pPJR9" />
+    <input type="hidden" name="options[reCaptcha][secret]" value="tvOMC5ksUwmQbU03w0cqkhnrzg+7Z9j7YigCCoGAk0krTa0tHPgMqG+lBx+UNzt2Euzs/c+ZKkdnktd9jczQETwlpdFNhoEw1i6WbQBv/JV0l3X0Rb6mdmMVxA/wx6Ims2Kt6HGcJSzlx9vIycLp1iTXjtiuT29tf5L41NBc8dc=" />
+    <input name="options[redirect]" type="hidden" value="https://amitsealami.com/blog/test/" />
+
+    <fieldset>
+    <div class="textfield">
+      <label for="comment-form-message"><h2>Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://amitsealami.com/blog/test/#respond" style="display:none;">(cancel reply)</a></small></h2>
+        <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message"></textarea>
+      </label>
+    </div>
+    </fieldset>
+
+    <fieldset>
+      <div class="textfield">
+        <label for="comment-form-name">Name
+          <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name" />
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div class="textfield">
+        <label for="comment-form-email">E-mail
+          <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (optional)" />
+        </label>
+      </div>
+    </fieldset>
+
+      <fieldset>
+      <div class="textfield">
+        <label for="hp">
+          <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="Leave blank" />
+        </label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <!--div class="g-recaptcha" data-sitekey="6LdGRiEaAAAAANreW5KD6OSMFQPmUFqU8S-pPJR9" data-theme="dark"></div-->
+      <div id="reCaptcha"></div>
+    </fieldset>
+
+    <fieldset>
+      <button class="button" id="comment-form-submit"> <!-- add id for Spinner -->
+        Submit
+      </button>
+    </fieldset>
+
+  </form>
+
+  <br />
+  <small>
+  <p>Comments are held for moderation. There will be a delay before they appear.<br />
+  Comments may include <a href="https://commonmark.org/help/" rel="nofollow"><strong>Markdown</strong></a>.<br /></p>
+  </small>
+
+  <script>
+  function showReCaptcha() {
+    var node = document.createElement("div");
+    node.setAttribute('class', 'g-recaptcha');
+    node.setAttribute('data-sitekey', '6LdGRiEaAAAAANreW5KD6OSMFQPmUFqU8S-pPJR9');
+    if (window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        node.setAttribute('data-theme', "dark");
+    }
+    document.getElementById("reCaptcha").appendChild(node);
+  }
+  showReCaptcha();
+  </script>
+    </div>
+  </section>
 
   </div>
 </article>
