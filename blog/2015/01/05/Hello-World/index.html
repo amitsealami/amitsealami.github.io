@@ -102,89 +102,124 @@
 
   <div class="entry">
     <!-- more -->
-<section class="comments">
-    <hr />
-    
-
-    <!-- New comment form -->
-    <div id="respond" class="comment__new">
-      <form class="js-form form" method="post" action="https://amitsealami-staticman.herokuapp.com/v2/entry/LordAmit/amitsealami.github.io.blog.src/master/comments" autocomplete="off">
-    <input type="hidden" name="options[origin]" value="https://amitsealami.com/blog/2015/01/05/Hello-World/" />
-    <input type="hidden" name="options[parent]" value="https://amitsealami.com/blog/2015/01/05/Hello-World/" />
-    <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="" />
-    <input type="hidden" name="options[slug]" value="Hello-World" />
-    <input type="hidden" name="options[reCaptcha][siteKey]" value="6LdGRiEaAAAAANreW5KD6OSMFQPmUFqU8S-pPJR9" />
-    <input type="hidden" name="options[reCaptcha][secret]" value="tvOMC5ksUwmQbU03w0cqkhnrzg+7Z9j7YigCCoGAk0krTa0tHPgMqG+lBx+UNzt2Euzs/c+ZKkdnktd9jczQETwlpdFNhoEw1i6WbQBv/JV0l3X0Rb6mdmMVxA/wx6Ims2Kt6HGcJSzlx9vIycLp1iTXjtiuT29tf5L41NBc8dc=" />
-    <input name="options[redirect]" type="hidden" value="https://amitsealami.com/blog/2015/01/05/Hello-World/" />
-
-    <fieldset>
-    <div class="textfield">
-      <label for="comment-form-message"><h2>Comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="https://amitsealami.com/blog/2015/01/05/Hello-World/#respond" style="display:none;">(cancel reply)</a></small></h2>
-        <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message"></textarea>
-      </label>
-    </div>
-    </fieldset>
-
-    <fieldset>
-      <div class="textfield">
-        <label for="comment-form-name">Name
-          <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name" />
-        </label>
-      </div>
-    </fieldset>
-
-    <fieldset>
-      <div class="textfield">
-        <label for="comment-form-email">E-mail
-          <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (optional)" />
-        </label>
-      </div>
-    </fieldset>
-
-      <fieldset>
-      <div class="textfield">
-        <label for="hp">
-          <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="Leave blank" />
-        </label>
-      </div>
-    </fieldset>
-
-    <fieldset>
-      <!--div class="g-recaptcha" data-sitekey="6LdGRiEaAAAAANreW5KD6OSMFQPmUFqU8S-pPJR9" data-theme="dark"></div-->
-      <div id="reCaptcha"></div>
-    </fieldset>
-
-    <fieldset>
-      <button class="button" id="comment-form-submit"> <!-- add id for Spinner -->
-        Submit
-      </button>
-    </fieldset>
-
-  </form>
-
-  <br />
-  <small>
-  <p>Comments are held for moderation. There will be a delay before they appear.<br />
-  Comments may include <a href="https://commonmark.org/help/" rel="nofollow"><strong>Markdown</strong></a>.<br /></p>
-  </small>
-
-  <script>
-  function showReCaptcha() {
-    var node = document.createElement("div");
-    node.setAttribute('class', 'g-recaptcha');
-    node.setAttribute('data-sitekey', '6LdGRiEaAAAAANreW5KD6OSMFQPmUFqU8S-pPJR9');
-    if (window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        node.setAttribute('data-theme', "dark");
-    }
-    document.getElementById("reCaptcha").appendChild(node);
-  }
-  showReCaptcha();
-  </script>
-    </div>
-  </section>
 
 <h3 id="debugging">Debugging</h3>
+
+<section class="comments" id="comment-section">
+  <hr />
+  
+  <!-- Existing comments -->
+  <div class="comments__existing">
+    <h2>Comments</h2>
+    
+    
+    <!-- List main comments in reverse date order, newest first. List replies in date order, oldest first. -->
+    
+    
+
+<article id="comment-402d1850-4f2a-11eb-8d36-8325d9c7aad8" class="js-comment comment" uid="402d1850-4f2a-11eb-8d36-8325d9c7aad8">
+
+  <div class="comment__author">Amit,
+    <span class="comment__date"><a href="#comment-402d1850-4f2a-11eb-8d36-8325d9c7aad8" title="Permalink to this comment">January  5th, 2021 07:47</a></span>
+  </div>
+
+  <div class="comment__body">
+    <p>Test</p>
+
+  </div>
+
+
+    <div class="comment__meta">
+      <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('comment-402d1850-4f2a-11eb-8d36-8325d9c7aad8', 'respond', 'Hello-World', '402d1850-4f2a-11eb-8d36-8325d9c7aad8')">↪&#xFE0E; Reply to Amit</a>
+    </div>
+</article>
+  
+
+  <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;" />
+
+    
+    
+
+<article id="comment-c695c690-4f29-11eb-8d36-8325d9c7aad8" class="js-comment comment" uid="c695c690-4f29-11eb-8d36-8325d9c7aad8">
+
+  <div class="comment__author">Amit,
+    <span class="comment__date"><a href="#comment-c695c690-4f29-11eb-8d36-8325d9c7aad8" title="Permalink to this comment">January  5th, 2021 07:44</a></span>
+  </div>
+
+  <div class="comment__body">
+    <p>Test</p>
+
+  </div>
+
+
+    <div class="comment__meta">
+      <a rel="nofollow" class="comment__reply-link" onclick="return addComment.moveForm('comment-c695c690-4f29-11eb-8d36-8325d9c7aad8', 'respond', 'Hello-World', 'c695c690-4f29-11eb-8d36-8325d9c7aad8')">↪&#xFE0E; Reply to Amit</a>
+    </div>
+</article>
+  
+
+  <hr style="border-top: 1px solid #ccc; background: transparent; margin-bottom: 10px;" />
+
+    
+  </div>
+  
+
+  <!-- New comment form -->
+  <div id="respond" class="comment__new">
+    <form class="js-form form" method="post" action="https://amitsealami-staticman.herokuapp.com/v2/entry/LordAmit/amitsealami.github.io.blog.src/master/comments">
+  <input type="hidden" name="options[origin]" value="https://amitsealami.com/blog/2015/01/05/Hello-World/" />
+  <input type="hidden" name="options[parent]" value="https://amitsealami.com/blog/2015/01/05/Hello-World/" />
+  <input type="hidden" id="comment-replying-to-uid" name="fields[replying_to_uid]" value="" />
+  <input type="hidden" name="options[slug]" value="Hello-World" />
+  <input type="hidden" name="options[reCaptcha][siteKey]" value="6LdGRiEaAAAAANreW5KD6OSMFQPmUFqU8S-pPJR9" />
+  <input type="hidden" name="options[reCaptcha][secret]" value="tvOMC5ksUwmQbU03w0cqkhnrzg+7Z9j7YigCCoGAk0krTa0tHPgMqG+lBx+UNzt2Euzs/c+ZKkdnktd9jczQETwlpdFNhoEw1i6WbQBv/JV0l3X0Rb6mdmMVxA/wx6Ims2Kt6HGcJSzlx9vIycLp1iTXjtiuT29tf5L41NBc8dc=" />
+  <input name="options[redirect]" type="hidden" value="https://amitsealami.com/blog/2015/01/05/Hello-World/" />
+
+  <div class="textfield">
+    <label for="comment-form-message"><h2>Add Comment<small><a rel="nofollow" id="cancel-comment-reply-link" href="https://amitsealami.com/blog/2015/01/05/Hello-World/#respond" style="display:none;">(cancel reply)</a></small></h2>
+      <textarea class="textfield__input" name="fields[message]" type="text" id="comment-form-message" placeholder="Your comment (markdown accepted)" required="" rows="6"></textarea>
+    </label>
+  </div>
+
+    <div class="textfield narrowfield">
+      <label for="comment-form-name">Name
+        <input class="textfield__input" name="fields[name]" type="text" id="comment-form-name" placeholder="Your name (required)" required="" />
+      </label>
+    </div>
+
+    <div class="textfield narrowfield">
+      <label for="comment-form-email">E-mail
+        <input class="textfield__input" name="fields[email]" type="email" id="comment-form-email" placeholder="Your email (optional)" />
+      </label>
+    </div>
+
+    <div class="textfield narrowfield hp">
+      <label for="hp">
+        <input class="textfield__input" name="fields[hp]" id="hp" type="text" placeholder="Leave blank" />
+      </label>
+    </div>
+
+    <!-- <div id="reCaptcha" class="g-recaptcha" data-sitekey="6LdGRiEaAAAAANreW5KD6OSMFQPmUFqU8S-pPJR9"></div> -->
+
+    <button class="button" id="comment-form-submit">
+      Submit
+    </button>
+
+</form>
+
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="display:none">
+  <symbol id="icon-loading" viewBox="149.8 37.8 499.818 525"><path d="M557.8 187.8c13.8 0 24.601-10.8 24.601-24.6S571.6 138.6 557.8 138.6s-24.6 10.8-24.6 24.6c0 13.2 10.8 24.6 24.6 24.6zm61.2 90.6c-16.8 0-30.6 13.8-30.6 30.6s13.8 30.6 30.6 30.6 30.6-13.8 30.6-30.6c.6-16.8-13.2-30.6-30.6-30.6zm-61.2 145.2c-20.399 0-36.6 16.2-36.6 36.601 0 20.399 16.2 36.6 36.6 36.6 20.4 0 36.601-16.2 36.601-36.6C595 439.8 578.2 423.6 557.8 423.6zM409 476.4c-24 0-43.2 19.199-43.2 43.199s19.2 43.2 43.2 43.2 43.2-19.2 43.2-43.2S433 476.4 409 476.4zM260.8 411c-27 0-49.2 22.2-49.2 49.2s22.2 49.2 49.2 49.2 49.2-22.2 49.2-49.2-22.2-49.2-49.2-49.2zm-10.2-102c0-27.6-22.8-50.4-50.4-50.4-27.6 0-50.4 22.8-50.4 50.4 0 27.6 22.8 50.4 50.4 50.4 27.6 0 50.4-22.2 50.4-50.4zm10.2-199.8c-30 0-54 24-54 54s24 54 54 54 54-24 54-54-24.6-54-54-54zM409 37.8c-35.4 0-63.6 28.8-63.6 63.6S374.2 165 409 165s63.6-28.8 63.6-63.6-28.2-63.6-63.6-63.6z" />
+  </symbol>
+</svg>
+  </div>
+</section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script src="/blog/assets/main.js"></script>
+
+<script src="https://www.google.com/recaptcha/api.js"></script>
 
 
   </div>
