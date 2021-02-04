@@ -4,7 +4,7 @@
 * [আবেদন করতে যা যা লাগে](application-items.md "আবেদনকারীর কী দেখা হয়? কী দিয়ে তাদের মান বিচার করে?")
 * SOP
   * [Statement of Purpose](SOP/README.md)
-  * [উচ্চশিক্ষার আবেদন - ভালো SOP লিখতে হলে](SOP/writing-better-sop.md)
+  * [ভালো SOP লিখতে হলে](writing-better-sop.md)
 * [Letter of Recommendation (LOR)](letter-of-recommendation.md)
 * [CGPA](cgpa.md)
 * [GRE](gre.md)
