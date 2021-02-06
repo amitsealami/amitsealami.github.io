@@ -6,7 +6,7 @@
 
 সাধারণত ৪টা জিনিষ লাগে, গুরুত্বের ক্রম অনুসারে এগুলো হলো:‌
 
-- ​SOP,
-- ​LOR,
-- ​CGPA,
-- ​GRE+TOEFL/IELTS​
+- [​SOP](SOP),
+- ​[LOR](letter-of-recommendation),
+- [​CGPA](cgpa),
+- [​GRE](gre)+[TOEFL/IELTS​](ielts-toefl)
