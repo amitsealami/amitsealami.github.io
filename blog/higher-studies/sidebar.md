@@ -12,4 +12,5 @@
 * [কোন ভার্সিটিতে পড়বো?](which-university.md)
 * [গবেষণা অভিজ্ঞতা/Publications](research-experience-publications.md)
 * [Industry Experience (SE/CS)](industry-experience-cs-se.md)
+* [সাম্প্রতিক পরিবর্তন সমূহ](changes.md)
 * [লেখকের সম্পর্কে](about.md)
