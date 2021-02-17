@@ -8,7 +8,7 @@
 
 অনলাইনে অনেক ভার্সিটির গাইডলাইন পাবেন। যেমন:
 
-Carnegie Mellon University কম্পিউটার সায়েন্সে উৎসাহীদের জন্য গাইডলাইন আছে।
+Carnegie Mellon University এর কম্পিউটার সায়েন্সে উৎসাহীদের জন্য গাইডলাইন আছে।
 
 - [Statement of Purpose Guidelines from MIT](https://web.mit.edu/msrp/myMSRP/docs/Statement%20of%20purpose%20guidelines.pdf)
 
@@ -17,7 +17,7 @@ Carnegie Mellon University কম্পিউটার সায়েন্সে 
 - [The Key to Successful Applications \| MIT Graduate Admissions](https://gradadmissions.mit.edu/blog/2017/Amanda_C/blog2)
 - [Statement of Purpose Tips for CS Students](https://users.ece.cmu.edu/~mabdelm/statement-of-purpose-tips.html)
 
-SOP লিখতে গেলে অনেকেই কিছু ভুল করে থাকেন, যেটার কারণে SOP এর বারোটা বেজে যায়। কমন ভুল গুলো নিয়ে কার্নেগি মেলনেরই আরেক প্রফেসরের লেখা পড়তে পারেন।
+SOP লিখতে গেলে অনেকেই কিছু ভুল করে থাকেন, যেটার কারণে SOP এর বারোটা বেজে যায়। প্রচলিত বা কমন ভুল গুলো নিয়ে কার্নেগি মেলনেরই আরেক প্রফেসরের লেখা পড়তে পারেন।
 
 - [How to Write a Bad Statement for a Computer Science Ph.D. Admissions Application](https://www.cs.cmu.edu/~pavlo/blog/2015/10/how-to-write-a-bad-statement-for-a-computer-science-phd-admissions-application.html)
 
