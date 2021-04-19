@@ -1,1 +1,1 @@
-Sitemap: /blog/higher-studies/sitemap.xml
+Sitemap: https://amitsealami.com/blog/higher-studies/sitemap.xml
