@@ -27,6 +27,10 @@
 
 
     
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="/blog/assets/inlineDisqussions.js"></script>
+        <link rel="stylesheet" type="text/css" href="/blog/assets/inlineDisqussions.css" />
+    
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -133,23 +137,18 @@
 	To comment as guest, click on the field "Name". The option to do so will become visible.
 	<br>
 	লগইন ছাড়াই কমেন্ট করতে নাম এ ক্লিক করুন, দেখবেন তার নিচেই আছে অতিথি হিসাবে কমেন্ট করার অপশন।
-	<div id="disqus_thread"></div>
 	<script type="text/javascript">
-
-	    var disqus_shortname = 'https-amitsealami-github-io-blog';
-
-	    (function() {
-	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
-
+		disqus_shortname = 'https-amitsealami-github-io-blog';
+		jQuery(document).ready(function() {
+			jQuery("p").inlineDisqussions();
+		});
 	</script>
+	<div id="disqus_thread"></div>
+
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" target="_blank" rel="noopener noreferrer">comments powered by Disqus.</a>
 </noscript>
 </div>
 
-  
   
 </article>
 

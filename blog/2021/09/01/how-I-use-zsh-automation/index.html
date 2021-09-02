@@ -46,8 +46,8 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="Blog of Amit Seal Ami" />
 <meta property="og:description" content="Blog of Amit Seal Ami" />
-<link rel="canonical" href="https://amitsealami.com/blog/2021/09/01/how-I-use-zsh/" />
-<meta property="og:url" content="https://amitsealami.com/blog/2021/09/01/how-I-use-zsh/" />
+<link rel="canonical" href="https://amitsealami.com/blog/2021/09/01/how-I-use-zsh-automation/" />
+<meta property="og:url" content="https://amitsealami.com/blog/2021/09/01/how-I-use-zsh-automation/" />
 <meta property="og:site_name" content="Amit Seal Ami’s Blog" />
 <meta property="og:image" content="https://amitsealami.com/blog/images/default.jpg" />
 <meta property="og:type" content="article" />
@@ -59,7 +59,7 @@
 <meta name="twitter:creator" content="@Amit Seal Ami" />
 <meta name="google-site-verification" content="f4dZjKOD0HrgHKFR1yesOe4sM4pUrL_4hkd-4Jgyo1w" />
 <script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://amitsealami.com/blog/images/default.jpg"},"name":"Amit Seal Ami"},"description":"Blog of Amit Seal Ami","headline":"How I use Zsh for Augmenting My Activities","url":"https://amitsealami.com/blog/2021/09/01/how-I-use-zsh/","datePublished":"2021-09-01T20:00:00-04:00","dateModified":"2021-09-01T20:00:00-04:00","author":{"@type":"Person","name":"Amit Seal Ami"},"image":"https://amitsealami.com/blog/images/default.jpg","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://amitsealami.com/blog/2021/09/01/how-I-use-zsh/"},"@context":"https://schema.org"}</script>
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://amitsealami.com/blog/images/default.jpg"},"name":"Amit Seal Ami"},"description":"Blog of Amit Seal Ami","headline":"How I use Zsh for Augmenting My Activities","url":"https://amitsealami.com/blog/2021/09/01/how-I-use-zsh-automation/","datePublished":"2021-09-01T20:00:00-04:00","dateModified":"2021-09-01T20:00:00-04:00","author":{"@type":"Person","name":"Amit Seal Ami"},"image":"https://amitsealami.com/blog/images/default.jpg","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://amitsealami.com/blog/2021/09/01/how-I-use-zsh-automation/"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
@@ -247,30 +247,18 @@ git push
 	To comment as guest, click on the field "Name". The option to do so will become visible.
 	<br>
 	লগইন ছাড়াই কমেন্ট করতে নাম এ ক্লিক করুন, দেখবেন তার নিচেই আছে অতিথি হিসাবে কমেন্ট করার অপশন।
-	<div id="disqus_thread"></div>
 	<script type="text/javascript">
-
-	    var disqus_shortname = 'https-amitsealami-github-io-blog';
-
-	    (function() {
-	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-	    })();
-
+		disqus_shortname = 'https-amitsealami-github-io-blog';
+		jQuery(document).ready(function() {
+			jQuery("p").inlineDisqussions();
+		});
 	</script>
+	<div id="disqus_thread"></div>
+
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" target="_blank" rel="noopener noreferrer">comments powered by Disqus.</a>
 </noscript>
 </div>
 
-  
-  
-    <script>
-    disqus_shortname = 'https-amitsealami-github-io-blog';
-    jQuery(document).ready(function() {
-      jQuery("p").inlineDisqussions();
-    });
-</script>
   
 </article>
 
@@ -305,7 +293,7 @@ git push
 
 		ga('create', 'UA-11383434-11', 'auto');
 		ga('send', 'pageview', {
-		  'page': 'https://amitsealami.com/blog/2021/09/01/how-I-use-zsh/',
+		  'page': 'https://amitsealami.com/blog/2021/09/01/how-I-use-zsh-automation/',
 		  'title': 'How I use Zsh for Augmenting My Activities'
 		});
 	</script>
