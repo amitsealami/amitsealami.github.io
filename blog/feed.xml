@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2021-08-21T02:02:01-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="bn"><title type="html">ঢাকা বিশ্ববিদ্যালয় এবং পাবলিকেশন গ্রান্ট নিয়ে আলাপ-সালাপ</title><link href="https://amitsealami.com/blog/2021/08/18/international-publication-grant-du/" rel="alternate" type="text/html" title="ঢাকা বিশ্ববিদ্যালয় এবং পাবলিকেশন গ্রান্ট নিয়ে আলাপ-সালাপ" /><published>2021-08-18T20:00:00-04:00</published><updated>2021-08-18T20:00:00-04:00</updated><id>https://amitsealami.com/blog/2021/08/18/international-publication-grant-du</id><content type="html" xml:base="https://amitsealami.com/blog/2021/08/18/international-publication-grant-du/">&lt;p&gt;ঢাকা বিশ্ববিদ্যালয় (ঢাবি) অতি সম্প্রতি খুবই ভালো একটা উদ্যোগ নিয়েছে গবেষণার জন্য - পাবলিকেশন এর বা ওপেন একসেস এর খরচ ঢাবি দিবে! উদ্যোগটা ভালো হলেই যে সেটার বাস্তবায়ন ভালো হবে তা অবশ্যি না। আসুন ভেঙ্গে দেখি এটায় কী কী আছে। অনুদানের বিষয়ে বিস্তারিত পড়তে পারবেন &lt;a href=&quot;https://du.ac.bd/internationalPublicationGrantForm&quot;&gt;ঢাবির এই পেজে&lt;/a&gt;।&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2021-09-02T17:35:24-04:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">How I use Zsh for Augmenting My Activities</title><link href="https://amitsealami.com/blog/2021/09/01/how-I-use-zsh/" rel="alternate" type="text/html" title="How I use Zsh for Augmenting My Activities" /><published>2021-09-01T20:00:00-04:00</published><updated>2021-09-01T20:00:00-04:00</updated><id>https://amitsealami.com/blog/2021/09/01/how-I-use-zsh</id><content type="html" xml:base="https://amitsealami.com/blog/2021/09/01/how-I-use-zsh/">&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Zsh&lt;/code&gt;, or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Z-Shell&lt;/code&gt; is a really good shell Unix/OSX/similar. It gets even better with &lt;a href=&quot;https://ohmyz.sh/&quot;&gt;oh-my-zsh&lt;/a&gt;. However, I made it even better with the help of scripts, themes and whatnot. Please note that this is not a &lt;em&gt;How-to&lt;/em&gt; tutorial for the inexperienced &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;zsh&lt;/code&gt; user; so I expect you, the reader, to know how to modify &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;, or where to find it, or how to use aliases - those type of common scripting things. Lets dive in!&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;h2 id=&quot;look-and-feel&quot;&gt;Look and Feel&lt;/h2&gt;
+
+&lt;p&gt;I use the theme &lt;a href=&quot;https://github.com/agnoster/agnoster-zsh-theme&quot;&gt;agnoster&lt;/a&gt;. Setting this up requires some delicate configuration of colors and fonts, so I suggest you to go through the link. But basically, you gotta set this line in zshrc:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nv&quot;&gt;ZSH_THEME&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;agnoster&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In addition, I use the amazing &lt;a href=&quot;https://www.jetbrains.com/lp/mono/&quot;&gt;Jetbrains Mono&lt;/a&gt; font. However, it still does not look right. Too much space is being wasted.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/how-i-use-zsh/default-zsh.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;See that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amitseal@Amits-MacBook-Pro&lt;/code&gt;? That’s unnecessary, unless you are in a multi-user environment and you want to know both your username and hostname, All.the.time. Which I don’t. Hence make this modification in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;~/.zshrc&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nv&quot;&gt;DEFAULT_USER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;amitseal&quot;&lt;/span&gt;
+prompt_context&lt;span class=&quot;o&quot;&gt;(){}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Which results in hiding both username and hostname. Nice!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/how-i-use-zsh/my-zsh.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;/h2&gt;
+
+&lt;p&gt;These are the plugins I use with zsh:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nv&quot;&gt;plugins&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=(&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;# for git&lt;/span&gt;
+  git
+  &lt;span class=&quot;c&quot;&gt;# only if you use osx&lt;/span&gt;
+  osx
+  &lt;span class=&quot;c&quot;&gt;# if you like using visual studio code&lt;/span&gt;
+  vscode
+  &lt;span class=&quot;c&quot;&gt;# must have&lt;/span&gt;
+  zsh-autosuggestions
+  &lt;span class=&quot;c&quot;&gt;# only if you use clojure&lt;/span&gt;
+  lein
+&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;aliases&quot;&gt;Aliases&lt;/h2&gt;
+
+&lt;p&gt;I use A LOT OF aliases. Some of them are based on modifying existing functions with switches. Some of them are my own, personal creations using python/shell scripting.&lt;/p&gt;
+
+&lt;h3 id=&quot;git-related-aliases&quot;&gt;Git related Aliases&lt;/h3&gt;
+
+&lt;p&gt;I made several git related aliases just so that I can avoid typing… 5 characters.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;# This is for add, commit and pushing everything for commits that do not matter.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# I often use this when I am pushing things to website after building.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# The comprehensible comments go to the source commits.&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;function &lt;/span&gt;f_gitcap&lt;span class=&quot;o&quot;&gt;(){&lt;/span&gt;
+git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;update&quot;&lt;/span&gt;
+git push
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gitcap&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;f_gitcap
+
+&lt;span class=&quot;c&quot;&gt;# more git related aliases&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gita&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;git add .&apos;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gitc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;git-cola&apos;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gitcd&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;git-cola dag&apos;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gitcu&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;git commit -m &quot;update&quot;&apos;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;gpom&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;git push origin master&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;helpful-aliases-for-better-commands&quot;&gt;Helpful Aliases for Better Commands&lt;/h3&gt;
+
+&lt;p&gt;Don’t like the output of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cat&lt;/code&gt;? Too &lt;em&gt;banal?&lt;/em&gt; Use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pcat&lt;/code&gt;. Also, there is &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;grep&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;vena&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/images/how-i-use-zsh/cat-pcat.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nb&quot;&gt;alias grep&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;grep --color=auto&apos;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# you will need to install pygmentize first&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;pcat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;pygmentize -f terminal256 -O style=monokai -g&apos;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# don&apos;t want to type a long command every time you want to activate a virtual env? Here:&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;vena&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;source venv/bin/activate&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;aliases-for-jekyll&quot;&gt;Aliases for Jekyll&lt;/h3&gt;
+
+&lt;p&gt;Who does not love jekyll? I Love Jekyll! But the commands are long.. and scary. Hence:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jeksl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;bundle exec jekyll serve --config _devconfig.yml&apos;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jeks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;bundle exec jekyll serve&apos;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekbl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;bundle exec jekyll build -I --config _devconfig.yml&apos;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekbs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;bundle exec jekyll build&apos;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;jekcb&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;bundle exec jekyll clean &amp;amp;&amp;amp; bundle exec jekyll build&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;custom-commands-with-aliases&quot;&gt;Custom Commands with Aliases&lt;/h2&gt;
+
+&lt;p&gt;To make my life easier, I made many commands and then I connected them to aliases. All the source codes are available in my repository: &lt;a href=&quot;https://github.com/LordAmit/automating-boring-tasks-using-python&quot;&gt;Automating Boring Tasks using Python&lt;/a&gt; - inspired by the book &lt;a href=&quot;https://automatetheboringstuff.com/&quot;&gt;Automate the Boring Stuff with Python&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;# For pulling apks from device&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# note that abtup is placeholder for the automating ... I linked above&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;pull_apk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;abtup/get_apk_from_device/main.py&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# a image viewer with presentation mode made by yours truly;&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# since I was unhappy with everything else&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;image_view&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;abtup/image_in_window_screensaver/runme.sh&apos;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# images sorted in landscape and portrait directories&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;image_land_port&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;abtup/image_sort_landscape_portrait/src/main.py&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# HotCrp formatted paper reviews to markdown format for ease of reading&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;review_md&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;/usr/bin/python3 abtup/review_to_md/main.py&apos;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Clicker for Clicking games automatically&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;autoclicker&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;abtup/autoclicker/venv/bin/python abtup/autoclicker/autoclicker/main.py&quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;autoclickeri&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;abtup/autoclicker/venv/bin/python abtup/autoclicker/autoclicker/main.py 0&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;for-the-latex-fans&quot;&gt;For the LaTeX Fans&lt;/h2&gt;
+
+&lt;p&gt;These are some python scripts I wrote that helps me avoid common writing issues as well as format LaTeX files.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-shell&quot; data-lang=&quot;shell&quot;&gt;&lt;span class=&quot;c&quot;&gt;# checks for silly issues,&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# like not using `~` before \cite and \ref, and&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# not using `,` before &apos;which&apos;, or using `,` before &apos;that&apos;.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tex_silly&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;abtup/tex_misc/check_silly.py&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# script to avoid even sillier mistakes&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# based on Dr. Tao Xie&apos;s Writing Issues&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tex_words&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;abtup/tex_writing_issues/main.py&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# line breaker&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Adds new line in between sentences separated by periods.&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# Respects existing line breaks, tries to respect indentation.&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;tex_linebreaks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;abtup/tex_linebreaker/line_breaker.py&quot;&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# when you want to find a particular file with a particular word across folders&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;fwif&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;abtup/find_word_in_folders/find_word_in_folders.py&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;That’s all folks!&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html">Zsh, or Z-Shell is a really good shell Unix/OSX/similar. It gets even better with oh-my-zsh. However, I made it even better with the help of scripts, themes and whatnot. Please note that this is not a How-to tutorial for the inexperienced zsh user; so I expect you, the reader, to know how to modify ~/.zshrc, or where to find it, or how to use aliases - those type of common scripting things. Lets dive in!</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="bn"><title type="html">ঢাকা বিশ্ববিদ্যালয় এবং পাবলিকেশন গ্রান্ট নিয়ে আলাপ-সালাপ</title><link href="https://amitsealami.com/blog/2021/08/18/international-publication-grant-du/" rel="alternate" type="text/html" title="ঢাকা বিশ্ববিদ্যালয় এবং পাবলিকেশন গ্রান্ট নিয়ে আলাপ-সালাপ" /><published>2021-08-18T20:00:00-04:00</published><updated>2021-08-18T20:00:00-04:00</updated><id>https://amitsealami.com/blog/2021/08/18/international-publication-grant-du</id><content type="html" xml:base="https://amitsealami.com/blog/2021/08/18/international-publication-grant-du/">&lt;p&gt;ঢাকা বিশ্ববিদ্যালয় (ঢাবি) অতি সম্প্রতি খুবই ভালো একটা উদ্যোগ নিয়েছে গবেষণার জন্য - পাবলিকেশন এর বা ওপেন একসেস এর খরচ ঢাবি দিবে! উদ্যোগটা ভালো হলেই যে সেটার বাস্তবায়ন ভালো হবে তা অবশ্যি না। আসুন ভেঙ্গে দেখি এটায় কী কী আছে। অনুদানের বিষয়ে বিস্তারিত পড়তে পারবেন &lt;a href=&quot;https://du.ac.bd/internationalPublicationGrantForm&quot;&gt;ঢাবির এই পেজে&lt;/a&gt;।&lt;/p&gt;
 
 &lt;!-- more --&gt;
 
@@ -478,239 +608,4 @@ Sorry to see that your browser is not supporting embedded videos. Please click h
   &lt;li&gt;ভুয়া শিক্ষা প্রতিষ্ঠান ১: oxford trent university&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://www.highered.texas.gov/institutional-resources-programs/private-postsecondary-institutions/resources/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;টেক্সাস শিক্ষাবোর্ডের লিস্ট&lt;/a&gt; (Fraudulent or Substandard Institutions - a list of Institutions Whose Degrees are Illegal to Use in Texas.)&lt;/li&gt;
   &lt;li&gt;২য়টার নাম মনে নাই, &lt;a href=&quot;https://www2.ed.gov/.../diplomamills/diploma-mills.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;ভুয়া এক্রেডিটেশন&lt;/a&gt; নিয়ে বিস্তারিত আছে এখানে।&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html">ডিগ্রি দেখেই ভাবার দরকার নাই যে সেই ডিগ্রিটা ভালো। আগে দেখেন কোথাকার ডিগ্রি। ডিগ্রির উৎস দেখার পরে ভালো মানুষ নাকি, ডিগ্রিধারী হলেই শিক্ষিত নাকি এইসব দর্শনচিন্তা করা যেতে পারে। সেসব নিয়েই আলাপ সালাপ</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default_bn.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default_bn.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Using AMP with Jekyll</title><link href="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/" rel="alternate" type="text/html" title="Using AMP with Jekyll" /><published>2020-07-18T00:00:00-04:00</published><updated>2020-07-18T00:01:00-04:00</updated><id>https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll</id><content type="html" xml:base="https://amitsealami.com/blog/2020/07/18/using-amp-in-jekyll/">&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;#1-creating-inline-css&quot;&gt;1. Creating Inline CSS&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#2-making-a-amp-specific-layout-file&quot;&gt;2. Making a AMP specific Layout File&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#3-establishing-relation-from-amp-to-non-amp-page&quot;&gt;3. Establishing Relation from AMP to non-AMP page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#4-establishing-relation-from-non-amp-to-amp-page&quot;&gt;4. Establishing relation From non-AMP to AMP page&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#5-making-a-similar-url-structure-for-amp-pages&quot;&gt;5. Making a Similar URL structure for AMP pages&lt;/a&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#51-create-an-_amp-folder&quot;&gt;5.1. Create an _amp folder&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#52-configuring-the-url-structure-for-the-non-amp-page&quot;&gt;5.2. Configuring the URL structure for the non-AMP page&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#6-writing-once-putting-everywhere&quot;&gt;6. Writing Once, Putting everywhere&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#7-bonus-if-you-want-excerpt&quot;&gt;7. Bonus: If you want excerpt&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#8-sample-repositorycodewebsite&quot;&gt;8. Sample Repository/Code/Website&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;I decided to make AMP work with Jekyll after I was heartbroken by the mess called Facebook instant article. AMP is easier, but if you want to use it with jekyll, there are two options: either use a theme that allows posting AMP articles, or using a plugin that makes AMP versions of your existing posts. The second option is obsolete, and I did not want to change my theme. Moreover, there is also this issue of AMP not supporting a lot of things like syntax highlighting and what not, and I did not want to make &lt;em&gt;all&lt;/em&gt; of my posts AMP based.&lt;/p&gt;
-
-&lt;p&gt;So I had to make my own option: create a manual-ish approach that automates everything as much as possible with me having a fine degree of control on what gets to be converted.&lt;/p&gt;
-
-&lt;!-- more --&gt;
-
-&lt;h2 id=&quot;1-creating-inline-css&quot;&gt;1. Creating Inline CSS&lt;/h2&gt;
-
-&lt;p&gt;AMP only allows inline CSS. That is, no link rel based CSS loading. Jekyll themes mostly uses SCSS (SASS CSS) based style. Therefore, I created a copy of the existing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;style.scss&lt;/code&gt; file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt; folder, named &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp_style.scss&lt;/code&gt;. I had to change the existing imports, so something like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-diff&quot; data-lang=&quot;diff&quot;&gt;&lt;span class=&quot;gd&quot;&gt;- @import &quot;reset&quot;;
-- @import &quot;variables&quot;;
-&lt;/span&gt;&lt;span class=&quot;gi&quot;&gt;+ @import &quot;../_sass/reset&quot;;
-+ @import &quot;../_sass/variables&quot;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;In essence, the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp_style.scss&lt;/code&gt; file will be importing necessary scss files from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_sass&lt;/code&gt; folder. However, to use it, we still need to include it in our AMP article. So we do that through the help of a new layout file, namely &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp.html&lt;/code&gt; in &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; folder. It is mostly going to be the same as the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;default.html&lt;/code&gt; layout, except we are going to remove scripts and imported stylesheet file, since AMP does not allow either of those.&lt;/p&gt;
-
-&lt;p&gt;You may not have realized this, but a serious advantage due to this step is that you can now use all your style in AMP as long as you are putting them in the inline format.&lt;/p&gt;
-
-&lt;h2 id=&quot;2-making-a-amp-specific-layout-file&quot;&gt;2. Making a AMP specific Layout File&lt;/h2&gt;
-
-&lt;p&gt;The AMP specific layout file will include all the necessary AMP related tags, scripts and necessary imports. However, instead of using &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;&quot;&amp;gt;&lt;/code&gt;, we will use something else:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;capture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;styles&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;amp_style.scss&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;endcapture&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-&amp;lt;style amp-custom&amp;gt; 
-    &lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;styles&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;|&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;scssify&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;
-&amp;lt;/style&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;What’s happening here is that it is reading the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp_style.scss&lt;/code&gt; file with all its imports and what not and storing it in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;styles&lt;/code&gt; variable. Then, we are using the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;scssify&lt;/code&gt; on that variable to write the contents inside a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;style amp-custom&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;
-
-&lt;div class=&quot;tip&quot;&gt;
-Gotcha: You might have to change sass style to compressed in the _config.yml file
-&lt;/div&gt;
-
-&lt;p&gt;In the layout file, you need to make sure that:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;It does not have anything related to javascript unless acceptable in AMP specification.&lt;/li&gt;
-  &lt;li&gt;It does not have anything related to importing stylesheets.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A sample layout file is provided here for your convenience. Click on it to expand:&lt;/p&gt;
-&lt;details&gt;
-&lt;summary&gt;Sample _layouts/amp.html&lt;/summary&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;!doctype html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;html&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;amp&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;lang=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;en&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    {% include meta.html %}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;canonical&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url}}{{site.baseurl}}{{ page.url | replace: &apos;/amp&apos;, &apos;&apos; }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-    {% capture styles %}
-    {% include amp_style.scss %}
-    {% endcapture %}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;amp-custom&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
-      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;styles&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;scssify&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;amp-boilerplate&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;-webkit-animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;-amp-start&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;8s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0s&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;both&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;-moz-animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;-amp-start&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;8s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0s&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;both&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;-ms-animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;-amp-start&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;8s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0s&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;both&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;-amp-start&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;8s&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;steps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0s&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;normal&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;both&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@-webkit-keyframes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;-amp-start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;visible&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@-moz-keyframes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;-amp-start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;visible&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@-ms-keyframes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;-amp-start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;visible&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@-o-keyframes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;-amp-start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;visible&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;@keyframes&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;-amp-start&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;from&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;visibility&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;visible&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&amp;lt;noscript&amp;gt;&amp;lt;style &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;amp-boilerplate&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;-webkit-animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;-moz-animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;-ms-animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;animation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;/style&amp;gt;&amp;lt;/noscript&amp;gt;&lt;/span&gt;
-
-
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;alternate&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;application/rss+xml&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.name }} - {{ site.description }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.baseurl }}/feed.xml&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-    {% include favicons.html %}
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.ampproject.org/v0.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-  
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wrapper-masthead&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;header&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;masthead clearfix&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.baseurl }}/&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;site-avatar&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;c&quot;&gt;&amp;lt;!-- &amp;lt;img src=&quot;/{{ site.avatar }}&quot; alt=&quot;{{ site.name }}&quot;/&amp;gt; --&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;amp-img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;width=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;480&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;height=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;480&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;layout=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;responsive&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/images/resized/480/portrait.webp&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/amp-img&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;site-info&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;site-name&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.baseurl }}/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ site.name }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;site-description&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;{{ site.description }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-          &lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Home&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.baseurl }}/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Blog&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-            &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.baseurl }}/archive/&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Archive&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/header&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;main&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;main&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;article&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;post&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;{{ page.title }}&lt;span class=&quot;nt&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-        
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;date&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-          Written on {{ page.date | date: &quot;%B %e, %Y&quot; }}
-          {% if page.last_modified_at %}
-          , Last updated on: {{ page.date | date: &quot;%B %e, %Y&quot; }}
-          {% endif %}
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;      
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;entry&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-          {{ content }}
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/article&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wrapper-footer&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;container&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;footer&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;footer&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-          {% include svg-icons.html %}
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;/footer&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;/details&gt;
-
-&lt;p&gt;The gist version is &lt;a href=&quot;https://gist.github.com/LordAmit/34c2c2e59f072091cf6729dbe6e7d7f4&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;provided&lt;/a&gt; for convenience.&lt;/p&gt;
-
-&lt;p&gt;Please remember that this is &lt;em&gt;NOT&lt;/em&gt; a template file you can use as it is. You may have to change it according to your own needs.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-establishing-relation-from-amp-to-non-amp-page&quot;&gt;3. Establishing Relation from AMP to non-AMP page&lt;/h2&gt;
-
-&lt;p&gt;AMP requires you to relate the canonical version of the non-AMP page in the AMP version of the page.&lt;/p&gt;
-
-&lt;p&gt;I am assuming that the URL of the page and the AMP version of the page will follow similar structure. So, something like this:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;na&quot;&gt;non-AMP URL&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://example.com/blog/url&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;AMP URL    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;https://example.com/blog/amp/url&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;I will also discuss how I made sure that both URLs are created in similar format at later part of this article.&lt;/p&gt;
-
-&lt;p&gt;So, this is what I did in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp.html&lt;/code&gt; layout file.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;canonical&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url}}{{site.baseurl}}{{ page.url | replace: &apos;/amp&apos;, &apos;&apos; }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;This snippet will get the full URL of the AMP page, and then will replace the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/amp&lt;/code&gt; with nothing so that it is converted to the non-AMP URL when the HTML will be created. Thus, it will create link from the AMP page to the non-AMP page.&lt;/p&gt;
-
-&lt;h2 id=&quot;4-establishing-relation-from-non-amp-to-amp-page&quot;&gt;4. Establishing relation From non-AMP to AMP page&lt;/h2&gt;
-
-&lt;p&gt;Similarly, we need to notify that the non-AMP version of the page also has a AMP version. We achieve this by introducing the following snipper in the default layout.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;
-    &amp;lt;link rel=&quot;amphtml&quot; href=&quot;&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}{{&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;baseurl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;/amp&lt;span class=&quot;p&quot;&gt;{{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}}&lt;/span&gt;&quot;&amp;gt;
-&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;kr&quot;&gt;endif&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Again, this is fairly similar to the previous step, except now we are making sure that the hyper reference includes an additional &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/amp&lt;/code&gt;. This goes without saying, but now in your non-AMP version of the page, you will need an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp: true&lt;/code&gt; in front matter if you want to establish this relation. Otherwise, by default this relation will not be expressed in the produced HTML file.&lt;/p&gt;
-
-&lt;h2 id=&quot;5-making-a-similar-url-structure-for-amp-pages&quot;&gt;5. Making a Similar URL structure for AMP pages&lt;/h2&gt;
-
-&lt;p&gt;I wanted to make this as convenient as possible when making AMP version of pages. Ignoring all the discussions related to experiments I did, this is what I ended up doing.&lt;/p&gt;
-
-&lt;h3 id=&quot;51-create-an-_amp-folder&quot;&gt;5.1. Create an _amp folder&lt;/h3&gt;
-
-&lt;p&gt;In this folder, I put the same markdown file I create for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt;. 
-So, for example, this post will have two markdown files.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;na&quot;&gt;AMP    &lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;_amp/2020-07-18-using-amp-in-jekyll.md&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;non-AMP&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;_posts/2020-07-18-using-amp-in-jekyll.md&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;There are two notable changes in the front matter for the AMP version:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;amp&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;sitemap&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Setting the layout to amp is obvious. We do not need to have this in sitemap because of the relation between AMP and non-AMP version of page.&lt;/p&gt;
-
-&lt;h3 id=&quot;52-configuring-the-url-structure-for-the-non-amp-page&quot;&gt;5.2. Configuring the URL structure for the non-AMP page&lt;/h3&gt;
-
-&lt;p&gt;This part is the most important piece of the puzzle:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;na&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/:year/:month/:day/:title/&lt;/span&gt;
-&lt;span class=&quot;nn&quot;&gt;...&lt;/span&gt;
-&lt;span class=&quot;na&quot;&gt;collections&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;amp&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;output&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;true&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;permalink&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/amp/:year/:month/:day/:title/&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;The first line is the permalink structure for your usual, non-AMP posts. The collections portion is doing several things:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;since the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_amp&lt;/code&gt; folder starts with an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_&lt;/code&gt;, it is by default ignored when building. We are configuring it through a collection so that it will not be ignored when building.&lt;/li&gt;
-  &lt;li&gt;The &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;collections.amp.permalink&lt;/code&gt; adds the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/amp/&lt;/code&gt; sub string, and then follows the same structure from the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;permalink&lt;/code&gt;. This ensures that both the AMP and non-AMP version of the page will create similar, canonical URLs.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;6-writing-once-putting-everywhere&quot;&gt;6. Writing Once, Putting everywhere&lt;/h2&gt;
-
-&lt;p&gt;Instead of having the same content in both AMP and non-AMP version of the page, this is what I do.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;posts&lt;/code&gt; folder inside &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;create a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.md&lt;/code&gt; file inside the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_includes/posts/&lt;/code&gt; that &lt;em&gt;only&lt;/em&gt; contains the contents&lt;/li&gt;
-  &lt;li&gt;include it in both the amp and non-amp version of the page, like so:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-liquid&quot; data-lang=&quot;liquid&quot;&gt;&lt;span class=&quot;p&quot;&gt;{%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;posts/2020-07-18-using-amp-in-jekyll.md&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;%}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;And you are done! 😄&lt;/p&gt;
-
-&lt;h2 id=&quot;7-bonus-if-you-want-excerpt&quot;&gt;7. Bonus: If you want excerpt&lt;/h2&gt;
-
-&lt;p&gt;You probably will notice that the above approach of writing once, put everywhere may end up not respecting the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;excerpt&lt;/code&gt; tag. The solution is to use the excerpt in the front matter, like so:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-yaml&quot; data-lang=&quot;yaml&quot;&gt;&lt;span class=&quot;na&quot;&gt;excerpt&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;I&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;decided&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;make&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;AMP&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;work&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;with&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Jekyll&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;after&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;I&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;was&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;heartbroken&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;by&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;the&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;mess&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;called&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Facebook&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;instant&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;article.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;etc.&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Aaand, that’s it!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;ps&lt;/strong&gt;: I still have not figured out a way to add &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;amp-img&lt;/code&gt;. But I barely use them anyway!&lt;/p&gt;
-
-&lt;h2 id=&quot;8-sample-repositorycodewebsite&quot;&gt;8. Sample Repository/Code/Website&lt;/h2&gt;
-
-&lt;p&gt;A Sample Source code repository built using the &lt;a href=&quot;https://github.com/barryclark/jekyll-now&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Jekyll Now&lt;/a&gt; with AMP support is available here:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/LordAmit/jekyll-amp-sample&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://github.com/LordAmit/jekyll-amp-sample&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This post is created using this same tutorial. Still, if you want to see sample repository in working, check this:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://lordamit.github.io/jekyll-amp-sample/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://lordamit.github.io/jekyll-amp-sample/&lt;/a&gt;&lt;/p&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html">I decided to make AMP work with Jekyll after I was heartbroken by the mess called Facebook instant article. AMP is easier, but if you want to use it with jekyll, there are two options: either use a theme that allows posting AMP articles, or using a plugin that makes AMP versions of your existing posts. The second option is obsolete, and I did not want to change my theme. Moreover, there is also this issue of AMP not supporting a lot of things like syntax highlighting and what not, and I did not want to make _all_ of my posts AMP based. So I had to make my own option: create a manual-ish approach that automates everything as much as possible with me having a fine degree of control on what gets to be converted.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;/ul&gt;</content><author><name>Amit Seal Ami</name></author><summary type="html">ডিগ্রি দেখেই ভাবার দরকার নাই যে সেই ডিগ্রিটা ভালো। আগে দেখেন কোথাকার ডিগ্রি। ডিগ্রির উৎস দেখার পরে ভালো মানুষ নাকি, ডিগ্রিধারী হলেই শিক্ষিত নাকি এইসব দর্শনচিন্তা করা যেতে পারে। সেসব নিয়েই আলাপ সালাপ</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default_bn.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default_bn.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
