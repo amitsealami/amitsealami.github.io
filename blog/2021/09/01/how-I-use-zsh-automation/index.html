@@ -133,6 +133,11 @@ prompt_context<span class="o">(){}</span></code></pre></figure>
 
 <p><img src="/blog/images/how-i-use-zsh/my-zsh.png" alt=""></p>
 
+<p>In addition to this, I also use syntax highlighting in zsh. Here is what you can do:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">brew <span class="nb">install </span>zsh-syntax-highlighting
+<span class="nb">source</span> /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</code></pre></figure>
+
 <h2 id="plugins">Plugins</h2>
 
 <p>These are the plugins I use with zsh:</p>
@@ -239,6 +244,14 @@ git push
 
 <span class="c"># when you want to find a particular file with a particular word across folders</span>
 <span class="nb">alias </span><span class="nv">fwif</span><span class="o">=</span><span class="s2">"abtup/find_word_in_folders/find_word_in_folders.py"</span></code></pre></figure>
+
+<h2 id="more-custom-commands">More Custom Commands!</h2>
+
+<p>Script to convert first page of PDF to image. Does not go for highest quality to save size, but you can change density and quality to improve that. For PDFs, I don’t want the image to have transparent background, so I remove it while making it white.</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c">#!/bin/bash</span>
+<span class="nv">filename</span><span class="o">=</span><span class="nv">$1</span>
+convert <span class="nt">-density</span> 190 <span class="s2">"</span><span class="nv">$filename</span><span class="s2">[</span><span class="nv">$2</span><span class="s2">]"</span> <span class="nt">-quality</span> 90 <span class="nt">-background</span> white <span class="nt">-alpha</span> remove <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span>.jpg</code></pre></figure>
 
 <p>That’s all folks!</p>
 
