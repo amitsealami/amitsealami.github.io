@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2022-05-24T18:30:26+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques</title><link href="https://amitsealami.com/blog/2022/05/04/why-cryptodetectors-fail/" rel="alternate" type="text/html" title="Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques" /><published>2022-05-04T00:00:00+00:00</published><updated>2022-05-04T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/05/04/why-cryptodetectors-fail</id><content type="html" xml:base="https://amitsealami.com/blog/2022/05/04/why-cryptodetectors-fail/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Secure-Platforms-Lab-W-M/MASC-Artifact/main/masc-framework.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2022-05-25T04:41:21+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques</title><link href="https://amitsealami.com/blog/2022/05/04/why-cryptodetectors-fail/" rel="alternate" type="text/html" title="Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques" /><published>2022-05-04T00:00:00+00:00</published><updated>2022-05-04T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/05/04/why-cryptodetectors-fail</id><content type="html" xml:base="https://amitsealami.com/blog/2022/05/04/why-cryptodetectors-fail/">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Secure-Platforms-Lab-W-M/MASC-Artifact/main/masc-framework.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;How well do tools that detect Cryptographic misuse (i.e., Crypto-detectors) work in practice?&lt;/p&gt;
 
@@ -23,13 +23,9 @@
   &lt;li&gt;This paper initiates this discourse within the security community by concluding with a discussion that integrates several views on the design decisions behind Crypto-detectors, informed by our results and conversations with tool designers (included with consent).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;conference-slides&quot;&gt;Conference Slides&lt;/h2&gt;
-
-&lt;script async=&quot;&quot; class=&quot;speakerdeck-embed&quot; data-id=&quot;333d1fcf70d34e129335c518b7ce45a1&quot; data-ratio=&quot;1.77777777777778&quot; src=&quot;//speakerdeck.com/assets/embed.js&quot;&gt;&lt;/script&gt;
-
 &lt;h2 id=&quot;poster&quot;&gt;Poster&lt;/h2&gt;
 
-&lt;p&gt;Our poster on this same topic was also published at the Network and Distributed Systems Security Symposium (NDSS) 2022, a top-tier security venue!&lt;/p&gt;
+&lt;p&gt;Our poster on this same topic was also published at the &lt;a href=&quot;https://www.ndss-symposium.org/ndss2022/accepted-posters/&quot;&gt;Network and Distributed Systems Security Symposium (NDSS) 2022&lt;/a&gt;, a top-tier security venue!&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.ndss-symposium.org/wp-content/uploads/NDSS2022Poster_paper_24.pdf&quot;&gt;&lt;img src=&quot;/blog/images/masc-poster.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
