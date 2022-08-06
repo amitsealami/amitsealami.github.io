@@ -79,7 +79,7 @@
   },"13": {
     "doc": "অন্যান্য প্রশ্ন",
     "title": "অন্যান্য প্রশ্ন",
-    "content": "faq page was made possible through the tutorial by Jameson Zimmer https://jamesonzimmer.com/faq-schema-jekyll-liquid/ . ",
+    "content": ". faq page was made possible through the tutorial by Jameson Zimmer https://jamesonzimmer.com/faq-schema-jekyll-liquid/ . ",
     "url": "/blog/higher-studies/faq.html",
     "relUrl": "/faq.html"
   },"14": {
