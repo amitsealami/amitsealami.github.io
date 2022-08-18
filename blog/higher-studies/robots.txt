@@ -1,1 +1,1 @@
-Sitemap: https://amitsealami.com/blog/higher-studies/sitemap.xml
+Sitemap: http://localhost:4000/blog/higher-studies/sitemap.xml
