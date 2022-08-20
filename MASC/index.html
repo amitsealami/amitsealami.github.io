@@ -1,11 +1,224 @@
+<!DOCTYPE html>
+
+<html lang= "en">
+
+  <head>
+    <title>Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques – Amit Seal Ami</title>
+
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0'>
+    <meta name="author" content="Amit Seal Ami" />
+
+    
+    <meta property="og:title" content="Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques" />
+    <meta property="twitter:title" content="Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques" />
+    
+    <meta property="og:type" content="article">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Amit Seal Ami - Ph.D. Candidate at William & Mary" href="/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques" />
+<meta name="author" content="Amit Seal Ami" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="How well do tools that detect Cryptographic misuse (i.e., Crypto-detectors) work in practice? We answer this question in our IEEE S&amp;P 2022 paper using a systematic, data-driven mutation framework for evaluating detectors, that reveals significant flaws in popular tools." />
+<meta property="og:description" content="How well do tools that detect Cryptographic misuse (i.e., Crypto-detectors) work in practice? We answer this question in our IEEE S&amp;P 2022 paper using a systematic, data-driven mutation framework for evaluating detectors, that reveals significant flaws in popular tools." />
+<link rel="canonical" href="https://amitsealami.com/MASC/" />
+<meta property="og:url" content="https://amitsealami.com/MASC/" />
+<meta property="og:site_name" content="Amit Seal Ami" />
+<meta property="og:image" content="https://raw.githubusercontent.com/Secure-Platforms-Lab-W-M/MASC-Artifact/main/masc-framework.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-05-04T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://raw.githubusercontent.com/Secure-Platforms-Lab-W-M/MASC-Artifact/main/masc-framework.jpg" />
+<meta property="twitter:title" content="Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques" />
+<meta name="twitter:site" content="@Amit_Seal_Ami" />
+<meta name="twitter:creator" content="@Amit Seal Ami" />
+<meta name="google-site-verification" content="UA-11383434-10" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Amit Seal Ami"},"dateModified":"2022-05-04T00:00:00+00:00","datePublished":"2022-05-04T00:00:00+00:00","description":"How well do tools that detect Cryptographic misuse (i.e., Crypto-detectors) work in practice? We answer this question in our IEEE S&amp;P 2022 paper using a systematic, data-driven mutation framework for evaluating detectors, that reveals significant flaws in popular tools.","headline":"Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques","image":"https://raw.githubusercontent.com/Secure-Platforms-Lab-W-M/MASC-Artifact/main/masc-framework.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://amitsealami.com/MASC/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://amitsealami.com/images/portrait.webp"},"name":"Amit Seal Ami"},"url":"https://amitsealami.com/MASC/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar">
+            <img src="/images/resized/portrait-800-4e9e84842.webp" alt="Amit Seal Ami" srcset="/images/resized/portrait-400-4e9e84842.webp 400w, /images/resized/portrait-600-4e9e84842.webp 600w, /images/resized/portrait-800-4e9e84842.webp 800w, /images/resized/portrait-1000-4e9e84842.webp 1000w">
+
+          </a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Amit Seal Ami</a></h1>
+            <p class="site-description">Ph.D. Candidate at William &amp; Mary</p>
+          </div>
+
+          <nav>
+            <!-- <a href="/">Home</a> -->
+            <a href="/about">About</a>
+            <a href="/publications">Publications</a>
+            <a href="/cv">CV</a>
+            <a href="/works">Works</a>
+            <a href="/blog">Blog</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <article class="page">
+
+  <h1>Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques</h1>
+
+  <div class="entry">
+    <h2 id="overview">Overview</h2>
+
+<p>The correct use of security techniques, in particular, <code class="language-plaintext highlighter-rouge">cryptography</code>, is central to ensuring data security in modern software systems, whereas the incorrect use results in compromising security.
+Several academic and commercial security analysis tools exist that help identify the incorrect use of <code class="language-plaintext highlighter-rouge">cryptography</code> related techniques.
+Stakeholders, such as researchers, code-hosting services, app markets and developers rely on these security analysis tools to avoid introducing vulnerabilities through improper use of those techniques.</p>
+
+<p>However, <em>we know very little regarding their actual effectiveness at finding cryptography-specific techniques</em>, and whether these techniques contain flaw(s). Unfortunately, beyond manually created benchmarks, there
+is no approach for systematically evaluating crypto-detectors.
+Instead, what we <em>need</em> is a systematic, data-driven, evolving approach that can be used reliably to evaluate the security techniques.
+Furthermore, we need to understand <em>why</em> flaws in cryptography-specific security techniques occur.</p>
+
+<p>We address these issues in our <a href="https://www.ieee-security.org/TC/SP2022/" target="_blank" rel="noopener noreferrer">IEEE Symposium on Security and Privacy (S&amp;P’22) </a> (<strong>A*/Top-Tier</strong>) paper <a class="citation" href="#ami-masc-oakland22">[1]</a> using a systematic, data-driven mutation framework (MASC) for evaluating detectors, that reveals significant flaws in popular tools.</p>
+
+<p><img src="https://raw.githubusercontent.com/Secure-Platforms-Lab-W-M/MASC-Artifact/main/masc-framework.jpg" alt=""></p>
+
+<h2 id="1-minute-teaser-for-the-sp22">1 Minute Teaser for the S&amp;P’22</h2>
+
+<p>Please turn on sound!</p>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/yutxz8UArjg" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<h2 id="talk-at-the-sp22">Talk at the S&amp;P’22</h2>
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+<div class="embed-container">    <iframe title="YouTube video player" width="640" height="390" src="//www.youtube.com/embed/g4OG9wrtxXk" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p>Key ideas of the paper are 👇🏽</p>
+
+<!-- more -->
+<ul>
+  <li>Crypto is a vast and complex domain, and developers can be expected to (mis)use Crypto-APIs in inordinate ways. We capture this complexity in a <strong>data-driven taxonomy</strong> of <strong>105 unique misuse cases</strong>, <strong>obtained from over 20 years</strong> of discourse in both academia and industry.</li>
+  <li>We expressively instantiate/mutate the cases from the taxonomy using <em>(1)</em> a set of generalizable mutation operators that express variations inspired by typical Java API-use conventions, and <em>(2)</em> scopes that place the mutant in software based on a “<em>threat model</em>” for Crypto-detectors.</li>
+  <li>Our framework, MASC, implements these primitives in a manner that allows it to generate thousands of compilable, non-trivial mutants in seconds. Using MASC, we evaluated <em>9</em> major detectors from industry, academia and open source community, and found <em>19</em> designs and implementation flaws that result in non-detection!</li>
+  <li>
+<em>Are these flaws realistic/practical?</em>  We studied publicly available source code in both GitHub and Stack Overflow and confirmed that <strong>the misuse instances are reflected in real, popular, applications</strong>, and often in apps that have been previously analyzed by the detectors.</li>
+  <li>To improve this status-quo, we must understand why these flaws occur, and reach a consensus in terms of what is expected from Crypto-detectors and how we will design and evaluate them to satisfy the expectations.</li>
+  <li>This paper initiates this discourse within the security community by concluding with a discussion that integrates several views on the design decisions behind Crypto-detectors, informed by our results and conversations with tool designers (included with consent).</li>
+</ul>
+
+<h2 id="poster">Poster</h2>
+
+<p>Our poster on this same topic was also published at the <a href="https://www.ndss-symposium.org/ndss2022/accepted-posters/" target="_blank" rel="noopener noreferrer">Network and Distributed Systems Security Symposium (NDSS) 2022</a>, a top-tier security venue!</p>
+
+<p><a href="https://www.ndss-symposium.org/wp-content/uploads/NDSS2022Poster_paper_24.pdf" target="_blank" rel="noopener noreferrer"><img src="/blog/images/masc-poster.png" alt=""></a></p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>This work is supported in part by NSF-1815336, NSF1815186 and NSF-1955853 grants. Additionally, the poster is supported in part by the Coastal Virginia Center for Cyber Innovation and the Commonwealth Cyber Initiative, an investment in the advancement of cyber R&amp;D, innovation, and workforce development. For more information about COVA CCI and CCI, visit www.covacci.org and www.cyberinitiative.org.</p>
+
+<h2 id="reference">Reference</h2>
+
+<div class="bibliography"><div>
+<span id="ami-masc-oakland22">1. A. S. Ami, N. Cooper, K. Kafle, K. Moran, D. Poshyvanyk, and A. Nadkarni, “Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques,” in <i>2022 IEEE Symposium on Security and Privacy (S&amp;P)</i>, San Francisco, CA, USA, May 2022, pp. 397–414, doi: 10.1109/SP46214.2022.9833582 [Online]. Available at: https://ieeexplore.ieee.org/document/9833582</span>
 
 
-  <meta charset="utf-8">
-  <title>Redirecting…</title>
-  <link rel="canonical" href="https://amitsealami.com/MASC/">
-  <script>location="https://amitsealami.com/MASC/"</script>
-  <meta http-equiv="refresh" content="0; url=https://amitsealami.com/MASC/">
-  <meta name="robots" content="noindex">
-  <h1>Redirecting…</h1>
-  <a href="https://amitsealami.com/MASC/">Click here if you are not redirected.</a>
 
+    
+        [<a href="https://arxiv.org/pdf/2107.07065.pdf" class="bib" target="_blank" rel="noopener noreferrer"><i class="material-icons">article</i>PDF</a>]
+    
+    
+    
+        [<a href="https://youtu.be/Kfkzi57gYys" class="bib" target="_blank" rel="noopener noreferrer"><i class="material-icons">videocam</i>Video</a>]
+    
+    
+        [<a href="https://github.com/Secure-Platforms-Lab-W-M/masc-artifact" class="bib" target="_blank" rel="noopener noreferrer"><i class="material-icons">source</i>Code</a>]
+    
+    <details>
+        <summary>
+            Bibtex
+        </summary>
+<figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@inproceedings</span><span class="p">{</span><span class="nl">ami-masc-oakland22</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Ami, {Amit Seal} and Cooper, Nathan and Kafle, Kaushal and Moran, Kevin and Poshyvanyk, Denys and Nadkarni, Adwait}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{2022 IEEE Symposium on Security and Privacy (S&amp;P)}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{{Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques}}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">address</span> <span class="p">=</span> <span class="s">{San Francisco, CA, USA}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">may</span><span class="p">,</span>
+  <span class="na">pages</span> <span class="p">=</span> <span class="s">{397--414}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{IEEE Computer Society}</span><span class="p">,</span>
+  <span class="na">issn</span> <span class="p">=</span> <span class="s">{2375-1207}</span><span class="p">,</span>
+  <span class="na">pdf</span> <span class="p">=</span> <span class="s">{https://arxiv.org/pdf/2107.07065.pdf}</span><span class="p">,</span>
+  <span class="na">sourcecode</span> <span class="p">=</span> <span class="s">{https://github.com/Secure-Platforms-Lab-W-M/masc-artifact}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://ieeexplore.ieee.org/document/9833582}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1109/SP46214.2022.9833582}</span><span class="p">,</span>
+  <span class="na">video</span> <span class="p">=</span> <span class="s">{https://youtu.be/Kfkzi57gYys}</span>
+<span class="p">}</span></code></pre></figure>
+</details>
+<br>
+</div></div>
+
+  </div>
+</article>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:amitsealami@gmail.com" aria-label="Email Amit Seal Ami"><i class="svg-icon email"></i></a>
+<a href="https://www.facebook.com/Amit.Seal.Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon facebook"></i></a>
+
+<a href="https://github.com/lordamit" aria-label="Github of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon github"></i></a>
+
+<a href="https://www.linkedin.com/in/AmitSealAmi" aria-label="LinkedIn of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon linkedin"></i></a>
+
+
+<a href="https://www.twitter.com/Amit_Seal_Ami" aria-label="Twitter of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon twitter"></i></a>
+
+<a href="https://youtube.com/AmitSealAmi" target="_blank" rel="noopener noreferrer"><i class="svg-icon youtube"></i></a>
+
+        </footer>
+      </div>
+    </div>
+
+    
+	<!-- Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11383434-10"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-11383434-10');
+	</script>
+	<!-- End Google Analytics -->
+
+
+  </body>
+</html>
