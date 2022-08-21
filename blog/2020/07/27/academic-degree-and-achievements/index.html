@@ -26,15 +26,6 @@
 
     
 
-    
-        <script
-        src="https://code.jquery.com/jquery-1.12.4.min.js"
-        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
-        crossorigin="anonymous"></script>
-        <script src="/blog/assets/inlineDisqussions.js"></script>
-        <link rel="stylesheet" type="text/css" href="/blog/assets/inlineDisqussions.css" />
-    
-
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -152,14 +143,20 @@
 	To comment as guest, click on the field "Name". The option to do so will become visible.
 	<br>
 	লগইন ছাড়াই কমেন্ট করতে নাম এ ক্লিক করুন, দেখবেন তার নিচেই আছে অতিথি হিসাবে কমেন্ট করার অপশন।
-	<script type="text/javascript">
-		disqus_shortname = 'https-amitsealami-github-io-blog';
-		jQuery(document).ready(function() {
-			jQuery("p").inlineDisqussions();
-		});
-	</script>
-	<div id="disqus_thread"></div>
 
+	<div id="disqus_thread"></div>
+	<script>
+	var disqus_config = function () {
+		this.page.url = 'https://amitsealami.com/blog/2020/07/27/academic-degree-and-achievements/';
+		this.page.identifier = 'https://amitsealami.com/blog/2020/07/27/academic-degree-and-achievements/';
+	};
+	(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//' + 'https-amitsealami-github-io-blog' + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+	</script>
 	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" target="_blank" rel="noopener noreferrer">comments powered by Disqus.</a>
 </noscript>
 </div>
