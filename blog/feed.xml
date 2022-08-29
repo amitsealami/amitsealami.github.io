@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2022-08-29T17:22:32+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Submitting to IEEE/ACM conferences - Lessons Learned</title><link href="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/" rel="alternate" type="text/html" title="Submitting to IEEE/ACM conferences - Lessons Learned" /><published>2022-08-29T00:00:00+00:00</published><updated>2022-08-29T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned</id><content type="html" xml:base="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/"><![CDATA[<p><em>[Reposting from my old blog site]</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2022-08-29T17:58:53+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Submitting to IEEE/ACM conferences - Lessons Learned</title><link href="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/" rel="alternate" type="text/html" title="Submitting to IEEE/ACM conferences - Lessons Learned" /><published>2022-08-29T00:00:00+00:00</published><updated>2022-08-29T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned</id><content type="html" xml:base="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/"><![CDATA[<p><em>[Reposting from my old blog site]</em></p>
 
 <p>Recently I faced a few problems for a paper written using ACM conference template. The problems were related to Bibliography, IEEE PDF eXpress and Bookmarks! Here are the details and how I solved them with the help of different materials available across the Internet.</p>
 
@@ -8,14 +8,14 @@
 
 <p>Luckily this was solved in <a href="https://www.acm.org/publications/authors/bibtex-formatting">ACM Author Guideline</a>. As mentioned in their website, the structure should be:</p>
 
-<figure class="highlight"><pre><code class="language-linenos" data-lang="linenos">    @online{Thornburg01,
-    author ={Harry Thornburg},
-    year = {2001},
-    title ={Introduction to Bayesian Statistics},
-    url ={http://ccrma.stanford.edu/~jos/bayes/bayes.html},
-    month ={mar},
-    lastaccessed ={March 2, 2005},
-    }</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@online</span><span class="p">{</span><span class="nl">Thornburg01</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span><span class="s">{Harry Thornburg}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2001}</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span><span class="s">{Introduction to Bayesian Statistics}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span><span class="s">{http://ccrma.stanford.edu/~jos/bayes/bayes.html}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span><span class="s">{mar}</span><span class="p">,</span>
+  <span class="na">lastaccessed</span> <span class="p">=</span><span class="s">{March 2, 2005}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure>
 
 <h2 id="problem-2-url-too-long-and-crosses-references-margin">Problem 2: URL too long and crosses references margin</h2>
 
