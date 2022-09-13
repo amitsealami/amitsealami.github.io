@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2022-08-29T17:58:53+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Submitting to IEEE/ACM conferences - Lessons Learned</title><link href="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/" rel="alternate" type="text/html" title="Submitting to IEEE/ACM conferences - Lessons Learned" /><published>2022-08-29T00:00:00+00:00</published><updated>2022-08-29T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned</id><content type="html" xml:base="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/"><![CDATA[<p><em>[Reposting from my old blog site]</em></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2022-09-13T00:50:21+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned</title><link href="https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller/" rel="alternate" type="text/html" title="9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned" /><published>2022-09-12T00:00:00+00:00</published><updated>2022-09-12T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller</id><content type="html" xml:base="https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller/"><![CDATA[<p>It has been (a little over) nine years since I first started working on <a href="https://github.com/LordAmit/Brightness">Brightness Controller</a> for Linux. My goals were simple when making this,</p>
+
+<p>a) learn Python as a programming language and</p>
+
+<p>b) solve a pain point for me.</p>
+
+<p>Turns out that my pain point is also a pain point for other people!</p>
+
+<p><img src="https://i.imgur.com/qEdo7DK.jpg" alt="" /></p>
+
+<!-- more -->
+<p>Somehow, it gained attention from nice people across the Internet. It got featured in <a href="https://www.omgubuntu.co.uk/2017/05/adjust-external-monitor-brightness-ubuntu">OMG Ubuntu</a>, people suggested it on Reddit, and some suggested that it should be <a href="https://pointieststick.com/2021/09/10/this-week-in-kde-a-random-grab-bag-collection-of-stuff/">integrated into KDE</a> by Default or at least they should make something similar. <a href="https://github.com/LordAmit/Brightness/graphs/contributors">Collaborators</a> joined in and helped make Brightness Controller way better than ever possible and helped make this available across Ubuntu PPA, Arch Linux AUR, and more. Just from PPA alone, Brightness Controller has been downloaded about <a href="https://ppa-stats.sheth.io/#/?ppaName=brightness-controller&amp;ppaOwner=apandada1&amp;packageName=brightness-controller">160K times</a>! For all these, I am grateful.</p>
+
+<h2 id="future-of-brightness-controller">Future of Brightness Controller</h2>
+
+<p>People still email me about ideas, suggestions, and new features - such as 1) keyboard shortcuts, 2) setting brightness based on a preset on start-up, 3) making it adjust brightness and color temperature automatically like f.lux or Redshift, 4) making it not be overwritten by f.lux or redshift and 5) finally - making it compatible with Wayland.</p>
+
+<p>Of these, some of them are possible (1-3), and some of them are technically impossible or simply out of my hand (4 and 5). Many of them are good to have.
+Indeed, I receive new pull requests implementing new features sometimes. However, progress has slowed down due to the following:</p>
+
+<ul>
+  <li>I use a Macbook for work purposes these days, so even if I can check and run code. Even though PyQt works cross-platform, I can not test the actual Brightness Controlling function enabled by <code class="language-plaintext highlighter-rouge">xrandr</code>, the backend. It does not work anywhere except Linux, as far as I know.</li>
+  <li>More importantly, I have way more on my hands than before!</li>
+</ul>
+
+<p>It seems like someone else will have to take up the mantle to do it! 😅</p>
+
+<p>Indeed, I fixed several weird, silly bugs last weekend and completely changed the structure of the project to make it more future-proof when it comes to packaging and publishing. Before that, the last major change happened over a year ago. But that’s okay - Brightness Controller was built with several key design principles in mind. It does not do much, but whatever it is supposed to do, does it well, hopefully.</p>
+
+<h2 id="lessons-learned">Lessons Learned</h2>
+
+<p>I am a believer in <em>Less is more</em> and <em>Separation of Concern</em> concepts when it comes to designing and programming.</p>
+
+<p><strong>Separation of Concern (SoC)</strong>: I tried to make sure I follow them when making Brightness Controller. If you look at the code, you will probably notice that it is badly written, long, verbose, and does not follow OOP that well. But it still follows SoC, which has helped me maintain the code base for the last decade. Therefore, if you write code, make sure you follow this principle. 😉</p>
+
+<p><strong>Less is More</strong>: The reason why Brightness Controller works is that it is created to contain no nonsense. I could’ve tried to force in lots of fancy functionalities over time. Do you know what that would mean? More Bugs! No one wants that. Hence, making it simple is better in the long run!</p>
+
+<p><strong>Third Party APIS is a Pain</strong>: Things keep changing outside the scope of Brightness Controller. For example, Wayland will possibly replace <code class="language-plaintext highlighter-rouge">xrandr</code>-supported displays soon in Linux entirely, and I do not see anything at this point that can be used as the backend for Brightness Controller in Wayland.</p>
+
+<p><strong>If It ain’t Broken, Don’t Fix it</strong>: Self-explanatory, to be honest. 😉</p>
+
+<p>Anyway, that’s all I wanted to talk about. Have fun people.</p>
+
+<p>Brightness Controller will always be free. Free as in free beer, and free from any type of data tracking whatsoever. Heck, I have no way of knowing how many people are using it right now. It solved my problem, and I hope it solved yours too and <em>gave your eyes some relief</em>.</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[It has been (a little over) nine years since I first started working on Brightness Controller for Linux. My goals were simple when making this, a) learn Python as a programming language and b) solve a pain point for me. Turns out that my pain point is also a pain point for other people!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/qEdo7DK.jpg" /><media:content medium="image" url="https://i.imgur.com/qEdo7DK.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Submitting to IEEE/ACM conferences - Lessons Learned</title><link href="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/" rel="alternate" type="text/html" title="Submitting to IEEE/ACM conferences - Lessons Learned" /><published>2022-08-29T00:00:00+00:00</published><updated>2022-08-29T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned</id><content type="html" xml:base="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/"><![CDATA[<p><em>[Reposting from my old blog site]</em></p>
 
 <p>Recently I faced a few problems for a paper written using ACM conference template. The problems were related to Bibliography, IEEE PDF eXpress and Bookmarks! Here are the details and how I solved them with the help of different materials available across the Internet.</p>
 
@@ -515,66 +558,4 @@ git push
 <span class="nv">filename</span><span class="o">=</span><span class="nv">$1</span>
 convert <span class="nt">-density</span> 190 <span class="s2">"</span><span class="nv">$filename</span><span class="s2">[</span><span class="nv">$2</span><span class="s2">]"</span> <span class="nt">-quality</span> 90 <span class="nt">-background</span> white <span class="nt">-alpha</span> remove <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span>.jpg</code></pre></figure>
 
-<p>That’s all folks!</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Z-Shell is one of the awesome shells that gets even better with some customization and plug-ins. Here is how I use it, both for development, research and personal purposes.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="bn"><title type="html">ঢাকা বিশ্ববিদ্যালয় এবং পাবলিকেশন গ্রান্ট নিয়ে আলাপ-সালাপ</title><link href="https://amitsealami.com/blog/2021/08/19/international-publication-grant-du/" rel="alternate" type="text/html" title="ঢাকা বিশ্ববিদ্যালয় এবং পাবলিকেশন গ্রান্ট নিয়ে আলাপ-সালাপ" /><published>2021-08-19T00:00:00+00:00</published><updated>2021-08-19T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2021/08/19/international-publication-grant-du</id><content type="html" xml:base="https://amitsealami.com/blog/2021/08/19/international-publication-grant-du/"><![CDATA[<p>ঢাকা বিশ্ববিদ্যালয় (ঢাবি) অতি সম্প্রতি খুবই ভালো একটা উদ্যোগ নিয়েছে গবেষণার জন্য - পাবলিকেশন এর বা ওপেন একসেস এর খরচ ঢাবি দিবে! উদ্যোগটা ভালো হলেই যে সেটার বাস্তবায়ন ভালো হবে তা অবশ্যি না। আসুন ভেঙ্গে দেখি এটায় কী কী আছে। অনুদানের বিষয়ে বিস্তারিত পড়তে পারবেন <a href="https://du.ac.bd/internationalPublicationGrantForm">ঢাবির এই পেজে</a>।</p>
-
-<!-- more -->
-
-<h3 id="১">১</h3>
-<blockquote>
-  <p>SCImago Journal (https://www.scimagojr.com/) অথবা Web of Science (https://mjl.clarivate.com/home) ওয়েবসাইট-এ সংশ্লিষ্ট জার্নালের নাম উল্লেখ থাকতে হবে।</p>
-</blockquote>
-
-<p><strong>পাবলিকেশন এর ভিতরে জার্নাল পাবলিকেশন এর সাথে টপ-টিয়ার কনফারেন্সের ফুল পেপার পাবলিকেশনও ধরা উচিৎ।</strong></p>
-
-<p>যেমন কম্পিউটার সায়েন্সে আমি আমেরিকায়, ইউরোপে, ইউকেতে জার্নাল পাবলিকেশন করে হয়তো পিএইচডি করতে পারলেও ভালো পিএইচডির জন্য ধরবে শুধুমাত্র টপ-টিয়ার কনফারেন্সগুলো। পৃথিবীর বাকি সব যায়গায় মানুষ সফটওয়্যার ইঞ্জিনিয়ারিং বা সিকিউরিটি এর টপ-টিয়ার কনফারেন্সে ফুল পেপার পাবলিশ করে প্রমোশন, পিএইচডি পেলেও ঢাবিতে প্রমোশন বা অনুদানের শর্তে কনফারেন্স গোনাতেই ধরে না কেন সেটার ব্যখা আমি আজও জানি না।</p>
-
-<p>এক্ষেত্রে ২ নং শর্তে ঘ) হতে পারে এমন:</p>
-
-<blockquote>
-  <p>প্রস্তাবনা: “ঘ) কম্পিউটার বিজ্ঞান, সফটওয়্যার ইঞ্জিনিয়ারিং ও সংলগ্ন বিষয়ের জন্য কনফারেন্সের CORE (http://portal.core.edu.au/conf-ranks/) র‍্যাংক নূন্যতম B হতে হবে এবং কনফারেন্সটি DBLP/SCImago/Web of Science এ ইনডেক্সড হতে হবে।”</p>
-</blockquote>
-
-<p>সর্বোচ্চ তিনটা র‍্যাংক যথাক্রমে A*, A, এবং B;</p>
-
-<h3 id="২">২</h3>
-
-<blockquote>
-  <p>প্রকাশনা সংস্থা কর্তৃক পাণ্ডুলিপি (Manuscript) গৃহীত হলে Publication Fee/Open Access Fee-র জন্য শুধু First Author/Corresponding Author আবেদন করতে পারবেন। আবেদনকারীকে অবশ্যই ঢাকা বিশ্ববিদ্যালয়ের শিক্ষক হতে হবে এবং উক্ত প্রবন্ধের লেখকবৃন্দের ন্যূনতম ৫০ শতাংশ ঢাকা বিশ্ববিদ্যালয়ের শিক্ষক হতে হবে। <strong>তবে লেখকবৃন্দের মধ্যে ঢাকা বিশ্ববিদ্যালয়ের গবেষক/শিক্ষার্থী থাকলে এ শর্ত শিথিলযোগ্য।</strong></p>
-</blockquote>
-
-<p><strong>শিক্ষার্থীদের জন্য এটা খুবই ভালো খবর!</strong></p>
-
-<p>একটা প্রচলিত অভিযোগ ছিলো এমন: প্রকাশনার সাথে জড়িত খরচ পেতে হলে শিক্ষককে First/Corresponding অথর হতে হবে। একারণে খালি খরচ পাওয়ার জন্যও শিক্ষার্থীদের বাদ দিয়ে শিক্ষকদের ফার্স্ট অথর হতে হতো। সে হিসাবে শিক্ষার্থীদের জন্য এটা খুবই ভালো খবর!</p>
-
-<p><strong>তবে এভাবে ৫০% এর শর্ত দিয়ে কোলাবোরেশন শুরু করা যায় না।</strong></p>
-
-<p>আমরা যে র‍্যাংকিংগুলো নিয়ে মাথা ঘামাই, সেসব র‍্যাংকিং এর একটা অন্যতম গুরুত্বপূর্ণ ফ্যাক্টর একাডেমিক রেপুটেশন বা খ্যাতি। আর এই খ্যাতি তৈরি হবার সবচেয়ে সহজ রাস্তাগুলোর একটা কোলাবোরেশন করা। তা আমি খ্যাতি চাইবো, কিন্তু কোলাবোরেশন করার সময় শর্ত বসাবো - এ আবার কেমন কথা!</p>
-
-<h3 id="৩">৩</h3>
-
-<blockquote>
-  <p>ক) বিজ্ঞান অনুষদ, জীববিজ্ঞান অনুষদ, ফার্মেসী অনুষদ, আর্থ এন্ড এনভায়রনমেন্টাল সায়েন্সেস অনুষদ, ইঞ্জিনিয়ারিং এন্ড টেকনোলজি অনুষদ এবং বিজ্ঞানভিত্তিক ইনস্টিটিউটসমূহের ক্ষেত্রে জার্নালের ন্যূনতম Impact Factor ২.০ হতে হবে।
-…</p>
-</blockquote>
-
-<p>গুড গুড, খালি ইনডেক্সড (মানে সার্চ করে পাওয়া যাবে) হলেই হবে না, ইমপ্যাক্টও থাকা লাগবে।</p>
-
-<blockquote>
-  <p>First Author/Corresponding Author বছরে একবার এই আর্থিক অনুদান পাবেন। তবে গ্র্যান্ট প্রাপ্ত প্রকাশনার Impact Factor ২(ক)-এর ক্ষেত্রে ৩.০ বা তদুর্ধ্ব এবং ২(খ)-এর ক্ষেত্রে ২.০ বা তদুর্ধ্ব হলে বছরে এই অনুদান সর্বোচ্চ দুইবার দেওয়া যেতে পারে।</p>
-</blockquote>
-
-<p>আদর্শ ক্ষেত্রে যত পাবলিকেশন তত অনুদান হলে ভালো হতো। তবে এটা শুরু হিসাবে ভালো।</p>
-
-<h3 id="৪">৪</h3>
-
-<blockquote>
-  <p>প্রবন্ধ প্রকাশনার প্রকৃত ফি (Actual Fee) বা সর্বোচ্চ ২০০০ (দুই হাজার) মার্কিন ডলার প্রকাশনা অনুদান দেওয়া হবে। প্রকাশনার জন্য জার্নাল/প্রকাশনা সংস্থা কর্তৃপক্ষ হতে Publication Fee/Open Access Fee প্রদানের ক্ষেত্রে ছাড় (Waiver) পাওয়া গেলে এই আর্থিক অনুদান প্রাপ্তির ক্ষেত্রে অগ্রাধিকার দেওয়া হবে।</p>
-</blockquote>
-
-<p>এহেম, উহুম, হেহে। পৃথিবীর সবচেয়ে বনেদী জার্নালগুলোর একটা - ন্যাচারে মনে হয় ওপেন একসেস এর জন্য <a href="https://www.nature.com/articles/d41586-020-03324-y">১১ হাজার মার্কিন ডলারের কাছাকাছি লাগে</a>। বাকি টাকা নিজের পকেট থেকে দিতে গেলে অবস্থা খারাপ! অবশ্য আমি কম্পিউটার সায়েন্সের মানুষ, ন্যাচার জার্নাল নিয়ে অত বেশি জানি না। হয়তো গরীব দেশের গবেষক হিসাবে কিছু ছাড় পাওয়া যেতে পারে!</p>
-
-<p>বাকিগুলো খুবই প্রচলিত শর্ত নানা দেশের সাপেক্ষে, সুতরাং সেগুলো নিয়ে বলার কিছু নেই।</p>
-
-<p><strong>পরিশেষে</strong></p>
-
-<p>সবমিলিয়ে আমার কাছে মনে হয়েছে ঢাকা বিশ্ববিদ্যালয় সঠিক পথে এগিয়ে যাচ্ছে। ভালো গবেষণায় প্রধান বাঁধাই হলো ফান্ডিং এর অপর্যাপ্ততা। আগে চিন্তায় পড়ে যাওয়া লাগতো গবেষণা করার পরে সেটা পাবলিশ করার টাকা কই পাওয়া যাবে। সে হিসাবে এটা ঢাবির শিক্ষার্থীদের এবং শিক্ষকদের জন্য জীবন অনেকখানি সহজ করে দিবে। 😄</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[পাবলিকেশন এর বা ওপেন একসেস এর খরচ ঢাবি দিবে! উদ্যোগটা ভালো হলেই যে সেটার বাস্তবায়ন ভালো হবে তা অবশ্যি না। আসুন ভেঙ্গে দেখি এটায় কী কী আছে।]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>That’s all folks!</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Z-Shell is one of the awesome shells that gets even better with some customization and plug-ins. Here is how I use it, both for development, research and personal purposes.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
