@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+    <title>Reviewing Papers: Adding a note Page after each page in PDF programmatically – Amit Seal Ami
+    </title>
+
+    
+
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0'>
+    <meta name="author" content="Amit Seal Ami" />
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:title" content="Reviewing Papers: Adding a note Page after each page in PDF programmatically" />
+    <meta property="twitter:title" content="Reviewing Papers: Adding a note Page after each page in PDF programmatically" />
+    
+
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/blog/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Amit Seal Ami - Blog of Amit Seal Ami"
+        href="/blog/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Reviewing Papers: Adding a note Page after each page in PDF programmatically" />
+<meta name="author" content="Amit Seal Ami" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="I had this brilliant idea of adding a cornell style note page after every single page of a paper I am reviewing. Because why not, right?" />
+<meta property="og:description" content="I had this brilliant idea of adding a cornell style note page after every single page of a paper I am reviewing. Because why not, right?" />
+<link rel="canonical" href="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/" />
+<meta property="og:url" content="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/" />
+<meta property="og:site_name" content="Amit Seal Ami’s Blog" />
+<meta property="og:image" content="https://amitsealami.com/blog/images/default.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-13T00:00:00+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://amitsealami.com/blog/images/default.jpg" />
+<meta property="twitter:title" content="Reviewing Papers: Adding a note Page after each page in PDF programmatically" />
+<meta name="twitter:site" content="@Amit_Seal_Ami" />
+<meta name="twitter:creator" content="@Amit Seal Ami" />
+<meta name="google-site-verification" content="f4dZjKOD0HrgHKFR1yesOe4sM4pUrL_4hkd-4Jgyo1w" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Amit Seal Ami"},"dateModified":"2022-09-13T00:00:00+00:00","datePublished":"2022-09-13T00:00:00+00:00","description":"I had this brilliant idea of adding a cornell style note page after every single page of a paper I am reviewing. Because why not, right?","headline":"Reviewing Papers: Adding a note Page after each page in PDF programmatically","image":"https://amitsealami.com/blog/images/default.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://amitsealami.com/blog/images/default.jpg"},"name":"Amit Seal Ami"},"url":"https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="wrapper-masthead">
+        <div class="container">
+            <header class="masthead clearfix">
+                <a href="/blog/" class="site-avatar">
+                    <img src="/blog/images/resized/portrait-800-91f1e9400.webp" alt="Amit Seal Ami" srcset="/blog/images/resized/portrait-400-91f1e9400.webp 400w, /blog/images/resized/portrait-600-91f1e9400.webp 600w, /blog/images/resized/portrait-800-91f1e9400.webp 800w, /blog/images/resized/portrait-1000-91f1e9400.webp 1000w">
+
+
+                </a>
+
+                <div class="site-info">
+                    <h1 class="site-name"><a href="/blog/">Amit Seal Ami</a></h1>
+                    <div class="site-description">Blog of Amit Seal Ami</div>
+                </div>
+
+                <nav>
+                    <a href="/">Home</a>
+                    <a href="/blog/">Blog</a>
+                    <a href="/blog/higher-studies/">HigherStudies</a>
+                    <a href="/blog/index/">Index</a>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+        <article class="post">
+  <h1>Reviewing Papers: Adding a note Page after each page in PDF programmatically</h1>
+
+  <div class="date">
+    Written on September 13, 2022
+    
+
+  </div>
+
+  <div class="entry">
+    <p>I had this brilliant idea of adding a <a href="https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/" target="_blank" rel="noopener noreferrer">cornell style note</a> page after every single page of a paper I am reviewing. Because why not, right? Everyone loves tinkering around the reviewing process instead of actually reviewing, so … there.</p>
+
+<p>Turns out that it is fairly simple to do this programmatically using <code class="language-plaintext highlighter-rouge">python</code> these days. You need a PyPi packaged called <code class="language-plaintext highlighter-rouge">pypdf2</code> package before, and a template style cornell page that you can generate from <a href="https://incompetech.com/graphpaper/cornelllined/" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+<p>You are golden at this point. Here are the steps:</p>
+
+<!-- more -->
+
+<h2 id="1-setting-up-environment">1. Setting Up Environment</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nb">cd</span> &lt;your favorite directory&gt;
+<span class="c"># create a virtual environment</span>
+python3 <span class="nt">-m</span> venv venv
+<span class="c"># activate the virtual environment</span>
+<span class="nb">source </span>venv/bin/activate
+<span class="c"># install the PyPDF2 package</span>
+pip <span class="nb">install </span>pypdf2</code></pre></figure>
+
+<h2 id="2-script-to-add-pages">2. Script to Add Pages</h2>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">argv</span>
+<span class="kn">from</span> <span class="nn">PyPDF2</span> <span class="kn">import</span> <span class="n">PdfFileReader</span><span class="p">,</span> <span class="n">PdfFileWriter</span><span class="p">,</span> <span class="n">PdfWriter</span>
+<span class="kn">from</span> <span class="nn">pip</span> <span class="kn">import</span> <span class="n">main</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="k">def</span> <span class="nf">get_pages</span><span class="p">(</span><span class="n">input_pdf</span><span class="p">:</span> <span class="n">PdfFileReader</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">input_pdf</span><span class="p">.</span><span class="n">getNumPages</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">add_pages</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">template_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">PdfFileWriter</span><span class="p">:</span>
+    <span class="n">writer</span> <span class="o">=</span> <span class="n">PdfFileWriter</span><span class="p">()</span>
+    <span class="n">input_reader</span> <span class="o">=</span> <span class="n">PdfFileReader</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">)</span>
+    <span class="n">template_reader</span> <span class="o">=</span> <span class="n">PdfFileReader</span><span class="p">(</span><span class="n">template_pdf_path</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">get_pages</span><span class="p">(</span><span class="n">input_reader</span><span class="p">)):</span>
+        <span class="n">writer</span><span class="p">.</span><span class="n">addPage</span><span class="p">(</span><span class="n">input_reader</span><span class="p">.</span><span class="n">getPage</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+        <span class="n">writer</span><span class="p">.</span><span class="n">addPage</span><span class="p">(</span><span class="n">template_reader</span><span class="p">.</span><span class="n">getPage</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">writer</span>
+
+<span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">writer</span><span class="p">:</span> <span class="n">PdfFileWriter</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="o">+</span><span class="s">"merged.pdf"</span><span class="p">,</span> <span class="s">"wb"</span><span class="p">)</span> <span class="k">as</span> <span class="n">out</span><span class="p">:</span>
+        <span class="n">writer</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Please specify the paths to the input file and template file"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Format: add_comment_page input_pdf_path template_pdf_path "</span><span class="p">)</span>
+        <span class="nb">exit</span><span class="p">()</span>
+    <span class="n">input_pdf_path</span> <span class="o">=</span> <span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">template_pdf_path</span> <span class="o">=</span> <span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">write_file</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">,</span> <span class="n">add_pages</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">,</span> <span class="n">template_pdf_path</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span></code></pre></figure>
+
+<p>Aaand that’s all folks!</p>
+
+<p>Code, Helper Script, <code class="language-plaintext highlighter-rouge">requirements.txt</code> for pip, and Cornell Style notepage as PDF are available in this <a href="https://github.com/LordAmit/automating-boring-tasks-using-python/tree/master/pdfs" target="_blank" rel="noopener noreferrer">GitHub repo link</a> as well, so get going!</p>
+
+  </div>
+  
+    
+<hr>
+<div class="comments">
+	First, click on "Comments" below to view/post comments.
+	<br>
+	To comment as guest, click on the field "Name". The option to do so will become visible.
+	<br>
+	লগইন ছাড়াই কমেন্ট করতে নাম এ ক্লিক করুন, দেখবেন তার নিচেই আছে অতিথি হিসাবে কমেন্ট করার অপশন।
+
+	<div id="disqus_thread"></div>
+	<script>
+	var disqus_config = function () {
+		this.page.url = 'https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/';
+		this.page.identifier = 'https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/';
+	};
+	(function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = '//' + 'https-amitsealami-github-io-blog' + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" target="_blank" rel="noopener noreferrer">comments powered by Disqus.</a>
+</noscript>
+</div>
+
+  
+</article>
+<script src="/blog/assets/code_copy.js"></script>
+    </div>
+
+    <div class="wrapper-footer">
+        <div class="container">
+            <footer class="footer">
+                
+
+<a href="https://www.facebook.com/Amit.Seal.Ami" aria-label="Facebook of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon facebook"></i></a>
+
+<a href="https://github.com/LordAmit" aria-label="Github of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon github"></i></a>
+
+<a href="https://www.linkedin.com/in/amitsealami" aria-label="LinkedIn of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon linkedin"></i></a>
+
+<a href="/blog/feed.xml" aria-label="Feed of Amit Seal Ami"><i class="svg-icon rss"></i></a>
+<a href="https://www.twitter.com/Amit_Seal_Ami" aria-label="Twitter of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon twitter"></i></a>
+
+<a href="https://youtube.com/AmitSealAmi" target="_blank" rel="noopener noreferrer"><i class="svg-icon youtube"></i></a>
+
+            </footer>
+        </div>
+    </div>
+    
+	<!-- Google Analytics -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11383434-11"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-11383434-11');
+	</script>
+	<!-- End Google Analytics -->
+
+
+</body>
+</html>

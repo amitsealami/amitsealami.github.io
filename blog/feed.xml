@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2022-09-13T01:33:08+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned</title><link href="https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller/" rel="alternate" type="text/html" title="9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned" /><published>2022-09-12T00:00:00+00:00</published><updated>2022-09-12T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller</id><content type="html" xml:base="https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller/"><![CDATA[<p>It has been (a little over) nine years since I first started working on <a href="https://github.com/LordAmit/Brightness">Brightness Controller</a> for Linux. My goals were simple when making this,</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2022-09-14T01:47:42+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Reviewing Papers: Adding a note Page after each page in PDF programmatically</title><link href="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/" rel="alternate" type="text/html" title="Reviewing Papers: Adding a note Page after each page in PDF programmatically" /><published>2022-09-13T00:00:00+00:00</published><updated>2022-09-13T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages</id><content type="html" xml:base="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/"><![CDATA[<p>I had this brilliant idea of adding a <a href="https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/">cornell style note</a> page after every single page of a paper I am reviewing. Because why not, right? Everyone loves tinkering around the reviewing process instead of actually reviewing, so … there.</p>
+
+<p>Turns out that it is fairly simple to do this programmatically using <code class="language-plaintext highlighter-rouge">python</code> these days. You need a PyPi packaged called <code class="language-plaintext highlighter-rouge">pypdf2</code> package before, and a template style cornell page that you can generate from <a href="https://incompetech.com/graphpaper/cornelllined/">here</a>.</p>
+
+<p>You are golden at this point. Here are the steps:</p>
+
+<!-- more -->
+
+<h2 id="1-setting-up-environment">1. Setting Up Environment</h2>
+
+<figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nb">cd</span> &lt;your favorite directory&gt;
+<span class="c"># create a virtual environment</span>
+python3 <span class="nt">-m</span> venv venv
+<span class="c"># activate the virtual environment</span>
+<span class="nb">source </span>venv/bin/activate
+<span class="c"># install the PyPDF2 package</span>
+pip <span class="nb">install </span>pypdf2</code></pre></figure>
+
+<h2 id="2-script-to-add-pages">2. Script to Add Pages</h2>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">argv</span>
+<span class="kn">from</span> <span class="nn">PyPDF2</span> <span class="kn">import</span> <span class="n">PdfFileReader</span><span class="p">,</span> <span class="n">PdfFileWriter</span><span class="p">,</span> <span class="n">PdfWriter</span>
+<span class="kn">from</span> <span class="nn">pip</span> <span class="kn">import</span> <span class="n">main</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+
+<span class="k">def</span> <span class="nf">get_pages</span><span class="p">(</span><span class="n">input_pdf</span><span class="p">:</span> <span class="n">PdfFileReader</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">input_pdf</span><span class="p">.</span><span class="n">getNumPages</span><span class="p">()</span>
+
+<span class="k">def</span> <span class="nf">add_pages</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">template_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">PdfFileWriter</span><span class="p">:</span>
+    <span class="n">writer</span> <span class="o">=</span> <span class="n">PdfFileWriter</span><span class="p">()</span>
+    <span class="n">input_reader</span> <span class="o">=</span> <span class="n">PdfFileReader</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">)</span>
+    <span class="n">template_reader</span> <span class="o">=</span> <span class="n">PdfFileReader</span><span class="p">(</span><span class="n">template_pdf_path</span><span class="p">)</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">get_pages</span><span class="p">(</span><span class="n">input_reader</span><span class="p">)):</span>
+        <span class="n">writer</span><span class="p">.</span><span class="n">addPage</span><span class="p">(</span><span class="n">input_reader</span><span class="p">.</span><span class="n">getPage</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+        <span class="n">writer</span><span class="p">.</span><span class="n">addPage</span><span class="p">(</span><span class="n">template_reader</span><span class="p">.</span><span class="n">getPage</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">writer</span>
+
+<span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">writer</span><span class="p">:</span> <span class="n">PdfFileWriter</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="o">+</span><span class="s">"merged.pdf"</span><span class="p">,</span> <span class="s">"wb"</span><span class="p">)</span> <span class="k">as</span> <span class="n">out</span><span class="p">:</span>
+        <span class="n">writer</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">:</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Please specify the paths to the input file and template file"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Format: add_comment_page input_pdf_path template_pdf_path "</span><span class="p">)</span>
+        <span class="nb">exit</span><span class="p">()</span>
+    <span class="n">input_pdf_path</span> <span class="o">=</span> <span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">template_pdf_path</span> <span class="o">=</span> <span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+    <span class="n">write_file</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">,</span> <span class="n">add_pages</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">,</span> <span class="n">template_pdf_path</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">()</span></code></pre></figure>
+
+<p>Aaand that’s all folks!</p>
+
+<p>Code, Helper Script, <code class="language-plaintext highlighter-rouge">requirements.txt</code> for pip, and Cornell Style notepage as PDF are available in this <a href="https://github.com/LordAmit/automating-boring-tasks-using-python/tree/master/pdfs">GitHub repo link</a> as well, so get going!</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[I had this brilliant idea of adding a cornell style note page after every single page of a paper I am reviewing. Because why not, right?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned</title><link href="https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller/" rel="alternate" type="text/html" title="9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned" /><published>2022-09-12T00:00:00+00:00</published><updated>2022-09-12T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller</id><content type="html" xml:base="https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller/"><![CDATA[<p>It has been (a little over) nine years since I first started working on <a href="https://github.com/LordAmit/Brightness">Brightness Controller</a> for Linux. My goals were simple when making this,</p>
 
 <p>a) learn Python as a programming language and</p>
 
@@ -41,7 +98,7 @@ Indeed, I receive new pull requests implementing new features sometimes. However
 
 <p>Anyway, that’s all I wanted to talk about. Have fun people.</p>
 
-<p>Brightness Controller will always be free. Free as in free beer, and free from any type of data tracking whatsoever. Heck, I have no way of knowing how many people are using it right now. It solved my problem, and I hope it solved yours too and <em>gave your eyes some relief</em>.</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[It has been (a little over) nine years since I first started working on Brightness Controller for Linux. My goals were simple when making this, a) learn Python as a programming language and b) solve a pain point for me. Turns out that my pain point is also a pain point for other people!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/wiz4ZKv.jpg" /><media:content medium="image" url="https://i.imgur.com/wiz4ZKv.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Submitting to IEEE/ACM conferences - Lessons Learned</title><link href="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/" rel="alternate" type="text/html" title="Submitting to IEEE/ACM conferences - Lessons Learned" /><published>2022-08-29T00:00:00+00:00</published><updated>2022-08-29T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned</id><content type="html" xml:base="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/"><![CDATA[<p><em>[Reposting from my old blog site]</em></p>
+<p>Brightness Controller will always be free. Free as in free beer, and free from any type of data tracking whatsoever. Heck, I have no way of knowing how many people are using it right now. It solved my problem, and I hope it solved yours too and <em>gave your eyes some relief</em>.</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned']]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/wiz4ZKv.jpg" /><media:content medium="image" url="https://i.imgur.com/wiz4ZKv.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Submitting to IEEE/ACM conferences - Lessons Learned</title><link href="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/" rel="alternate" type="text/html" title="Submitting to IEEE/ACM conferences - Lessons Learned" /><published>2022-08-29T00:00:00+00:00</published><updated>2022-08-29T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned</id><content type="html" xml:base="https://amitsealami.com/blog/2022/08/29/submitting-to-ieee-acm-conferences-lessons-learned/"><![CDATA[<p><em>[Reposting from my old blog site]</em></p>
 
 <p>Recently I faced a few problems for a paper written using ACM conference template. The problems were related to Bibliography, IEEE PDF eXpress and Bookmarks! Here are the details and how I solved them with the help of different materials available across the Internet.</p>
 
@@ -415,147 +472,4 @@ Update September 09, 2021
 
 <p>Yet to be tested.</p>
 
-<p>I will update here the next time the bug happens. Until then, fingers crossed! 🤞</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[MacBook Pro 2019 Model sucks. In multiple ways.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">How I use Zsh for Augmenting My Activities</title><link href="https://amitsealami.com/blog/2021/09/02/how-I-use-zsh-automation/" rel="alternate" type="text/html" title="How I use Zsh for Augmenting My Activities" /><published>2021-09-02T00:00:00+00:00</published><updated>2021-09-02T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2021/09/02/how-I-use-zsh-automation</id><content type="html" xml:base="https://amitsealami.com/blog/2021/09/02/how-I-use-zsh-automation/"><![CDATA[<p><code class="language-plaintext highlighter-rouge">Zsh</code>, or <code class="language-plaintext highlighter-rouge">Z-Shell</code> is a really good shell Unix/OSX/similar. It gets even better with <a href="https://ohmyz.sh/">oh-my-zsh</a>. However, I made it even better with the help of scripts, themes and whatnot. Please note that this is not a <em>How-to</em> tutorial for the inexperienced <code class="language-plaintext highlighter-rouge">zsh</code> user; so I expect you, the reader, to know how to modify <code class="language-plaintext highlighter-rouge">~/.zshrc</code>, or where to find it, or how to use aliases - those type of common scripting things. Lets dive in!</p>
-
-<!-- more -->
-
-<h2 id="look-and-feel">Look and Feel</h2>
-
-<p>I use the theme <a href="https://github.com/agnoster/agnoster-zsh-theme">agnoster</a>. Setting this up requires some delicate configuration of colors and fonts, so I suggest you to go through the link. But basically, you gotta set this line in zshrc:</p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">ZSH_THEME</span><span class="o">=</span><span class="s2">"agnoster"</span></code></pre></figure>
-
-<p>In addition, I use the amazing <a href="https://www.jetbrains.com/lp/mono/">Jetbrains Mono</a> font. However, it still does not look right. Too much space is being wasted.</p>
-
-<p><img src="/blog/images/how-i-use-zsh/default-zsh.png" alt="" /></p>
-
-<p>See that <code class="language-plaintext highlighter-rouge">amitseal@Amits-MacBook-Pro</code>? That’s unnecessary, unless you are in a multi-user environment and you want to know both your username and hostname, All.the.time. Which I don’t. Hence make this modification in your <code class="language-plaintext highlighter-rouge">~/.zshrc</code>:</p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">DEFAULT_USER</span><span class="o">=</span><span class="s2">"amitseal"</span>
-prompt_context<span class="o">(){}</span></code></pre></figure>
-
-<p>Which results in hiding both username and hostname. Nice!</p>
-
-<p><img src="/blog/images/how-i-use-zsh/my-zsh.png" alt="" /></p>
-
-<p>In addition to this, I also use syntax highlighting in zsh. Here is what you can do:</p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell">brew <span class="nb">install </span>zsh-syntax-highlighting
-<span class="nb">source</span> /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh</code></pre></figure>
-
-<h2 id="plugins">Plugins</h2>
-
-<p>These are the plugins I use with zsh:</p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nv">plugins</span><span class="o">=(</span>
-  <span class="c"># for git</span>
-  git
-  <span class="c"># only if you use osx</span>
-  osx
-  <span class="c"># if you like using visual studio code</span>
-  vscode
-  <span class="c"># must have</span>
-  zsh-autosuggestions
-  <span class="c"># only if you use clojure</span>
-  lein
-<span class="o">)</span></code></pre></figure>
-
-<h2 id="aliases">Aliases</h2>
-
-<p>I use A LOT OF aliases. Some of them are based on modifying existing functions with switches. Some of them are my own, personal creations using python/shell scripting.</p>
-
-<h3 id="git-related-aliases">Git related Aliases</h3>
-
-<p>I made several git related aliases just so that I can avoid typing… 5 characters.</p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c"># This is for add, commit and pushing everything for commits that do not matter.</span>
-<span class="c"># I often use this when I am pushing things to website after building.</span>
-<span class="c"># The comprehensible comments go to the source commits.</span>
-<span class="k">function </span>f_gitcap<span class="o">(){</span>
-git add <span class="nb">.</span>
-git commit <span class="nt">-m</span> <span class="s2">"update"</span>
-git push
-<span class="o">}</span>
-<span class="nb">alias </span><span class="nv">gitcap</span><span class="o">=</span>f_gitcap
-
-<span class="c"># more git related aliases</span>
-<span class="nb">alias </span><span class="nv">gita</span><span class="o">=</span><span class="s1">'git add .'</span>
-<span class="nb">alias </span><span class="nv">gitc</span><span class="o">=</span><span class="s1">'git-cola'</span>
-<span class="nb">alias </span><span class="nv">gitcd</span><span class="o">=</span><span class="s1">'git-cola dag'</span>
-<span class="nb">alias </span><span class="nv">gitcu</span><span class="o">=</span><span class="s1">'git commit -m "update"'</span>
-<span class="nb">alias </span><span class="nv">gpom</span><span class="o">=</span><span class="s1">'git push origin master'</span></code></pre></figure>
-
-<h3 id="helpful-aliases-for-better-commands">Helpful Aliases for Better Commands</h3>
-
-<p>Don’t like the output of <code class="language-plaintext highlighter-rouge">cat</code>? Too <em>banal?</em> Use <code class="language-plaintext highlighter-rouge">pcat</code>. Also, there is <code class="language-plaintext highlighter-rouge">grep</code> and <code class="language-plaintext highlighter-rouge">vena</code>.</p>
-
-<p><img src="/blog/images/how-i-use-zsh/cat-pcat.png" alt="" /></p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nb">alias grep</span><span class="o">=</span><span class="s1">'grep --color=auto'</span>
-<span class="c"># you will need to install pygmentize first</span>
-<span class="nb">alias </span><span class="nv">pcat</span><span class="o">=</span><span class="s1">'pygmentize -f terminal256 -O style=monokai -g'</span>
-<span class="c"># don't want to type a long command every time you want to activate a virtual env? Here:</span>
-<span class="nb">alias </span><span class="nv">vena</span><span class="o">=</span><span class="s1">'source venv/bin/activate'</span></code></pre></figure>
-
-<h3 id="aliases-for-jekyll">Aliases for Jekyll</h3>
-
-<p>Who does not love jekyll? I Love Jekyll! But the commands are long.. and scary. Hence:</p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="nb">alias </span><span class="nv">jeksl</span><span class="o">=</span><span class="s1">'bundle exec jekyll serve --config _devconfig.yml'</span>
-<span class="nb">alias </span><span class="nv">jeks</span><span class="o">=</span><span class="s1">'bundle exec jekyll serve'</span>
-<span class="nb">alias </span><span class="nv">jekbl</span><span class="o">=</span><span class="s1">'bundle exec jekyll build -I --config _devconfig.yml'</span>
-<span class="nb">alias </span><span class="nv">jekbs</span><span class="o">=</span><span class="s1">'bundle exec jekyll build'</span>
-<span class="nb">alias </span><span class="nv">jekcb</span><span class="o">=</span><span class="s1">'bundle exec jekyll clean &amp;&amp; bundle exec jekyll build'</span></code></pre></figure>
-
-<h2 id="custom-commands-with-aliases">Custom Commands with Aliases</h2>
-
-<p>To make my life easier, I made many commands and then I connected them to aliases. All the source codes are available in my repository: <a href="https://github.com/LordAmit/automating-boring-tasks-using-python">Automating Boring Tasks using Python</a> - inspired by the book <a href="https://automatetheboringstuff.com/">Automate the Boring Stuff with Python</a>.</p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c"># For pulling apks from device</span>
-<span class="c"># note that abtup is placeholder for the automating ... I linked above</span>
-<span class="nb">alias </span><span class="nv">pull_apk</span><span class="o">=</span><span class="s2">"abtup/get_apk_from_device/main.py"</span>
-
-<span class="c"># a image viewer with presentation mode made by yours truly;</span>
-<span class="c"># since I was unhappy with everything else</span>
-<span class="nb">alias </span><span class="nv">image_view</span><span class="o">=</span><span class="s1">'abtup/image_in_window_screensaver/runme.sh'</span>
-
-<span class="c"># images sorted in landscape and portrait directories</span>
-<span class="nb">alias </span><span class="nv">image_land_port</span><span class="o">=</span><span class="s2">"abtup/image_sort_landscape_portrait/src/main.py"</span>
-
-<span class="c"># HotCrp formatted paper reviews to markdown format for ease of reading</span>
-<span class="nb">alias </span><span class="nv">review_md</span><span class="o">=</span><span class="s1">'/usr/bin/python3 abtup/review_to_md/main.py'</span>
-
-<span class="c"># Clicker for Clicking games automatically</span>
-<span class="nb">alias </span><span class="nv">autoclicker</span><span class="o">=</span><span class="s2">"abtup/autoclicker/venv/bin/python abtup/autoclicker/autoclicker/main.py"</span>
-<span class="nb">alias </span><span class="nv">autoclickeri</span><span class="o">=</span><span class="s2">"abtup/autoclicker/venv/bin/python abtup/autoclicker/autoclicker/main.py 0"</span></code></pre></figure>
-
-<h2 id="for-the-latex-fans">For the LaTeX Fans</h2>
-
-<p>These are some python scripts I wrote that helps me avoid common writing issues as well as format LaTeX files.</p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c"># checks for silly issues,</span>
-<span class="c"># like not using `~` before \cite and \ref, and</span>
-<span class="c"># not using `,` before 'which', or using `,` before 'that'.</span>
-<span class="nb">alias </span><span class="nv">tex_silly</span><span class="o">=</span><span class="s2">"abtup/tex_misc/check_silly.py"</span>
-
-<span class="c"># script to avoid even sillier mistakes</span>
-<span class="c"># based on Dr. Tao Xie's Writing Issues</span>
-<span class="nb">alias </span><span class="nv">tex_words</span><span class="o">=</span><span class="s2">"abtup/tex_writing_issues/main.py"</span>
-
-<span class="c"># line breaker</span>
-<span class="c"># Adds new line in between sentences separated by periods.</span>
-<span class="c"># Respects existing line breaks, tries to respect indentation.</span>
-<span class="nb">alias </span><span class="nv">tex_linebreaks</span><span class="o">=</span><span class="s2">"abtup/tex_linebreaker/line_breaker.py"</span>
-
-<span class="c"># when you want to find a particular file with a particular word across folders</span>
-<span class="nb">alias </span><span class="nv">fwif</span><span class="o">=</span><span class="s2">"abtup/find_word_in_folders/find_word_in_folders.py"</span></code></pre></figure>
-
-<h2 id="more-custom-commands">More Custom Commands!</h2>
-
-<p>Script to convert first page of PDF to image. Does not go for highest quality to save size, but you can change density and quality to improve that. For PDFs, I don’t want the image to have transparent background, so I remove it while making it white.</p>
-
-<figure class="highlight"><pre><code class="language-shell" data-lang="shell"><span class="c">#!/bin/bash</span>
-<span class="nv">filename</span><span class="o">=</span><span class="nv">$1</span>
-convert <span class="nt">-density</span> 190 <span class="s2">"</span><span class="nv">$filename</span><span class="s2">[</span><span class="nv">$2</span><span class="s2">]"</span> <span class="nt">-quality</span> 90 <span class="nt">-background</span> white <span class="nt">-alpha</span> remove <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span>.jpg</code></pre></figure>
-
-<p>That’s all folks!</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Z-Shell is one of the awesome shells that gets even better with some customization and plug-ins. Here is how I use it, both for development, research and personal purposes.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>I will update here the next time the bug happens. Until then, fingers crossed! 🤞</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[MacBook Pro 2019 Model sucks. In multiple ways.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
