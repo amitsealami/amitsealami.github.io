@@ -113,46 +113,54 @@
 <h2 id="1-setting-up-environment">1. Setting Up Environment</h2>
 
 <figure class="highlight"><pre><code class="language-sh" data-lang="sh"><span class="nb">cd</span> &lt;your favorite directory&gt;
+
 <span class="c"># create a virtual environment</span>
 python3 <span class="nt">-m</span> venv venv
+
 <span class="c"># activate the virtual environment</span>
 <span class="nb">source </span>venv/bin/activate
+
 <span class="c"># install the PyPDF2 package</span>
 pip <span class="nb">install </span>pypdf2</code></pre></figure>
 
 <h2 id="2-script-to-add-pages">2. Script to Add Pages</h2>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">sys</span> <span class="kn">import</span> <span class="n">argv</span>
-<span class="kn">from</span> <span class="nn">PyPDF2</span> <span class="kn">import</span> <span class="n">PdfFileReader</span><span class="p">,</span> <span class="n">PdfFileWriter</span><span class="p">,</span> <span class="n">PdfWriter</span>
-<span class="kn">from</span> <span class="nn">pip</span> <span class="kn">import</span> <span class="n">main</span>
+<span class="kn">from</span> <span class="nn">PyPDF2</span> <span class="kn">import</span> <span class="n">PdfMerger</span><span class="p">,</span> <span class="n">PdfFileReader</span>
 <span class="kn">import</span> <span class="nn">sys</span>
 
-<span class="k">def</span> <span class="nf">get_pages</span><span class="p">(</span><span class="n">input_pdf</span><span class="p">:</span> <span class="n">PdfFileReader</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">input_pdf</span><span class="p">.</span><span class="n">getNumPages</span><span class="p">()</span>
+<span class="k">def</span> <span class="nf">add_pages</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">template_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+    <span class="n">input_pdf</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">,</span> <span class="s">"rb"</span><span class="p">)</span>
+    <span class="n">page_count</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="n">PdfFileReader</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">).</span><span class="n">getNumPages</span><span class="p">()</span>
+    <span class="n">template</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">template_pdf_path</span><span class="p">,</span> <span class="s">"rb"</span><span class="p">)</span>
+    <span class="n">merger</span> <span class="o">=</span> <span class="n">PdfMerger</span><span class="p">()</span>
 
-<span class="k">def</span> <span class="nf">add_pages</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">template_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">PdfFileWriter</span><span class="p">:</span>
-    <span class="n">writer</span> <span class="o">=</span> <span class="n">PdfFileWriter</span><span class="p">()</span>
-    <span class="n">input_reader</span> <span class="o">=</span> <span class="n">PdfFileReader</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">)</span>
-    <span class="n">template_reader</span> <span class="o">=</span> <span class="n">PdfFileReader</span><span class="p">(</span><span class="n">template_pdf_path</span><span class="p">)</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"original page count: "</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">page_count</span><span class="p">))</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">page_count</span><span class="p">):</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"adding templatr page at "</span><span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">))</span>
+        <span class="n">merger</span><span class="p">.</span><span class="n">append</span><span class="p">(</span><span class="n">fileobj</span><span class="o">=</span><span class="n">input_pdf</span><span class="p">,</span> <span class="n">pages</span><span class="o">=</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
+        <span class="n">append_index</span> <span class="o">=</span> <span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
+        <span class="n">merger</span><span class="p">.</span><span class="n">merge</span><span class="p">(</span><span class="n">position</span><span class="o">=</span><span class="n">append_index</span><span class="p">,</span> <span class="n">fileobj</span><span class="o">=</span><span class="n">template</span><span class="p">,</span> <span class="n">pages</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">))</span>
 
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">get_pages</span><span class="p">(</span><span class="n">input_reader</span><span class="p">)):</span>
-        <span class="n">writer</span><span class="p">.</span><span class="n">addPage</span><span class="p">(</span><span class="n">input_reader</span><span class="p">.</span><span class="n">getPage</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
-        <span class="n">writer</span><span class="p">.</span><span class="n">addPage</span><span class="p">(</span><span class="n">template_reader</span><span class="p">.</span><span class="n">getPage</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
-    <span class="k">return</span> <span class="n">writer</span>
+    <span class="n">template</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">input_pdf</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="n">write_file</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">,</span> <span class="n">merger</span><span class="p">)</span>
 
-<span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">writer</span><span class="p">:</span> <span class="n">PdfFileWriter</span><span class="p">):</span>
+<span class="k">def</span> <span class="nf">write_file</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">merger</span><span class="p">:</span> <span class="n">PdfMerger</span><span class="p">):</span>
     <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="o">+</span><span class="s">"merged.pdf"</span><span class="p">,</span> <span class="s">"wb"</span><span class="p">)</span> <span class="k">as</span> <span class="n">out</span><span class="p">:</span>
-        <span class="n">writer</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+        <span class="n">merger</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+    <span class="n">merger</span><span class="p">.</span><span class="n">close</span><span class="p">()</span>
 
 <span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+
     <span class="k">print</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span>
     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">3</span><span class="p">:</span>
-        <span class="k">print</span><span class="p">(</span><span class="s">"Please specify the paths to the input file and template file"</span><span class="p">)</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"Please specify the absolute paths to the input file and template file"</span><span class="p">)</span>
         <span class="k">print</span><span class="p">(</span><span class="s">"Format: add_comment_page input_pdf_path template_pdf_path "</span><span class="p">)</span>
         <span class="nb">exit</span><span class="p">()</span>
     <span class="n">input_pdf_path</span> <span class="o">=</span> <span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
     <span class="n">template_pdf_path</span> <span class="o">=</span> <span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
-    <span class="n">write_file</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">,</span> <span class="n">add_pages</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">,</span> <span class="n">template_pdf_path</span><span class="p">))</span>
+    <span class="n">add_pages</span><span class="p">(</span><span class="n">input_pdf_path</span><span class="p">,</span> <span class="n">template_pdf_path</span><span class="p">)</span>
 
 <span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="s">"__main__"</span><span class="p">:</span>
     <span class="n">main</span><span class="p">()</span></code></pre></figure>
