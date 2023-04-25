@@ -1,4 +1,212 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2023-01-13T18:10:31+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Discussing IoT, VCDPA and NextGen TVs at the JCOTS</title><link href="https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS/" rel="alternate" type="text/html" title="Discussing IoT, VCDPA and NextGen TVs at the JCOTS" /><published>2022-10-18T00:00:00+00:00</published><updated>2022-10-18T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS</id><content type="html" xml:base="https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS/"><![CDATA[<p>This October, I was invited to discuss and share Cybersecurity related Policy suggestions at the Joint Commission on Technology and Science (<a href="http://dls.virginia.gov/commissions/jcots/jcots.htm">JCOTS</a>), a permanent legislative agency of the Commonwealth of Virginia. I should mention that I was hosted by the Joint Commission on Technology and Science (JCOTS), Commonwealth of Virginia to work as a Commonwealth of Virginia Engineering and Science - <a href="http://www.vasem.org/covesfellowship/meet-the-2022-fellows/">COVES Policy Fellow</a> from May to August 2022.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2023-04-25T09:05:32+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Absolutely necessary iPad Accessories for Productivity within Budget</title><link href="https://amitsealami.com/blog/2023/04/23/ipad-accessories-I-use/" rel="alternate" type="text/html" title="Absolutely necessary iPad Accessories for Productivity within Budget" /><published>2023-04-23T00:00:00+00:00</published><updated>2023-04-23T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2023/04/23/ipad-accessories-I-use</id><content type="html" xml:base="https://amitsealami.com/blog/2023/04/23/ipad-accessories-I-use/"><![CDATA[<p>Just like you, I am a no-nonsense person. I use my iPad (Air, 4th gen) to read academic papers, annotate them and write notes on them on the fly. Or when I don’t want to carry a laptop around.</p>
+
+<p>Since my use cases are pretty limited, I only use the accessories that I absolutely need. The ones I consider the best, and cheap ones at that. So they won’t be costing you a liver or kidney, but will do exactly what you want it to do. Here they are.
+<!-- more --></p>
+
+<div class="imgContainer">
+
+
+
+    <div class="imgMySlides">
+        <div class="imgNumbertext"> 1 / 3</div>
+        <img src="https://i.imgur.com/HcU6UjS.jpg" style="width:100%" alt="TypeCase Touch in Laptop mode" />
+    </div>
+
+    <div class="imgMySlides">
+        <div class="imgNumbertext"> 2 / 3</div>
+        <img src="https://i.imgur.com/KWNJEbL.jpg" style="width:100%" alt="Typecase Touch in Reading Mode" />
+    </div>
+
+    <div class="imgMySlides">
+        <div class="imgNumbertext"> 3 / 3</div>
+        <img src="https://i.imgur.com/iTGemBq.jpg" style="width:100%" alt="TypeCase Touch in Tablet mode for Drawing" />
+    </div>
+
+<!-- Next and previous buttons -->
+    <a class="imgPrev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="imgNext" onclick="plusSlides(1)">&#10095;</a>
+<!-- Image text -->
+    <div class="imgCaption-container">
+        <p id="imgCaption"></p>
+    </div>
+    <div class="imgRow">
+
+<div class="imgColumn">
+  <img class="imgDemo imgCursor" src="https://i.imgur.com/HcU6UjS.jpg" style="width:100%;" onclick="currentSlide(1)" alt="TypeCase Touch in Laptop mode" />
+</div>
+
+<div class="imgColumn">
+  <img class="imgDemo imgCursor" src="https://i.imgur.com/KWNJEbL.jpg" style="width:100%;" onclick="currentSlide(2)" alt="Typecase Touch in Reading Mode" />
+</div>
+
+<div class="imgColumn">
+  <img class="imgDemo imgCursor" src="https://i.imgur.com/iTGemBq.jpg" style="width:100%;" onclick="currentSlide(3)" alt="TypeCase Touch in Tablet mode for Drawing" />
+</div>
+
+</div>
+</div>
+
+<style>
+  /* Position the image container (needed to position the left and right arrows) */
+  .imgContainer {
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  /* Hide the images by default */
+  .imgMySlides {
+    display: none;
+  }
+
+  /* Add a pointer when hovering over the thumbnail images */
+  .imgCursor {
+    cursor: pointer;
+  }
+
+  /* Next & previous buttons */
+  .imgPrev,
+  .imgNext {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .imgNext {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .imgPrev:hover,
+  .imgNext:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Number text (1/3 etc) */
+  .imgNumbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* Container for image text */
+  .imgCaption-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+    opacity: 80%;
+  }
+
+  .imgRow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Six columns side by side */
+  .imgColumn {
+    float: left;
+    width: 33.33333333333333%;
+  }
+
+  /* Add a transparency effect for thumnbail images */
+  .imgDemo {
+    opacity: 0.6;
+  }
+
+  .imgActive,
+  .imgDemo:hover {
+    opacity: 1;
+  }
+</style>
+
+<script src="/blog/assets/image-gallery.js"></script>
+
+<h2 id="apple-pencil-20">Apple Pencil 2.0</h2>
+
+<p>This is the only accessory that is not cheap in this list. But guess what? It is well worth the money. There are alternatives out there, but Apple Pencil beats them all when it comes to usability and usefulness.</p>
+
+<h2 id="paper-screen-protector">Paper Screen Protector</h2>
+
+<p>You want to use your pencil on paper, because <em>that’s natural</em>. But, iPad screen is made of glass, made smooth for touch. So, when you want to write notes or draw doodles you probably will experience that the pencil just glides away on the glass protector.</p>
+
+<p>To stop that, you need to use a special screen protector on your glass that introduces juuust the right amount of friction.
+Too less, and there is no point using it since it is smooth. Too much, and it will eat your Apple Pencil Nib.
+You can replace the nib, but that is not convenient.</p>
+
+<p>I tried several screen protectors till now, and stopped after finding the <a href="https://www.amazon.com/gp/product/B08VHPDKDY/">Bellemond Screen protector</a>. Another one I loved using is the <a href="https://www.amazon.com/gp/product/B07WHNJ9H8/">Mobdik Paperfeel Screen Protector</a>.
+Both of them are matte, ofters a paper-like scratchy surface with the right amount of friction and comes cheap - less than $10 per protector.</p>
+
+<div class="warning">
+    <i class="material-icons">error_outline</i>
+    Before attaching the screen protector, watch their video tutorials. Otherwise, you won't do it right and will ruin it. And don't expect it to be glossy. Scratchy surface is never glossy.
+</div>
+
+<h2 id="case-wo-keyboard">Case W/O Keyboard</h2>
+
+<p>After trying out several types of cases for iPad, I stopped after finding keyboard cases with 360 degree hinge.</p>
+
+<p>Roughly, there are two types of cases, a case that has keyboard, and a case that does not have a keyboard.
+Fair enough, right?
+Among the without keyboard cases I tried, I found the Case with Pencil Holder and Transparent back the most usable.
+These type of cases are generally light, the material is soft to protect the iPad from general bumps and drops.
+It is also convenient because of the case folding, so you can place the iPad at an angle while reading and/or writing.</p>
+
+<p>When it comes to Keyboard Case, there are several types.</p>
+
+<ol>
+  <li>Case has Detachable Keyboard. The case is like a portfolio, so you put the keyboard inside the fold of case when not using. Generally, prices are around $30.</li>
+  <li>Case that has keyboard attached and you can use the iPad like a laptop. Kinda like Magic Keyboard from Apple. Prices range from $150 to $250.</li>
+  <li>Case that has touchpad and hinge that allows you to position the ipad in versatile ways. Price is around $70.</li>
+</ol>
+
+<p>Some of the cases come with touchpad that supports the iOS gestures.</p>
+
+<p>I personally did not like any case with detachable keyboard (Type 1). By design, they are made to be thin to be stored in a portfolio style case. That means the keys need to be soft to support folding and you don’t get that much feedback while typing.</p>
+
+<p>Of course, Type 2 and 3 are the best. At this point, it depends on personal preference. Personally, I found Type 2 to be the most useful after finding <a href="https://www.amazon.com/gp/product/B0BL18PN6F/r">TypeCase Touch</a> case. It has a 360 hinge, so you can use your iPad like a laptop, like a iPad, place it at an angle for reading - etc. The keyboard is also solid, and comes with USB-C charger port, so that’s another convenience point for me. Did I mention that this particular case also comes with keyboard backlight with eight colors. If these do not convince you for the Type 3, I don’t know what will.</p>
+
+<p>So, that’s all I use with my iPad.</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Just like you, I am a no-nonsense person. I use my iPad (Air, 4th gen) to read academic papers, annotate them and write notes on them on the fly. Or when I don’t want to carry a laptop around. Since my use cases are pretty limited, I only use the accessories that I absolutely need. The ones I consider the best, and cheap ones at that. So they won’t be costing you a liver or kidney, but will do exactly what you want it to do. Here they are.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/HcU6UjS.jpg" /><media:content medium="image" url="https://i.imgur.com/HcU6UjS.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">A Surprise Gift from VASEM with Historical Ties</title><link href="https://amitsealami.com/blog/2022/10/18/julep-cup/" rel="alternate" type="text/html" title="A Surprise Gift from VASEM with Historical Ties" /><published>2022-10-18T00:00:00+00:00</published><updated>2022-10-18T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/10/18/julep-cup</id><content type="html" xml:base="https://amitsealami.com/blog/2022/10/18/julep-cup/"><![CDATA[<p>Today I received a gift that relates to Southern American history and culture.</p>
+
+<p>Engraved on the cup was this: Virginia Academy of Science, Engineering and Medicine (<a href="http://www.vasem.org/">VASEM</a>), COVES 2022 on the other side.</p>
+
+<figure class="center">
+    <img src="https://i.imgur.com/aBKe97xl.jpg" alt="COVES Fellow 2022 Julep Cup" />
+    <figcaption>COVES Fellow 2022 Julep Cup</figcaption>
+</figure>
+
+<p>Of course, <a href="http://www.vasem.org/covesfellowship/meet-the-2022-fellows/">I am one</a> of the Commonwealth of Virginia Engineering &amp; Science (COVES) Policy Fellows for year 2022!</p>
+
+<p>But why a cup? Of this rather peculiar shape?</p>
+
+<!-- more -->
+<p>An accompanying card describes it as a Julep Cup.</p>
+
+<p>I learned that there is this Early Southern American tradition of making and gifting such engraved julep cups, usually for special occasions (weddings, births, winning a competition), which dates back to about 200 years ago. People would take it with them while hanging out with family or friends, drinking a mint julep, or something else of choice. It could also be passed on to the next generation as a family heirloom!</p>
+
+<p>This cup was designed by <a href="https://en.wikipedia.org/wiki/John_Adam_(silversmith)">John Adam of Alexandria</a>, one of the earliest, famous silversmiths. He was also one of the people who recommended and certified the first automatic spoon-crafting machine!</p>
+
+<p>This is a relatively small cup, but with rich historical, and cultural connections.</p>
+
+<p>Thank you VASEM! 🙂</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Today I received a gift that relates to Southern American history and culture. Engraved on the cup was this: Virginia Academy of Science, Engineering and Medicine (VASEM), COVES 2022 on the other side. COVES Fellow 2022 Julep Cup Of course, I am one of the Commonwealth of Virginia Engineering &amp; Science (COVES) Policy Fellows for year 2022! But why a cup? Of this rather peculiar shape?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/aBKe97xl.jpg" /><media:content medium="image" url="https://i.imgur.com/aBKe97xl.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Discussing IoT, VCDPA and NextGen TVs at the JCOTS</title><link href="https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS/" rel="alternate" type="text/html" title="Discussing IoT, VCDPA and NextGen TVs at the JCOTS" /><published>2022-10-18T00:00:00+00:00</published><updated>2022-10-18T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS</id><content type="html" xml:base="https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS/"><![CDATA[<p>This October, I was invited to discuss and share Cybersecurity related Policy suggestions at the Joint Commission on Technology and Science (<a href="http://dls.virginia.gov/commissions/jcots/jcots.htm">JCOTS</a>), a permanent legislative agency of the Commonwealth of Virginia. I should mention that I was hosted by the Joint Commission on Technology and Science (JCOTS), Commonwealth of Virginia to work as a Commonwealth of Virginia Engineering and Science - <a href="http://www.vasem.org/covesfellowship/meet-the-2022-fellows/">COVES Policy Fellow</a> from May to August 2022.</p>
 
 <figure class="center">
     <img src="https://i.imgur.com/lVyOwm8.png" alt="Amit Seal Ami Discussing IoT, VCDPA and NextGen TVs at the JCOTS via Zoom, a virtual meeting platform" />
@@ -26,29 +234,7 @@
 
 <h3 id="slides">Slides</h3>
 
-<script async="" class="speakerdeck-embed" data-id="82c9c1d0ef1942a19d8bbb8e73e2579f" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[This October, I was invited to discuss and share Cybersecurity related Policy suggestions at the Joint Commission on Technology and Science (JCOTS), a permanent legislative agency of the Commonwealth of Virginia.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/lVyOwm8.png" /><media:content medium="image" url="https://i.imgur.com/lVyOwm8.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">A Surprise Gift from VASEM with Historical Ties</title><link href="https://amitsealami.com/blog/2022/10/18/julep-cup/" rel="alternate" type="text/html" title="A Surprise Gift from VASEM with Historical Ties" /><published>2022-10-18T00:00:00+00:00</published><updated>2022-10-18T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/10/18/julep-cup</id><content type="html" xml:base="https://amitsealami.com/blog/2022/10/18/julep-cup/"><![CDATA[<p>Today I received a gift that relates to Southern American history and culture.</p>
-
-<p>Engraved on the cup was this: Virginia Academy of Science, Engineering and Medicine (<a href="http://www.vasem.org/">VASEM</a>), COVES 2022 on the other side.</p>
-
-<figure class="center">
-    <img src="https://i.imgur.com/aBKe97xl.jpg" alt="COVES Fellow 2022 Julep Cup" />
-    <figcaption>COVES Fellow 2022 Julep Cup</figcaption>
-</figure>
-
-<p>Of course, <a href="http://www.vasem.org/covesfellowship/meet-the-2022-fellows/">I am one</a> of the Commonwealth of Virginia Engineering &amp; Science (COVES) Policy Fellows for year 2022!</p>
-
-<p>But why a cup? Of this rather peculiar shape?</p>
-
-<!-- more -->
-<p>An accompanying card describes it as a Julep Cup.</p>
-
-<p>I learned that there is this Early Southern American tradition of making and gifting such engraved julep cups, usually for special occasions (weddings, births, winning a competition), which dates back to about 200 years ago. People would take it with them while hanging out with family or friends, drinking a mint julep, or something else of choice. It could also be passed on to the next generation as a family heirloom!</p>
-
-<p>This cup was designed by <a href="https://en.wikipedia.org/wiki/John_Adam_(silversmith)">John Adam of Alexandria</a>, one of the earliest, famous silversmiths. He was also one of the people who recommended and certified the first automatic spoon-crafting machine!</p>
-
-<p>This is a relatively small cup, but with rich historical, and cultural connections.</p>
-
-<p>Thank you VASEM! 🙂</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Today I received a gift that relates to Southern American history and culture. Engraved on the cup was this: Virginia Academy of Science, Engineering and Medicine (VASEM), COVES 2022 on the other side. COVES Fellow 2022 Julep Cup Of course, I am one of the Commonwealth of Virginia Engineering &amp; Science (COVES) Policy Fellows for year 2022! But why a cup? Of this rather peculiar shape?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/aBKe97xl.jpg" /><media:content medium="image" url="https://i.imgur.com/aBKe97xl.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Reviewing Papers: Adding a note Page after each page in PDF programmatically</title><link href="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/" rel="alternate" type="text/html" title="Reviewing Papers: Adding a note Page after each page in PDF programmatically" /><published>2022-09-13T00:00:00+00:00</published><updated>2022-09-13T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages</id><content type="html" xml:base="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/"><![CDATA[<p>I had this brilliant idea of adding a <a href="https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/">cornell style note</a> page after every single page of a paper I am reviewing. Because why not, right? Everyone loves tinkering around the reviewing process instead of actually reviewing, so … there.</p>
+<script async="" class="speakerdeck-embed" data-id="82c9c1d0ef1942a19d8bbb8e73e2579f" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[This October, I was invited to discuss and share Cybersecurity related Policy suggestions at the Joint Commission on Technology and Science (JCOTS), a permanent legislative agency of the Commonwealth of Virginia.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/lVyOwm8.png" /><media:content medium="image" url="https://i.imgur.com/lVyOwm8.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Reviewing Papers: Adding a note Page after each page in PDF programmatically</title><link href="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/" rel="alternate" type="text/html" title="Reviewing Papers: Adding a note Page after each page in PDF programmatically" /><published>2022-09-13T00:00:00+00:00</published><updated>2022-09-13T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages</id><content type="html" xml:base="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/"><![CDATA[<p>I had this brilliant idea of adding a <a href="https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/">cornell style note</a> page after every single page of a paper I am reviewing. Because why not, right? Everyone loves tinkering around the reviewing process instead of actually reviewing, so … there.</p>
 
 <p>Turns out that it is fairly simple to do this programmatically using <code class="language-plaintext highlighter-rouge">python</code> these days. You need a PyPi packaged called <code class="language-plaintext highlighter-rouge">pypdf2</code> package before, and a template style cornell page that you can generate from <a href="https://incompetech.com/graphpaper/cornelllined/">here</a>.</p>
 
@@ -368,41 +554,4 @@ Indeed, I receive new pull requests implementing new features sometimes. However
 
 <p>But one can only hope.</p>
 
-<p><em>Let me know your thoughts on this. Have you given up? Or remain hopeful like me?</em></p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Travel to Bangladesh almost turned disastrous due to mismanagement and arbitrary declaration of Omicron Travel Regulations. Here is how]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="bn"><title type="html">আমার চোখে ২০২১ এ বাংলাদেশের এয়ারপোর্ট, থানা, নির্বাচনী আর পাসপোর্ট অফিস</title><link href="https://amitsealami.com/blog/2021/12/13/Bangladesh-after-3-years/" rel="alternate" type="text/html" title="আমার চোখে ২০২১ এ বাংলাদেশের এয়ারপোর্ট, থানা, নির্বাচনী আর পাসপোর্ট অফিস" /><published>2021-12-13T00:00:00+00:00</published><updated>2021-12-13T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2021/12/13/Bangladesh-after-3-years</id><content type="html" xml:base="https://amitsealami.com/blog/2021/12/13/Bangladesh-after-3-years/"><![CDATA[<p>জুলাই ২০১৮ থেকে নভেম্বর ২০২১ - এই সাড়ে ৩ বছর বাংলাদেশে ছিলাম না। আসার পরেই প্রথম কয়েকদিন দৌঁড়াদৌড়ি করা লেগেছে জিডি অফিসে (এনআইডি হারিয়ে গেছে), নির্বাচন কমিশনের অফিসে (এনআইডি তোলার জন্য), পাসপোর্ট অফিসে (বর্তমানটা প্রায় মেয়াদোত্তীর্ণ) আর সেগুলোতে যাবার জন্য রাস্তাঘাটে। আদৌ কি সার্ভিস লোকমুখে শোনা পর্যায়ের খারাপ এখনো? পদে পদে কি টাকা চায় লোকেরা? নাকী কাজ কোন মামা চাচা টাকা ছাড়াই হয়ে যায়? প্রিয় পাঠক বা পাঠিকা আমার, সেগুলো নিয়েই আমার এই লেখার আলাপ সালাপ! বলাই বাহুল্য, নেহাৎ প্রয়োজন ছাড়া আমি আমার পেশাগত পরিচয় কোথাও দেই না। কোথাও আমার পরিচয় দিতে হলে সেটা আমি লেখায় আলাদা করে উল্লেখ করেছি। এই আলাপসালাপ একান্তই একজন সাধারণ, “<strong>আপনি আম্রে চেনেন?</strong>” না বলা বাঙ্গালীর দৃষ্টিকোণ থেকে<sup>*</sup>। :)</p>
-
-<!-- more -->
-<h2 id="বিমানবন্দর">বিমানবন্দর</h2>
-
-<p>বিমানবন্দর নিয়ে সবার খুব ভয় - কাস্টমস এর জন্য, আরো কী না কী! আমার অভিজ্ঞতা বলি - বিমানবন্দরে নেমেছি সকাল ৯টায়, বার হয়েছি ২টার দিকে সব শেষ করে। এত সময় লাগলো কেন? ৩ বা সাড়ে ৩ ঘন্টা লেগেছে কভিডের পিসিআর নেগেটিভ টেস্ট দেখাতে, ১ বা ১.৫সট ঘন্টা লেগেছে তারপর ইমিগ্রেশনে। এত সময় লেগেছে কারণ ঐদিন আমাদের ফ্লাইটের সাথে আরো ৪টা ফ্লাইট নেমেছে, সবগুলো মিডল ইস্ট থেকে, খেটে খাওয়া বাঙ্গালিদের নিয়ে। লোকমুখে শুনেছি “<strong>ওমিক্রন কভিড</strong>” এর কারণে নাকি সব রাতের ফ্লাইট দিনে নিয়ে আসায় হঠাৎ করেই চাপ বেড়ে গেছে। আমাদের সাথে আসা বাঙ্গালিদের বেশিরভাগ পড়তে বা লিখতে পারেন না। নিজের চোখে দেখেছি স্বাস্থ্য সংক্রান্ত বা ইমিগ্রেশন অফিসাররা এই বাঙ্গালিদের ফর্ম নিজেরা পূরন করে দিচ্ছেন, তাতে প্রতি জনের জন্য অনেক বেশি অতিরিক্ত সময় লাগছে। এই খেটে খাওয়া বাঙ্গালির জন্য যদি অতিরিক্ত সময় লাগে, তবে আমি তাই সই। আরেকটা মজার জিনিষ দেখেছি - এক একটা ব্যুথের লাইন তো বিশাল - সেখানে কেউ লাউন ভেঙ্গে আগাতে চাইলে লোকজন হইহই করে; তাও লাইনে কেউ না কেউ ঢুকে যায়। তবে মহিলারা কেউ আগাতে চাইলে লোকজন আবার যায়গা ছেড়ে দেন, বলেন, “<em>যান যান, আগায় যান, আপনারা আগে শেষ করে ফেলেন</em>“। খেটে খাওয়া মহিলাদের প্রতি খেটে খাওয়া পুরুষদের এইটুকু শ্রদ্ধা চোখে পড়ার মতো।</p>
-
-<p><strong>এরাইভাল ইমিগ্রেশন</strong>:  ছোট দুইটা সমস্যা হয়েছে। একটা হচ্ছে এরাইভালের ফর্ম শেষ হয়ে গিয়েছিলো। অফিসারকে জিজ্ঞাসা করতেই উনি বললেন ডিপারচারের ফর্ম নিয়ে কেটে এরাইভাল লিখে দিয়ে দিতে। উনার হাতে অবশ্য আর কিছু করার ছিলোও না - এরাইভাল ফর্ম তো আর উনি নিয়ে বসে থাকবেন না। আরেকটা হচ্ছে আমার পাসপোর্ট থেকে তথ্য খুঁজে পাচ্ছিলেন না; কারণ ঐটার আগের পাসপোর্ট দিয়ে নাকী আমার তথ্য ঢুকানো হয়েছিলো। কী একটা অবস্থা!</p>
-
-<p><strong>কাস্টমস</strong>: আমি বলেছি ভাই, কতক্ষন লাগবে? কী করতে হবে? আমাকে পাল্টা প্রশ্ন: কই থেকে এসেছেন? আমি: আমেরিকা থেকে। অফিসার বললেন, “<em>দেখেন, কিছু মনে করিয়েন না; বাংলাদেশে বেশিরভাগ মদ বিদেশ থেকে নিয়ে আসেন শিক্ষিত বাঙ্গালিরাই, তারা কাস্টমস এ ডিক্লেয়ারও করেন না। আপনি কাস্টমস এ লাগেজ চেক করতে দেন, মদ না থাকলে ১০ সেকেন্ডে আপনাকে ছেড়ে দিচ্ছি। সোনা আছে ১০০ গ্রামের বেশি?</em>” আমি, “একদমই না!”। আর কোন কথা নাই, ১০ সেকেন্ডে লাগেজ স্ক্যান করেই ছেড়ে দিলো।</p>
-
-<p>সবমিলিয়ে আমার মনে হয়েছে বিমানবন্দর যথেষ্ট উন্নত, আর মানবিক। আরো কিছু হয়তো লোক নেয়া যায় শুধুমাত্র ফর্ম ফিলাপ করার জন্য - তা না হলে অফিসারদের উপরে চাপ অনেক  বেশি পড়ে যায়, সময়ও সবমিলিয়ে বেশি লাগে।</p>
-
-<h2 id="থানা">থানা</h2>
-
-<p>থানায় গিয়ে আমার একটু মন খারাপ লেগেছে। অন্ধকার, গুমোট, ভ্যাপসা গরম একটা পরিবেশ এই ডিসেম্বেরেও। কিন্তু ডিউটি অফিসার আমাক যথেষ্ট সাহায্য করেছেন জিডি করার জন্য, আমি থাকাকালীন সময়ে যারা এসেছেন তাদের সবাইকেও করেছেন - এর মধ্যে এক ইনফরম্যান্টও ছিলো! “<em>স্যার স্যার! আপনারা যেই কিরিমনালরে খোঁজতেছিলেন হ্যায় আসছে বাসায়! খবর পাক্কা!</em>” - মজাই লেগেছে এসব দেখে। আশা করি থানার পরিবেশ আরো ভালো হবে ভবিষ্যতে, ডিউটি অফিসাররাও ভালো পরিবেশ পাবেন।</p>
-
-<h2 id="নির্বাচন-অফিস">নির্বাচন অফিস</h2>
-
-<p>নির্বাচন অফিসে গিয়ে একটু গোত্তা খাওয়া লেগেছে। এক ভবনেই যে দুই এলাকার নির্বাচন অফিস এটা আমি জানতাম না। কাজেই প্রথমে এক অফিসে গেছি, সেখান থেকে আরেক অফিস। অফিসের লাইনে কিছুক্ষন অপেক্ষা করতে করতে দেখলাম ওখানের অফিসাররা কাজ করছেন, যথেষ্ট আন্তরিক। এক বয়স্ক লোক অনেক কথা বলছিলেন কার্ড উঠানোর সময়, ওদিকে কাজগপত্র ঠিক নাই। বেচারা অফিসার না পারে কিছু বলতে, না পারে সইতে। এ অবস্থায় একসময় বলেই ফেললেন, “<em>মুরুব্বী, আমি তো আপনারটাই দেখতেছি - আমারে একটু দেখতে দ্যান?</em>“।</p>
-
-<p>অবশ্য তার পরে সেখান থেকে জেনেছি আমার এলাকার নির্বাচন অফিস নাকি আরেক যায়গায়! সেখানে পরে আরেকদিন গিয়ে স্মার্ট কার্ড উঠিয়েছি। তবে এই অফিস বনেদী এলাকায় হলেও (মতিঝিল) অফিসের অবস্থা ছিলো তথৈচব - ধূলোময়, জীর্ণ দেয়াল মন খারাপ করিয়ে দেয়। নির্দেশনামূলক ব্যানার ছিলো না। তবে প্রিন্ট করা কিছু কাগজে ছিলো কোন কাজের জন্য কত নং টেবিলে যেতে হবে; যদিও টেবিলগুলোতে কোন নাম্বার আমি দেখিনি। কাজগুলোর জন্য যে কী লাগে, কী নিয়ে আসতে হয় তাও লেখা ছিলো না বলে অফিসারদের কাছ থেকে জেনে আবার অনেককেই সেই কাগজ যোগাড় করতে অন্য যায়গায় যেতে দেখেছি।</p>
-
-<h2 id="পাসপোর্ট-অফিস">পাসপোর্ট অফিস</h2>
-
-<p>আমার পাসপোর্ট অফিস কেরাণীগঞ্জে। আমি তো চিন্তায় ছিলাম - ঐদিকের পাসপোর্ট অফিসে যাওয়ার রাস্তা পুরোই ভাঙ্গা, বিচ্ছিরি। দুই তিন বছর আগে নাকি আমার বাবা মায়ের যেতেই ৩ ঘন্টার মতো লেগেছে ভাঙ্গা রাস্তায়। সুতরাং তাড়াহুড়ো করে বার হয়েছি। ওমা, পুরো ১০ কিমি রাস্তা পার হলাম ১০-১৫ মিনিটে, কোথাও জ্যাম নাই। ফ্লাইওভারে উঠেছি আর নেমেছি। আমার বাবা একটু পর পরই বলছিলো, এইটা কী! পুরাই বিদেশের রাস্তা! আমিও দাঁত কেলিয়ে ছিলাম পুরো রাস্তা!</p>
-
-<p><strong>এই একটা মাত্র যায়গায় আমার পরিচয় দিতে বাধ্য আমি, এবং দিয়েছি</strong>। ঢাকা বিশ্ববিদ্যালয়ের শিক্ষক হিসাবে পাসপোর্ট রিনিউ করানোর জন্য NoC দিতে হয়। এখানের অফিসাররা অবশ্য একটু অনভিজ্ঞ, কারণ NoC থাকলে কিছু সুবিধা থাকে পাসপোর্ট পাওয়ার জন্য (ডিফল্ট ডেলিভারি মেথড এক্সপ্রেস হয়ে যায়) তবে ঐ অফিসের অফিসার সেটা জানতেনই না। কাজেই আমার পাসপোর্টের ডেলিভারি রেগুলার হবে। একই দিনে আমার আরেক সহকর্মী অবশ্য আগারগাঁও এর পাসপোর্ট অফিসে অবশ্য এক্সপ্রেস ডেলিভারির তারিখই পেয়েছেন।</p>
-
-<p><strong>আপডেট:</strong> আমি পাসপোর্ট তৈরি হয়েছে এসএমএস পাবার দুই দিন পরেই পাসপোর্ট অফিসে গিয়ে ডেলিভারি স্লিপ দিয়ে পাসপোর্ট তুলে নিয়েছি। ডেলিভারি স্লিপ দিয়ে পাসপোর্ট নিতে একটু সময় লাগে, অনেকেই লাইনে থাকেন বলে - কিন্তু ঐ সময় লাগা বাদে আর কিছু লাগেনি। 😄</p>
-
-<h2 id="সবমিলিয়ে">সবমিলিয়ে</h2>
-
-<p>সবমিলিয়ে আমার মনে হয়েছে দেশের সার্ভিসগুলো এখন যথেষ্ট ভালো হয়েছে। ওয়েবসাইটে নির্দেশিকা তো থাকেই, সাথে অফিসগুলোতেও যথেষ্ঠ পরিমাণ নির্দেশিকা টাঙ্গানো, ঝুলানো, বা সাঁটানো থাকে পোস্টারে, কাগজে বা আঁকুনিতে। সিঙ্গাপুরের ভ্রমনকাহিনীতে লিখেছিলাম, হয়তো পড়েছেন আপনি, ওখানেও একই জিনিষ লক্ষ্য করেছি। সকল নির্দেশিকা লেখা থাকে, কাজেই কী করা লাগবে এটা নিয়ে কারো কোন অজ্ঞতা থাকে না। লোকজন নির্দেশিকা অনুসারে কাজ করলেই হয়ে যায়, অন্য ঝামেলার বালাই নেই।</p>
-
-<ul>
-  <li>এই লেখাটা পুরোপুরি আমার ব্যক্তিগত অভিজ্ঞতার ভিত্তিতে লেখা। সঙ্গত কারণেই আপনার অভিজ্ঞতা মিলতেও পারে, নাও পারে।</li>
-</ul>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[নেহাৎ প্রয়োজন ছাড়া আমি আমার পেশাগত পরিচয় কোথাও দেই না। এই অভিজ্ঞতার আলাপসালাপ নিতান্তই একজন সাধারণ, "আপনি আম্রে চেনেন?" না বলা বাঙ্গালীর দৃষ্টিকোণ থেকে।]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default_bn.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default_bn.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><em>Let me know your thoughts on this. Have you given up? Or remain hopeful like me?</em></p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Travel to Bangladesh almost turned disastrous due to mismanagement and arbitrary declaration of Omicron Travel Regulations. Here is how]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/default.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/default.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
