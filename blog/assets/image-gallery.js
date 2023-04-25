@@ -1,3 +1,4 @@
+// https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
 let slideIndex = 1;
 showSlides(slideIndex);
 
