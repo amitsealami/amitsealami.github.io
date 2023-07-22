@@ -74,7 +74,7 @@
             <a href="/about">About</a>
             <a href="/publications">Publications</a>
             <a href="/cv">CV</a>
-            <a href="/works">Works</a>
+            <a href="/works">Projects</a>
             <a href="/service">Service</a>
             <a href="/blog">Blog</a>
           </nav>
@@ -88,83 +88,64 @@
   <p><strong>Table of Content</strong></p>
   <ul>
     <li>
-<a href="#researchfunded-projects">Research/Funded Projects</a>
+<a href="#research-projects">Research Projects</a>
       <ul>
-        <li><a href="#1-why-crypto-detectors-fail-a-systematic-evaluation-of-cryptographic-misuse-detection-techniques---ieee-sp22">1. Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques - IEEE S&amp;P’22</a></li>
+        <li><a href="#1-why-crypto-detectors-fail-a-systematic-evaluation-of-cryptographic-misuse-detection-techniques---ieee-sp22">1. Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques - IEEE S\&amp;P’22</a></li>
         <li><a href="#2-systematic-mutation-based-evaluation-of-the-soundness-of-security-focused-android-static-analysis-techniques---acm-tops2021">2. Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques - ACM TOPS’2021</a></li>
         <li><a href="#3-mobile-application-testing-lab--ict-innovation-fund-2015--icse18-tool-demonstrations">3. Mobile Application Testing Lab / ICT Innovation Fund 2015 / ICSE’18 Tool Demonstrations</a></li>
-        <li><a href="#4-ict-fellowship-2013---providing-rationale-of-method-change-for-object-oriented-programming">4. ICT Fellowship 2013 - Providing Rationale of Method Change for Object Oriented Programming</a></li>
-      </ul>
-    </li>
-    <li>
-<a href="#academiaindustry-projects">Academia/Industry Projects</a>
-      <ul>
-        <li><a href="#sub-project-manager-team-member---e-presencedu">Sub Project Manager Team Member - E-Presence/DU</a></li>
-      </ul>
-    </li>
-    <li>
-<a href="#pet-projects">Pet Projects</a>
-      <ul>
-        <li><a href="#1-brightness-controller---2013">1. Brightness Controller - 2013</a></li>
-        <li><a href="#2-internet-information-services-express-server-manager-iisem---2012">2. Internet Information Services Express server Manager (IISEM) - 2012</a></li>
+        <li>
+<a href="#open-source-projects">Open Source Projects</a>
+          <ul>
+            <li><a href="#1-brightness-controller-">1. Brightness Controller </a></li>
+            <li><a href="#2-internet-information-services-express-server-manager-iisem">2. Internet Information Services Express server Manager (IISEM)</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
 
 </div>
 
-<h1 id="researchfunded-projects">Research/Funded Projects</h1>
+<h2 id="research-projects">Research Projects</h2>
 
-<h2 id="1-why-crypto-detectors-fail-a-systematic-evaluation-of-cryptographic-misuse-detection-techniques---ieee-sp22">1. Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques - IEEE S&amp;P’22</h2>
+<h3 id="why-crypto-detectors-fail-a-systematic-evaluation-of-cryptographic-misuse-detection-techniques---ieee-sp22">Why Crypto-detectors Fail: A Systematic Evaluation of Cryptographic Misuse Detection Techniques - IEEE S&amp;P’22</h3>
 
 <p><img src="https://raw.githubusercontent.com/Secure-Platforms-Lab-W-M/MASC-Artifact/main/masc-framework.jpg" alt=""></p>
 
-<p>The correct use of security techniques, in particular, <code class="language-plaintext highlighter-rouge">cryptography</code>, is central to ensuring data security in modern software systems, whereas the incorrect use results in compromising security.
-Several academic and commercial security analysis tools exist that help identify the incorrect use of <code class="language-plaintext highlighter-rouge">cryptography</code> related techniques.
-Stakeholders, such as researchers, code-hosting services, app markets and developers rely on these security analysis tools to avoid introducing vulnerabilities through improper use of those techniques.</p>
+<p>Mutation Analysis for evaluating Static Crypto-API misuse detectors, <strong>MASC</strong> in short, is a framework that is built on Java, Abstract Syntax Tree, Code Generation Techniques, and Java Reflection to create mutations of cryptographic API misuse and inject them in Java Source Code. Over the years, MASC has been built to be both maintainable and extensible. You can create your own mutation operators and simply plug them in, for example!</p>
 
-<p>However, <em>we know very little regarding their actual effectiveness at finding cryptography-specific techniques</em>, and whether these techniques contain flaw(s). Unfortunately, beyond manually created benchmarks, there
-is no approach for systematically evaluating crypto-detectors.
-Instead, what we <em>need</em> is a systematic, data-driven, evolving approach that can be used reliably to evaluate the security techniques.
-Furthermore, we need to understand <em>why</em> flaws in cryptography-specific security techniques occur.</p>
+<p>MASC has been used in two academic papers that were published in <a href="https://ieeexplore.ieee.org/document/9833582" target="_blank" rel="noopener noreferrer">Proceedings of the 2022 IEEE Symposium on Security and Privacy (S&amp;P’22)</a> and in <a href="https://2023.esec-fse.org/track/fse-2023-demonstrations" target="_blank" rel="noopener noreferrer">Proceedings of the ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE’23)</a>.</p>
 
 <p><a href="/MASC/">Read More</a></p>
 
-<h2 id="2-systematic-mutation-based-evaluation-of-the-soundness-of-security-focused-android-static-analysis-techniques---acm-tops2021">2. Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques - ACM TOPS’2021</h2>
+<h3 id="systematic-mutation-based-evaluation-of-the-soundness-of-security-focused-android-static-analysis-techniques---acm-tops2021">Systematic Mutation-based Evaluation of the Soundness of Security-focused Android Static Analysis Techniques - ACM TOPS’2021</h3>
 
-<p>Mobile application security has been a major area of focus for security research over the course of the last decade. Numerous application analysis tools have been proposed in response to malicious, curious, or vulnerable apps. However, existing tools, and specifically, static analysis tools, trade soundness of the analysis for precision and performance and are hence soundy. Unfortunately, the specific unsound choices or flaws in the design of these tools is often not known or well documented, leading to misplaced confidence among researchers, developers, and users. This article describes the Mutation-Based Soundness Evaluation (μSE) framework, which systematically evaluates Android static analysis tools to discover, document, and fix flaws, by leveraging the well-founded practice of mutation analysis. We implemented μSE and applied it to a set of prominent Android static analysis tools that detect private data leaks in apps. In a study conducted previously, we used μSE to discover 13 previously undocumented flaws in FlowDroid, one of the most prominent data leak detectors for Android apps. Moreover, we discovered that flaws also propagated to other tools that build upon the design or implementation of FlowDroid or its components. This article substantially extends our μSE framework and offers a new in-depth analysis of two more major tools in our 2020 study; we find 12 new, undocumented flaws and demonstrate that all 25 flaws are found in more than one tool, regardless of any inheritance-relation among the tools. Our results motivate the need for systematic discovery and documentation of unsound choices in soundy tools and demonstrate the opportunities in leveraging mutation testing in achieving this goal.</p>
+<p>An open source project based on Java, it uses Abstract Syntax Tree (AST) to mutate Android application source code and inserts data leaks. It has several nifty features, such as mutation schemes that define interesting ways to place data leaks, thus helping you evaluate static-analysis based data leak detectors.</p>
+
+<p>This project has been used in two academic papers that were published in <a href="https://dl.acm.org/doi/10.1145/3439802" target="_blank" rel="noopener noreferrer">ACM Transactions of Privacy and Security (TOPS) 2021</a> and <a href="https://conf.researchr.org/profile/icse-2021/amitsealami" target="_blank" rel="noopener noreferrer">43rd IEEE/ACM International Conference on Software Engineering (ICSE’21)</a>.</p>
 
 <p><a href="https://secure-platforms-lab-w-m.github.io/muse/" target="_blank" rel="noopener noreferrer">Read More</a></p>
 
-<h2 id="3-mobile-application-testing-lab--ict-innovation-fund-2015--icse18-tool-demonstrations">3. Mobile Application Testing Lab / ICT Innovation Fund 2015 / ICSE’18 Tool Demonstrations</h2>
+<h3 id="3-mobile-application-testing-lab--ict-innovation-fund-2015--icse18-tool-demonstrations">3. Mobile Application Testing Lab / ICT Innovation Fund 2015 / ICSE’18 Tool Demonstrations</h3>
 
-<p>The team members of this innovation fund project are Dr. Kazi Sakib, Md. Rayhanur Rahman and me, Amit Seal Ami. The target was to help make mobile application testing easier for both beginner and expert level mobile app developers. We targeted primarily Android app developers and created <a href="https://github.com/LordAmit/mobile-monkey" target="_blank" rel="noopener noreferrer">MobiCoMonkey</a>, previously known as MobileMonkey. The project concluded satisfactorily in 2017, with a publication at the ICSE’18 Demonstrations Track Paper.</p>
+<p>The team members of this innovation fund project are Dr. Kazi Sakib, Md. Rayhanur Rahman and me, Amit Seal Ami. The target was to help make mobile application testing easier for both beginner and expert level mobile app developers. We targeted primarily Android app developers and created <a href="https://github.com/LordAmit/mobile-monkey" target="_blank" rel="noopener noreferrer">MobiCoMonkey</a>, previously known as MobileMonkey. The project concluded satisfactorily in 2017, with a publication at the <a href="https://arxiv.org/pdf/1804.02533.pdf" target="_blank" rel="noopener noreferrer">ICSE’18 Demonstrations Track Paper</a>.</p>
 
-<h2 id="4-ict-fellowship-2013---providing-rationale-of-method-change-for-object-oriented-programming">4. ICT Fellowship 2013 - Providing Rationale of Method Change for Object Oriented Programming</h2>
+<h2 id="open-source-projects">Open Source Projects</h2>
 
-<p>During M.Sc. degree in Software Engineering, I received fellowship from the ICT Division, Bangladesh for my work supervised by Dr. Md. Shariful Islam. We focused on providing rationale of method change for object oriented programming to developer for codes stored in distributed version control system. This was successfully finished in 2014.</p>
+<p>In my spare time, I spend time creating and maintaining open source projects <strong>that changed lives</strong>. Don’t believe me? Read on!</p>
 
-<h1 id="academiaindustry-projects">Academia/Industry Projects</h1>
-
-<h3 id="sub-project-manager-team-member---e-presencedu">Sub Project Manager Team Member - E-Presence/DU</h3>
-
-<p>It is a World Bank Funded sub project of University of Dhaka, under the Higher Education Quality Enhancement Project of University Grants Commission. Designing and implementing the campus security is the aim of this sub project. The other members are Dr. Kazi Muheymin-Us-Sakib, Dr. Md. Shariful Islam, Rayhanur Rahman and Asif Imran.</p>
-
-<h1 id="pet-projects">Pet Projects</h1>
-
-<p>Projects I started working on during my student years.</p>
-
-<h3 id="1-brightness-controller---2013">1. Brightness Controller - 2013</h3>
+<h3 id="brightness-controller-">Brightness Controller <a href="https://github.com/lordamit/brightness/stargazers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/github/stars/lordamit/brightness.svg?style=flat-square" alt="GitHub stars"></a>
+</h3>
 
 <p><img src="https://github.com/LordAmit/Brightness/raw/master/img/BrightnessController.gif" alt=""></p>
 
-<p><a href="https://github.com/LordAmit/Brightness" target="_blank" rel="noopener noreferrer">Brightness Controller</a> allows you to control Brightness of your Primary, Secondary and more Displays in Linux. It is a software based dimmer. Due to its lightweight nature and usefulness, it has been featured in <a href="http://www.omgubuntu.co.uk/2017/05/adjust-external-monitor-brightness-ubuntu" target="_blank" rel="noopener noreferrer">OMG! Ubuntu!</a> and <a href="https://www.google.com/search?q=LordAmit/Brightness&amp;newwindow=1" target="_blank" rel="noopener noreferrer">many other linux related websites</a>.</p>
+<p>Almost a decade old system that has been downloaded over 160K times and still in active use today, <a href="https://github.com/LordAmit/Brightness" target="_blank" rel="noopener noreferrer">Brightness Controller</a> allows you to control Brightness of your Primary, Secondary and more Displays in Linux. It is a software based dimmer. Due to its usefulness, it has been featured in <a href="http://www.omgubuntu.co.uk/2017/05/adjust-external-monitor-brightness-ubuntu" target="_blank" rel="noopener noreferrer">OMG! Ubuntu!</a> and <a href="https://www.google.com/search?q=LordAmit/Brightness&amp;newwindow=1" target="_blank" rel="noopener noreferrer">many other linux related websites</a>, has been downloaded over 160K times from PPA only,  and people with sensitive eyes have emailed me that this software “<em>saved their eyes</em>” and “<em>the software makes it possible to use computer</em>”.</p>
 
-<h3 id="2-internet-information-services-express-server-manager-iisem---2012">2. Internet Information Services Express server Manager (IISEM) - 2012</h3>
+<h3 id="internet-information-services-express-server-manager-iisem">Internet Information Services Express server Manager (IISEM)</h3>
 
 <p><img src="https://cloud.githubusercontent.com/assets/480479/24572851/640bfae8-169e-11e7-8bd6-3c8ce14f5999.jpg" alt=""></p>
 
-<p><a href="https://github.com/LordAmit/Brightness" target="_blank" rel="noopener noreferrer">IIS Express Manager</a> is a project which’s primary goal is to provide a front-end to the existing functionality of IIS Express server. It has been covered by <a href="http://kevintsengtw.blogspot.com/2013/09/iis-express-gui-iis-express-manager.html" target="_blank" rel="noopener noreferrer">Microsoft MVP</a>, disussed in <a href="https://blogs.microsoft.co.il/applisec/2012/06/13/compute-emulator-for-web-roles-runs-on-iis-express/" target="_blank" rel="noopener noreferrer">Microsoft Community Blogs</a> and referenced at various other websites.</p>
+<p><a href="https://github.com/LordAmit/IISEM" target="_blank" rel="noopener noreferrer">IIS Express Manager</a> provides a front-end to the existing functionality of IIS Express Server of Windows. It has been covered by <a href="http://kevintsengtw.blogspot.com/2013/09/iis-express-gui-iis-express-manager.html" target="_blank" rel="noopener noreferrer">Microsoft MVP</a>, discussed in <a href="https://blogs.microsoft.co.il/applisec/2012/06/13/compute-emulator-for-web-roles-runs-on-iis-express/" target="_blank" rel="noopener noreferrer">Microsoft Community Blogs</a> and referenced at various other websites during its active period.</p>
 
     </div>
 
