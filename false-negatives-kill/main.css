@@ -381,5 +381,10 @@ body{
 div.container blockquote{
     margin: 0 2rem 1rem;
 }
+figcaption.caption{
+    margin-left: 3em;
+    margin-right: 1em;
+    text-align: justify;
+}
 
 
