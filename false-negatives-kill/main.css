@@ -120,7 +120,7 @@ h1,h2,h3,h4,h5 { line-height:1.2; }
 .sectionHead, likesectionHead { font-size: 1.5157em; }
 .subsectionHead, likesubsectionHead { font-size: 1.3195em; }
 .subsubsectionHead, likesubsubsectionHead { font-size: 1.1487em; }
- @media (prefers-color-scheme: dark) { img[src^="main"]{filter: invert(1); } } 
+ @media (prefers-color-scheme: dark) { img[src^="main"]{filter: invert(1); } }
 li p.indent { text-indent: 0em }
 li p:first-child{ margin-top:0em; }
 li p:last-child, li div:last-child { margin-bottom:0.5em; }
@@ -187,7 +187,7 @@ div.figure img {text-align:center;}
 .reversemarginpar{float:left;}
 .equation td{text-align:center; vertical-align:middle; }
 td.eq-no{ width:5%; }
-table.equation { width:100%; } 
+table.equation { width:100%; }
 div.math-display, div.par-math-display{text-align:center;}
 .array-hline,.array-cline{ border-top: 1px solid black; height:0px; }
 .array-hline + .array-vspace:last-child{display:none;}
@@ -201,8 +201,8 @@ math .textsf { font-family: sans-serif; }
 math .textbf { font-weight: bold; }
 mo.MathClass-op + mi{margin-left:0.3em}
 mi + mo.MathClass-op{margin-left:0.3em}
- math mstyle[mathvariant="bold"] { font-weight: bold; font-style: normal; } 
- math mstyle[mathvariant="normal"] { font-weight: normal; font-style: normal; } 
+ math mstyle[mathvariant="bold"] { font-weight: bold; font-style: normal; }
+ math mstyle[mathvariant="normal"] { font-weight: normal; font-style: normal; }
 .partToc a, .partToc, .likepartToc a, .likepartToc {line-height: 200%; font-weight:bold; font-size:110%;}
 .chapterToc a, .chapterToc, .likechapterToc a, .likechapterToc, .appendixToc a, .appendixToc {line-height: 200%; font-weight:bold;}
 .index-item, .index-subitem, .index-subsubitem {display:block}
@@ -231,7 +231,7 @@ figcaption.caption span.id{font-weight: bold; white-space: nowrap; }
 p + figcaption, img + figcaption{margin-top: 1em;}
 .abstract{margin:1em;}
 .equation-star td{text-align:center; vertical-align:middle; }
-table.equation-star { width:100%; } 
+table.equation-star { width:100%; }
 .boxed{border: 1px solid black; padding-left:2px; padding-right:2px;}
 mtd.align-odd{margin-left:2em; text-align:right;}
 mtd.align-even{margin-right:2em; text-align:left;}
@@ -268,14 +268,14 @@ pre.listings{font-family: monospace,monospace; white-space: pre-wrap; margin-top
 pre.lstlisting{font-family: monospace,monospace; white-space: pre-wrap; margin-top:0.5em; margin-bottom:0.5em; }
 pre.lstinputlisting{ font-family: monospace,monospace; white-space: pre-wrap; }
 .lstinputlisting .label{margin-right:0.5em;}
-tr#TBL-1-1- {border-top:0.11197em solid #000;} 
+tr#TBL-1-1- {border-top:0.11197em solid #000;}
 td#TBL-1-2-6{border-bottom:0.04198em solid #000}
 tr#TBL-1-3- {border-bottom:0.06998em solid #000}
 tr#TBL-1-4- {border-bottom:0.06998em solid #000}
 tr#TBL-1-14- {border-bottom:0.06998em solid #000}
 tr#TBL-1-15- {border-bottom:0.06998em solid #000}
 tr#TBL-1-25- {border-bottom:0.11197em solid #000}
-tr#TBL-4-1- {border-top:0.11197em solid #000;} 
+tr#TBL-4-1- {border-top:0.11197em solid #000;}
 tr#TBL-4-1- {border-bottom:0.06998em solid #000}
 tr#TBL-4-7- {border-bottom:0.06998em solid #000}
 tr#TBL-4-8- {border-bottom:0.06998em solid #000}
@@ -304,5 +304,6 @@ figcaption.caption{
     margin-right: 1em;
     text-align: justify;
 }
-
-
+article {
+    scroll-behavior: smooth;
+}
