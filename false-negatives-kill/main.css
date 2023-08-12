@@ -304,6 +304,6 @@ figcaption.caption{
     margin-right: 1em;
     text-align: justify;
 }
-article {
+html {
     scroll-behavior: smooth;
 }
