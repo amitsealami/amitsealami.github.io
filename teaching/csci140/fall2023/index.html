@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html lang= "en">
+
+  <head>
+    <title>CSCI 140: Programming for Data Science - Fall 2023
+ – Amit Seal Ami</title>
+
+        <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0'>
+    <meta name="author" content="Amit Seal Ami" />
+
+    
+    <meta property="og:title" content="CSCI 140: Programming for Data Science - Fall 2023
+" />
+    <meta property="twitter:title" content="CSCI 140: Programming for Data Science - Fall 2023
+" />
+    
+    <meta property="og:type" content="article">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Amit Seal Ami - Ph.D. Candidate at William & Mary" href="/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="CSCI 140: Programming for Data Science - Fall 2023" />
+<meta name="author" content="Amit Seal Ami" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Through security and software engineering based research, I make cyberspace safer for everyone." />
+<meta property="og:description" content="Through security and software engineering based research, I make cyberspace safer for everyone." />
+<link rel="canonical" href="https://amitsealami.com/teaching/csci140/fall2023/" />
+<meta property="og:url" content="https://amitsealami.com/teaching/csci140/fall2023/" />
+<meta property="og:site_name" content="Amit Seal Ami" />
+<meta property="og:image" content="https://amitsealami.com/images/portrait.webp" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://amitsealami.com/images/portrait.webp" />
+<meta property="twitter:title" content="CSCI 140: Programming for Data Science - Fall 2023" />
+<meta name="twitter:site" content="@Amit_Seal_Ami" />
+<meta name="twitter:creator" content="@Amit Seal Ami" />
+<meta name="google-site-verification" content="UA-11383434-10" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Amit Seal Ami"},"description":"Through security and software engineering based research, I make cyberspace safer for everyone.","headline":"CSCI 140: Programming for Data Science - Fall 2023","image":"https://amitsealami.com/images/portrait.webp","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://amitsealami.com/images/portrait.webp"},"name":"Amit Seal Ami"},"url":"https://amitsealami.com/teaching/csci140/fall2023/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="/" class="site-avatar">
+            <img src="/images/resized/portrait-800-4e9e84842.webp" alt="Amit Seal Ami" srcset="/images/resized/portrait-400-4e9e84842.webp 400w, /images/resized/portrait-600-4e9e84842.webp 600w, /images/resized/portrait-800-4e9e84842.webp 800w, /images/resized/portrait-1000-4e9e84842.webp 1000w">
+
+          </a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">Amit Seal Ami</a></h1>
+            <p class="site-description">Ph.D. Candidate at William &amp; Mary</p>
+          </div>
+
+          <nav>
+            <!-- <a href="/">Home</a> -->
+            <a href="/about">About</a>
+            <a href="/publications">Publications</a>
+            <a href="/cv">CV</a>
+            <a href="/works">Projects</a>
+            <a href="/service">Service</a>
+            <a href="/blog">Blog</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <link rel="stylesheet" href="/courses.css">
+
+<div id="toc">
+  <p><strong>Table of Content</strong></p>
+
+  <ul>
+    <li><a href="#course-overview">Course Overview</a></li>
+    <li><a href="#instructor-and-meeting-information">Instructor and Meeting Information</a></li>
+    <li><a href="#required-materials">Required Materials</a></li>
+    <li><a href="#important-dates">Important Dates</a></li>
+    <li><a href="#grade--marks">Grade / Marks</a></li>
+    <li><a href="#problem-sets">Problem Sets</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#final-project">Final Project</a></li>
+    <li><a href="#comprehension-quizzes">Comprehension Quizzes</a></li>
+    <li><a href="#collaboration-and-honor-policy">Collaboration and Honor Policy</a></li>
+    <li><a href="#evaluation-of-works">Evaluation of Works</a></li>
+    <li><a href="#accessibility">Accessibility</a></li>
+  </ul>
+</div>
+
+<h2 id="csci-140-programming-for-data-science---fall-2023-">CSCI 140: Programming for Data Science - Fall 2023 <!-- omit in toc -->
+</h2>
+
+<h3 id="course-overview">Course Overview</h3>
+
+<p>In this course, I will introduce you to the wonderful world of computer science, programming, and data science. I won’t be assuming any programming experience. We will explore and learn the associated concepts using the <code class="language-plaintext highlighter-rouge">python</code> programming language, one of the most <em>beginner-friendly</em> programming languages out there. To install the associated programming libraries and frameworks, we will solely rely on Anaconda, the most widely used data-science platform for python.</p>
+
+<p>Throughout the course, you will learn the following:</p>
+
+<ul>
+  <li>Variables, objects, and object-oriented programming</li>
+  <li>Control flow</li>
+  <li>Functions</li>
+  <li>Built-in data structures including lists and dictionaries</li>
+  <li>Data structures from packages such as pandas</li>
+  <li>File input/output and file formats</li>
+  <li>Obtaining, cleaning, and exploring data</li>
+  <li>Processing of text data</li>
+  <li>Data Visualization</li>
+  <li>Testing and debugging</li>
+</ul>
+
+<p>Using <code class="language-plaintext highlighter-rouge">python</code>, we will analyze, manipulate and visualize different types of data, such as spatial, temporal, numerical, and textual. Of course, doing any analysis and visualization becomes easier when we at first convert these to standardized formats through manipulation, which we will learn. We will rely on the <code class="language-plaintext highlighter-rouge">pandas</code> data analysis toolkit to analyze the different data types, and will use <code class="language-plaintext highlighter-rouge">matplotlib</code> and <code class="language-plaintext highlighter-rouge">seaborn</code> to visualize data. Throughout the course, we will learn to do all these using data from various fields, such as economics, statistics and linguistics so that you become comfortable using these at different contexts.</p>
+
+<h3 id="mandatory-lab-sessions">Mandatory Lab Sessions</h3>
+
+<p>This is a 4 credit course which also includes a weekly lab session.
+All of the <strong>labs are mandatory</strong>.
+The lab sessions will give you a chance to ask questions and go over concepts with real-time support of a graduate TA.</p>
+
+<h3 id="instructor-and-meeting-information">Instructor and Meeting Information</h3>
+
+<figure class="highlight"><pre><code class="language-properties" data-lang="properties"><span class="py">name</span><span class="p">:</span> <span class="s">Amit Seal Ami</span>
+<span class="py">email</span><span class="p">:</span> <span class="s">aami@wm.edu</span>
+<span class="py">Office-Hours</span><span class="p">:</span> <span class="s">Via zoom</span>
+<span class="py">Section</span><span class="p">:</span> <span class="s">04</span>
+<span class="py">Schedule</span><span class="p">:</span> <span class="s">TR:1230-1350, Wren 301</span></code></pre></figure>
+
+<h3 id="required-materials">Required Materials</h3>
+
+<h3 id="important-dates">Important Dates</h3>
+
+<h3 id="grade--marks">Grade / Marks</h3>
+
+<h3 id="problem-sets">Problem Sets</h3>
+
+<h3 id="projects">Projects</h3>
+
+<h3 id="final-project">Final Project</h3>
+
+<h3 id="comprehension-quizzes">Comprehension Quizzes</h3>
+
+<h3 id="collaboration-and-honor-policy">Collaboration and Honor Policy</h3>
+<p>All work in this course is subject to the W&amp;M’s Honor Code. Cheating cases involving projects in CS courses are typically Level III violations of the Honor Code. This means that they must be adjudicated by the Honor Council, and may result in one or more of the following: permanent dismissal from the College, suspension from the College, a failing grade, or a grade reduction in the course.</p>
+
+<h3 id="evaluation-of-works">Evaluation of Works</h3>
+
+<h3 id="accessibility">Accessibility</h3>
+
+<h3 id="schedule">Schedule</h3>
+
+<style>
+
+</style>
+
+<table class="styled-table">
+  <thead>
+    <tr>
+      <th style="text-align: left">Date</th>
+      <th style="text-align: left">Topic</th>
+      <th style="text-align: left">Reading</th>
+      <th style="text-align: left">Work on</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">9/1 (W)</td>
+      <td style="text-align: left">Introductions, Setup and Installation</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left">Setup and Installation</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/3 (F)</td>
+      <td style="text-align: left">Introduction to basics of programming.  Begin Module 1</td>
+      <td style="text-align: left">Readings 1A</td>
+      <td style="text-align: left">Begin working on Problem Set 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/5 (Sun)</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/6 (M)</td>
+      <td style="text-align: left">Objects, Variables and Data Types (int, float); Short programs and constants</td>
+      <td style="text-align: left">Readings 1A</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/8 (W)</td>
+      <td style="text-align: left">Objects, Variables and Data Types (intro to strings) and short programs with strings</td>
+      <td style="text-align: left">Readings 1A, 1B</td>
+      <td style="text-align: left">Begin working on Project 1</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/10 (F)</td>
+      <td style="text-align: left">Objects, Variables and Data Types (intro to lists) and short programs with lists</td>
+      <td style="text-align: left">Readings 1B</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/13 (M)</td>
+      <td style="text-align: left">Review of Module 1</td>
+      <td style="text-align: left">Readings 1A, 1B</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/15 (W)</td>
+      <td style="text-align: left">Booleans and introduction to control flow</td>
+      <td style="text-align: left">Readings 2A</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/17 (F)</td>
+      <td style="text-align: left">Control flow: if/else/elif</td>
+      <td style="text-align: left">Readings 2A</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/20 (M)</td>
+      <td style="text-align: left">Control flow: while loop</td>
+      <td style="text-align: left">Readings 2B</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/22 (W)</td>
+      <td style="text-align: left">Control flow: for loop</td>
+      <td style="text-align: left">Readings 2B</td>
+      <td style="text-align: left">Begin working on Problem Set 2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/24 (F)</td>
+      <td style="text-align: left">Control flow review</td>
+      <td style="text-align: left">Readings 2B</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/27 (M)</td>
+      <td style="text-align: left">Control flow review</td>
+      <td style="text-align: left">Readings 2B</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">9/29 (W)</td>
+      <td style="text-align: left">Basics of writing your own functions</td>
+      <td style="text-align: left">Readings 2C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/1 (F)</td>
+      <td style="text-align: left">Writing your own functions</td>
+      <td style="text-align: left">Readings 2C</td>
+      <td style="text-align: left">Begin working on Project 2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/4 (M)</td>
+      <td style="text-align: left">Writing your own functions</td>
+      <td style="text-align: left">Readings 2C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/6 (W)</td>
+      <td style="text-align: left">Writing your own functions</td>
+      <td style="text-align: left">Readings 2C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/8 (F)</td>
+      <td style="text-align: left">Writing your own functions</td>
+      <td style="text-align: left">Readings 2C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/11 (M)</td>
+      <td style="text-align: left">Introduction to the concept of an object and working with string methods</td>
+      <td style="text-align: left">Readings 3A</td>
+      <td style="text-align: left">Begin working on Problem Set 3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/13  (W)</td>
+      <td style="text-align: left">Working with list methods</td>
+      <td style="text-align: left">Readings 3A</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/15 (F)</td>
+      <td style="text-align: left">Review of strings and list methods</td>
+      <td style="text-align: left">Readings 3A</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/20 (W)</td>
+      <td style="text-align: left">Text processing: working with files</td>
+      <td style="text-align: left">Readings 3A</td>
+      <td style="text-align: left">Begin working on Project 3</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/22  (F)</td>
+      <td style="text-align: left">Text processing: working with files</td>
+      <td style="text-align: left">Readings 3A</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/25 (M)</td>
+      <td style="text-align: left">Text processing with dictionaries</td>
+      <td style="text-align: left">Readings 3B</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/27 (W)</td>
+      <td style="text-align: left">Text processing with dictionaries</td>
+      <td style="text-align: left">Readings 3B</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10/29 (F)</td>
+      <td style="text-align: left">Text processing with dictionaries  And  Sets</td>
+      <td style="text-align: left">Readings 3C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/1 (M)</td>
+      <td style="text-align: left">Introduction to NLTK:  Review of the readings</td>
+      <td style="text-align: left">Readings 3A, 3B, 3C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/3 (W)</td>
+      <td style="text-align: left">Class cancelled</td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/5 (F)</td>
+      <td style="text-align: left">Module 3 review and  Module 4 preview</td>
+      <td style="text-align: left">Readings 3A, 3B, 3C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/8 (M)</td>
+      <td style="text-align: left">Pandas Series</td>
+      <td style="text-align: left">Readings 4A</td>
+      <td style="text-align: left">Begin working on Problem Set 4</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/10 (W)</td>
+      <td style="text-align: left">Pandas Data frame and methods</td>
+      <td style="text-align: left">Readings 4A</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/12 (F)</td>
+      <td style="text-align: left">Pandas Data frame and methods</td>
+      <td style="text-align: left">Readings 4A</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/15 (M)</td>
+      <td style="text-align: left">Data QC and manipulation with pandas</td>
+      <td style="text-align: left">Readings 4B</td>
+      <td style="text-align: left">Begin working on Project 4</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/17 (W)</td>
+      <td style="text-align: left">Data QC and manipulation with pandas</td>
+      <td style="text-align: left">Readings 4B</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/19 (F)</td>
+      <td style="text-align: left">Data frames and plots</td>
+      <td style="text-align: left">Readings 4C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/22 (M)</td>
+      <td style="text-align: left">Data frames and plots</td>
+      <td style="text-align: left">Readings 4C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">11/29 (M)</td>
+      <td style="text-align: left">Module 4 Review</td>
+      <td style="text-align: left">Readings 4A, 4B, 4C</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12/1 (W)</td>
+      <td style="text-align: left">Classes and OOP</td>
+      <td style="text-align: left">Readings 5</td>
+      <td style="text-align: left">Begin working on  Problem Set 5  and  Final Project</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12/3 (F)</td>
+      <td style="text-align: left">Classes and OOP</td>
+      <td style="text-align: left">Readings 5</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12/6 (M)</td>
+      <td style="text-align: left">Classes and OOP</td>
+      <td style="text-align: left">Readings 5</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12/8 (W)</td>
+      <td style="text-align: left">Classes and OOP</td>
+      <td style="text-align: left">Readings 5</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">12/10 (F)</td>
+      <td style="text-align: left">Classes and OOP</td>
+      <td style="text-align: left">Readings 5</td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+<a href="mailto:amitsealami@gmail.com" aria-label="Email Amit Seal Ami"><i class="svg-icon email"></i></a>
+<a href="https://www.facebook.com/Amit.Seal.Ami" aria-label="Facebook of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon facebook"></i></a>
+
+<a href="https://github.com/lordamit" aria-label="Github of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon github"></i></a>
+
+<a href="https://www.linkedin.com/in/AmitSealAmi" aria-label="LinkedIn of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon linkedin"></i></a>
+
+
+<a href="https://www.twitter.com/Amit_Seal_Ami" aria-label="Twitter of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon twitter"></i></a>
+
+<a href="https://youtube.com/AmitSealAmi" aria-label="Youtube Channel of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon youtube"></i></a>
+
+<a rel="noopener noreferrer" href="https://ioc.exchange/@amitsealami" aria-label="Mastodon Profile of Amit Seal Ami" target="_blank"><i class="svg-icon mastodon"></i></a>
+
+        </footer>
+      </div>
+    </div>
+    
+	<!-- Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11383434-10"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-11383434-10');
+	</script>
+	<!-- End Google Analytics -->
+
+
+    
+  </body>
+</html>
