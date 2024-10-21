@@ -1,0 +1,160 @@
+code {
+  font-family: 'Source Code Pro', 'Roboto Mono', 'Monaco', 'Courier', monospace;
+  font-size: .9rem;
+}
+
+code.language-plaintext {
+  background-color: #ffd4dc;
+  color: #860303;
+  padding: 2px 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+}
+
+.highlight {
+  background-color: #faf9f9;
+  padding: 7px 7px 7px 10px;
+  border: 1px solid #ddd;
+  -moz-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.1);
+  margin: 20px 0 20px 0;
+  overflow: auto;
+}
+
+details>figure.highlight {
+  padding: revert;
+  border: revert;
+  margin: inherit;
+
+}
+
+figure.highlight{
+  padding: revert;
+  margin: revert;
+}
+
+figure>pre {
+  margin: 0;
+  text-wrap: initial;
+}
+
+pre > code{
+  border: revert;
+  margin: revert;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  text-align: center;
+}
+
+#toc {
+  background: #f9f9f9 none repeat scroll 0 0;
+  border: 1px solid #aaa;
+  font-size: 80%;
+  margin-bottom: 1em;
+  padding: 7px;
+  width: auto;
+  list-style: outside none none !important;
+
+}
+
+#toc > ul {
+  margin: 0;
+}
+
+#toc > p{
+  margin: 0;
+}
+
+#toc > ul > li > ul{
+  margin: 0;
+}
+
+#main > div > dl {
+  margin: 0em;
+}
+
+figcaption {
+  margin-left: .5em;
+  margin-right: .5em;
+  text-align: center;
+}
+a.bib > strong {
+  color: #5f01c3;
+}
+
+a.bib i.material-icons {
+  font-size: larger;
+  vertical-align: middle;
+  line-height: initial;
+}
+
+a.bib {
+  font-size: small;
+}
+
+img.emoji {
+  vertical-align: text-top;
+}
+
+dl > dt {
+  font-size: small;
+  margin: 0.5em 0;
+}
+dl> dd{
+  font-size: small;
+
+}
+
+img.hoverimage {
+  -moz-transition: -moz-transform 0.2s ease;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  -ms-transition: -ms-transform 0.2s ease;
+  transition: transform 0.2s ease;
+}
+
+img.hoverimage:hover {
+  -moz-transform: scale(1.075);
+  -webkit-transform: scale(1.075);
+  -ms-transform: scale(1.075);
+  transform: scale(1.075);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0;
+}
+
+a{
+  color: #b50000;
+}
+
+#sidebar > .inner > * {
+  margin: 0 0 2em 0;
+  padding: 0 0 2em 0;
+}
