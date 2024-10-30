@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+<head>
+    <title>Nesting Hugo Blog in Hugo Site – Amit Seal Ami
+    </title>
+
+    
+
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0'>
+    <meta name="author" content="Amit Seal Ami" />
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:title" content="Nesting Hugo Blog in Hugo Site" />
+    <meta property="twitter:title" content="Nesting Hugo Blog in Hugo Site" />
+    
+
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/blog/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Amit Seal Ami - Blog of Amit Seal Ami"
+        href="/blog/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.1" />
+<meta property="og:title" content="Nesting Hugo Blog in Hugo Site" />
+<meta name="author" content="Amit Seal Ami" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Ever wonder how to nest a hugo blog in a separate hugo site? Here I show how!" />
+<meta property="og:description" content="Ever wonder how to nest a hugo blog in a separate hugo site? Here I show how!" />
+<link rel="canonical" href="https://amitsealami.com/blog/2018/05/15/nesting-hugo-blog-in-hugo-site/" />
+<meta property="og:url" content="https://amitsealami.com/blog/2018/05/15/nesting-hugo-blog-in-hugo-site/" />
+<meta property="og:site_name" content="Amit Seal Ami’s Blog" />
+<meta property="og:image" content="https://amitsealami.com/blog/images/default.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-05-15T16:01:09+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://amitsealami.com/blog/images/default.jpg" />
+<meta property="twitter:title" content="Nesting Hugo Blog in Hugo Site" />
+<meta name="twitter:site" content="@Amit_Seal_Ami" />
+<meta name="twitter:creator" content="@Amit Seal Ami" />
+<meta name="google-site-verification" content="f4dZjKOD0HrgHKFR1yesOe4sM4pUrL_4hkd-4Jgyo1w" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Amit Seal Ami"},"dateModified":"2018-05-15T16:01:09+00:00","datePublished":"2018-05-15T16:01:09+00:00","description":"Ever wonder how to nest a hugo blog in a separate hugo site? Here I show how!","headline":"Nesting Hugo Blog in Hugo Site","image":"https://amitsealami.com/blog/images/default.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://amitsealami.com/blog/2018/05/15/nesting-hugo-blog-in-hugo-site/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://amitsealami.com/blog/images/default.jpg"},"name":"Amit Seal Ami"},"url":"https://amitsealami.com/blog/2018/05/15/nesting-hugo-blog-in-hugo-site/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="wrapper-masthead">
+        <div class="container">
+            <header class="masthead clearfix">
+                <a href="/blog/" class="site-avatar">
+                    <img src="/blog/images/resized/portrait-800-91f1e9400.webp" alt="Amit Seal Ami" srcset="/blog/images/resized/portrait-400-91f1e9400.webp 400w, /blog/images/resized/portrait-600-91f1e9400.webp 600w, /blog/images/resized/portrait-800-91f1e9400.webp 800w, /blog/images/resized/portrait-1000-91f1e9400.webp 1000w">
+
+
+                </a>
+
+                <div class="site-info">
+                    <h1 class="site-name"><a href="/blog/">Amit Seal Ami</a></h1>
+                    <div class="site-description">Blog of Amit Seal Ami</div>
+                </div>
+
+                <nav>
+                    <a href="/">Home</a>
+                    <a href="/blog/">Blog</a>
+                    <a href="/blog/higher-studies/">HigherStudies</a>
+                    <a href="/blog/index/">Index</a>
+                </nav>
+            </header>
+        </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+        <article class="post">
+  <h1>Nesting Hugo Blog in Hugo Site</h1>
+
+  <div class="date">
+    Written on May 15, 2018
+    
+
+  </div>
+
+  <div class="entry">
+    <p>Here is the scenario: I wanted to include a blog in this website. That is, the blog http://amitsealami.github.io/blog will be in http://amitsealami.github.io. However, there were a few things I wanted to achieve with it:
+<!-- more --></p>
+<ul>
+  <li>The sites will be using different themes, configurations. In short, the parent and blog site will be separately handled.</li>
+  <li>The blog should be AMP enabled</li>
+  <li>The blog should have its own sitemap.xml file which won’t be interfering with the original site’s sitemap.xml</li>
+</ul>
+
+<h2 id="enabling-amp">Enabling AMP</h2>
+<p>AMP is actually the easy part, just include an AMP enabled theme. I went for the hugo <a href="https://themes.gohugo.io/hugo_theme_solit/" target="_blank" rel="noopener noreferrer">solit</a> theme.</p>
+
+<h2 id="site-structure">Site Structure</h2>
+<p>I have the following file structure:</p>
+
+<figure class="highlight"><pre><code class="language-shell" data-lang="shell">├── blog
+│   ├── config.toml
+│   ├── content
+│   │   └── posts
+│   │       ├── post1.md
+│   │       └── post2.md
+│   └── themes
+└── mainsite</code></pre></figure>
+
+<p>As you probably realized, the blog does not have any noticable difference from a regular hugo site. And you are absolutely right. There is not any. All the magic takes place in the <code class="language-plaintext highlighter-rouge">config.toml</code> file.</p>
+
+<h2 id="the-configtoml-file">The config.toml file</h2>
+<p>Here are the changes you should make:</p>
+
+<figure class="highlight"><pre><code class="language-toml" data-lang="toml"><span class="py">baseURL</span> <span class="p">=</span> <span class="s">"https://amitsealami.github.io/blog/"</span>
+<span class="py">publishDir</span> <span class="p">=</span> <span class="s">"../public/blog"</span></code></pre></figure>
+
+<p>You need to use the absolute URL in <code class="language-plaintext highlighter-rouge">baseURL</code>, because <code class="language-plaintext highlighter-rouge">sitemap.xml</code> needs absolute URLs of your blog contents.
+<code class="language-plaintext highlighter-rouge">publishDir</code> will ensure that when you type <code class="language-plaintext highlighter-rouge">hugo</code> in <code class="language-plaintext highlighter-rouge">blog</code> folder, the rendered site will be put in the parent, mainsite’s <code class="language-plaintext highlighter-rouge">public/blog</code>  folder.</p>
+
+<h2 id="running-the-site">Running the site</h2>
+
+<p>One thing I noticed is that if you run <code class="language-plaintext highlighter-rouge">hugo server</code> under <code class="language-plaintext highlighter-rouge">mainsite</code>, it will not allow you to view the contents of blog which are placed under <code class="language-plaintext highlighter-rouge">public/blog/</code>. This is expected. To view the contents of the blog, you need to go to the <code class="language-plaintext highlighter-rouge">blog</code> folder separately and run <code class="language-plaintext highlighter-rouge">hugo  server</code> from there. To check the contents of the mainsite, you need to run <code class="language-plaintext highlighter-rouge">hugo server</code> separately from <code class="language-plaintext highlighter-rouge">mainsite</code>.</p>
+
+<h2 id="deploying">Deploying</h2>
+
+<p>To prepare the site, you need to run <code class="language-plaintext highlighter-rouge">hugo</code> from both <code class="language-plaintext highlighter-rouge">mainsite</code> and from <code class="language-plaintext highlighter-rouge">blog</code> respectively. After that,  deploy the whole <code class="language-plaintext highlighter-rouge">public</code> folder  from <code class="language-plaintext highlighter-rouge">mainsite</code> together as usual. Nothing else will be necessary.</p>
+
+  </div>
+  
+</article>
+<script src="/blog/assets/code_copy.js"></script>
+    </div>
+
+    <div class="wrapper-footer">
+        <div class="container">
+            <footer class="footer">
+                
+
+<a href="https://www.facebook.com/Amit.Seal.Ami" aria-label="Facebook of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon facebook"></i></a>
+
+<a href="https://github.com/LordAmit" aria-label="Github of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon github"></i></a>
+
+<a href="https://www.linkedin.com/in/amitsealami" aria-label="LinkedIn of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon linkedin"></i></a>
+
+<a href="/blog/feed.xml" aria-label="Feed of Amit Seal Ami"><i class="svg-icon rss"></i></a>
+<a href="https://www.twitter.com/Amit_Seal_Ami" aria-label="Twitter of Amit Seal Ami" target="_blank" rel="noopener noreferrer"><i class="svg-icon twitter"></i></a>
+
+<a href="https://youtube.com/AmitSealAmi" target="_blank" rel="noopener noreferrer"><i class="svg-icon youtube"></i></a>
+
+<a href="https://ioc.exchange/@amitsealami" target="_blank" rel="noopener noreferrer"><i class="svg-icon mastodon"></i></a>
+            </footer>
+        </div>
+    </div>
+    
+	<!-- Google Analytics -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-11383434-11"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-11383434-11');
+	</script>
+	<!-- End Google Analytics -->
+
+
+</body>
+</html>
