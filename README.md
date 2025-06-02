@@ -69,7 +69,7 @@ Credits:
 		Unsplash (unsplash.com)
 
 	Icons:
-		Font Awesome (fontawesome.github.com/Font-Awesome)
+		Font Awesome (fortawesome.github.com/Font-Awesome)
 
 	Other:
 		jQuery (jquery.com)
