@@ -154,6 +154,12 @@ a{
   color: #b50000;
 }
 
+.toptier{
+  color: #0044DD;
+  font-weight: bold;
+  font-size: smaller;
+}
+
 #sidebar > .inner > * {
   margin: 0 0 2em 0;
   padding: 0 0 2em 0;
