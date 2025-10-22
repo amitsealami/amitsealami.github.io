@@ -185,4 +185,21 @@ i.fa.sidebar{
   'wght' 100,
   'GRAD' 0,
   'opsz' 24
-} 
+}
+
+.inline-hidden {
+    /* Shrink the box to 0 size */
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+
+    /* Make the color transparent */
+    color: transparent;
+
+    /* Prevents background from showing if you have one */
+    background-color: transparent;
+
+    /* And just in case, make sure no weird overflow shows up */
+    overflow: hidden;
+}
