@@ -30,7 +30,7 @@ details>figure.highlight {
 
 }
 
-figure.highlight{
+figure.highlight {
   padding: revert;
   margin: revert;
 }
@@ -40,10 +40,11 @@ figure>pre {
   text-wrap: initial;
 }
 
-pre > code{
+pre>code {
   border: revert;
   margin: revert;
 }
+
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -84,19 +85,19 @@ blockquote p {
 
 }
 
-#toc > ul {
+#toc>ul {
   margin: 0;
 }
 
-#toc > p{
+#toc>p {
   margin: 0;
 }
 
-#toc > ul > li > ul{
+#toc>ul>li>ul {
   margin: 0;
 }
 
-#main > div > dl {
+#main>div>dl {
   margin: 0em;
 }
 
@@ -105,7 +106,8 @@ figcaption {
   margin-right: .5em;
   text-align: center;
 }
-a.bib > strong {
+
+a.bib>strong {
   color: #5f01c3;
 }
 
@@ -123,11 +125,12 @@ img.emoji {
   vertical-align: text-top;
 }
 
-dl > dt {
+dl>dt {
   font-size: small;
   margin: 0.5em 0;
 }
-dl> dd{
+
+dl>dd {
   font-size: small;
 
 }
@@ -146,60 +149,70 @@ img.hoverimage:hover {
   transform: scale(1.075);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 1em 0;
 }
 
-a{
+a {
   color: #b50000;
 }
 
-.toptier{
+.toptier {
   color: #0044DD;
   font-weight: bold;
   font-size: smaller;
 }
 
-#sidebar > .inner > * {
+#sidebar>.inner>* {
   margin: 0 0 2em 0;
   padding: 0 0 2em 0;
 }
 
-i.fa.sidebar{
-    color: #f56a6a;
-    display: inline-block;
-    font-size: 1.5em;
-    height: 1.125em;
-    left: 0;
-    line-height: 1.125em;
-    text-align: center;
-    top: 1em;
-    width: 1.5em;
+i.fa.sidebar {
+  color: #f56a6a;
+  display: inline-block;
+  font-size: 1.5em;
+  height: 1.125em;
+  left: 0;
+  line-height: 1.125em;
+  text-align: center;
+  top: 1em;
+  width: 1.5em;
 }
 
 .material-symbols-sharp {
   color: #f56a6a;
   vertical-align: middle;
   font-variation-settings:
-  'FILL' 0,
-  'wght' 100,
-  'GRAD' 0,
-  'opsz' 24
+    'FILL' 0,
+    'wght' 100,
+    'GRAD' 0,
+    'opsz' 24
 }
 
 .inline-hidden {
-    /* Shrink the box to 0 size */
-    font-size: 0;
-    line-height: 0;
-    width: 0;
-    height: 0;
+  /* Shrink the box to 0 size */
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
 
-    /* Make the color transparent */
-    color: transparent;
+  /* Make the color transparent */
+  color: transparent;
 
-    /* Prevents background from showing if you have one */
-    background-color: transparent;
+  /* Prevents background from showing if you have one */
+  background-color: transparent;
 
-    /* And just in case, make sure no weird overflow shows up */
-    overflow: hidden;
+  /* And just in case, make sure no weird overflow shows up */
+  overflow: hidden;
+}
+
+table thead {
+  border-bottom: solid 2px rgba(210, 215, 217, 0.75);
+  border-top: solid 2px rgba(210, 215, 217, 0.75);
 }

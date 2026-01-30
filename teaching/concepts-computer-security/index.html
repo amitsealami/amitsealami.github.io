@@ -103,167 +103,718 @@
 
 <h2 id="spring-2026-schedule">Spring 2026 Schedule</h2>
 
-<table>
+<style>
+  .badge {
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-right: 5px;
+    text-transform: uppercase;
+  }
+  .badge-deep { background: #fee2e2; color: #991b1b; border: 1px solid #f87171; }
+  .badge-optional { background: #f0fdf4; color: #166534; border: 1px solid #4ade80; }
+  .reading-row { margin-bottom: 8px; display: block; }
+  /* Highlighting for Due Dates and Homework */
+.syllabus-table td.note-important {
+    background-color: #fff7ed; /* Light orange/yellow tint */
+    color: #9a3412;           /* Darker orange text */
+    font-weight: 600;         /* Semi-bold to make it stand out */
+    border-left: 4px solid #f97316; /* Accent bar on the left */
+}
+
+/* Optional: Pulse effect for high-priority deadlines */
+.syllabus-table td.note-important strong {
+    color: #dc2626; /* Make bolded text inside "due" notes red */
+}
+</style>
+
+<table class="syllabus-table">
   <thead>
     <tr>
-      <th><strong>Date</strong></th>
-      <th><strong>Topic to be Discussed</strong></th>
-      <th><strong>Readings</strong></th>
-      <th>
-<strong>Notes</strong>*</th>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Readings</th>
+      <th>Notes</th>
     </tr>
   </thead>
   <tbody>
+    
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td><em>Spring Classes Begin Jan 12</em></td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="">
+        <em>Spring Classes Begin Jan 12</em>
+
+    </td>
     </tr>
+    
     <tr>
-      <td>01/16/26</td>
+      <td style="white-space: nowrap;">01/16/26</td>
       <td>Introduction of the course, Research Methods I and Cryptography</td>
-      <td>1. Security Engineering, Chapter 1 (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/SEv3-ch01.pdf" target="_blank" rel="noopener noreferrer">link</a>)<br>2. Ken Thompson, Reflections on Trusting Trust. Turing Award Lecture, 1983. (<a href="https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf" target="_blank" rel="noopener noreferrer">link</a>)<br>3. Michael J. Hanson, Efficient Reading of Papers in Science and Technology. (<a href="https://www.cs.columbia.edu/~hgs/netbib/efficientReading.pdf" target="_blank" rel="noopener noreferrer">link</a>)</td>
-      <td>HW1 released; Spring drop/add ends</td>
+      <td>
+        
+          1.
+          
+            
+          
+          Security Engineering, Chapter 1
+          
+             (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/SEv3-ch01.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          Ken Thompson, Reflections on Trusting Trust. Turing Award Lecture, 1983.
+          
+             (<a href="https://www.cs.cmu.edu/~rdriley/487/papers/Thompson_1984_ReflectionsonTrustingTrust.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          3.
+          
+            
+          
+          Michael J. Hanson, Efficient Reading of Papers in Science and Technology.
+          
+             (<a href="https://www.cs.columbia.edu/~hgs/netbib/efficientReading.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="">
+        HW1 released; Spring drop/add ends
+
+    </td>
     </tr>
+    
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td>Dr. Martin Luther King, Jr. holiday; no classes Jan 19</td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="">
+        Dr. Martin Luther King, Jr. holiday; no classes Jan 19
+
+    </td>
     </tr>
+    
     <tr>
-      <td>01/23/26</td>
+      <td style="white-space: nowrap;">01/23/26</td>
       <td>Secret Key Crypto</td>
-      <td>1. Security Engineering, Chapter 5.1-5.6 (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/SEv3-ch05.pdf" target="_blank" rel="noopener noreferrer">link</a>), <br>2. Anderson, R. 1993. Why cryptosystems fail. In Proceedings of the 1st ACM Conference on Computer and Communications Security (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/wcf.pdf" target="_blank" rel="noopener noreferrer">link</a>)</td>
-      <td>HW1 due</td>
+      <td>
+        
+          1.
+          
+            
+          
+          Security Engineering, Chapter 5.1-5.6
+          
+             (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/SEv3-ch05.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          Anderson, R. 1993. Why cryptosystems fail. In Proceedings of the 1st ACM Conference on Computer and Communications Security
+          
+             (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/wcf.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="note-important">
+        HW1 due
+
+    </td>
     </tr>
+    
     <tr>
-      <td>01/30/26</td>
+      <td style="white-space: nowrap;">01/30/26</td>
       <td>Project – Intro and Logistics, Hashes and Message Authentication</td>
-      <td>1. USENIX Security Proceedings (<a href="https://www.usenix.org/conference/usenixsecurity25/technical-sessions" target="_blank" rel="noopener noreferrer">link</a>)<br>2. ACM CCS Proceedings (<a href="https://www.sigsac.org/ccs/CCS2025/schedule/" target="_blank" rel="noopener noreferrer">link</a>)<br>3. IEEE Security &amp; Privacy Proceedings (<a href="https://www.computer.org/csdl/proceedings/sp/2025/21B7ONGXzZ6" target="_blank" rel="noopener noreferrer">link</a>)<br>4. NDSS Proceedings (<a href="https://www.ndss-symposium.org/ndss2025/accepted-papers/" target="_blank" rel="noopener noreferrer">link</a>)<br>5. Security Engineering, Chapter 5.6 (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/SEv3-ch05.pdf" target="_blank" rel="noopener noreferrer">link</a>)</td>
-      <td>HW2 released, Project Proposal assigned</td>
+      <td>
+        
+          1.
+          
+            
+          
+          USENIX Security Proceedings
+          
+             (<a href="https://www.usenix.org/conference/usenixsecurity25/technical-sessions" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          ACM CCS Proceedings
+          
+             (<a href="https://www.sigsac.org/ccs/CCS2025/schedule/" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          3.
+          
+            
+          
+          IEEE Security &amp; Privacy Proceedings
+          
+             (<a href="https://www.computer.org/csdl/proceedings/sp/2025/21B7ONGXzZ6" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          4.
+          
+            
+          
+          NDSS Proceedings
+          
+             (<a href="https://www.ndss-symposium.org/ndss2025/accepted-papers/" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          5.
+          
+            
+          
+          Security Engineering, Chapter 5.6
+          
+             (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/SEv3-ch05.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="">
+        HW2 released, Project Proposal assigned
+
+    </td>
     </tr>
+    
     <tr>
-      <td>02/06/26</td>
+      <td style="white-space: nowrap;">02/06/26</td>
       <td>Public Key Cryptography, Key agreement and PKI</td>
-      <td>1. Ten Risks of PKI: What You’re Not Being Told About Public Key Infrastructure (<a href="https://www.schneier.com/wp-content/uploads/2016/02/paper-pki.pdf" target="_blank" rel="noopener noreferrer">link</a>)<br>2. Creating your own Certificate Authority (<a href="https://jamielinux.com/docs/openssl-certificate-authority/" target="_blank" rel="noopener noreferrer">link</a>)<br>3. [Deep Dive] Adrian et al., Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice. Proceedings of the ACM Conference on Computer and Communications Security (CCS). 2015. (<a href="https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf" target="_blank" rel="noopener noreferrer">link</a>)<br>4. Security Engineering, Chapter 5.7 (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/SEv3-ch05.pdf" target="_blank" rel="noopener noreferrer">link</a>)</td>
-      <td>Project Proposal + HW2 due, HW3 released</td>
+      <td>
+        
+          1.
+          
+            
+          
+          Ten Risks of PKI: What You’re Not Being Told About Public Key Infrastructure
+          
+             (<a href="https://www.schneier.com/wp-content/uploads/2016/02/paper-pki.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          Creating your own Certificate Authority
+          
+             (<a href="https://jamielinux.com/docs/openssl-certificate-authority/" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          3.
+          
+            <span class="badge badge-deep">Deep Dive</span>
+            
+          
+           Adrian et al., Imperfect Forward Secrecy: How Diffie-Hellman Fails in Practice. Proceedings of the ACM Conference on Computer and Communications Security (CCS). 2015.
+          
+             (<a href="https://weakdh.org/imperfect-forward-secrecy-ccs15.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          4.
+          
+            
+          
+          Security Engineering, Chapter 5.7
+          
+             (<a href="https://www.cl.cam.ac.uk/archive/rja14/Papers/SEv3-ch05.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="note-important">
+        Project Proposal + HW2 due, HW3 released
+
+    </td>
     </tr>
+    
     <tr>
-      <td>02/13/26</td>
+      <td style="white-space: nowrap;">02/13/26</td>
       <td>User Authentication + Authentication Protocols</td>
-      <td>1. The science of password selection, Troy Hunt (<a href="https://www.troyhunt.com/science-of-password-selection/" target="_blank" rel="noopener noreferrer">link</a>)<br>2. Biometrics, Wikipedia (<a href="https://en.wikipedia.org/wiki/Biometrics" target="_blank" rel="noopener noreferrer">link</a>)<br>3. [Deep Dive] P. G. Kelley et al., Guess again (and again and again): Measuring password strength by simulating password-cracking algorithms. IEEE Symposium on Security and Privacy, 2012. (link)<br>4. [Optional] D. Florencio, C. Herley, and P. van Oorschot, An Administrator’s Guide to Internet Password Research. Large Installation System Administration Conference (LISA). 2014. (link)<br>5. Gavin Lowe. An attack on the Needham-Schroeder public-key authentication protocol. Information Processing Letters. Volumne 56, Issue 3, November 1995. (link)<br>6. [Optional] Designing an Authentication System: A Dialogue in Four Scenes (link)<br>7. B. Clifford Neuman and Theodore Ts’o, Kerberos: An Authentication Service for Computer Networks. IEEE Communications, 32(9):33-38. September 1994. (link)</td>
-      <td>Related work assigned, HW3 due</td>
+      <td>
+        
+          1.
+          
+            
+          
+          The science of password selection, Troy Hunt
+          
+             (<a href="https://www.troyhunt.com/science-of-password-selection/" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          Biometrics, Wikipedia
+          
+             (<a href="https://en.wikipedia.org/wiki/Biometrics" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          3.
+          
+            <span class="badge badge-deep">Deep Dive</span>
+            
+          
+           P. G. Kelley et al., Guess again (and again and again): Measuring password strength by simulating password-cracking algorithms. In Proceedings of the IEEE Symposium on Security and Privacy, 2012.
+          
+             (<a href="https://ieeexplore.ieee.org/document/6234434/" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          4.
+          
+            <span class="badge badge-optional">Optional</span>
+            
+          
+           D. Florencio, C. Herley, and P. van Oorschot, An Administrator’s Guide to Internet Password Research. Large Installation System Administration Conference (LISA). 2014.
+          
+             (<a href="https://www.usenix.org/conference/lisa14/conference-program/presentation/florencio" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          5.
+          
+            
+          
+          Gavin Lowe. An attack on the Needham-Schroeder public-key authentication protocol. Information Processing Letters. Volumne 56, Issue 3, November 1995.
+          
+             (<a href="https://www.sciencedirect.com/science/article/pii/002001909500156G" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          6.
+          
+            <span class="badge badge-optional">Optional</span>
+            
+          
+           Designing an Authentication System: A Dialogue in Four Scenes
+          
+             (<a href="https://web.mit.edu/kerberos/dialogue.html" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          7.
+          
+            
+          
+          B. Clifford Neuman and Theodore Ts’o, Kerberos: An Authentication Service for Computer Networks. IEEE Communications, 32(9):33-38. September 1994.
+          
+             (<a href="https://ieeexplore.ieee.org/document/312829" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="note-important">
+        Related work assigned, HW3 due
+
+    </td>
     </tr>
+    
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td>Midterm grading opens Feb 16</td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="note-important">
+        Midterm grading opens Feb 16
+
+    </td>
     </tr>
+    
     <tr>
-      <td>02/20/26</td>
+      <td style="white-space: nowrap;">02/20/26</td>
       <td>TLS + Access Control + Midterm Review</td>
-      <td>1. SSL and TLS: A Beginners Guide (link)<br>2. Creating your own Certificate Authority (link)<br>3. Operating System Security, Chapters 1, 2, and 5 (link)<br>4. [Part 1 Only] J. Saltzer and M. Schroeder, The Protection of Information in Computer Systems. Proceedings of the IEEE 63(9) (1975) pp. 1278-1308. (link)<br>5. Operating System Security, Chapters 3, 4, and 10 (link)</td>
-      <td>Related work Due, Research Plan assigned</td>
+      <td>
+        
+          1.
+          
+            
+          
+          SSL and TLS: A Beginners Guide
+          
+             (<a href="https://www.websecurity.digicert.com/security-topics/what-is-ssl-tls-https" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          Creating your own Certificate Authority
+          
+             (<a href="https://jamielinux.com/docs/openssl-certificate-authority/" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          3.
+          
+            
+          
+          Operating System Security, Chapters 1, 2, and 5
+          
+             (<a href="https://www.morganclaypool.com/doi/abs/10.2200/S00126ED1V01Y200807SEC004" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          4.
+          
+            
+          
+          [Part 1 Only] J. Saltzer and M. Schroeder, The Protection of Information in Computer Systems. Proceedings of the IEEE 63(9) (1975) pp. 1278-1308.
+          
+             (<a href="http://www.cs.virginia.edu/~evans/cs551/saltzer.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          5.
+          
+            
+          
+          Operating System Security, Chapters 3, 4, and 10
+          
+             (<a href="https://www.morganclaypool.com/doi/abs/10.2200/S00126ED1V01Y200807SEC004" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="note-important">
+        Related work due, Research Plan assigned
+
+    </td>
     </tr>
+    
     <tr>
-      <td>02/27/26</td>
+      <td style="white-space: nowrap;">02/27/26</td>
       <td>Midterm (in-person)</td>
-      <td> </td>
-      <td> </td>
+      <td>
+        
+      </td>
+    <td class="">
+        
+
+    </td>
     </tr>
+    
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td>Midterm grading closes March 3</td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="note-important">
+        Midterm grading closes March 3
+
+    </td>
     </tr>
+    
     <tr>
-      <td>03/06/26</td>
+      <td style="white-space: nowrap;">03/06/26</td>
       <td>Midterm Post Review, Research Methods II + OS Security</td>
-      <td> </td>
-      <td> </td>
+      <td>
+        
+      </td>
+    <td class="">
+        
+
+    </td>
     </tr>
+    
     <tr>
-      <td>03/13/26</td>
+      <td style="white-space: nowrap;">03/13/26</td>
       <td>Multics and Program Vulnerabilities</td>
-      <td>1. Operating System Security, Chapters 1, 2, and 5 (link) [Part 1 Only]<br>2. J. Saltzer and M. Schroeder, The Protection of Information in Computer Systems. Proceedings of the IEEE 63(9) (1975) pp. 1278-1308. (link)</td>
-      <td> </td>
+      <td>
+        
+          1.
+          
+            
+          
+          Operating System Security, Chapters 1, 2, and 5 [Part 1 Only]
+          
+             (<a href="https://www.morganclaypool.com/doi/abs/10.2200/S00126ED1V01Y200807SEC004" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          J. Saltzer and M. Schroeder, The Protection of Information in Computer Systems. Proceedings of the IEEE 63(9) (1975) pp. 1278-1308.
+          
+             (<a href="http://www.cs.virginia.edu/~evans/cs551/saltzer.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="">
+        
+
+    </td>
     </tr>
+    
     <tr>
-      <td>03/20/26</td>
-      <td> </td>
-      <td> </td>
-      <td>No Class - Spring Break - March 16-22</td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="">
+        No Class - Spring Break - March 16-22
+
+    </td>
     </tr>
+    
     <tr>
-      <td>03/27/26</td>
+      <td style="white-space: nowrap;">03/27/26</td>
       <td>Worms, DoS, and Botnets</td>
-      <td>1. S. Staniford and V. Paxson and N. Weaver. How to 0wn the Internet in Your Spare Time. In Proceedings of the 11th USENIX Security Symposium, August 2002. (link)<br>2. Paul Bacher, Thorsten Holz, Markus Kotter, George Wichersk. Know your Enemy: Tracking Botnets Using honeynets to learn more about Bots. March 2005. (link)</td>
-      <td>Research Plan due</td>
+      <td>
+        
+          1.
+          
+            
+          
+          S. Staniford and V. Paxson and N. Weaver. How to 0wn the Internet in Your Spare Time. In Proceedings of the 11th USENIX Security Symposium, August 2002.
+          
+             (<a href="https://www.usenix.org/legacy/event/sec02/full_papers/staniford/staniford.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          Paul Bacher, Thorsten Holz, Markus Kotter, George Wichersk. Know your Enemy: Tracking Botnets Using honeynets to learn more about Bots. March 2005.
+          
+             (<a href="https://www.honeynet.org/papers/bots/" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="note-important">
+        Research Plan due
+
+    </td>
     </tr>
+    
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td>Spring last day to withdraw Mar 28</td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="">
+        Spring last day to withdraw Mar 28
+
+    </td>
     </tr>
+    
     <tr>
-      <td>04/03/26</td>
+      <td style="white-space: nowrap;">04/03/26</td>
       <td>TCP/IP Security</td>
-      <td>1. A look back at “Security problems in the TCP/IP protocol suite” (link)<br>2. Jerome H. Saltzer, David. P. Reed, and David D. Clark. End-to-end arguments in system design. ACM Transactions on Computer Systems 2, 4 (November 1984) pages 277-288. (link)</td>
-      <td>HW4 released</td>
+      <td>
+        
+          1.
+          
+            
+          
+          A look back at “Security problems in the TCP/IP protocol suite”
+          
+             (<a href="https://web.mit.edu/6.033/www/papers/bellovin.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          Jerome H. Saltzer, David. P. Reed, and David D. Clark. End-to-end arguments in system design. ACM Transactions on Computer Systems 2, 4 (November 1984) pages 277-288.
+          
+             (<a href="http://web.mit.edu/Saltzer/www/publications/endtoend/endtoend.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="">
+        HW4 released
+
+    </td>
     </tr>
+    
     <tr>
-      <td>04/10/26</td>
+      <td style="white-space: nowrap;">04/10/26</td>
       <td>Wireless and Routing</td>
-      <td>1. Security Flaws in 802.11 Data Link Protocols (link)<br>2. M. Vanhoef and F. Piessens. Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2. In Proceedings of the 24th ACM Conference on Computer and Communications Security, November, 2017. (link)<br>3. Brenza et al. A Practical Investigation of Identity Theft Vulnerabilities in Eduroam. In Proceedings of the ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec). 2015. (link)</td>
-      <td>HW5 released (Bonus)</td>
+      <td>
+        
+          1.
+          
+            
+          
+          Security Flaws in 802.11 Data Link Protocols
+          
+             (<a href="http://www.cs.berkeley.edu/~daw/papers/wep-isa01.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            
+          
+          M. Vanhoef and F. Piessens. Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2. In Proceedings of the 24th ACM Conference on Computer and Communications Security, November, 2017.
+          
+             (<a href="https://www.krackattacks.com/papers/krack-ccs2017.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          3.
+          
+            
+          
+          Brenza et al. A Practical Investigation of Identity Theft Vulnerabilities in Eduroam. In Proceedings of the ACM Conference on Security and Privacy in Wireless and Mobile Networks (WiSec). 2015.
+          
+             (<a href="https://dl.acm.org/doi/10.1145/2766498.2766517" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="">
+        HW5 released (Bonus)
+
+    </td>
     </tr>
+    
     <tr>
-      <td>04/17/26</td>
+      <td style="white-space: nowrap;">04/17/26</td>
       <td>Intrusion detection and IoT/Software Security Compliance</td>
-      <td>1. S. Axelsson, The Base-Rate Fallacy and Its Implications for the Difficulty of Intrusion Detection. In Proceedings of the ACM Conference on Computer and Communication Security. November, 1999. (link)<br>2. [Deep Dive] A Sense of Self for UNIX Processes . S. Forrest, S. A. Hofmeyr, A. Somayaji, T. A. Longstaff, In Proceedings of the IEEE Symposium on Security and Privacy, 1996. (link)</td>
-      <td>HW4 due</td>
+      <td>
+        
+          1.
+          
+            
+          
+          S. Axelsson, The Base-Rate Fallacy and Its Implications for the Difficulty of Intrusion Detection. In Proceedings of the ACM Conference on Computer and Communication Security. November, 1999.
+          
+             (<a href="https://www.engineering.iastate.edu/~guan/course/backup-0982/CprE-592-YG-Fall-2002/paper/intrusion/baserate.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          <br>
+        
+          2.
+          
+            <span class="badge badge-deep">Deep Dive</span>
+            
+          
+           A Sense of Self for UNIX Processes . S. Forrest, S. A. Hofmeyr, A. Somayaji, T. A. Longstaff, In Proceedings of the IEEE Symposium on Security and Privacy, 1996.
+          
+             (<a href="https://www.cs.unm.edu/~forrest/publications/ieee-sp-1996.pdf" target="_blank" rel="noopener noreferrer">link</a>)
+          
+          
+        
+      </td>
+    <td class="note-important">
+        HW4 due
+
+    </td>
     </tr>
+    
     <tr>
-      <td>04/24/26</td>
+      <td style="white-space: nowrap;">04/24/26</td>
       <td>Course Review</td>
-      <td> </td>
-      <td>Project paper + HW5 due (bonus)**</td>
+      <td>
+        
+      </td>
+    <td class="note-important">
+        Project paper + HW5 due (bonus)**
+
+    </td>
     </tr>
+    
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td>Test Free Week April 25-30</td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="">
+        Test Free Week April 25-30
+
+    </td>
     </tr>
+    
     <tr>
-      <td>05/06/26</td>
+      <td style="white-space: nowrap;">05/06/26</td>
       <td>Final exam (in-person and cumulative); 3-5 PM.</td>
-      <td> </td>
-      <td>Check USF Final Exam Matrix</td>
+      <td>
+        
+      </td>
+    <td class="note-important">
+        Check USF Final Exam Matrix
+
+    </td>
     </tr>
+    
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td>Spring final grading closes May 12</td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="">
+        Spring final grading closes May 12
+
+    </td>
     </tr>
+    
     <tr>
-      <td> </td>
-      <td> </td>
-      <td> </td>
-      <td>Spring grades visible on Student Self-Service May 15</td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="">
+        Spring grades visible on Student Self-Service May 15
+
+    </td>
     </tr>
+    
     <tr>
-      <td> </td>
-      <td>* Always check University Calendar for Details</td>
-      <td> </td>
-      <td>https://www.usf.edu/registrar/calendars/</td>
+      <td style="white-space: nowrap;"></td>
+      <td></td>
+      <td>
+        
+      </td>
+    <td class="">
+        * Always check University Calendar for Details: <a href="https://www.usf.edu/registrar/calendars/" target="_blank" rel="noopener noreferrer">https://www.usf.edu/registrar/calendars/</a>
+
+    </td>
     </tr>
+    
   </tbody>
 </table>
 
