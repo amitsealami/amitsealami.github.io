@@ -4,5 +4,5 @@
 - [x] create a page for news and activities
 - [ ] fix the news split for news section yml files
 - [ ] add mentored students
-- [ ] Add Stephen K Park award
+- [x] Add Stephen K Park award
 - [ ] Qr Code https://www.qrcode-monkey.com/#vcard
