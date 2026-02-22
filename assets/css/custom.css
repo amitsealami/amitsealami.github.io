@@ -163,7 +163,7 @@ a {
 }
 
 .toptier {
-  color: #0044DD;
+  color: #0056b3;
   font-weight: bold;
   font-size: smaller;
 }
@@ -215,4 +215,39 @@ i.fa.sidebar {
 table thead {
   border-bottom: solid 2px rgba(210, 215, 217, 0.75);
   border-top: solid 2px rgba(210, 215, 217, 0.75);
+}
+
+/* Badge Base Styles */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Tier 1 / Top Tier - Deep Professional Blue */
+.badge-t1 {
+  background-color: #1a5fb4;
+  color: #ffffff !important;
+  border: 1px solid #144a8e;
+}
+
+/* Awards / Distinction - Academic Gold */
+.badge-award {
+  background-color: #FFD700;
+  color: #1A1A1A !important;
+  border: 1px solid #FFD700; /* Dark Goldenrod border for definition */
+}
+
+/* Journals / Others - Neutral Slate */
+.badge-tj {
+  background-color: #1E8449;
+  color: #ffffff !important;
 }
