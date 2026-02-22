@@ -251,3 +251,7 @@ table thead {
   background-color: #1E8449;
   color: #ffffff !important;
 }
+
+html{
+  scroll-behavior: smooth;
+}
