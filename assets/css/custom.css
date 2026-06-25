@@ -255,3 +255,273 @@ table thead {
 html{
   scroll-behavior: smooth;
 }
+
+/* ===== Section heading icons ===== */
+.section-icon {
+  width: 0.95em;
+  height: 0.95em;
+  vertical-align: -0.08em;
+  margin-right: 0.45em;
+  color: #b50000;
+  stroke: currentColor;
+}
+
+/* ===== Teaching: Ratings (hand-drawn number lines) ===== */
+.ratings {
+  font-family: 'Patrick Hand', 'Comic Neue', cursive;
+}
+
+.ratings-caption {
+  font-size: 1rem;
+  color: #777;
+  margin: 0 0 1.5em;
+}
+
+.ratings-caption span {
+  display: block;
+  font-size: 0.92rem;
+  color: #999;
+  margin-top: 0.15em;
+}
+
+.ratings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.6em 2.5em;
+  margin-bottom: 1em;
+}
+
+.metric-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5em;
+  margin-bottom: 0.1em;
+}
+
+.metric-label {
+  font-size: 1.1rem;
+}
+
+.nl-scoreval {
+  font-family: 'Patrick Hand', 'Comic Neue', cursive;
+  text-anchor: middle;
+  font-size: 22px;
+  fill: #b50000;
+}
+
+.numberline {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.nl-rough {
+  filter: url(#nl-rough);
+}
+
+.nl-axis,
+.nl-tick {
+  stroke: #1a1a1a;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  fill: none;
+}
+
+.nl-end,
+.nl-deptlabel {
+  font-family: 'Patrick Hand', 'Comic Neue', cursive;
+  text-anchor: middle;
+}
+
+.nl-end {
+  font-size: 21px;
+  fill: #555;
+}
+
+.nl-deptlabel {
+  font-size: 17px;
+  fill: #999;
+}
+
+.nl-dept {
+  fill: #fff;
+  stroke: #888;
+  stroke-width: 2.2;
+}
+
+.nl-score {
+  fill: #b50000;
+}
+
+@media screen and (max-width: 736px) {
+  .ratings-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Teaching: Courses ===== */
+.course-card {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  padding: 1.1em 1.25em;
+  margin-bottom: 1em;
+}
+
+.course-card.current {
+  background: #f9f9f9;
+  border-left: 4px solid #b50000;
+  border-radius: 0 4px 4px 0;
+}
+
+.course-card h4 {
+  margin: 0.4em 0 0.2em 0;
+}
+
+.course-card .course-meta {
+  margin: 0 0 0.5em 0;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.course-card .course-desc {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.badge-now {
+  background-color: #b50000;
+  color: #ffffff !important;
+}
+
+/* ===== Teaching: Testimonials ===== */
+.testimonials {
+  margin: 1.5em 0;
+}
+
+.testimonials .quote {
+  position: relative;
+  padding: 2.25em 1.5em 1.25em;
+}
+
+.testimonials .quote::before {
+  content: "\201C";
+  position: absolute;
+  top: 0.32em;
+  left: 0.45rem;
+  font: 700 3rem/1 Georgia, "Times New Roman", serif;
+  color: #e7b9b9;
+}
+
+.testimonials .quote p {
+  margin: 0;
+}
+
+/* Hero quotes — larger, accented */
+.testimonials-hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.testimonials-hero .quote {
+  flex: 1 1 320px;
+  background: #f9f9f9;
+  border-left: 4px solid #b50000;
+  border-radius: 0 4px 4px 0;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  font-style: italic;
+}
+
+.testimonials-hero .quote::before {
+  color: #d98c8c;
+}
+
+/* Supporting quotes — card grid */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25em;
+}
+
+.testimonials-grid .quote {
+  background: #fff;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 736px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Teaching: Philosophy ===== */
+.lead {
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+
+.philosophy-panels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25em;
+  margin: 1.5em 0;
+}
+
+.philosophy-panels .panel {
+  flex: 1 1 280px;
+  background: #f9f9f9;
+  border-left: 4px solid #b50000;
+  border-radius: 0 4px 4px 0;
+  padding: 1.25em 1.5em;
+}
+
+.philosophy-panels .panel h4 {
+  margin: 0 0 0.5em 0;
+  color: #860303;
+}
+
+.philosophy-panels .panel p:last-child {
+  margin-bottom: 0;
+}
+
+.framework {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.framework .card {
+  flex: 1 1 200px;
+  text-align: center;
+  padding: 1.5em 1.25em;
+  background: #fff;
+  border: 1px solid #ececec;
+  border-top: 3px solid #f56a6a;
+  border-radius: 4px;
+}
+
+.framework .card .term {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #b50000;
+  margin-bottom: 0.4em;
+}
+
+.framework .card p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.philosophy-close {
+  margin-top: 1.5em;
+}
