@@ -195,7 +195,7 @@ i.fa.sidebar {
     'opsz' 24
 }
 
-.inline-hidden {
+.inline-dast {
   /* Shrink the box to 0 size */
   font-size: 0;
   line-height: 0;
