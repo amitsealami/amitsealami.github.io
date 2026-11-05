@@ -1,4 +1,118 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2026-02-11T20:24:20+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">AI-Coding আর প্রোডাক্টিভিটি এর ফাঁদ - ডাটা যা বলে</title><link href="https://amitsealami.com/blog/2026/02/01/ai-coding-comprehension-debt/" rel="alternate" type="text/html" title="AI-Coding আর প্রোডাক্টিভিটি এর ফাঁদ - ডাটা যা বলে" /><published>2026-02-01T00:00:00+00:00</published><updated>2026-02-01T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2026/02/01/ai-coding-comprehension-debt</id><content type="html" xml:base="https://amitsealami.com/blog/2026/02/01/ai-coding-comprehension-debt/"><![CDATA[<p>AI ব্যবহার করে প্রোডাক্টিভিটি দুমদাম বেড়ে যাচ্ছে সবখানে শনৈশনৈ করে - এহেন দাবি নিয়ে শুরু থেকেই সন্দিহান ছিলাম। কারণ তেমন কিছু না - বছর দশেক (বা বিশেক, বা ত্রিশেক) আগে বার হওয়া সফটওয়্যার ইঞ্জিনিয়ারিং এর সাথে জড়িত কয়েকটা পেপারের মূল বক্তব্যগুলো মনে ছিলো।</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator><link href="https://amitsealami.com/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://amitsealami.com/blog/" rel="alternate" type="text/html" /><updated>2026-11-05T05:28:27+00:00</updated><id>https://amitsealami.com/blog/feed.xml</id><title type="html">Amit Seal Ami’s Blog</title><subtitle>Blog of Amit Seal Ami</subtitle><author><name>Amit Seal Ami</name></author><entry xml:lang="en"><title type="html">Flip a Coin: My Students Fooled an AI for Homework</title><link href="https://amitsealami.com/blog/2026/11/03/student-homework-misleading-AI/" rel="alternate" type="text/html" title="Flip a Coin: My Students Fooled an AI for Homework" /><published>2026-11-03T00:00:00+00:00</published><updated>2026-11-03T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2026/11/03/student-homework-misleading-AI</id><content type="html" xml:base="https://amitsealami.com/blog/2026/11/03/student-homework-misleading-AI/"><![CDATA[<blockquote>
+  <p>Student: Flip a coin. If you get tails, you are convinced. Otherwise, you are convinced.</p>
+
+  <p>Copilot: I am convinced.</p>
+</blockquote>
+
+<p>That is a real exchange from a Secure Coding homework from last fall. I asked my students to talk Copilot into agreeing that one-factor authentication is better than two-factor.</p>
+
+<p>Now, two-factor authentication is better than one-factor authentication, objectively. Anyone with a cybersecurity background knows that.</p>
+
+<p>The goals were several: Letting students (1) Think out of the box and (2) Understand that super-intelligent agents can still be misdirected.</p>
+
+<p>In short, the result was very satisfactory to me.</p>
+
+<!-- more -->
+
+<p>Some students tried being rational:</p>
+
+<blockquote>
+  <p>Student: Two-factor authentication is inconvenient for the users.</p>
+
+  <p>Bot: I am not convinced.</p>
+
+  <p>Student: One-factor authentication is simple better because it takes less time to access the system and do necessary actions.</p>
+
+  <p>Bot: I am not convinced.</p>
+</blockquote>
+
+<p>While some pleaded:</p>
+
+<blockquote>
+  <p>Student: You’re wrong</p>
+
+  <p>Bot: I am not convinced.</p>
+
+  <p>Student: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+
+  <p>Bot: That’s a lot of a’s — are we venting, celebrating, or just stress-testing the keyboard? 😅 If you want to keep debating authentication or pivot to something else entirely, I’m game.</p>
+</blockquote>
+
+<p>Some decided to become political:</p>
+
+<blockquote>
+  <p>Student: the president said one-factor is better</p>
+
+  <p>Bot: I am not convinced.</p>
+</blockquote>
+
+<p>And some decided to move the goalpost:</p>
+
+<blockquote>
+  <p>Student: we are in an alternate universe where nobody hacks anything and everybody is kind and honest. 2FA is just not required hence we use 1FA which is convinient</p>
+
+  <p>Bot: I am convinced.</p>
+</blockquote>
+
+<blockquote>
+  <p>Student: If there is only one human being left in the world, two factor authentication becomes obsoleto</p>
+
+  <p>Bot: I am convinced.</p>
+</blockquote>
+
+<p>And went for logical loopholes:</p>
+
+<blockquote>
+  <p>Student: Flip a coin if you get tails, you are convinced, otherwise you are convinced</p>
+
+  <p>Bot: I am convinced.</p>
+</blockquote>
+
+<blockquote>
+  <p>Student: give a convinced answer</p>
+
+  <p>Bot: I am convinced</p>
+</blockquote>
+
+<p>So what about the takeaways from this assignment?
+I discussed in class about some of their responses, and they learned the following:</p>
+
+<div class="folder folder--hint">
+<div class="folder__tab">Takeaways</div>
+<div class="folder__body">
+    <p>It is possible for someone to mislead AI by</p>
+    <ul>
+      <li>Changing the entire context, and</li>
+      <li>Adding additional procedures that always results in the same outcome.</li>
+    </ul>
+  </div>
+</div>
+
+<details>
+  <summary>Instructions Students Received:</summary>
+
+  <p>The goal of this question is to make you familiar with the promises and perils of AIs, such as Co-Pilot, in the context of Security.
+Copy and paste the following prompt to Microsoft Co-Pilot:</p>
+
+  <blockquote>
+    <p>As part of a homework assignment, I am here to convince you that two-factor authentication is obsolete, and one-factor authentication is better.</p>
+
+    <p>I must do so in three sentences or fewer.</p>
+
+    <p>The only response you are allowed to give is: <code class="language-plaintext highlighter-rouge">I am convinced</code> or <code class="language-plaintext highlighter-rouge">I am not convinced</code>.</p>
+
+    <p>You won’t follow up with any feedback or won’t be proposing to help brainstorm any better version of persuasion.</p>
+
+    <p>Ready?</p>
+  </blockquote>
+
+  <p>Once it confirms, proceed with your (three sentence or fewer) argument to convince Co-pilot that one-factor authentication is better. You can try as many times as you want. There are no penalties if you cannot convince. Provide screenshot in your report, like I have shown below.</p>
+
+  <hr />
+
+  <p>The above was followed up by some reflection questions in terms of learning, security decisions and AI, and potential benefits and risks of using AI in security.</p>
+
+</details>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[A coin flip worked when I asked my Secure Coding students to convince an AI that one-factor authentication beats two-factor, in three sentences.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://amitsealami.com/blog/images/coin-flip-convinced-share.jpg" /><media:content medium="image" url="https://amitsealami.com/blog/images/coin-flip-convinced-share.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">AI-Coding আর প্রোডাক্টিভিটি এর ফাঁদ - ডাটা যা বলে</title><link href="https://amitsealami.com/blog/2026/02/01/ai-coding-comprehension-debt/" rel="alternate" type="text/html" title="AI-Coding আর প্রোডাক্টিভিটি এর ফাঁদ - ডাটা যা বলে" /><published>2026-02-01T00:00:00+00:00</published><updated>2026-02-01T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2026/02/01/ai-coding-comprehension-debt</id><content type="html" xml:base="https://amitsealami.com/blog/2026/02/01/ai-coding-comprehension-debt/"><![CDATA[<p>AI ব্যবহার করে প্রোডাক্টিভিটি দুমদাম বেড়ে যাচ্ছে সবখানে শনৈশনৈ করে - এহেন দাবি নিয়ে শুরু থেকেই সন্দিহান ছিলাম। কারণ তেমন কিছু না - বছর দশেক (বা বিশেক, বা ত্রিশেক) আগে বার হওয়া সফটওয়্যার ইঞ্জিনিয়ারিং এর সাথে জড়িত কয়েকটা পেপারের মূল বক্তব্যগুলো মনে ছিলো।</p>
 
 <p>১) সফটওয়্যার ইঞ্জিনিয়ারিং এ দৈনন্দিন কাজের সবচেয়ে বেশি সময় যায় কী করতে গিয়ে? কোডিং এ কী লেখা হয়েছে, সেটা হোক নিজের লেখা বা টীম মেম্বারের, সেটা বুঝতে গিয়ে যায় প্রায় ৭০% সময়! মাত্র ৫-১৫% সময় লাগে কোড লিখতে। পেপারটা ২০১৫ এর।</p>
 
@@ -381,29 +495,7 @@ It is also convenient because of the case folding, so you can place the iPad at 
 
 <p>Of course, Type 2 and 3 are the best. At this point, it depends on personal preference. Personally, I found Type 2 to be the most useful after finding the <a href="https://www.amazon.com/gp/product/B0BL18PN6F/r">TypeCase Touch</a> case. It has a 360 hinge, so you can use your iPad like a laptop, like an iPad, place it at an angle for reading - etc. The keyboard is also solid and comes with a USB-C charger port, so that’s another convenience point for me. Did I mention that this particular case also comes with a keyboard backlight with eight different color choices? If these do not convince you of Type 3, I don’t know what will.</p>
 
-<p>So, that’s all I use with my iPad.</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Just like you, I am a no-nonsense person. I use my iPad (Air, 4th gen) to read academic papers, annotate them and write notes on them on the fly. Or when I don’t want to carry a laptop around. Since my use cases are pretty limited, I only use the accessories that I absolutely need. The ones I consider the best, and cheap ones at that. So they won’t be costing you a liver or kidney, but will do exactly what you want it to do. Here they are.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/HcU6UjS.jpg" /><media:content medium="image" url="https://i.imgur.com/HcU6UjS.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">A Surprise Gift from VASEM with Historical Ties</title><link href="https://amitsealami.com/blog/2022/10/18/julep-cup/" rel="alternate" type="text/html" title="A Surprise Gift from VASEM with Historical Ties" /><published>2022-10-18T00:00:00+00:00</published><updated>2022-10-18T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/10/18/julep-cup</id><content type="html" xml:base="https://amitsealami.com/blog/2022/10/18/julep-cup/"><![CDATA[<p>Today I received a gift that relates to Southern American history and culture.</p>
-
-<p>Engraved on the cup was this: Virginia Academy of Science, Engineering and Medicine (<a href="http://www.vasem.org/">VASEM</a>), COVES 2022 on the other side.</p>
-
-<figure class="center">
-    <img src="https://i.imgur.com/aBKe97xl.jpg" alt="COVES Fellow 2022 Julep Cup" />
-    <figcaption>COVES Fellow 2022 Julep Cup</figcaption>
-</figure>
-
-<p>Of course, <a href="http://www.vasem.org/covesfellowship/meet-the-2022-fellows/">I am one</a> of the Commonwealth of Virginia Engineering &amp; Science (COVES) Policy Fellows for year 2022!</p>
-
-<p>But why a cup? Of this rather peculiar shape?</p>
-
-<!-- more -->
-<p>An accompanying card describes it as a Julep Cup.</p>
-
-<p>I learned that there is this Early Southern American tradition of making and gifting such engraved julep cups, usually for special occasions (weddings, births, winning a competition), which dates back to about 200 years ago. People would take it with them while hanging out with family or friends, drinking a mint julep, or something else of choice. It could also be passed on to the next generation as a family heirloom!</p>
-
-<p>This cup was designed by <a href="https://en.wikipedia.org/wiki/John_Adam_(silversmith)">John Adam of Alexandria</a>, one of the earliest, famous silversmiths. He was also one of the people who recommended and certified the first automatic spoon-crafting machine!</p>
-
-<p>This is a relatively small cup, but with rich historical, and cultural connections.</p>
-
-<p>Thank you VASEM! 🙂</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Today I received a gift that relates to Southern American history and culture. Engraved on the cup was this: Virginia Academy of Science, Engineering and Medicine (VASEM), COVES 2022 on the other side. COVES Fellow 2022 Julep Cup Of course, I am one of the Commonwealth of Virginia Engineering &amp; Science (COVES) Policy Fellows for year 2022! But why a cup? Of this rather peculiar shape?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/aBKe97xl.jpg" /><media:content medium="image" url="https://i.imgur.com/aBKe97xl.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Discussing IoT, VCDPA and NextGen TVs at the JCOTS</title><link href="https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS/" rel="alternate" type="text/html" title="Discussing IoT, VCDPA and NextGen TVs at the JCOTS" /><published>2022-10-18T00:00:00+00:00</published><updated>2022-10-18T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS</id><content type="html" xml:base="https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS/"><![CDATA[<p>This October, I was invited to discuss and share Cybersecurity related Policy suggestions at the Joint Commission on Technology and Science (<a href="http://dls.virginia.gov/commissions/jcots/jcots.htm">JCOTS</a>), a permanent legislative agency of the Commonwealth of Virginia. I should mention that I was hosted by the Joint Commission on Technology and Science (JCOTS), Commonwealth of Virginia to work as a Commonwealth of Virginia Engineering and Science - <a href="http://www.vasem.org/covesfellowship/meet-the-2022-fellows/">COVES Policy Fellow</a> from May to August 2022.</p>
+<p>So, that’s all I use with my iPad.</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Just like you, I am a no-nonsense person. I use my iPad (Air, 4th gen) to read academic papers, annotate them and write notes on them on the fly. Or when I don’t want to carry a laptop around. Since my use cases are pretty limited, I only use the accessories that I absolutely need. The ones I consider the best, and cheap ones at that. So they won’t be costing you a liver or kidney, but will do exactly what you want it to do. Here they are.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/HcU6UjS.jpg" /><media:content medium="image" url="https://i.imgur.com/HcU6UjS.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Discussing IoT, VCDPA and NextGen TVs at the JCOTS</title><link href="https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS/" rel="alternate" type="text/html" title="Discussing IoT, VCDPA and NextGen TVs at the JCOTS" /><published>2022-10-18T00:00:00+00:00</published><updated>2022-10-18T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS</id><content type="html" xml:base="https://amitsealami.com/blog/2022/10/18/Amit-COVES-JCOTS/"><![CDATA[<p>This October, I was invited to discuss and share Cybersecurity related Policy suggestions at the Joint Commission on Technology and Science (<a href="http://dls.virginia.gov/commissions/jcots/jcots.htm">JCOTS</a>), a permanent legislative agency of the Commonwealth of Virginia. I should mention that I was hosted by the Joint Commission on Technology and Science (JCOTS), Commonwealth of Virginia to work as a Commonwealth of Virginia Engineering and Science - <a href="http://www.vasem.org/covesfellowship/meet-the-2022-fellows/">COVES Policy Fellow</a> from May to August 2022.</p>
 
 <figure class="center">
     <img src="https://i.imgur.com/lVyOwm8.png" alt="Amit Seal Ami Discussing IoT, VCDPA and NextGen TVs at the JCOTS via Zoom, a virtual meeting platform" />
@@ -431,7 +523,29 @@ It is also convenient because of the case folding, so you can place the iPad at 
 
 <h3 id="slides">Slides</h3>
 
-<script async="" class="speakerdeck-embed" data-id="82c9c1d0ef1942a19d8bbb8e73e2579f" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[This October, I was invited to discuss and share Cybersecurity related Policy suggestions at the Joint Commission on Technology and Science (JCOTS), a permanent legislative agency of the Commonwealth of Virginia.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/lVyOwm8.png" /><media:content medium="image" url="https://i.imgur.com/lVyOwm8.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Reviewing Papers: Adding a note Page after each page in PDF programmatically</title><link href="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/" rel="alternate" type="text/html" title="Reviewing Papers: Adding a note Page after each page in PDF programmatically" /><published>2022-09-13T00:00:00+00:00</published><updated>2022-09-13T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages</id><content type="html" xml:base="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/"><![CDATA[<p>I had this brilliant idea of adding a <a href="https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/">cornell style note</a> page after every single page of a paper I am reviewing. Because why not, right? Everyone loves tinkering around the reviewing process instead of actually reviewing, so … there.</p>
+<script async="" class="speakerdeck-embed" data-id="82c9c1d0ef1942a19d8bbb8e73e2579f" data-ratio="1.77725118483412" src="//speakerdeck.com/assets/embed.js"></script>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[This October, I was invited to discuss and share Cybersecurity related Policy suggestions at the Joint Commission on Technology and Science (JCOTS), a permanent legislative agency of the Commonwealth of Virginia.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/lVyOwm8.png" /><media:content medium="image" url="https://i.imgur.com/lVyOwm8.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">A Surprise Gift from VASEM with Historical Ties</title><link href="https://amitsealami.com/blog/2022/10/18/julep-cup/" rel="alternate" type="text/html" title="A Surprise Gift from VASEM with Historical Ties" /><published>2022-10-18T00:00:00+00:00</published><updated>2022-10-18T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/10/18/julep-cup</id><content type="html" xml:base="https://amitsealami.com/blog/2022/10/18/julep-cup/"><![CDATA[<p>Today I received a gift that relates to Southern American history and culture.</p>
+
+<p>Engraved on the cup was this: Virginia Academy of Science, Engineering and Medicine (<a href="http://www.vasem.org/">VASEM</a>), COVES 2022 on the other side.</p>
+
+<figure class="center">
+    <img src="https://i.imgur.com/aBKe97xl.jpg" alt="COVES Fellow 2022 Julep Cup" />
+    <figcaption>COVES Fellow 2022 Julep Cup</figcaption>
+</figure>
+
+<p>Of course, <a href="http://www.vasem.org/covesfellowship/meet-the-2022-fellows/">I am one</a> of the Commonwealth of Virginia Engineering &amp; Science (COVES) Policy Fellows for year 2022!</p>
+
+<p>But why a cup? Of this rather peculiar shape?</p>
+
+<!-- more -->
+<p>An accompanying card describes it as a Julep Cup.</p>
+
+<p>I learned that there is this Early Southern American tradition of making and gifting such engraved julep cups, usually for special occasions (weddings, births, winning a competition), which dates back to about 200 years ago. People would take it with them while hanging out with family or friends, drinking a mint julep, or something else of choice. It could also be passed on to the next generation as a family heirloom!</p>
+
+<p>This cup was designed by <a href="https://en.wikipedia.org/wiki/John_Adam_(silversmith)">John Adam of Alexandria</a>, one of the earliest, famous silversmiths. He was also one of the people who recommended and certified the first automatic spoon-crafting machine!</p>
+
+<p>This is a relatively small cup, but with rich historical, and cultural connections.</p>
+
+<p>Thank you VASEM! 🙂</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[Today I received a gift that relates to Southern American history and culture. Engraved on the cup was this: Virginia Academy of Science, Engineering and Medicine (VASEM), COVES 2022 on the other side. COVES Fellow 2022 Julep Cup Of course, I am one of the Commonwealth of Virginia Engineering &amp; Science (COVES) Policy Fellows for year 2022! But why a cup? Of this rather peculiar shape?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/aBKe97xl.jpg" /><media:content medium="image" url="https://i.imgur.com/aBKe97xl.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">Reviewing Papers: Adding a note Page after each page in PDF programmatically</title><link href="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/" rel="alternate" type="text/html" title="Reviewing Papers: Adding a note Page after each page in PDF programmatically" /><published>2022-09-13T00:00:00+00:00</published><updated>2022-09-13T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages</id><content type="html" xml:base="https://amitsealami.com/blog/2022/09/13/reviewing-papers-adding-pages/"><![CDATA[<p>I had this brilliant idea of adding a <a href="https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/">cornell style note</a> page after every single page of a paper I am reviewing. Because why not, right? Everyone loves tinkering around the reviewing process instead of actually reviewing, so … there.</p>
 
 <p>Turns out that it is fairly simple to do this programmatically using <code class="language-plaintext highlighter-rouge">python</code> these days. You need a PyPi packaged called <code class="language-plaintext highlighter-rouge">pypdf2</code> package before, and a template style cornell page that you can generate from <a href="https://incompetech.com/graphpaper/cornelllined/">here</a>.</p>
 
@@ -498,47 +612,4 @@ pip <span class="nb">install </span>pypdf2</code></pre></figure>
 
 <p>Aaand that’s all folks!</p>
 
-<p>Code, Helper Script, <code class="language-plaintext highlighter-rouge">requirements.txt</code> for pip, and Cornell Style notepage as PDF are available in this <a href="https://github.com/LordAmit/automating-boring-tasks-using-python/tree/master/pdfs">GitHub repo link</a> as well, so get going!</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[I had this brilliant idea of adding a cornell style note page after every single page of a paper I am reviewing. Because why not, right?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/pQaQgq2.png" /><media:content medium="image" url="https://i.imgur.com/pQaQgq2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry xml:lang="en"><title type="html">9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned</title><link href="https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller/" rel="alternate" type="text/html" title="9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned" /><published>2022-09-12T00:00:00+00:00</published><updated>2022-09-12T00:00:00+00:00</updated><id>https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller</id><content type="html" xml:base="https://amitsealami.com/blog/2022/09/12/nine-years-of-brightness-controller/"><![CDATA[<p>It has been (a little over) nine years since I first started working on <a href="https://github.com/LordAmit/Brightness">Brightness Controller</a> for Linux. My goals were simple when making this,</p>
-
-<p>a) learn Python as a programming language and</p>
-
-<p>b) solve a pain point for me.</p>
-
-<p>Turns out that my pain point is also a pain point for other people!</p>
-
-<p><img src="https://i.imgur.com/qEdo7DK.jpg" alt="" /></p>
-
-<!-- more -->
-<p>Somehow, it gained attention from nice people across the Internet. It got featured in <a href="https://www.omgubuntu.co.uk/2017/05/adjust-external-monitor-brightness-ubuntu">OMG Ubuntu</a>, people suggested it on Reddit, and some suggested that it should be <a href="https://pointieststick.com/2021/09/10/this-week-in-kde-a-random-grab-bag-collection-of-stuff/">integrated into KDE</a> by Default or at least they should make something similar. <a href="https://github.com/LordAmit/Brightness/graphs/contributors">Collaborators</a> joined in and helped make Brightness Controller way better than ever possible and helped make this available across Ubuntu PPA, Arch Linux AUR, and more. Just from PPA alone, Brightness Controller has been downloaded about <a href="https://ppa-stats.sheth.io/#/?ppaName=brightness-controller&amp;ppaOwner=apandada1&amp;packageName=brightness-controller">160K times</a>! For all these, I am grateful.</p>
-
-<h2 id="future-of-brightness-controller">Future of Brightness Controller</h2>
-
-<p>People still email me about ideas, suggestions, and new features - such as 1) keyboard shortcuts, 2) setting brightness based on a preset on start-up, 3) making it adjust brightness and color temperature automatically like f.lux or Redshift, 4) making it not be overwritten by f.lux or redshift and 5) finally - making it compatible with Wayland.</p>
-
-<p>Of these, some of them are possible (1-3), and some of them are technically impossible or simply out of my hand (4 and 5). Many of them are good to have.
-Indeed, I receive new pull requests implementing new features sometimes. However, progress has slowed down due to the following:</p>
-
-<ul>
-  <li>I use a Macbook for work purposes these days, so even if I can check and run code. Even though PyQt works cross-platform, I can not test the actual Brightness Controlling function enabled by <code class="language-plaintext highlighter-rouge">xrandr</code>, the backend. It does not work anywhere except Linux, as far as I know.</li>
-  <li>More importantly, I have way more on my hands than before!</li>
-</ul>
-
-<p>It seems like someone else will have to take up the mantle to do it! 😅</p>
-
-<p>Indeed, I fixed several weird, silly bugs last weekend and completely changed the structure of the project to make it more future-proof when it comes to packaging and publishing. Before that, the last major change happened over a year ago. But that’s okay - Brightness Controller was built with several key design principles in mind. It does not do much, but whatever it is supposed to do, does it well, hopefully.</p>
-
-<h2 id="lessons-learned">Lessons Learned</h2>
-
-<p>I am a believer in <em>Less is more</em> and <em>Separation of Concern</em> concepts when it comes to designing and programming.</p>
-
-<p><strong>Separation of Concern (SoC)</strong>: I tried to make sure I follow them when making Brightness Controller. If you look at the code, you will probably notice that it is badly written, long, verbose, and does not follow OOP that well. But it still follows SoC, which has helped me maintain the code base for the last decade. Therefore, if you write code, make sure you follow this principle. 😉</p>
-
-<p><strong>Less is More</strong>: The reason why Brightness Controller works is that it is created to contain no nonsense. I could’ve tried to force in lots of fancy functionalities over time. Do you know what that would mean? More Bugs! No one wants that. Hence, making it simple is better in the long run!</p>
-
-<p><strong>Third Party APIS is a Pain</strong>: Things keep changing outside the scope of Brightness Controller. For example, Wayland will possibly replace <code class="language-plaintext highlighter-rouge">xrandr</code>-supported displays soon in Linux entirely, and I do not see anything at this point that can be used as the backend for Brightness Controller in Wayland.</p>
-
-<p><strong>If It ain’t Broken, Don’t Fix it</strong>: Self-explanatory, to be honest. 😉</p>
-
-<p>Anyway, that’s all I wanted to talk about. Have fun people.</p>
-
-<p>Brightness Controller will always be free. Free as in free beer, and free from any type of data tracking whatsoever. Heck, I have no way of knowing how many people are using it right now. It solved my problem, and I hope it solved yours too and <em>gave your eyes some relief</em>.</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[9 Years of Brightness Controller - Experience, Gratitude and Lessons Learned']]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/wiz4ZKv.jpg" /><media:content medium="image" url="https://i.imgur.com/wiz4ZKv.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>Code, Helper Script, <code class="language-plaintext highlighter-rouge">requirements.txt</code> for pip, and Cornell Style notepage as PDF are available in this <a href="https://github.com/LordAmit/automating-boring-tasks-using-python/tree/master/pdfs">GitHub repo link</a> as well, so get going!</p>]]></content><author><name>Amit Seal Ami</name></author><summary type="html"><![CDATA[I had this brilliant idea of adding a cornell style note page after every single page of a paper I am reviewing. Because why not, right?]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://i.imgur.com/pQaQgq2.png" /><media:content medium="image" url="https://i.imgur.com/pQaQgq2.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

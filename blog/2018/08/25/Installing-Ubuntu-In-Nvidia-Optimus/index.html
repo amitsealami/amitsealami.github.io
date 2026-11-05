@@ -8,8 +8,6 @@
     <title>Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5 – Amit Seal Ami
     </title>
 
-    
-
     <meta charset="utf-8" />
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -23,6 +21,16 @@
     
 
     
+    <!-- Runs before first paint so a saved theme choice does not flash the other theme. -->
+<script>
+  (function () {
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  })();
+</script>
+
 
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -56,7 +64,7 @@
 {"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Amit Seal Ami"},"dateModified":"2018-08-25T05:00:21+00:00","datePublished":"2018-08-25T05:00:21+00:00","description":"Got anything like Try Ubuntu Freezes, Try Kubuntu Freezes, Ubuntu Nvidia Prime, kubuntu dell smbios unable to tun on non dell system for installing? You might try this.","headline":"Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5","image":"https://amitsealami.com/blog/images/default.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://amitsealami.com/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://amitsealami.com/blog/images/default.jpg"},"name":"Amit Seal Ami"},"url":"https://amitsealami.com/blog/2018/08/25/Installing-Ubuntu-In-Nvidia-Optimus/"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&family=Roboto+Slab:wght@400;700&family=Source+Code+Pro&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 
@@ -66,7 +74,7 @@
 <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
+<body class="layout-post">
     <div class="wrapper-masthead">
         <div class="container">
             <header class="masthead clearfix">
@@ -86,12 +94,246 @@
                     <a href="/blog/">Blog</a>
                     <a href="/blog/higher-studies/">HigherStudies</a>
                     <a href="/blog/index/">Index</a>
+                    <button type="button" class="theme-toggle" aria-label="Theme: auto. Click to change.">
+                        <svg class="icon-auto" viewbox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor" stroke="none"></path></svg>
+                        <svg class="icon-light" viewbox="0 0 24 24" aria-hidden="true" hidden><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path></svg>
+                        <svg class="icon-dark" viewbox="0 0 24 24" aria-hidden="true" hidden><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg>
+                        <span class="visually-hidden">Theme: auto</span>
+                    </button>
                 </nav>
             </header>
         </div>
     </div>
 
+    <div class="title-bar" aria-hidden="true">
+  <div class="title-bar__inner">
+    <span class="title-bar__title">Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5</span>
+    <div class="title-bar__vine">
+<svg class="vine" viewbox="0 0 60 1000" preserveaspectratio="none" aria-hidden="true" focusable="false">
+  <defs>
+    <!-- Ink wobble: a little turbulence pushes every stroke off its path, like a pen on paper. -->
+    <filter id="vine-ink" x="-30%" y="-3%" width="160%" height="106%" color-interpolation-filters="sRGB">
+      <feturbulence type="fractalNoise" basefrequency="0.035 0.02" numoctaves="2" seed="7" result="grain"></feturbulence>
+      <fedisplacementmap in="SourceGraphic" in2="grain" scale="2.2" xchannelselector="R" ychannelselector="G"></fedisplacementmap>
+    </filter>
+  </defs>
+  <g class="vine__ink" filter="url(#vine-ink)">
+  <path class="vine__stem vine__stem--ghost" pathlength="1000" d="M30 2 C 26 60, 34 110, 31 170 S 24 260, 29 330 S 36 420, 31 500 S 24 590, 30 660 S 36 740, 31 820 S 25 900, 30 998"></path>
+  <path class="vine__stem" pathlength="1000" d="M30 0 C 27 58, 35 112, 32 172 S 23 258, 30 332 S 37 418, 30 502 S 23 592, 31 662 S 37 742, 30 822 S 24 902, 31 1000"></path>
+
+  <g class="vine__leaf" data-at="0.04">
+    <path d="M31 70 c 10 -8, 20 -6, 24 2 c -8 6, -18 6, -24 -2 z"></path>
+    <path d="M32 70 c 7 -2, 15 -2, 21 1" class="vine__vein"></path>
+  </g>
+  <g class="vine__leaf" data-at="0.08">
+    <path d="M29 130 c -10 -8, -20 -6, -24 2 c 8 6, 18 6, 24 -2 z"></path>
+    <path d="M28 130 c -7 -2, -15 -2, -21 1" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c1" data-at="0.12">
+    <ellipse cx="31" cy="162" rx="4" ry="8"></ellipse>
+    <ellipse cx="31" cy="162" rx="4" ry="8" transform="rotate(72 31 172)"></ellipse>
+    <ellipse cx="31" cy="162" rx="4" ry="8" transform="rotate(144 31 172)"></ellipse>
+    <ellipse cx="31" cy="162" rx="4" ry="8" transform="rotate(216 31 172)"></ellipse>
+    <ellipse cx="31" cy="162" rx="4" ry="8" transform="rotate(288 31 172)"></ellipse>
+    <circle class="vine__core" cx="31" cy="172" r="3"></circle>
+  </g>
+
+  <g class="vine__leaf" data-at="0.27">
+    <path d="M29 250 c 10 -9, 21 -7, 25 1 c -8 7, -19 7, -25 -1 z"></path>
+    <path d="M30 250 c 8 -2, 16 -3, 22 0" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c2" data-at="0.36">
+    <ellipse cx="30" cy="322" rx="4" ry="8"></ellipse>
+    <ellipse cx="30" cy="322" rx="4" ry="8" transform="rotate(72 30 332)"></ellipse>
+    <ellipse cx="30" cy="322" rx="4" ry="8" transform="rotate(144 30 332)"></ellipse>
+    <ellipse cx="30" cy="322" rx="4" ry="8" transform="rotate(216 30 332)"></ellipse>
+    <ellipse cx="30" cy="322" rx="4" ry="8" transform="rotate(288 30 332)"></ellipse>
+    <circle class="vine__core" cx="30" cy="332" r="3"></circle>
+  </g>
+
+  <g class="vine__leaf" data-at="0.44">
+    <path d="M31 420 c -10 -8, -20 -6, -24 2 c 8 6, 18 6, 24 -2 z"></path>
+    <path d="M30 420 c -7 -2, -15 -2, -21 1" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c3" data-at="0.54">
+    <ellipse cx="30" cy="492" rx="4" ry="8"></ellipse>
+    <ellipse cx="30" cy="492" rx="4" ry="8" transform="rotate(72 30 502)"></ellipse>
+    <ellipse cx="30" cy="492" rx="4" ry="8" transform="rotate(144 30 502)"></ellipse>
+    <ellipse cx="30" cy="492" rx="4" ry="8" transform="rotate(216 30 502)"></ellipse>
+    <ellipse cx="30" cy="492" rx="4" ry="8" transform="rotate(288 30 502)"></ellipse>
+    <circle class="vine__core" cx="30" cy="502" r="3"></circle>
+  </g>
+
+  <g class="vine__leaf" data-at="0.62">
+    <path d="M29 590 c 10 -9, 21 -7, 25 1 c -8 7, -19 7, -25 -1 z"></path>
+    <path d="M30 590 c 8 -2, 16 -3, 22 0" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c4" data-at="0.71">
+    <ellipse cx="31" cy="652" rx="4" ry="8"></ellipse>
+    <ellipse cx="31" cy="652" rx="4" ry="8" transform="rotate(72 31 662)"></ellipse>
+    <ellipse cx="31" cy="652" rx="4" ry="8" transform="rotate(144 31 662)"></ellipse>
+    <ellipse cx="31" cy="652" rx="4" ry="8" transform="rotate(216 31 662)"></ellipse>
+    <ellipse cx="31" cy="652" rx="4" ry="8" transform="rotate(288 31 662)"></ellipse>
+    <circle class="vine__core" cx="31" cy="662" r="3"></circle>
+  </g>
+
+  <g class="vine__leaf" data-at="0.80">
+    <path d="M31 760 c -10 -8, -20 -6, -24 2 c 8 6, 18 6, 24 -2 z"></path>
+    <path d="M30 760 c -7 -2, -15 -2, -21 1" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c1" data-at="0.88">
+    <ellipse cx="30" cy="812" rx="4" ry="8"></ellipse>
+    <ellipse cx="30" cy="812" rx="4" ry="8" transform="rotate(72 30 822)"></ellipse>
+    <ellipse cx="30" cy="812" rx="4" ry="8" transform="rotate(144 30 822)"></ellipse>
+    <ellipse cx="30" cy="812" rx="4" ry="8" transform="rotate(216 30 822)"></ellipse>
+    <ellipse cx="30" cy="812" rx="4" ry="8" transform="rotate(288 30 822)"></ellipse>
+    <circle class="vine__core" cx="30" cy="822" r="3"></circle>
+  </g>
+
+  <!-- Seam flower: stands in for the final bloom on every copy of the drawing except the last. -->
+  <g class="vine__flower vine__flower--seam vine__flower--c3" data-at="0.955">
+    <ellipse cx="31" cy="950" rx="4" ry="8"></ellipse>
+    <ellipse cx="31" cy="950" rx="4" ry="8" transform="rotate(72 31 960)"></ellipse>
+    <ellipse cx="31" cy="950" rx="4" ry="8" transform="rotate(144 31 960)"></ellipse>
+    <ellipse cx="31" cy="950" rx="4" ry="8" transform="rotate(216 31 960)"></ellipse>
+    <ellipse cx="31" cy="950" rx="4" ry="8" transform="rotate(288 31 960)"></ellipse>
+    <circle class="vine__core" cx="31" cy="960" r="3"></circle>
+  </g>
+
+  <g class="vine__flower vine__flower--final vine__flower--c2" data-at="0.985">
+    <ellipse cx="31" cy="944" rx="6" ry="14"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(45 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(90 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(135 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(180 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(225 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(270 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(315 31 960)"></ellipse>
+    <circle class="vine__core" cx="31" cy="960" r="5"></circle>
+  </g>
+  </g>
+</svg>
+</div>
+  </div>
+</div>
+
+
     <div id="main" role="main" class="container">
+        <aside class="vine-aside" aria-hidden="true"><svg class="vine" viewbox="0 0 60 1000" preserveaspectratio="xMidYMin meet" aria-hidden="true" focusable="false">
+  <defs>
+    <!-- Ink wobble: a little turbulence pushes every stroke off its path, like a pen on paper. -->
+    <filter id="vine-ink" x="-30%" y="-3%" width="160%" height="106%" color-interpolation-filters="sRGB">
+      <feturbulence type="fractalNoise" basefrequency="0.035 0.02" numoctaves="2" seed="7" result="grain"></feturbulence>
+      <fedisplacementmap in="SourceGraphic" in2="grain" scale="2.2" xchannelselector="R" ychannelselector="G"></fedisplacementmap>
+    </filter>
+  </defs>
+  <g class="vine__ink" filter="url(#vine-ink)">
+  <path class="vine__stem vine__stem--ghost" pathlength="1000" d="M30 2 C 26 60, 34 110, 31 170 S 24 260, 29 330 S 36 420, 31 500 S 24 590, 30 660 S 36 740, 31 820 S 25 900, 30 998"></path>
+  <path class="vine__stem" pathlength="1000" d="M30 0 C 27 58, 35 112, 32 172 S 23 258, 30 332 S 37 418, 30 502 S 23 592, 31 662 S 37 742, 30 822 S 24 902, 31 1000"></path>
+
+  <g class="vine__leaf" data-at="0.04">
+    <path d="M31 70 c 10 -8, 20 -6, 24 2 c -8 6, -18 6, -24 -2 z"></path>
+    <path d="M32 70 c 7 -2, 15 -2, 21 1" class="vine__vein"></path>
+  </g>
+  <g class="vine__leaf" data-at="0.08">
+    <path d="M29 130 c -10 -8, -20 -6, -24 2 c 8 6, 18 6, 24 -2 z"></path>
+    <path d="M28 130 c -7 -2, -15 -2, -21 1" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c1" data-at="0.12">
+    <ellipse cx="31" cy="162" rx="4" ry="8"></ellipse>
+    <ellipse cx="31" cy="162" rx="4" ry="8" transform="rotate(72 31 172)"></ellipse>
+    <ellipse cx="31" cy="162" rx="4" ry="8" transform="rotate(144 31 172)"></ellipse>
+    <ellipse cx="31" cy="162" rx="4" ry="8" transform="rotate(216 31 172)"></ellipse>
+    <ellipse cx="31" cy="162" rx="4" ry="8" transform="rotate(288 31 172)"></ellipse>
+    <circle class="vine__core" cx="31" cy="172" r="3"></circle>
+  </g>
+
+  <g class="vine__leaf" data-at="0.27">
+    <path d="M29 250 c 10 -9, 21 -7, 25 1 c -8 7, -19 7, -25 -1 z"></path>
+    <path d="M30 250 c 8 -2, 16 -3, 22 0" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c2" data-at="0.36">
+    <ellipse cx="30" cy="322" rx="4" ry="8"></ellipse>
+    <ellipse cx="30" cy="322" rx="4" ry="8" transform="rotate(72 30 332)"></ellipse>
+    <ellipse cx="30" cy="322" rx="4" ry="8" transform="rotate(144 30 332)"></ellipse>
+    <ellipse cx="30" cy="322" rx="4" ry="8" transform="rotate(216 30 332)"></ellipse>
+    <ellipse cx="30" cy="322" rx="4" ry="8" transform="rotate(288 30 332)"></ellipse>
+    <circle class="vine__core" cx="30" cy="332" r="3"></circle>
+  </g>
+
+  <g class="vine__leaf" data-at="0.44">
+    <path d="M31 420 c -10 -8, -20 -6, -24 2 c 8 6, 18 6, 24 -2 z"></path>
+    <path d="M30 420 c -7 -2, -15 -2, -21 1" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c3" data-at="0.54">
+    <ellipse cx="30" cy="492" rx="4" ry="8"></ellipse>
+    <ellipse cx="30" cy="492" rx="4" ry="8" transform="rotate(72 30 502)"></ellipse>
+    <ellipse cx="30" cy="492" rx="4" ry="8" transform="rotate(144 30 502)"></ellipse>
+    <ellipse cx="30" cy="492" rx="4" ry="8" transform="rotate(216 30 502)"></ellipse>
+    <ellipse cx="30" cy="492" rx="4" ry="8" transform="rotate(288 30 502)"></ellipse>
+    <circle class="vine__core" cx="30" cy="502" r="3"></circle>
+  </g>
+
+  <g class="vine__leaf" data-at="0.62">
+    <path d="M29 590 c 10 -9, 21 -7, 25 1 c -8 7, -19 7, -25 -1 z"></path>
+    <path d="M30 590 c 8 -2, 16 -3, 22 0" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c4" data-at="0.71">
+    <ellipse cx="31" cy="652" rx="4" ry="8"></ellipse>
+    <ellipse cx="31" cy="652" rx="4" ry="8" transform="rotate(72 31 662)"></ellipse>
+    <ellipse cx="31" cy="652" rx="4" ry="8" transform="rotate(144 31 662)"></ellipse>
+    <ellipse cx="31" cy="652" rx="4" ry="8" transform="rotate(216 31 662)"></ellipse>
+    <ellipse cx="31" cy="652" rx="4" ry="8" transform="rotate(288 31 662)"></ellipse>
+    <circle class="vine__core" cx="31" cy="662" r="3"></circle>
+  </g>
+
+  <g class="vine__leaf" data-at="0.80">
+    <path d="M31 760 c -10 -8, -20 -6, -24 2 c 8 6, 18 6, 24 -2 z"></path>
+    <path d="M30 760 c -7 -2, -15 -2, -21 1" class="vine__vein"></path>
+  </g>
+
+  <g class="vine__flower vine__flower--c1" data-at="0.88">
+    <ellipse cx="30" cy="812" rx="4" ry="8"></ellipse>
+    <ellipse cx="30" cy="812" rx="4" ry="8" transform="rotate(72 30 822)"></ellipse>
+    <ellipse cx="30" cy="812" rx="4" ry="8" transform="rotate(144 30 822)"></ellipse>
+    <ellipse cx="30" cy="812" rx="4" ry="8" transform="rotate(216 30 822)"></ellipse>
+    <ellipse cx="30" cy="812" rx="4" ry="8" transform="rotate(288 30 822)"></ellipse>
+    <circle class="vine__core" cx="30" cy="822" r="3"></circle>
+  </g>
+
+  <!-- Seam flower: stands in for the final bloom on every copy of the drawing except the last. -->
+  <g class="vine__flower vine__flower--seam vine__flower--c3" data-at="0.955">
+    <ellipse cx="31" cy="950" rx="4" ry="8"></ellipse>
+    <ellipse cx="31" cy="950" rx="4" ry="8" transform="rotate(72 31 960)"></ellipse>
+    <ellipse cx="31" cy="950" rx="4" ry="8" transform="rotate(144 31 960)"></ellipse>
+    <ellipse cx="31" cy="950" rx="4" ry="8" transform="rotate(216 31 960)"></ellipse>
+    <ellipse cx="31" cy="950" rx="4" ry="8" transform="rotate(288 31 960)"></ellipse>
+    <circle class="vine__core" cx="31" cy="960" r="3"></circle>
+  </g>
+
+  <g class="vine__flower vine__flower--final vine__flower--c2" data-at="0.985">
+    <ellipse cx="31" cy="944" rx="6" ry="14"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(45 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(90 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(135 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(180 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(225 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(270 31 960)"></ellipse>
+    <ellipse cx="31" cy="944" rx="6" ry="14" transform="rotate(315 31 960)"></ellipse>
+    <circle class="vine__core" cx="31" cy="960" r="5"></circle>
+  </g>
+  </g>
+</svg>
+</aside>
         <article class="post">
   <h1>Installing Ubuntu in NVidia Optimus / Prime Laptop - Acer Nitro 5</h1>
 
@@ -196,6 +438,8 @@ So.. yeah. You are probably here, pissed off, angry at your NVidia Prime / Optim
             </footer>
         </div>
     </div>
+    <script src="/blog/assets/theme-toggle.js"></script>
+    <script src="/blog/assets/scroll-progress.js"></script>
     
 	<!-- Google Analytics -->
 
